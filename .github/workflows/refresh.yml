@@ -26,7 +26,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install requests jinja2
+        run: pip install -r requirements.txt
 
       - name: Refresh and render
         run: python run.py
