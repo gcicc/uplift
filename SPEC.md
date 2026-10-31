@@ -1,4 +1,4 @@
-# SPEC — UPLIFT (working name)
+# SPEC — UPLIFT
 
 Status: **approved by Greg 2026-10-31 ("hit it")** · assumptions A1–A4 accepted as written · written 2026-10-31 · kickoff decisions recorded below
 
@@ -96,7 +96,7 @@ with HANGAR (SpaceX & Tesla) and OVERHANG (AI), built the same way.
 
 ## Open questions (one at a time, during the build)
 
-1. Name. "UPLIFT" is a placeholder; the repo name is costly to change after publishing.
+1. ~~Name~~ — resolved 2026-10-31: UPLIFT (Greg).
 2. Does "Body" include cosmetic or performance enhancement (e.g., gene doping) or medical only?
 3. Should ClinTrialist link here, or this site link to it? They overlap on pharma news.
 

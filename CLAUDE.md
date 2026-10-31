@@ -1,7 +1,7 @@
 # UPLIFT — project rules
 
 Large project. `SPEC.md` holds the goal, kickoff decisions (K1–K5) and done criteria (D1–D8).
-ADRs are in `decisions/`; never edited, only superseded. "UPLIFT" is a working name.
+ADRs are in `decisions/`; never edited, only superseded. Live at https://gcicc.github.io/uplift/.
 
 ## Architecture
 

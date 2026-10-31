@@ -3,13 +3,16 @@ name: uplift
 type: project
 category: building
 updated: 2026-10-31
-note: working name; third sister site to HANGAR and OVERHANG
+url: https://gcicc.github.io/uplift/
+note: third sister site to HANGAR and OVERHANG
 ---
 # UPLIFT — next steps
 
 ## Where this stands
 
-Slice 1 built and verified locally 2026-10-31 (SPEC approved same day, "hit it").
+Slice 1 published 2026-10-31 at https://gcicc.github.io/uplift/ (repo `gcicc/uplift`, Pages
+from `/docs` on `main`, branch build). Name UPLIFT confirmed by Greg. First scheduled-workflow
+run verified green on manual dispatch.
 `python run.py` reads ClinicalTrials.gov for 10 curated programs and renders two pages.
 9 tests pass, ruff clean, both pages checked in a browser at 1280 and 390 px.
 
@@ -30,17 +33,15 @@ Precision Neuroscience is excluded because it has no registered trial (K4 workin
 
 ## Next task
 
-1. Greg picks the name (SPEC open question 1). Then `gh repo create`, push, enable Pages
-   from `/docs`, run the workflow once by hand.
-2. Slice 2: gated news + follow-up links (ADR needed: how a story is matched to a tracked
+1. Slice 2: gated news + follow-up links (ADR needed: how a story is matched to a tracked
    item), and the claims ledger.
-3. Remaining lanes: Body, Gene editing, AI in medicine (curated rows, sourced).
+2. Remaining lanes: Body, Gene editing, AI in medicine (curated rows, sourced).
 
 ## Blockers
 
-- Name (blocks publishing only; building continues).
+None.
 
 ## What keeps this current
 
 `.github/workflows/refresh.yml` (copied from OVERHANG), cron every 6 h, commits `docs/` and
-`data/`. Not live until the repo exists.
+`data/`. Live since 2026-10-31.
