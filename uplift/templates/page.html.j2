@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UPLIFT{% if page == 'claims' %} — claims{% endif %}</title>
+<meta name="description" content="Frontier human enhancement — longevity, brain-computer interfaces, augmentation — tracked through registered trials. Refreshed on a schedule.">
+<style>{{ styles|safe }}</style>
+</head>
+<body>
+<main>
+<header class="mast">
+  <h1><a href="index.html">UPLIFT</a></h1>
+  <p class="dek">Living longer and doing more, tracked through registered trials, not press releases.</p>
+  <div class="meta">Built {{ p.meta.generated }} UTC · {{ p.counts.tracked }} tracked programs · {{ p.counts.trials }} registered trials ({{ p.counts.active }} active) · no LLM anywhere in the pipeline</div>
+  <nav class="toc">
+{% if page == 'claims' %}
+    <a href="index.html">← Trials &amp; readouts</a>
+    <a href="#ledger">Claims ledger</a>
+    <a href="#speculative">Speculative</a>
+    <a href="#followup">Follow-up links</a>
+{% else %}
+    <a href="#next">Next readout</a>
+    <a href="#changes">Changes</a>
+    <a href="#board">Pipeline</a>
+    <a href="#rules">How this is selected</a>
+    <a href="claims.html" class="toc-claims">Claims →</a>
+{% endif %}
+    <a href="https://gcicc.github.io/overhang/">Overhang ↗</a>
+    <a href="https://gcicc.github.io/hangar/">Hangar ↗</a>
+  </nav>
+</header>
+
+{% if page == 'claims' %}
+<section id="ledger">
+  <h2>Claims ledger</h2>
+  <p class="lede">Dated promises about longevity and augmentation (from founders, companies, researchers and podcasters), each with a verbatim quote, a source and a horizon. Status is computed from evidence, never written by hand.</p>
+  <p class="pending">Not built yet: slice 2. No claim is shown until its quote is confirmed at the source.</p>
+</section>
+
+<section id="speculative">
+  <h2>Speculative</h2>
+  <p class="lede">Ideas with no registered trial or published data yet (cryonics, mind uploading, radical life-extension targets) appear here as claims only. They move to the main page when a trial is registered.</p>
+  <p class="pending">Not built yet: slice 2.</p>
+</section>
+
+<section id="followup">
+  <h2>Follow-up links</h2>
+  <p class="lede">News stories that did not pass the main-page gate (no link to a tracked trial, sponsor or FDA action), kept as plain links to follow up.</p>
+  <p class="pending">Not built yet: news arrives in slice 2.</p>
+</section>
+
+{% else %}
+<section id="next" class="next">
+  <div class="next-k">Next registered readout</div>
+  {% set u = p.upcoming %}
+  {% if u %}{% set n = u[0] %}
+  <div class="next-title"><a href="https://clinicaltrials.gov/study/{{ n.nct }}">{{ n.title }}</a></div>
+  <div class="clock" id="clock" data-date="{{ n.date }}" data-precision="{{ n.precision }}">{{ n.date }}</div>
+  <div class="note">{{ n.row }} · {{ n.sponsor }} · {{ n.nct }} · primary completion {{ n.date }}{% if n.estimated %}, <strong>registered estimate</strong> (these dates slip){% endif %} · date known to the {{ n.precision }}</div>
+  {% if u|length > 1 %}
+  <ol class="after">
+    {% for r in u[1:] %}<li><span class="when">{{ r.date }}</span> <a href="https://clinicaltrials.gov/study/{{ r.nct }}">{{ r.title }}</a> <span class="note">{{ r.row }}{% if r.estimated %} · estimate{% endif %}</span></li>{% endfor %}
+  </ol>
+  {% endif %}
+  <p class="cap">Primary completion is when the last participant's primary outcome is measured. Results usually follow months later. Only active trials on the board below are counted.</p>
+  {% else %}
+  <p class="lede stale">No active tracked trial has a future completion date on file.</p>
+  {% endif %}
+</section>
+
+<section id="changes">
+  <h2>Registry changes</h2>
+  <p class="lede">Found by comparing each day's registry snapshot with the last: new trials, status changes, phase moves, posted results and moved completion dates.</p>
+  {% if p.changes %}
+  <div class="tbl-wrap"><table>
+    <tr><th>Seen</th><th>Trial</th><th>Change</th></tr>
+    {% for c in p.changes %}<tr><td class="when">{{ c.date }}</td><td><a href="https://clinicaltrials.gov/study/{{ c.nct }}">{{ c.title }}</a> <span class="note">{{ c.nct }}</span></td><td><span class="chg {{ c.kind }}">{{ c.detail }}</span></td></tr>{% endfor %}
+  </table></div>
+  {% else %}
+  <p class="note">No changes recorded yet. The first snapshot is the baseline; changes appear from the next daily refresh.</p>
+  {% endif %}
+</section>
+
+<section id="board">
+  <h2>Pipeline</h2>
+  <p class="lede">Every tracked program and its registered trials, active first. Flags come straight from registry fields: <span class="flag on">R</span> randomized, <span class="flag on">B</span> blinded, <span class="flag">1-arm</span> single arm, and enrollment <em>n</em>. <span class="overdue">overdue</span> marks a trial still listed as active after its registered completion date. A missing flag means the registry does not say so.</p>
+  {% for lane in p.board if lane.rows %}
+  <h3 class="lane">{{ lane.label }}</h3>
+  {% for r in lane.rows %}
+  <details class="prog" {% if r.n_active %}open{% endif %} id="{{ r.id }}">
+    <summary><strong>{{ r.name }}</strong> <span class="note">{{ r.what }}</span> <span class="badge">{{ r.qualifies_label }}</span> <span class="count">{{ r.n_active }} active / {{ r.trials|length }} trials{% if r.n_overdue %} · <span class="overdue">{{ r.n_overdue }} overdue</span>{% endif %}</span></summary>
+    {% if r.public_note %}<p class="note">{{ r.public_note }}</p>{% endif %}
+    {% if r.trials %}
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      {% for s in r.trials %}{% set f = s.flags %}
+      <tr class="{{ '' if s.active else 'inactive' }}">
+        <td><a href="https://clinicaltrials.gov/study/{{ s.nct }}">{{ s.title }}</a><div class="note">{{ s.nct }} · {{ s.lead_sponsor }}{% if s.primary_outcome %} · primary: {{ s.primary_outcome|truncate(110) }}{% endif %}</div></td>
+        <td>{{ s.phase }}</td>
+        <td>{{ s.status_label }}{% if s.has_results %} <span class="chg results">results</span>{% endif %}</td>
+        <td class="flags">{% if f.randomized %}<span class="flag on">R</span>{% endif %}{% if f.blinded %}<span class="flag on" title="masking: {{ f.masking }}">B</span>{% endif %}{% if f.single_arm %}<span class="flag">1-arm</span>{% endif %}{% if f.n %}<span class="n">n={{ f.n }}{% if f.n_type == 'estimated' %}*{% endif %}</span>{% endif %}</td>
+        <td class="when">{{ s.primary_completion or '—' }}{% if s.primary_completion and s.primary_completion_type != 'ACTUAL' %}<span class="note"> est.</span>{% endif %}{% if s.overdue %}<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table></div>
+    <p class="note">Registry query: <a href="{{ r.source_url }}">{{ r.source_url.split('?')[1] }}</a> · {{ p.raw_counts.get(r.id, 0) }} returned, {{ r.trials|length }} kept by the match rule. n* = target enrollment.</p>
+    {% else %}
+    <p class="note">No registered trial matches yet.</p>
+    {% endif %}
+  </details>
+  {% endfor %}
+  {% endfor %}
+</section>
+
+<section id="rules">
+  <h2>How this is selected</h2>
+  <ul class="rules">
+    <li><strong>Main page = registered trials only.</strong> Anything without a trial or published data appears only on the <a href="claims.html">claims page</a>.</li>
+    <li><strong>No me-too drugs.</strong> A drug program is tracked only if it is first in class (a new mechanism or target) or aimed at aging itself. Devices are tracked as devices.</li>
+    <li><strong>Programs are curated; trials are not.</strong> Each program carries a registry query and a match rule, and its trials are whatever the registry returns that pass the rule. Programs aimed at aging must also name aging in the trial's title, conditions or keywords (<code>{{ p.aging_terms }}</code>).</li>
+    <li>Example: Precision Neuroscience is not on the board because it has no registered trial yet.</li>
+  </ul>
+</section>
+{% endif %}
+
+<footer id="sources">
+  <h2>Sources and freshness</h2>
+  <div class="tbl-wrap"><table>
+    <tr><th>Source</th><th>Fetched</th><th>Age</th><th>Last error</th></tr>
+    {% for name, s in p.status.items() %}
+    <tr><td>{{ name }}</td><td>{{ (s.fetched_at or 'never')[:16].replace('T', ' ') }}</td><td class="{{ 'stale' if s.stale else '' }}">{{ s.age }}{% if s.stale %} · STALE{% endif %}</td><td>{{ s.last_error or '' }}</td></tr>
+    {% endfor %}
+  </table></div>
+  <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here. Sister sites: <a href="https://gcicc.github.io/overhang/">OVERHANG</a> (AI) and <a href="https://gcicc.github.io/hangar/">HANGAR</a> (SpaceX &amp; Tesla).</p>
+</footer>
+</main>
+{% if page != 'claims' %}
+<script>
+/* Countdown to the next registered primary completion. Registry dates are known to the
+   day or the month, never the hour, so the clock counts days or months only. */
+(function () {
+  var c = document.getElementById("clock");
+  if (!c) return;
+  var d = c.dataset.date, prec = c.dataset.precision;
+  var today = new Date(); today.setUTCHours(0, 0, 0, 0);
+  if (prec === "day") {
+    var days = Math.round((Date.parse(d + "T00:00:00Z") - today.getTime()) / 86400000);
+    c.innerHTML = days <= 0 ? "<b>today</b>" : "<b>" + days + "</b> day" + (days === 1 ? "" : "s");
+  } else {
+    var y = +d.slice(0, 4), m = +d.slice(5, 7);
+    var months = (y - today.getUTCFullYear()) * 12 + (m - 1 - today.getUTCMonth());
+    c.innerHTML = months <= 0 ? "<b>this month</b>" : "<b>" + months + "</b> month" + (months === 1 ? "" : "s");
+  }
+})();
+</script>
+{% endif %}
+</body>
+</html>

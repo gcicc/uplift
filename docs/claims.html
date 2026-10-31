@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UPLIFT — claims</title>
+<meta name="description" content="Frontier human enhancement — longevity, brain-computer interfaces, augmentation — tracked through registered trials. Refreshed on a schedule.">
+<style>:root {
+  --bg: #f6f7f5; --panel: #ffffff; --ink: #18201d; --muted: #5d6863; --rule: #d9dfdb;
+  --accent: #0f7a6b; --stale: #b4462d; --warn: #9a6a00;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111614; --panel: #18201d; --ink: #e4ebe7; --muted: #94a19b; --rule: #2a3430;
+    --accent: #3cc2ab; --stale: #e0775c; --warn: #d9a93a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 1120px; margin: 0 auto; padding: 0 20px 40px; }
+a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+a:hover { text-decoration-color: var(--accent); }
+header.mast { border-bottom: 2px solid var(--ink); padding: 28px 0 14px; }
+header.mast h1 { margin: 0; font-size: 40px; letter-spacing: 0.08em; }
+header.mast h1 a { text-decoration: none; }
+.dek { margin: 2px 0 6px; font-size: 18px; }
+.meta { color: var(--muted); font-size: 13px; }
+nav.toc { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; font-size: 14px; }
+nav.toc a { color: var(--muted); text-decoration: none; }
+nav.toc a:hover { color: var(--ink); }
+nav.toc a.toc-claims { color: var(--accent); font-weight: 600; }
+section { padding: 30px 0 8px; border-bottom: 1px solid var(--rule); }
+h2 { margin: 0 0 6px; font-size: 26px; }
+h3.lane { margin: 26px 0 8px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.lede { color: var(--muted); margin: 0 0 16px; max-width: 75ch; }
+.note, .cap { color: var(--muted); font-size: 13px; }
+.stale { color: var(--stale); font-weight: 600; }
+.pending { border-left: 3px solid var(--warn); padding: 4px 10px; color: var(--muted); font-size: 14px; }
+.next-k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.next-title { font-size: 21px; font-weight: 700; margin: 4px 0 2px; max-width: 80ch; }
+.clock { font-size: 44px; font-weight: 300; color: var(--accent); font-variant-numeric: tabular-nums; }
+.clock b { font-weight: 700; }
+ol.after { list-style: none; padding: 0; margin: 14px 0 6px; font-size: 14px; }
+ol.after li { padding: 4px 0; border-top: 1px dotted var(--rule); }
+.when { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+ol.after .when { margin-right: 8px; }
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--panel); }
+th, td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid var(--rule); }
+th { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+tr.inactive td { opacity: 0.62; }
+details.prog { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; margin: 0 0 10px; padding: 8px 12px; }
+details.prog summary { cursor: pointer; line-height: 1.6; }
+details.prog .tbl-wrap { margin-top: 8px; }
+.badge { display: inline-block; font-size: 11px; padding: 0 6px; border: 1px solid var(--accent); color: var(--accent); border-radius: 10px; margin-left: 4px; }
+.count { float: right; font-size: 13px; color: var(--muted); }
+.flag { display: inline-block; font-size: 11px; padding: 0 5px; margin-right: 3px; border: 1px solid var(--rule); border-radius: 3px; color: var(--muted); }
+.flag.on { border-color: var(--accent); color: var(--accent); font-weight: 700; }
+.flags .n { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.chg { font-size: 12px; padding: 0 5px; border-radius: 3px; background: var(--bg); }
+.chg.results { color: var(--accent); font-weight: 600; }
+.chg.status, .chg.date { color: var(--warn); }
+ul.rules li { margin-bottom: 6px; max-width: 80ch; }
+footer { padding-top: 26px; color: var(--muted); font-size: 14px; }
+footer h2 { font-size: 20px; color: var(--ink); }
+@media (max-width: 640px) {
+  header.mast h1 { font-size: 30px; }
+  .clock { font-size: 34px; }
+  .count { float: none; display: block; }
+  th:nth-child(4), td:nth-child(4) { display: none; }
+}
+.overdue { color: var(--warn); font-size: 12px; font-weight: 600; }
+.note a, code { overflow-wrap: anywhere; word-break: break-word; }
+</style>
+</head>
+<body>
+<main>
+<header class="mast">
+  <h1><a href="index.html">UPLIFT</a></h1>
+  <p class="dek">Living longer and doing more, tracked through registered trials, not press releases.</p>
+  <div class="meta">Built 2026-10-31 15:40 UTC · 10 tracked programs · 79 registered trials (45 active) · no LLM anywhere in the pipeline</div>
+  <nav class="toc">
+    <a href="index.html">← Trials &amp; readouts</a>
+    <a href="#ledger">Claims ledger</a>
+    <a href="#speculative">Speculative</a>
+    <a href="#followup">Follow-up links</a>
+    <a href="https://gcicc.github.io/overhang/">Overhang ↗</a>
+    <a href="https://gcicc.github.io/hangar/">Hangar ↗</a>
+  </nav>
+</header>
+
+<section id="ledger">
+  <h2>Claims ledger</h2>
+  <p class="lede">Dated promises about longevity and augmentation (from founders, companies, researchers and podcasters), each with a verbatim quote, a source and a horizon. Status is computed from evidence, never written by hand.</p>
+  <p class="pending">Not built yet: slice 2. No claim is shown until its quote is confirmed at the source.</p>
+</section>
+
+<section id="speculative">
+  <h2>Speculative</h2>
+  <p class="lede">Ideas with no registered trial or published data yet (cryonics, mind uploading, radical life-extension targets) appear here as claims only. They move to the main page when a trial is registered.</p>
+  <p class="pending">Not built yet: slice 2.</p>
+</section>
+
+<section id="followup">
+  <h2>Follow-up links</h2>
+  <p class="lede">News stories that did not pass the main-page gate (no link to a tracked trial, sponsor or FDA action), kept as plain links to follow up.</p>
+  <p class="pending">Not built yet: news arrives in slice 2.</p>
+</section>
+
+
+<footer id="sources">
+  <h2>Sources and freshness</h2>
+  <div class="tbl-wrap"><table>
+    <tr><th>Source</th><th>Fetched</th><th>Age</th><th>Last error</th></tr>
+    <tr><td>ctgov</td><td>2026-10-31 15:39</td><td class="">1m</td><td></td></tr>
+  </table></div>
+  <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here. Sister sites: <a href="https://gcicc.github.io/overhang/">OVERHANG</a> (AI) and <a href="https://gcicc.github.io/hangar/">HANGAR</a> (SpaceX &amp; Tesla).</p>
+</footer>
+</main>
+</body>
+</html>

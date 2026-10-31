@@ -1,0 +1,40 @@
+name: UPLIFT Refresh
+
+# Every 6 hours (UTC). Each source declares its own max_age in uplift/cache.py,
+# so most runs only re-render; the registry is read about once a day.
+#
+# This workflow only generates content and commits it to the branch. Pages is served
+# from /docs on main, never built by a workflow -- see
+# 03-Tools/project-management/docs/PUBLISHING-PROTOCOL.md.
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests jinja2
+
+      - name: Refresh and render
+        run: python run.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "UPLIFT Bot"
+          git config user.email "action@github.com"
+          git add docs/ data/
+          git diff --cached --quiet || git commit -m "chore: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

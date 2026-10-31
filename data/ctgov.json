@@ -1,0 +1,3094 @@
+{
+ "data": {
+  "by_row": {
+   "blackrock": [
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "Blackrock Neurotech",
+      "JHU Applied Physics Laboratory",
+      "Kennedy Krieger Institute, Baltimore, MD"
+     ],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Muscular Disorders, Atrophic",
+      "Brain Stem Stroke",
+      "Spinal Cord Injuries (SCI)",
+      "Muscular Dystrophies",
+      "Muscular Atrophy, Progressive",
+      "Pontine Hemorrhage",
+      "Pontine Infarction"
+     ],
+     "enrollment": 5,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "INTENT Neural Interface System"
+     ],
+     "keywords": [
+      "Assistive device",
+      "Brain Computer Interface"
+     ],
+     "last_update": "2026-10-09",
+     "lead_sponsor": "Johns Hopkins University",
+     "masking": "NONE",
+     "nct": "NCT07521930",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-06",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Incidence of Device-Related Adverse Events [Safety and Tolerability]",
+     "start": "2027-01",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Interfacing With NeuroTechnology to Expand Neural Throughput (INTENT)"
+    }
+   ],
+   "braingate": [
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "Brown University",
+      "Stanford University",
+      "National Institute on Deafness and Other Communication Disorders (NIDCD)"
+     ],
+     "conditions": [
+      "Brainstem Stroke",
+      "ALS",
+      "Tetraplegia",
+      "Spinal Cord Injuries",
+      "Cervical Spinal Cord Injury"
+     ],
+     "enrollment": 6,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "BrainGate Neural Interface System"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-26",
+     "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
+     "masking": "NONE",
+     "nct": "NCT06511934",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-07-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Sensor implant duration for at least one-year without any device-related Serious Adverse Events or explant",
+     "start": "2024-07-22",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Tablet-01)"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Expressive Aphasia",
+      "Aphasia Following Cerebral Infarction",
+      "Aphasia Following Nontraumatic Intracerebral Hemorrhage",
+      "Aphasia Non Fluent"
+     ],
+     "enrollment": 5,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "BrainGate Neural Interface System"
+     ],
+     "keywords": [
+      "Brain-Computer Interface",
+      "BCI",
+      "Aphasia",
+      "Brain-Machine Interface",
+      "BrainGate",
+      "neuroprosthetic",
+      "Neuroport"
+     ],
+     "last_update": "2026-10-22",
+     "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
+     "masking": "NONE",
+     "nct": "NCT07791459",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2038-09",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Safety of the BrainGate2 Neural Interface System",
+     "start": "2026-11",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Aphasia"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Brain Stem Infarctions",
+      "Locked-in Syndrome",
+      "Muscular Dystrophy"
+     ],
+     "enrollment": 2,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Mobile neural decoding platform (mobile iBCI)"
+     ],
+     "keywords": [],
+     "last_update": "2026-07-27",
+     "lead_sponsor": "VA Office of Research and Development",
+     "masking": "NONE",
+     "nct": "NCT05470478",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-06-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Closed-loop performance in an iBCI cursor task",
+     "start": "2026-10-02",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "iBCI Optimization for Veterans With Paralysis"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "National Institute on Deafness and Other Communication Disorders (NIDCD)"
+     ],
+     "conditions": [
+      "Anarthria",
+      "Dysarthria",
+      "Tetraplegia",
+      "Spinal Cord Injuries",
+      "Amyotrophic Lateral Sclerosis",
+      "Brain Stem Infarctions",
+      "Locked in Syndrome",
+      "Muscular Dystrophies"
+     ],
+     "enrollment": 3,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "BrainGate Neural Interface System"
+     ],
+     "keywords": [],
+     "last_update": "2026-06-02",
+     "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
+     "masking": "NONE",
+     "nct": "NCT05724173",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-07-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device Safety",
+     "start": "2023-10-18",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "National Institute on Deafness and Other Communication Disorders (NIDCD)",
+      "US Department of Veterans Affairs",
+      "National Institute of Neurological Disorders and Stroke (NINDS)"
+     ],
+     "conditions": [
+      "Tetraplegia",
+      "Spinal Cord Injuries",
+      "Amyotrophic Lateral Sclerosis",
+      "Brain Stem Infarctions",
+      "Locked in Syndrome",
+      "Muscular Dystrophy"
+     ],
+     "enrollment": 27,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Placement of the BrainGate2 sensor(s) into the motor-related cortex"
+     ],
+     "keywords": [
+      "Brain computer interface",
+      "Assistive device",
+      "Environmental control",
+      "Communication device",
+      "quadriplegia",
+      "tetraplegia"
+     ],
+     "last_update": "2026-06-01",
+     "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
+     "masking": "NONE",
+     "nct": "NCT00912041",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2038-09",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "The primary endpoint of this Study is to determine the safety of the BrainGate2 Neural Interface System.",
+     "start": "2009-05",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "Case Western Reserve University"
+     ],
+     "conditions": [
+      "Spinal Cord Injuries",
+      "Tetraplegia",
+      "Quadriplegia"
+     ],
+     "enrollment": 1,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Using the Neuroport cortical recording array to determine the desired grasp pattern for a functional electrical stimulation (FES) system"
+     ],
+     "keywords": [
+      "Brain computer interface",
+      "electric stimulation"
+     ],
+     "last_update": "2026-02-20",
+     "lead_sponsor": "VA Office of Research and Development",
+     "masking": "NONE",
+     "nct": "NCT03482310",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2023-09-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Ability to Form Appropriate Grasp Patterns",
+     "start": "2018-06-01",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Restoring High Dimensional Hand Function to Persons With Chronic High Tetraplegia"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "National Institute on Deafness and Other Communication Disorders (NIDCD)"
+     ],
+     "conditions": [
+      "Anarthria",
+      "Dysarthria",
+      "Tetraplegia",
+      "Spinal Cord Injuries",
+      "Amyotrophic Lateral Sclerosis",
+      "Brain Stem Infarctions",
+      "Locked-in Syndrome",
+      "Muscular Dystrophies"
+     ],
+     "enrollment": 2,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "BrainGate Neural Interface System"
+     ],
+     "keywords": [],
+     "last_update": "2025-12-01",
+     "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
+     "masking": "NONE",
+     "nct": "NCT06094205",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Sensor implant duration for at least one-year without any device-related Serious Adverse Events or explant",
+     "start": "2023-10-16",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Speech-02)"
+    }
+   ],
+   "dq": [
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "HIV",
+      "Frailty",
+      "Prefrail",
+      "Aging Problems"
+     ],
+     "enrollment": 82,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Dasatinib",
+      "Quercetin",
+      "Placebo - Dasatinib",
+      "Placebo - Quercetin"
+     ],
+     "keywords": [
+      "Frailty",
+      "Prefrail",
+      "Physical Function",
+      "Aging",
+      "Senescence",
+      "Senolytic therapy"
+     ],
+     "last_update": "2026-09-15",
+     "lead_sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+     "masking": "DOUBLE",
+     "nct": "NCT07144293",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-08-26",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Occurrence of Grade 2 or higher adverse events (AEs) after initiation of study treatment.",
+     "start": "2025-12-04",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Improving Physical Ability and Cellular Senescence Elimination in HIV"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Aging",
+      "Cognitive Decline",
+      "Older Adults",
+      "Cardiovascular",
+      "Sedentary Behaviors",
+      "Immune Senescence",
+      "Motor Function"
+     ],
+     "enrollment": 23,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Risk managment",
+      "Dasatinib",
+      "Quercetin (dietary supplement)",
+      "Vortioxetine"
+     ],
+     "keywords": [],
+     "last_update": "2026-08-19",
+     "lead_sponsor": "Washington University School of Medicine",
+     "masking": "NONE",
+     "nct": "NCT07000734",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-04-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Number of participants who completed the outcome measure assessments and intervention",
+     "start": "2025-07-28",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fortifying Healthy Behaviors, Optimizing Medical Therapies and Enhancing Cognitive Function in Older Adults-pilot Study"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "UConn Health"
+     ],
+     "conditions": [
+      "Schizophrenia",
+      "Treatment Resistant Depression",
+      "Aging, Premature"
+     ],
+     "enrollment": 40,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Dasatinib",
+      "quercetin"
+     ],
+     "keywords": [
+      "Schizophrenia",
+      "Treatment Resistant Depression",
+      "Aging, Premature",
+      "Older Adults"
+     ],
+     "last_update": "2026-04-21",
+     "lead_sponsor": "Washington University School of Medicine",
+     "masking": "NONE",
+     "nct": "NCT05838560",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-10-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Number of participants who successfully completed and safely tolerated the intervention",
+     "start": "2023-07-01",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Dasatinib Plus Quercetin for Accelerated Aging in Mental Disorders"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 15,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Dasatinib",
+      "Quercetin"
+     ],
+     "keywords": [
+      "Alzheimer's disease",
+      "Senescence"
+     ],
+     "last_update": "2025-03-17",
+     "lead_sponsor": "Lewis Lipsitz",
+     "masking": "NONE",
+     "nct": "NCT05422885",
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "primary_completion": "2024-01-24",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Neurovascular Coupling",
+     "start": "2022-05-20",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Safety and Feasibility of Dasatinib and Quercetin in Adults at Risk for Alzheimer's Disease"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 25,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Dasatinib plus Quercetin"
+     ],
+     "keywords": [
+      "Quercetin",
+      "Dasatinib",
+      "Epigenomics"
+     ],
+     "last_update": "2021-08-03",
+     "lead_sponsor": "TruDiagnostic",
+     "masking": "NONE",
+     "nct": "NCT04946383",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2021-12-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Epigenetic Age Test",
+     "start": "2020-12-16",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "Safety and Effectivness of Quercetin & Dasatinib on Epigenetic Aging"
+    }
+   ],
+   "fisetin": [
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Age-Related Lung Function Decline"
+     ],
+     "enrollment": 40,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [
+      "Aging",
+      "Cellular Senescence",
+      "Healthy Aging",
+      "Smoking-Related Lung Function Decline",
+      "Pulmonary Function",
+      "Smoking"
+     ],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "Cedars-Sinai Medical Center",
+     "masking": "QUADRUPLE",
+     "nct": "NCT07676435",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-06-16",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Forced Vital Capacity (FVC)",
+     "start": "2026-06-17",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Ongoing Lung Decline With Age Intensified Response"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "start": "2026-11",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "American Heart Association"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Arterial Stiffness"
+     ],
+     "enrollment": 70,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-09-25",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT06133634",
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "primary_completion": "2026-03-31",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change from baseline in endothelial function at 1 month",
+     "start": "2023-09-25",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin to Improve Vascular Function in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Wuhan Wuchang Hospital",
+      "Abinopharm, Inc"
+     ],
+     "conditions": [
+      "Sleep Disorder",
+      "Aging"
+     ],
+     "enrollment": 83,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Fisetin intervention",
+      "Placebo",
+      "Urolithin A intervention"
+     ],
+     "keywords": [
+      "Urolithin A",
+      "Fisetin",
+      "Sleep Disorder",
+      "Aging"
+     ],
+     "last_update": "2026-08-10",
+     "lead_sponsor": "Huazhong University of Science and Technology",
+     "masking": "QUADRUPLE",
+     "nct": "NCT06990256",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-09-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Subjective Sleep Quality Score",
+     "start": "2025-09-16",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Evaluation of Urolithin A and Fisetin on Improving Sleep and Aging Biomarkers"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Frail Elderly Syndrome"
+     ],
+     "enrollment": 40,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo oral capsule"
+     ],
+     "keywords": [
+      "Frailty",
+      "Inflammation",
+      "Elderly",
+      "Aging"
+     ],
+     "last_update": "2026-05-22",
+     "lead_sponsor": "Mayo Clinic",
+     "masking": "DOUBLE",
+     "nct": "NCT03675724",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Decrease in blood inflammation markers",
+     "start": "2018-11-15",
+     "status": "ENROLLING_BY_INVITATION",
+     "study_type": "INTERVENTIONAL",
+     "title": "Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Healthy"
+     ],
+     "enrollment": 120,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [
+      "Chronic inflammation",
+      "Cellular senescence",
+      "Senotherapeutics"
+     ],
+     "last_update": "2026-05-19",
+     "lead_sponsor": "Ove Andersen",
+     "masking": "QUADRUPLE",
+     "nct": "NCT07195318",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-10-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Soluble urokinase plasminogen activator receptor (suPAR)",
+     "start": "2025-09-24",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin Supplementation for Healthy Aging"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Peripheral Arterial Disease",
+      "Aging",
+      "Peripheral Vascular Diseases",
+      "Walking, Difficulty",
+      "Claudication"
+     ],
+     "enrollment": 34,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [
+      "Fisetin"
+     ],
+     "last_update": "2026-04-15",
+     "lead_sponsor": "Northwestern University",
+     "masking": "QUADRUPLE",
+     "nct": "NCT06399809",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Six-minute Walk Distance",
+     "start": "2024-09-30",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin to Reduce Senescence and Mobility Impairment in PAD"
+    }
+   ],
+   "metformin": [
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Healthspan Improvement",
+      "Aging",
+      "Longevity"
+     ],
+     "enrollment": 26,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin",
+      "Naltrexone",
+      "Metformin",
+      "NAD+",
+      "GSH",
+      "Infinite Supplement",
+      "Placebo/control",
+      "B12",
+      "Intervention: Guided Meditation Program",
+      "Control: Podcast Listening Activity",
+      "Control: Standard Exercise Regimen",
+      "Intervention: Structured Exercise Program"
+     ],
+     "keywords": [
+      "Gerotherapeutics",
+      "Rapamycin",
+      "Naltrexone",
+      "Metformin",
+      "NAD+",
+      "GSH",
+      "B12"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "AgelessRx",
+     "masking": "NONE",
+     "nct": "NCT07475546",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2026-04-09",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in cardiorespiratory fitness measured by maximal oxygen uptake (VO\u2082 max)",
+     "start": "2025-07-23",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Ani Biome PBC"
+     ],
+     "conditions": [
+      "Healthy Aging"
+     ],
+     "enrollment": 31,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "AgeBiotics AB-01",
+      "AgeBiotics AB-02",
+      "Metformin",
+      "semaglutide",
+      "empagliflozin"
+     ],
+     "keywords": [
+      "Healthspan",
+      "Healthy aging",
+      "Longevity",
+      "Geroscience",
+      "Digital health",
+      "Digital biomarkers",
+      "Longitudinal Phenotyping",
+      "Multimodal Phenotyping",
+      "Responder Identification"
+     ],
+     "last_update": "2026-10-13",
+     "lead_sponsor": "Sheba Medical Center",
+     "masking": "NONE",
+     "nct": "NCT07871799",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-02-25",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change From Baseline in Muscular-Immune-Cognitive Composite (MIC-C) Score at Week 8",
+     "start": "2025-11-17",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "ELITE: Deep Profiling and Algorithmic Polytherapy to Map Individual Response in Healthy Aging"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Michael E. DeBakey VA Medical Center",
+      "Baylor College of Medicine"
+     ],
+     "conditions": [
+      "Frailty",
+      "Sarcopenic Obesity",
+      "Aging"
+     ],
+     "enrollment": 114,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Lifestyle therapy",
+      "Metformin Hydrochloride",
+      "Placebo",
+      "Healthy Lifestyle"
+     ],
+     "keywords": [],
+     "last_update": "2026-09-14",
+     "lead_sponsor": "VA Office of Research and Development",
+     "masking": "TRIPLE",
+     "nct": "NCT04221750",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2025-07-31",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in the Modified Physical Performance Test (PPT)",
+     "start": "2021-05-14",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Diet and Exercise Plus Metformin to Treat Frailty in Obese Seniors"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)",
+      "University of Oklahoma",
+      "University of Wisconsin, Madison"
+     ],
+     "conditions": [
+      "Aging",
+      "Insulin Sensitivity",
+      "Chronic Disease",
+      "Mitochondria",
+      "Insulin Resistance"
+     ],
+     "enrollment": 166,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Metformin",
+      "Placebo oral tablet"
+     ],
+     "keywords": [
+      "Blood Glucose Regulation",
+      "5' adenosine monophosphate-activated protein kinase",
+      "Healthspan",
+      "Skeletal muscle",
+      "Mitochondria"
+     ],
+     "last_update": "2026-07-02",
+     "lead_sponsor": "Oklahoma Medical Research Foundation",
+     "masking": "TRIPLE",
+     "nct": "NCT04264897",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2025-03-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Mean Change in Insulin Sensitivity Index",
+     "start": "2020-07-29",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Antecedent Metabolic Health and Metformin Aging Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Metformin, Prediabetes"
+     ],
+     "enrollment": 112,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Metformin treatment",
+      "Analyzed by qPCR for T/S ratio."
+     ],
+     "keywords": [],
+     "last_update": "2025-12-24",
+     "lead_sponsor": "Diabetes Foundation, India",
+     "masking": "TRIPLE",
+     "nct": "NCT07302932",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2025-01-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Leukocyte telomerase length",
+     "start": "2023-02-01",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Metformin and Molecular Aging in Prediabetes"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Adults With Simple Obesity"
+     ],
+     "enrollment": 66,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Metformin"
+     ],
+     "keywords": [],
+     "last_update": "2025-12-19",
+     "lead_sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+     "masking": "NONE",
+     "nct": "NCT07293325",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-04-02",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change in DNA methylation-based biological age measured by iWatchAge",
+     "start": "2025-06-02",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Semaglutide and Tirzepatide for Genetic Aging Delay in Adults With Obesity"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Muscle Atrophy",
+      "Insulin Resistance"
+     ],
+     "enrollment": 64,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Metformin (Bed Rest)",
+      "Placebo (Bed Rest)",
+      "Metformin (2 week run-in only)",
+      "Placebo (2 week run-in only)"
+     ],
+     "keywords": [
+      "Insulin Resistance",
+      "Muscle Atrophy",
+      "Metformin",
+      "Muscle Loss",
+      "Inactivity-induced muscle loss",
+      "older adults"
+     ],
+     "last_update": "2025-12-05",
+     "lead_sponsor": "University of Utah",
+     "masking": "TRIPLE",
+     "nct": "NCT03107884",
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "primary_completion": "2026-11-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Muscle size",
+     "start": "2019-08-01",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Role of Metformin on Muscle Health of Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Center for Advancing Translational Sciences (NCATS)"
+     ],
+     "conditions": [
+      "Multiple Sclerosis"
+     ],
+     "enrollment": 30,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "metformin",
+      "Placebo"
+     ],
+     "keywords": [
+      "metformin"
+     ],
+     "last_update": "2025-11-21",
+     "lead_sponsor": "State University of New York at Buffalo",
+     "masking": "QUADRUPLE",
+     "nct": "NCT06463743",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-01-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0.",
+     "start": "2025-09-24",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Metformin as an add-on or Monotherapy in Treatment of Aging People With Multiple Sclerosis (MS)"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Longevity",
+      "GLP-1",
+      "Geroscience",
+      "Aging"
+     ],
+     "enrollment": 150,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Metformin",
+      "Rapamycin",
+      "Naltrexone",
+      "Vitamin C"
+     ],
+     "keywords": [
+      "Longevity",
+      "Aging",
+      "Healthy Aging",
+      "GLP-1"
+     ],
+     "last_update": "2025-07-30",
+     "lead_sponsor": "AgelessRx",
+     "masking": "NONE",
+     "nct": "NCT07092618",
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "primary_completion": "2025-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Evaluate the effectiveness of metformin in maintaining GLP1-induced weight loss in participants weaning off of Ozempic or Wegovy (or compounded semaglutide equivalent)",
+     "start": "2024-12-17",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effectiveness of Alternative Therapies in Maintaining Weight Loss Achieved by GLP-1 Medications Post-Cessation"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "COPD"
+     ],
+     "enrollment": 212,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Metformin 850Mg Tab",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2025-05-31",
+     "lead_sponsor": "Fundaci\u00f3n Instituto de Investigaci\u00f3n Sanitaria de Navarra",
+     "masking": "TRIPLE",
+     "nct": "NCT06999343",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2029-05-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Forced expiratory volume in the first second (FEV1)",
+     "start": "2025-09-01",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Exploring the Anti-ageing Effects of Metformin in COPD"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Institute of Zoology, Chinese Academy of Sciences",
+      "Beijing Institute of Genomics, Chinese Academy of Sciences",
+      "Merck Serono Co., Ltd., China"
+     ],
+     "conditions": [
+      "Metformin",
+      "Aging"
+     ],
+     "enrollment": 130,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Metformin Hydrochloride tablet",
+      "Placebo"
+     ],
+     "keywords": [
+      "aging intervention",
+      "metformin",
+      "aging biomarker",
+      "multi-omics",
+      "middle-aged and elderly people",
+      "molecular clocks",
+      "biological age"
+     ],
+     "last_update": "2025-03-21",
+     "lead_sponsor": "Xuanwu Hospital, Beijing",
+     "masking": "DOUBLE",
+     "nct": "NCT06459310",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-09-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Composite the efficacy of metformin in intervening aging",
+     "start": "2024-06-30",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Pilot Study on Evaluating the Geroprotective Effect of Metformin"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging",
+      "Vaccine Response Impaired"
+     ],
+     "enrollment": 18,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Metformin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2024-08-20",
+     "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
+     "masking": "TRIPLE",
+     "nct": "NCT03713801",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2024-07-16",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in antibody responses to PCV13",
+     "start": "2019-01-14",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Impact of Metformin on Immunity"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "University of Pittsburgh Medical Center",
+      "Berry Consultants"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 302,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Metformin ER",
+      "Placebo"
+     ],
+     "keywords": [
+      "Prehabilitation"
+     ],
+     "last_update": "2024-06-18",
+     "lead_sponsor": "Matthew Neal MD",
+     "masking": "TRIPLE",
+     "nct": "NCT03861767",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2022-09-23",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Hospital Free Days (HFD)",
+     "start": "2019-04-15",
+     "status": "TERMINATED",
+     "study_type": "INTERVENTIONAL",
+     "title": "REMAP Trial for Optimizing Surgical Outcomes at UPMC"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "PreDiabetes",
+      "Aging"
+     ],
+     "enrollment": 25,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Metformin",
+      "Placebo Oral Tablet"
+     ],
+     "keywords": [
+      "Autophagy"
+     ],
+     "last_update": "2023-12-11",
+     "lead_sponsor": "University of New Mexico",
+     "masking": "QUADRUPLE",
+     "nct": "NCT03309007",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2020-08-20",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in Leucocyte LC3 Score",
+     "start": "2017-09-01",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "A Double-Blind, Placebo-Controlled Trial of Anti-Aging, Pro-Autophagy Effects of Metformin in Adults With Prediabetes"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging",
+      "Inflammation",
+      "Frailty"
+     ],
+     "enrollment": 7,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Metformin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2022-11-17",
+     "lead_sponsor": "Mayo Clinic",
+     "masking": "DOUBLE",
+     "nct": "NCT03451006",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2021-12-16",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in Frailty",
+     "start": "2018-05-24",
+     "status": "TERMINATED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effect of Metformin on Frailty in 12 Subjects"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 16,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Metformin",
+      "Placebo"
+     ],
+     "keywords": [
+      "aging",
+      "metformin",
+      "prediabetes"
+     ],
+     "last_update": "2021-05-21",
+     "lead_sponsor": "Albert Einstein College of Medicine",
+     "masking": "DOUBLE",
+     "nct": "NCT02432287",
+     "phases": [
+      "PHASE4"
+     ],
+     "primary_completion": "2015-09",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Increase in Number of Expressed Genes in Muscle and Adipose Tissue Using RNA Sequencing (RNA-Seq)",
+     "start": "2014-10",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Metformin in Longevity Study (MILES)."
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging",
+      "Age-Related Immunodeficiency",
+      "Vaccine Response Impaired"
+     ],
+     "enrollment": 26,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Metformin Hydrochloride Extended-Release Tablets",
+      "Influenza Vaccine"
+     ],
+     "keywords": [],
+     "last_update": "2020-07-23",
+     "lead_sponsor": "UConn Health",
+     "masking": "DOUBLE",
+     "nct": "NCT03996538",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2020-02-04",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in Cell-mediated Flu Vaccine Responses - inducible Granzyme B",
+     "start": "2019-06-05",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Vaccination Efficacy With Metformin in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "University of Alabama at Birmingham"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 109,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Progressive Resistance Training",
+      "Metformin"
+     ],
+     "keywords": [
+      "Aging",
+      "Hypertrophy",
+      "Metformin",
+      "Strength",
+      "Muscle"
+     ],
+     "last_update": "2019-09-17",
+     "lead_sponsor": "Philip Kern",
+     "masking": "TRIPLE",
+     "nct": "NCT02308228",
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "primary_completion": "2017-12-14",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Percent Change in Type 2 Myofiber Cross Sectional Area",
+     "start": "2015-01-14",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Metformin to Augment Strength Training Effective Response in Seniors (MASTERS)"
+    },
+    {
+     "allocation": "NON_RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Sirolimus",
+      "Metformin",
+      "Diclofenac"
+     ],
+     "keywords": [
+      "aging"
+     ],
+     "last_update": "2019-04-01",
+     "lead_sponsor": "Anne Chang",
+     "masking": "DOUBLE",
+     "nct": "NCT03072485",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2019-02-22",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Profile of gene transcript changes",
+     "start": "2017-03-01",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Phase 1 Study of the Effects of Combining Topical FDA-approved Drugs on Age-related Pathways on the Skin of Healthy Volunteers"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Overweight Subjects",
+      "Metformin",
+      "Aging"
+     ],
+     "enrollment": 60,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "metformin 0.85 twice daily for 6 months",
+      "Calorie restriction"
+     ],
+     "keywords": [],
+     "last_update": "2016-04-26",
+     "lead_sponsor": "Xiang Guang-da",
+     "masking": "NONE",
+     "nct": "NCT02745886",
+     "phases": [
+      "PHASE4"
+     ],
+     "primary_completion": "2016-12",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "The differences of gene expression profile among 3 groups.",
+     "start": "2016-04",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "Metformin Induces a Dietary Restriction-like State in Human"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Insulin Resistance",
+      "Prediabetes",
+      "Aging",
+      "Inflammation"
+     ],
+     "enrollment": 38,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Metformin",
+      "placebo"
+     ],
+     "keywords": [
+      "Insulin resistance",
+      "Prediabetes",
+      "Longevity genes",
+      "Inflammation",
+      "Metformin"
+     ],
+     "last_update": "2013-03-13",
+     "lead_sponsor": "University of Padova",
+     "masking": "SINGLE",
+     "nct": "NCT01765946",
+     "phases": [
+      "PHASE4"
+     ],
+     "primary_completion": "2013-03",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Longevity gene expression",
+     "start": "2010-06",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Metformin and Longevity Genes in Prediabetes"
+    }
+   ],
+   "mtor": [
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Healthspan Improvement",
+      "Aging",
+      "Longevity"
+     ],
+     "enrollment": 26,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin",
+      "Naltrexone",
+      "Metformin",
+      "NAD+",
+      "GSH",
+      "Infinite Supplement",
+      "Placebo/control",
+      "B12",
+      "Intervention: Guided Meditation Program",
+      "Control: Podcast Listening Activity",
+      "Control: Standard Exercise Regimen",
+      "Intervention: Structured Exercise Program"
+     ],
+     "keywords": [
+      "Gerotherapeutics",
+      "Rapamycin",
+      "Naltrexone",
+      "Metformin",
+      "NAD+",
+      "GSH",
+      "B12"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "AgelessRx",
+     "masking": "NONE",
+     "nct": "NCT07475546",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2026-04-09",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in cardiorespiratory fitness measured by maximal oxygen uptake (VO\u2082 max)",
+     "start": "2025-07-23",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "The Claude D. Pepper Older Americans Independence Centers",
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 20,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "rapamycin"
+     ],
+     "keywords": [
+      "geriatrics"
+     ],
+     "last_update": "2026-09-23",
+     "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
+     "masking": "NONE",
+     "nct": "NCT04742777",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-10-16",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Systolic Function",
+     "start": "2022-02-01",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effect of mTOR Inhibition & Other Metabolism Modulating Interventions on the Elderly [SubStudy Rapa & cMRI to Evaluate Cardiac Function]"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Insulin Resistance"
+     ],
+     "enrollment": 106,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Everolimus 0.5 MG once per day",
+      "Everolimus 5 MG once per week",
+      "Placebo once per day",
+      "Placebo once per week"
+     ],
+     "keywords": [
+      "rapamycin",
+      "rapamycin analog",
+      "mTOR",
+      "everolimus"
+     ],
+     "last_update": "2026-09-04",
+     "lead_sponsor": "University of Wisconsin, Madison",
+     "masking": "TRIPLE",
+     "nct": "NCT05835999",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Metabolic Function: Change in peripheral insulin sensitivity",
+     "start": "2023-03-24",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Everolimus Aging Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "University of Maryland, Baltimore",
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 60,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Sirolimus 0.5 Mg Oral Tablet",
+      "Sirolimus 1Mg Oral Tablet",
+      "Sirolimus 2 MG Oral Tablet",
+      "Everolimus 0.5 MG Oral Tablet",
+      "Everolimus 1 MG Oral Tablet",
+      "Everolimus 2 MG Oral Tablet"
+     ],
+     "keywords": [
+      "Aging",
+      "Geriatic",
+      "Disability"
+     ],
+     "last_update": "2026-06-25",
+     "lead_sponsor": "University of Texas Southwestern Medical Center",
+     "masking": "NONE",
+     "nct": "NCT06727305",
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "primary_completion": "2027-09-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Cmax for Sirolimus",
+     "start": "2026-05-11",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "MTOR Inhibitors in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Sirolimus"
+     ],
+     "keywords": [
+      "aging",
+      "sirolimus",
+      "prevention"
+     ],
+     "last_update": "2026-06-25",
+     "lead_sponsor": "Irina Timofte",
+     "masking": "NONE",
+     "nct": "NCT05237687",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Phenotypic/functional biomarkers of aging",
+     "start": "2026-03-31",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 194,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin",
+      "Everolimus",
+      "Placebo"
+     ],
+     "keywords": [
+      "mTOR inhibitors"
+     ],
+     "last_update": "2026-06-01",
+     "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
+     "masking": "DOUBLE",
+     "nct": "NCT06658093",
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "primary_completion": "2028-07",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Pharmacokinetics (PK) of mTOR inhibitor in blood",
+     "start": "2026-03-04",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "RESTOR: PK/PD mTORi Inhibition in Older Adults"
+    },
+    {
+     "allocation": "NON_RANDOMIZED",
+     "collaborators": [
+      "National Institutes of Health (NIH)",
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 72,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Sirolimus",
+      "Everolimus"
+     ],
+     "keywords": [
+      "Rapamycin",
+      "Rapamycin analog",
+      "mTOR",
+      "mTOR inhibitor",
+      "sirolimus",
+      "everolimus",
+      "rapamune"
+     ],
+     "last_update": "2026-05-28",
+     "lead_sponsor": "University of Wisconsin, Madison",
+     "masking": "NONE",
+     "nct": "NCT05949658",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2027-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Dose Limited Toxicities (DLTs)",
+     "start": "2024-05-15",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Rapalog Pharmacology (RAP PAC) Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Institute of Sports Science and Clinical Biomechanics, University of Southern Denmark, Odense, Denmark.",
+      "Odense Patient Data Explorative Network",
+      "Novo Nordisk A/S",
+      "University of Southern Denmark"
+     ],
+     "conditions": [
+      "Postmenopausal Women"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Everolimus (Afinitor\u00ae)",
+      "Football Fitness Concept"
+     ],
+     "keywords": [
+      "Everolimus",
+      "Exercise",
+      "Football training session",
+      "postmenopausal women",
+      "bone loss",
+      "skeletal aging"
+     ],
+     "last_update": "2026-04-07",
+     "lead_sponsor": "Odense University Hospital",
+     "masking": "NONE",
+     "nct": "NCT06789900",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2026-03-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Procollagen type 1 N-terminal propeptide (P1NP)",
+     "start": "2024-10-14",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Everolimus and/or Exercise to Prevent Bone Loss in Postmenopausal Women"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Bispebjerg Hospital"
+     ],
+     "conditions": [
+      "Healthy",
+      "Osteopenia",
+      "Osteoporosis Risk"
+     ],
+     "enrollment": 148,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Everolimus",
+      "Placebo",
+      "Resistance training"
+     ],
+     "keywords": [
+      "Postmenopausal Women",
+      "Rapamycin",
+      "Bone formation",
+      "Muscle functions",
+      "Healthy aging"
+     ],
+     "last_update": "2026-04-06",
+     "lead_sponsor": "Odense University Hospital",
+     "masking": "SINGLE",
+     "nct": "NCT07191353",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-03-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "P1NP",
+     "start": "2025-10-20",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Resistance Training and Rapamycin to Enhance Bone Formation in Postmenopausal Women"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 52,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin (Tablets)",
+      "Prolon diet"
+     ],
+     "keywords": [
+      "Aging",
+      "Reverse Aging",
+      "Rapamycin",
+      "Biological Age",
+      "Chronological Age",
+      "Prolon"
+     ],
+     "last_update": "2026-01-21",
+     "lead_sponsor": "The Christ Hospital",
+     "masking": "NONE",
+     "nct": "NCT07354620",
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "primary_completion": "2026-02",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change in Biological Age from Baseline to End of Study based on Tru Diagnostic Tru Age OMICm Age test results.",
+     "start": "2025-02-15",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "A Pilot Study on Reverse Aging (The REVERSE Study)"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Perimenopausal"
+     ],
+     "enrollment": 50,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin",
+      "Placebo"
+     ],
+     "keywords": [
+      "Premenopausal",
+      "Perimenopause",
+      "Fertility",
+      "Women's health"
+     ],
+     "last_update": "2025-12-26",
+     "lead_sponsor": "Columbia University",
+     "masking": "TRIPLE",
+     "nct": "NCT05836025",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2025-10-21",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Measure of Ovarian Reserve",
+     "start": "2023-06-01",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effect of Rapamycin in Ovarian Aging"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Longevity",
+      "GLP-1",
+      "Geroscience",
+      "Aging"
+     ],
+     "enrollment": 150,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Metformin",
+      "Rapamycin",
+      "Naltrexone",
+      "Vitamin C"
+     ],
+     "keywords": [
+      "Longevity",
+      "Aging",
+      "Healthy Aging",
+      "GLP-1"
+     ],
+     "last_update": "2025-07-30",
+     "lead_sponsor": "AgelessRx",
+     "masking": "NONE",
+     "nct": "NCT07092618",
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "primary_completion": "2025-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Evaluate the effectiveness of metformin in maintaining GLP1-induced weight loss in participants weaning off of Ozempic or Wegovy (or compounded semaglutide equivalent)",
+     "start": "2024-12-17",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effectiveness of Alternative Therapies in Maintaining Weight Loss Achieved by GLP-1 Medications Post-Cessation"
+    },
+    {
+     "allocation": null,
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 67,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin"
+     ],
+     "keywords": [
+      "Bioavailability",
+      "Rapamycin",
+      "Aging",
+      "Longevity",
+      "Sirolimus",
+      "Healthy aging",
+      "age-related conditions",
+      "energy improvement"
+     ],
+     "last_update": "2024-08-13",
+     "lead_sponsor": "AgelessRx",
+     "masking": null,
+     "nct": "NCT06550271",
+     "phases": [],
+     "primary_completion": "2023-12-15",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "define the relative bioavailability ratio between compounded rapamycin and generic rapamycin",
+     "start": "2023-04-25",
+     "status": "COMPLETED",
+     "study_type": "OBSERVATIONAL",
+     "title": "The Bioavailability of Compounded and Generic Rapamycin in Normative Aging Individuals"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "University of California, Los Angeles"
+     ],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 129,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin",
+      "Placebo"
+     ],
+     "keywords": [
+      "rapamycin",
+      "aging",
+      "longevity",
+      "sirolimus",
+      "healthy aging",
+      "age-related conditions"
+     ],
+     "last_update": "2024-01-24",
+     "lead_sponsor": "AgelessRx",
+     "masking": "QUADRUPLE",
+     "nct": "NCT04488601",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2023-12-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Changes in visceral fat as measured by dual-energy x-ray absorptiometry (DXA) scan",
+     "start": "2020-01-01",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Participatory Evaluation (of) Aging (With) Rapamycin (for) Longevity Study"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "National Cancer Institute (NCI)"
+     ],
+     "conditions": [
+      "Cancer of Breast"
+     ],
+     "enrollment": 58,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Rapamycin"
+     ],
+     "keywords": [],
+     "last_update": "2023-12-05",
+     "lead_sponsor": "LuZhe Sun",
+     "masking": "NONE",
+     "nct": "NCT02642094",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2022-03-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "The Effect of Short-term Rapamycin Treatment on Biomarker Ki67 Associated With Progression to Invasive Breast Cancer",
+     "start": "2016-07",
+     "status": "TERMINATED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Aging Mammary Stem Cells and Breast Cancer Prevention"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Epigenetics",
+      "Inflammatory Mediators"
+     ],
+     "enrollment": 22,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Rapamycin Topical Ointment",
+      "Placebo"
+     ],
+     "keywords": [
+      "Epigenetic clock"
+     ],
+     "last_update": "2023-07-19",
+     "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
+     "masking": "DOUBLE",
+     "nct": "NCT04608448",
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "primary_completion": "2022-04-15",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Change in Epigenetic Markers",
+     "start": "2021-04-28",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Topical-RAPA Use in Inflammation Reversal and Re-setting the Epigenetic Clock"
+    },
+    {
+     "allocation": "NON_RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Sirolimus",
+      "Metformin",
+      "Diclofenac"
+     ],
+     "keywords": [
+      "aging"
+     ],
+     "last_update": "2019-04-01",
+     "lead_sponsor": "Anne Chang",
+     "masking": "DOUBLE",
+     "nct": "NCT03072485",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2019-02-22",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Profile of gene transcript changes",
+     "start": "2017-03-01",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Phase 1 Study of the Effects of Combining Topical FDA-approved Drugs on Age-related Pathways on the Skin of Healthy Volunteers"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 34,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Rapamycin",
+      "Placebo",
+      "Rapamycin"
+     ],
+     "keywords": [
+      "Geriatrics"
+     ],
+     "last_update": "2018-12-04",
+     "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
+     "masking": "QUADRUPLE",
+     "nct": "NCT02874924",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2018-09",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Immunological Responses",
+     "start": "2016-06",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effect of mTOR Inhibition and Other Metabolism Modulating Interventions on the Elderly"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)"
+     ],
+     "conditions": [
+      "Sarcopenia"
+     ],
+     "enrollment": 144,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin",
+      "Amino acid supplementation",
+      "Low-intensity resistance exercise",
+      "Sodium nitroprusside",
+      "Blood flow restriction cuff",
+      "Low-intensity resistance exercise"
+     ],
+     "keywords": [
+      "Sarcopenia",
+      "Aging",
+      "Metabolism",
+      "Muscle",
+      "mTOR",
+      "Essential Amino Acids",
+      "Exercise",
+      "Rapamycin"
+     ],
+     "last_update": "2017-05-04",
+     "lead_sponsor": "The University of Texas Medical Branch, Galveston",
+     "masking": "DOUBLE",
+     "nct": "NCT00891696",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2015-03",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Muscle protein synthesis",
+     "start": "2009-04",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Nutritional and Contractile Regulation of Muscle Growth"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Aging",
+      "CAD"
+     ],
+     "enrollment": 13,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Rapamycin"
+     ],
+     "keywords": [
+      "Aging",
+      "Biomarkers",
+      "CAD"
+     ],
+     "last_update": "2016-12-07",
+     "lead_sponsor": "Mayo Clinic",
+     "masking": "NONE",
+     "nct": "NCT01649960",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2015-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Frailty",
+     "start": "2012-08",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Exercise and Low-Dose Rapamycin in Older Adults With CAD:Cardiac Rehabilitation And Rapamycin in Elderly (CARE) Trial"
+    }
+   ],
+   "neuralink": [
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "Neuralink Corp"
+     ],
+     "conditions": [
+      "Spinal Cord Injury",
+      "ALS (Amyotrophic Lateral Sclerosis)"
+     ],
+     "enrollment": 60,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Eye Tracker",
+      "Mouth Operated Joystick",
+      "Non-invasive electroencephalogram (EEG) Headset",
+      "Implantable Brain-Computer-Interface",
+      "Personal Assistive Technology",
+      "Voice Control"
+     ],
+     "keywords": [
+      "iBCI",
+      "Brain Computer Interface",
+      "Assistive Technology",
+      "Clinical Outcome Assessment",
+      "dADL",
+      "digital activities of daily living"
+     ],
+     "last_update": "2026-05-05",
+     "lead_sponsor": "Shirley Ryan AbilityLab",
+     "masking": "NONE",
+     "nct": "NCT07407725",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-12",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Performance Outcomes (PerfOs)",
+     "start": "2026-01-08",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Clinical Outcome Assessment for AT & BCI"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Quadriplegia/Tetraplegia",
+      "Tetraplegic; Paralysis"
+     ],
+     "enrollment": 15,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "spinal cord injury",
+      "SCI",
+      "BCI",
+      "brain computer interface",
+      "ALS",
+      "quadriplegia",
+      "tetraplegic",
+      "paralysis"
+     ],
+     "last_update": "2026-01-09",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06429735",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-06",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-Related Adverse Events (AE)",
+     "start": "2024-01-09",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Precise Robotically IMplanted Brain-Computer InterfacE"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Quadriplegia/Tetraplegia",
+      "Tetraplegic; Paralysis",
+      "Stroke"
+     ],
+     "enrollment": 6,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "stroke",
+      "spinal cord injury",
+      "SCI",
+      "ALS",
+      "brain computer interface",
+      "BCI",
+      "PLS",
+      "voice",
+      "speech",
+      "dysarthria",
+      "neuralink"
+     ],
+     "last_update": "2025-11-04",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT07224256",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-10",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-Related Adverse Events (AE)",
+     "start": "2025-10-03",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "Newcastle-upon-Tyne Hospitals NHS Trust",
+      "University College London Hospitals"
+     ],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Quadriplegia/Tetraplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Spinal Cord Injury (Quadraplegia)",
+      "Spinal Cord Injury",
+      "Motor Neuron Disease",
+      "Brain Stem Stroke"
+     ],
+     "enrollment": 7,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "Neuralink N1 Implant",
+      "Neuralink",
+      "Robot",
+      "tetraparesis",
+      "tetraplegia",
+      "quadriplegia",
+      "ALS",
+      "spinal cord injury",
+      "Amyotrophic lateral sclerosis",
+      "chip",
+      "brain chip",
+      "External device control",
+      "Wireless implant",
+      "Neuroprosthetics",
+      "SCI",
+      "paralysis",
+      "motor neuron disease"
+     ],
+     "last_update": "2025-08-17",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT07127172",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "The Rate of Device-Related Adverse Events (AE)",
+     "start": "2025-07-31",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "Cleveland Clinic Abu Dhabi"
+     ],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Quadriplegia/Tetraplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Spinal Cord Injury (Quadraplegia)",
+      "Spinal Cord Injury",
+      "Motor Neuron Disease",
+      "Brain Stem Stroke"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "Neuralink N1 Implant",
+      "Neuralink",
+      "Robot",
+      "tetraparesis",
+      "tetraplegia",
+      "quadriplegia",
+      "ALS",
+      "spinal cord injury",
+      "Amyotrophic lateral sclerosis",
+      "chip",
+      "brain chip",
+      "External device control",
+      "Wireless implant",
+      "Neuroprosthetics",
+      "SCI",
+      "paralysis",
+      "motor neuron disease"
+     ],
+     "last_update": "2025-06-05",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06992596",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "The Rate of Device-Related Adverse Events (AE)",
+     "start": "2025-05-09",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Quadriplegia",
+      "Spinal Cord Injury (SCI)",
+      "Spinal Cord Injury Cervical"
+     ],
+     "enrollment": 3,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Assistive Robotic Arm"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "robotic arm",
+      "assistive device",
+      "Neuralink N1 Implant",
+      "Neuralink",
+      "N1 Implant",
+      "ALS",
+      "Spinal cord injury",
+      "Quadriplegia",
+      "tetraplegia",
+      "Robot",
+      "external device control",
+      "neuroprosthetics"
+     ],
+     "last_update": "2025-06-05",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06710626",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2031-05-25",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
+     "start": "2024-11-25",
+     "status": "ENROLLING_BY_INVITATION",
+     "study_type": "INTERVENTIONAL",
+     "title": "Control of Assistive Devices Via Brain-Computer Interface Technology"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "University Health Network, Toronto"
+     ],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Quadriplegia/Tetraplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Spinal Cord Injury (Quadraplegia)",
+      "Spinal Cord Injury"
+     ],
+     "enrollment": 6,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "Neuralink N1 Implant",
+      "Neuralink",
+      "Robot",
+      "tetraparesis",
+      "tetraplegia",
+      "quadriplegia",
+      "ALS",
+      "spinal cord injury",
+      "Amyotrophic lateral sclerosis",
+      "chip",
+      "brain chip",
+      "External device control",
+      "Wireless implant",
+      "Neuroprosthetics",
+      "SCI",
+      "paralysis"
+     ],
+     "last_update": "2025-05-31",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06700304",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-11-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "The Rate of Device-Related Adverse Events (AE)",
+     "start": "2024-11-20",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "CAN-PRIME: Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices"
+    }
+   ],
+   "onward": [
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "ONWARD Medical, Inc.",
+      "United States Department of Defense"
+     ],
+     "conditions": [
+      "Spinal Cord Injury Cervical",
+      "Spastic"
+     ],
+     "enrollment": 6,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Task Practice combined with Transcutaneous Spinal Cord Stimulation( TcSCS)"
+     ],
+     "keywords": [
+      "Transcutaneous",
+      "Transcutaneous Cervical Spinal Cord Stimulation"
+     ],
+     "last_update": "2026-08-26",
+     "lead_sponsor": "University of Miami",
+     "masking": "NONE",
+     "nct": "NCT06494020",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-10-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change in motor performance as measured by The Graded Refined Assessment of Strength, Sensibility, and Prehension (GRASSP) test",
+     "start": "2024-09-01",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Task Practice and Spinal Cord Stimulation"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Spinal Cord Injuries",
+      "Blood Pressure Disorders"
+     ],
+     "enrollment": 60,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "ARC-IM System Implantation",
+      "ARC-IM Therapy (Group 1)",
+      "ARC-IM Therapy (Group 2)"
+     ],
+     "keywords": [],
+     "last_update": "2026-06-16",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "TRIPLE",
+     "nct": "NCT07147296",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Proportion of subjects achieving a change in the hypotension domain of the ADFSCI short-form questionnaire",
+     "start": "2025-10-17",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "ARC-IM System to Manage Symptomatic Blood Pressure Instability Secondary to Chronic Spinal Cord Injury"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "ONWARD Medical, Inc."
+     ],
+     "conditions": [
+      "Tetraplegia"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "transcutaneous Spinal Cord Stimulation (tSCS)"
+     ],
+     "keywords": [
+      "paralysis",
+      "exercise",
+      "telemedicine",
+      "spinal cord stimulation",
+      "physical activity"
+     ],
+     "last_update": "2025-04-10",
+     "lead_sponsor": "VA Palo Alto Health Care System",
+     "masking": "NONE",
+     "nct": "NCT06140706",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-12-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "NASA-TLX (NASA Task Load Index)",
+     "start": "2025-09-01",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Feasibility of Home Based Transcutaneous Spinal Cord Stimulation for Persons With SCI"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Spinal Cord Injury",
+      "Orthostatic Hypotension"
+     ],
+     "enrollment": 16,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "ARC-IM Thoracic System implantation"
+     ],
+     "keywords": [],
+     "last_update": "2023-11-01",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05941819",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2025-09-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Occurence of Serious Adverse Event and Adverse Events that are deemed related or possibly related to the study procedure or to the ARC-IM Thoracic System",
+     "start": "2023-09-05",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "ARC Therapy to Restore Hemodynamic Stability and Trunk Control in People With Spinal Cord Injury"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Chronic Spinal Cord Injury"
+     ],
+     "enrollment": 17,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "LIFT System"
+     ],
+     "keywords": [
+      "SCI, Tetraplegia, ARC therapy"
+     ],
+     "last_update": "2022-09-16",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05284201",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2022-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Incidence of all adverse events (AEs)",
+     "start": "2022-03-03",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Chronic Spinal Cord Injury"
+     ],
+     "enrollment": 65,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "LIFT System"
+     ],
+     "keywords": [
+      "SCI",
+      "Tetraplegia",
+      "ARC Therapy"
+     ],
+     "last_update": "2022-09-16",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT04697472",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2022-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Incidence of serious adverse events (SAEs)",
+     "start": "2021-01-08",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "The Up-LIFT Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
+    }
+   ],
+   "paradromics": [
+    {
+     "allocation": "NA",
+     "collaborators": [
+      "University of Michigan",
+      "University of California, Davis",
+      "Massachusetts General Hospital"
+     ],
+     "conditions": [
+      "Amyotrophic Lateral Sclerosis",
+      "Neuromuscular Disease",
+      "Stroke",
+      "Tetraplegia/Tetraparesis",
+      "Cervical Spinal Cord Injury",
+      "Dysarthria"
+     ],
+     "enrollment": 2,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Connexus Brain-Computer Interface"
+     ],
+     "keywords": [
+      "BCI",
+      "ALS",
+      "Paradromics",
+      "speech",
+      "dysarthria",
+      "neural injury",
+      "progressive neuromuscular disease",
+      "stroke",
+      "assistive technology",
+      "communication device",
+      "brain computer interface"
+     ],
+     "last_update": "2026-04-14",
+     "lead_sponsor": "Paradromics",
+     "masking": "NONE",
+     "nct": "NCT07357428",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-05",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Primary Safety: Number of Subjects With Device Related Adverse Events",
+     "start": "2026-03-31",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Connect-One: Early Feasibility Study of Connexus\u00ae Brain-Computer Interface (BCI)"
+    }
+   ],
+   "synchron": [
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurological Disorder",
+      "ALS (Amyotrophic Lateral Sclerosis)",
+      "Motor Neuron Disease",
+      "ALS - Amyotrophic Lateral Sclerosis",
+      "ALS"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Stentrode"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-21",
+     "lead_sponsor": "Synchron, Inc.",
+     "masking": "NONE",
+     "nct": "NCT07543367",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-06",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-related serious adverse events up to 180 days after implant",
+     "start": "2026-05-07",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder",
+      "Paralysis",
+      "Paralysis; Stroke",
+      "Amyotrophic Lateral Sclerosis",
+      "Muscular Dystrophies",
+      "Spinal Cord Injuries",
+      "Stroke, Lacunar",
+      "Stroke Brainstem",
+      "Cervical Spinal Cord Injury",
+      "Spinal Muscular Atrophy",
+      "Tetraplegic; Paralysis",
+      "Quadriplegia/Tetraplegia"
+     ],
+     "enrollment": 6,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Motor Neuroprosthesis (MNP)"
+     ],
+     "keywords": [],
+     "last_update": "2026-09-08",
+     "lead_sponsor": "Synchron Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05035823",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2024-09-19",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Treatment-Related Serious Adverse Events",
+     "start": "2022-04-27",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "COMMAND Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder",
+      "Neurologic Diseases",
+      "MND (Motor Neurone DIsease)",
+      "Motor Neuron Disease",
+      "Motor Neuron Disease, Amyotrophic Lateral Sclerosis",
+      "Paralysis Arm",
+      "Paralysis"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Stentrode"
+     ],
+     "keywords": [
+      "ALS",
+      "BCI",
+      "Brain Computer Interface",
+      "MND",
+      "Upper Limb Paralysis",
+      "Motor Neurone Disease"
+     ],
+     "last_update": "2026-06-09",
+     "lead_sponsor": "Synchron, Inc.",
+     "masking": "NONE",
+     "nct": "NCT07533903",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
+     "start": "2026-05-22",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Functional Outcomes and Control Using Synchron BCI - Australia"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder",
+      "ALS",
+      "Motor Neuron Disease"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "has_results": false,
+     "interventions": [
+      "Stentrode"
+     ],
+     "keywords": [
+      "ALS",
+      "BCI",
+      "Brain computer interface",
+      "MND",
+      "Motor Neuron Disease"
+     ],
+     "last_update": "2026-04-17",
+     "lead_sponsor": "Synchron, Inc.",
+     "masking": "NONE",
+     "nct": "NCT07446114",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-12",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
+     "start": "2026-03-18",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Functional Outcomes and Control Using Synchron BCI - Canada"
+    },
+    {
+     "allocation": "NON_RANDOMIZED",
+     "collaborators": [
+      "University of Pittsburgh Medical Center",
+      "Carnegie Mellon University",
+      "Synchron Medical, Inc.",
+      "National Institute of Neurological Disorders and Stroke (NINDS)"
+     ],
+     "conditions": [
+      "Functional Neuroimaging"
+     ],
+     "enrollment": 8,
+     "enrollment_type": "ACTUAL",
+     "has_results": true,
+     "interventions": [
+      "Motor or sensory imagery with fMRI"
+     ],
+     "keywords": [
+      "tetraplegia",
+      "ALS",
+      "amyotropic lateral sclerosis"
+     ],
+     "last_update": "2024-08-30",
+     "lead_sponsor": "University of Pittsburgh",
+     "masking": "NONE",
+     "nct": "NCT04723823",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2024-05-21",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Peak Activity Volume: Right D1 Attempt Movement Activity at S1 - SCI",
+     "start": "2019-08-08",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Sensorimotor Imaging for Brain-Computer Interfaces"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder",
+      "Paralysis",
+      "Paralysis; Stroke",
+      "Amyotrophic Lateral Sclerosis",
+      "Muscular Dystrophies",
+      "Spinal Cord Injury",
+      "Stroke, Lacunar",
+      "Stroke, Brainstem",
+      "Upper Limb Injury",
+      "Spinal Muscular Atrophy"
+     ],
+     "enrollment": 0,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Motor Neuroprosthesis"
+     ],
+     "keywords": [],
+     "last_update": "2023-03-21",
+     "lead_sponsor": "Synchron Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05041114",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2022-11-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Treatment related adverse events",
+     "start": "2022-04-21",
+     "status": "WITHDRAWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "SWITCH II Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder"
+     ],
+     "enrollment": 5,
+     "enrollment_type": "ACTUAL",
+     "has_results": false,
+     "interventions": [
+      "Stentrode"
+     ],
+     "keywords": [],
+     "last_update": "2022-09-01",
+     "lead_sponsor": "Synchron Australia Pty Ltd.",
+     "masking": "NONE",
+     "nct": "NCT03834857",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2021-12-10",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Treatment-Related Adverse Events",
+     "start": "2019-05-27",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "SWITCH: Stentrode First-in-Human Study of Implantable BCI for Control of a Digital Device"
+    }
+   ]
+  },
+  "fetched_at": "2026-10-31T15:39:09+00:00",
+  "raw_counts": {
+   "blackrock": 1,
+   "braingate": 7,
+   "dq": 6,
+   "fisetin": 9,
+   "metformin": 25,
+   "mtor": 24,
+   "neuralink": 7,
+   "onward": 6,
+   "paradromics": 1,
+   "synchron": 7
+  }
+ },
+ "fetched_at": "2026-10-31T15:39:09.989717+00:00"
+}

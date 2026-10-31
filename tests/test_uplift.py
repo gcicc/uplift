@@ -1,0 +1,119 @@
+"""Tests for the curated list, registry matching, change detection and the countdown."""
+
+import pytest
+
+import run
+from uplift import ctgov, curated, render
+
+
+def study(**kw):
+    base = {
+        "nct": "NCT00000001",
+        "title": "A trial",
+        "status": "RECRUITING",
+        "phases": ["PHASE2"],
+        "lead_sponsor": "Acme",
+        "collaborators": [],
+        "interventions": ["Drug X"],
+        "conditions": [],
+        "keywords": [],
+        "has_results": False,
+        "primary_completion": "2027-06-30",
+        "primary_completion_type": "ESTIMATED",
+        "allocation": "RANDOMIZED",
+        "masking": "DOUBLE",
+        "enrollment": 120,
+        "enrollment_type": "ESTIMATED",
+        "study_type": "INTERVENTIONAL",
+    }
+    base.update(kw)
+    return base
+
+
+def test_tracked_list_is_valid():
+    rows = curated.load_tracked()
+    assert {r["lane"] for r in rows} <= set(curated.LANES)
+    assert all(r["source_url"].startswith("https://") for r in rows)
+
+
+def test_tracked_row_without_query_fails(monkeypatch):
+    row = {
+        "id": "x",
+        "lane": "neural",
+        "name": "X",
+        "what": "w",
+        "qualifies": "device",
+        "source_url": "https://example.com",
+    }
+    monkeypatch.setattr(curated, "_read", lambda name: [row])
+    with pytest.raises(curated.CuratedError, match="no registry query"):
+        curated.load_tracked()
+
+
+def test_sponsor_rule_rejects_fuzzy_registry_match():
+    row = {"qualifies": "device", "match_sponsor": "Precision Neuroscience"}
+    assert not ctgov.matches(row, study(lead_sponsor="Perception Neuroscience"))
+    assert ctgov.matches(row, study(collaborators=["Precision Neuroscience Corp"]))
+
+
+def test_aging_rule_needs_aging_in_title_conditions_or_keywords():
+    row = {"qualifies": "aging_indication", "match_intervention": "metformin"}
+    assert not ctgov.matches(
+        row, study(interventions=["Metformin"], conditions=["Diabetes"])
+    )
+    assert ctgov.matches(
+        row, study(interventions=["Metformin"], conditions=["Frailty"])
+    )
+    assert not ctgov.matches(
+        row, study(interventions=["Placebo"], conditions=["Aging"])
+    )
+
+
+def test_diff_reports_changes_but_not_on_first_snapshot():
+    new = {
+        "by_row": {
+            "a": [study(status="COMPLETED", phases=["PHASE3"], has_results=True)]
+        }
+    }
+    assert ctgov.diff(None, new, "2026-11-01") == []
+    old = {"by_row": {"a": [study()]}}
+    kinds = {e["kind"] for e in ctgov.diff(old, new, "2026-11-01")}
+    assert kinds == {"status", "phase", "results"}
+    added = {"by_row": {"a": [study(), study(nct="NCT00000002")]}}
+    assert [e["kind"] for e in ctgov.diff(old, added, "2026-11-01")] == ["new"]
+
+
+def test_upcoming_keeps_precision_and_skips_inactive_and_past():
+    rows = [{"id": "a", "name": "A", "lane": "neural"}]
+    by_row = {
+        "a": [
+            study(nct="N1", primary_completion="2027-03"),
+            study(nct="N2", primary_completion="2026-12-15"),
+            study(nct="N3", primary_completion="2026-01-01"),
+            study(nct="N4", status="COMPLETED", primary_completion="2026-11-20"),
+        ]
+    }
+    got = run.upcoming(rows, by_row, "2026-10-31")
+    assert [(u["nct"], u["precision"]) for u in got] == [("N2", "day"), ("N1", "month")]
+
+
+def test_design_flags_come_from_registry_fields():
+    f = ctgov.design_flags(study(allocation="NA", masking="NONE"))
+    assert (f["randomized"], f["blinded"], f["single_arm"]) == (False, False, True)
+
+
+def test_cross_links():
+    html = '<section id="board"></section><a href="#board">b</a><a href="#ledger">l</a>'
+    out = render._cross_links(html, "main")
+    assert 'href="#board"' in out and 'href="claims.html#ledger"' in out
+
+
+def test_month_precision_sorts_after_days_in_that_month():
+    rows = [{"id": "a", "name": "A", "lane": "neural"}]
+    by_row = {
+        "a": [
+            study(nct="M", primary_completion="2026-11"),
+            study(nct="D", primary_completion="2026-11-02"),
+        ]
+    }
+    assert [u["nct"] for u in run.upcoming(rows, by_row, "2026-10-31")] == ["D", "M"]
