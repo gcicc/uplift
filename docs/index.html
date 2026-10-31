@@ -74,6 +74,19 @@ footer h2 { font-size: 20px; color: var(--ink); }
 }
 .overdue { color: var(--warn); font-size: 12px; font-weight: 600; }
 .note a, code { overflow-wrap: anywhere; word-break: break-word; }
+
+/* Actionable summary */
+section.summary { padding-top: 22px; }
+.sum-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
+.sum { background: var(--panel); border: 1px solid var(--rule); border-top: 3px solid var(--accent); border-radius: 6px; padding: 10px 12px; }
+.sum.soon { border-top-color: var(--accent); }
+.sum.watch { border-top-color: var(--warn); }
+.sum.caution { border-top-color: var(--stale); }
+.sum h3 { margin: 0; font-size: 16px; }
+.sum .rule { margin: 0 0 8px; font-size: 12px; color: var(--muted); }
+.sum ul { list-style: none; padding: 0; margin: 0; font-size: 14px; }
+.sum li { padding: 5px 0; border-top: 1px dotted var(--rule); line-height: 1.35; }
+.sum .none { color: var(--muted); font-size: 14px; font-style: italic; margin: 4px 0; }
 </style>
 </head>
 <body>
@@ -81,8 +94,9 @@ footer h2 { font-size: 20px; color: var(--ink); }
 <header class="mast">
   <h1><a href="index.html">UPLIFT</a></h1>
   <p class="dek">Living longer and doing more, tracked through registered trials, not press releases.</p>
-  <div class="meta">Built 2026-10-31 15:43 UTC · 10 tracked programs · 79 registered trials (45 active) · no LLM anywhere in the pipeline</div>
+  <div class="meta">Built 2026-10-31 15:57 UTC · 18 tracked programs · 347 registered trials (122 active) · no LLM anywhere in the pipeline</div>
   <nav class="toc">
+    <a href="#summary">What to act on</a>
     <a href="#next">Next readout</a>
     <a href="#changes">Changes</a>
     <a href="#board">Pipeline</a>
@@ -93,13 +107,31 @@ footer h2 { font-size: 20px; color: var(--ink); }
   </nav>
 </header>
 
+<section id="summary" class="summary">
+  <h2>What to act on</h2>
+  <p class="lede">Picked by fixed rules over registry data, not by judgment. A reading list, not medical advice: "read now" means results exist to read, not that anything works.</p>
+  <div class="sum-grid">
+    <div class="sum read"><h3>Read now</h3><p class="rule">Results posted in the last 90 days</p>
+<ul><li><a href="https://clinicaltrials.gov/study/NCT04095923">A Social Media Game to Increase Physical Activity Among Older Adult Women</a><div class="note">Exercise for aging (large randomized trials) · results posted 2026-10-08</div></li><li><a href="https://clinicaltrials.gov/study/NCT04221750">Diet and Exercise Plus Metformin to Treat Frailty in Obese Seniors</a><div class="note">Metformin for aging · results posted 2026-09-14</div></li><li><a href="https://clinicaltrials.gov/study/NCT06405893">What Makes People Better at Naming Pictured Objects</a><div class="note">Meditation and mindfulness · results posted 2026-08-10</div></li></ul>
+</div>
+    <div class="sum soon"><h3>Readout soon</h3><p class="rule">Randomized trials reaching primary completion within 120 days</p>
+<ul><li><a href="https://clinicaltrials.gov/study/NCT07195318">Fisetin Supplementation for Healthy Aging</a><div class="note">Fisetin (senolytic) · randomized, n=120; primary completion 2026-10-31 (estimate)</div></li><li><a href="https://clinicaltrials.gov/study/NCT03107884">Role of Metformin on Muscle Health of Older Adults</a><div class="note">Metformin for aging · randomized, n=64; primary completion 2026-11-01 (estimate)</div></li><li><a href="https://clinicaltrials.gov/study/NCT07278141">Effects of Resistance and Dual-Task Training on Physical, Oculomotor, and Executive Functions in Older Adults With MCI</a><div class="note">Breathwork · randomized, n=66; primary completion 2026-11-17 (estimate)</div></li><li><a href="https://clinicaltrials.gov/study/NCT07344896">MBSR Effects on Aging Anxiety and Body Image</a><div class="note">Meditation and mindfulness · randomized, n=58; primary completion 2026-11-30 (estimate)</div></li><li><a href="https://clinicaltrials.gov/study/NCT03675724">Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Adults</a><div class="note">Fisetin (senolytic) · randomized, n=40; primary completion 2026-11 (estimate)</div></li><li><a href="https://clinicaltrials.gov/study/NCT06399809">Fisetin to Reduce Senescence and Mobility Impairment in PAD</a><div class="note">Fisetin (senolytic) · randomized, n=34; primary completion 2026-11 (estimate)</div></li></ul>
+</div>
+    <div class="sum watch"><h3>Keep your eye on this</h3><p class="rule">Registry changes in the last 30 days, and randomized trials started in the last 120</p>
+<ul><li><a href="https://clinicaltrials.gov/study/NCT07852650">Digital STEADI Efficacy</a><div class="note">Exercise for aging (large randomized trials) · randomized, n=300; started 2026-09-04</div></li><li><a href="https://clinicaltrials.gov/study/NCT07839572">Risk Factors and Exercise Effects on Abdominal Separation in Seniors</a><div class="note">Exercise for aging (large randomized trials) · randomized, n=500; started 2026-08-17</div></li><li><a href="https://clinicaltrials.gov/study/NCT07695246">Efficacy of CBT-I With Adjuvant Melatonin in Older Adults Chronic Insomnia</a><div class="note">Sleep interventions · randomized, n=183; started 2026-08-01</div></li></ul>
+</div>
+    <div class="sum caution"><h3>No randomized trial yet</h3><p class="rule">Programs whose registered evidence is all single-arm or uncontrolled</p>
+<ul><li><a href="#neuralink">Neuralink</a> <span class="note">7 trials</span></li><li><a href="#synchron">Synchron</a> <span class="note">7 trials</span></li><li><a href="#paradromics">Paradromics</a> <span class="note">1 trial</span></li><li><a href="#blackrock">Blackrock Neurotech</a> <span class="note">1 trial</span></li><li><a href="#braingate">BrainGate consortium</a> <span class="note">7 trials</span></li><li><a href="#dispenza">Joe Dispenza retreat studies</a> <span class="note">2 trials</span></li></ul><p class="note"><span class="overdue">34 active trials</span> are past their registered completion date.</p></div>
+  </div>
+</section>
+
 <section id="next" class="next">
   <div class="next-k">Next registered readout</div>
   <div class="next-title"><a href="https://clinicaltrials.gov/study/NCT07195318">Fisetin Supplementation for Healthy Aging</a></div>
   <div class="clock" id="clock" data-date="2026-10-31" data-precision="day">2026-10-31</div>
   <div class="note">Fisetin (senolytic) · Ove Andersen · NCT07195318 · primary completion 2026-10-31, <strong>registered estimate</strong> (these dates slip) · date known to the day</div>
   <ol class="after">
-<li><span class="when">2026-11-01</span> <a href="https://clinicaltrials.gov/study/NCT03107884">Role of Metformin on Muscle Health of Older Adults</a> <span class="note">Metformin for aging · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT03675724">Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Adults</a> <span class="note">Fisetin (senolytic) · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT06399809">Fisetin to Reduce Senescence and Mobility Impairment in PAD</a> <span class="note">Fisetin (senolytic) · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT06992596">UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices</a> <span class="note">Neuralink · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT07147296">ARC-IM System to Manage Symptomatic Blood Pressure Instability Secondary to Chronic Spinal Cord Injury</a> <span class="note">ONWARD Medical · estimate</span></li><li><span class="when">2026-12</span> <a href="https://clinicaltrials.gov/study/NCT07407725">Clinical Outcome Assessment for AT &amp; BCI</a> <span class="note">Neuralink · estimate</span></li><li><span class="when">2026-12</span> <a href="https://clinicaltrials.gov/study/NCT07446114">Functional Outcomes and Control Using Synchron BCI - Canada</a> <span class="note">Synchron · estimate</span></li>  </ol>
+<li><span class="when">2026-11-01</span> <a href="https://clinicaltrials.gov/study/NCT03107884">Role of Metformin on Muscle Health of Older Adults</a> <span class="note">Metformin for aging · estimate</span></li><li><span class="when">2026-11-17</span> <a href="https://clinicaltrials.gov/study/NCT07278141">Effects of Resistance and Dual-Task Training on Physical, Oculomotor, and Executive Functions in Older Adults With MCI</a> <span class="note">Breathwork · estimate</span></li><li><span class="when">2026-11-30</span> <a href="https://clinicaltrials.gov/study/NCT07344896">MBSR Effects on Aging Anxiety and Body Image</a> <span class="note">Meditation and mindfulness · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT03675724">Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Adults</a> <span class="note">Fisetin (senolytic) · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT06399809">Fisetin to Reduce Senescence and Mobility Impairment in PAD</a> <span class="note">Fisetin (senolytic) · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT06992596">UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices</a> <span class="note">Neuralink · estimate</span></li><li><span class="when">2026-11</span> <a href="https://clinicaltrials.gov/study/NCT07147296">ARC-IM System to Manage Symptomatic Blood Pressure Instability Secondary to Chronic Spinal Cord Injury</a> <span class="note">ONWARD Medical · estimate</span></li>  </ol>
   <p class="cap">Primary completion is when the last participant's primary outcome is measured. Results usually follow months later. Only active trials on the board below are counted.</p>
 </section>
 
@@ -758,6 +790,2268 @@ footer h2 { font-size: 20px; color: var(--ink); }
     </table></div>
     <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?spons=Onward%20Medical">spons=Onward%20Medical</a> · 6 returned, 6 kept by the match rule. n* = target enrollment.</p>
   </details>
+  <h3 class="lane">Non-drug</h3>
+  <details class="prog" open id="dispenza">
+    <summary><strong>Joe Dispenza retreat studies</strong> <span class="note">Week-long advanced meditation retreats led by Joe Dispenza, studied with UC San Diego</span> <span class="badge">non-drug</span> <span class="count">1 active / 2 trials · <span class="overdue">1 overdue</span></span></summary>
+<p class="note">Both registered studies are single-group designs with no control arm.</p>    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06583395">Quest to Analyze One Thousand Humans Meditating</a><div class="note">NCT06583395 · Tobias Moeller-Bertram · primary: Effect of Meditation in an Advanced Retreat Setting on Heart Rate Variability in a Global Population</div></td>
+        <td>n.a.</td>
+        <td>enrolling by invitation</td>
+        <td class="flags"><span class="n">n=3000*</span></td>
+        <td class="when">2025-03-25<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06615531">Integrating Magnetic Imaging With Rich Phenotypes</a><div class="note">NCT06615531 · Tobias Moeller-Bertram · primary: Functional brain changes as monitored by functional magnetic resonance imaging (fMRI) following an...</div></td>
+        <td>n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="n">n=21</span></td>
+        <td class="when">2023-05-06</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?term=Dispenza">term=Dispenza</a> · 6 returned, 2 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="exercise">
+    <summary><strong>Exercise for aging (large randomized trials)</strong> <span class="note">Aerobic, resistance and physical-activity programs tested against aging outcomes</span> <span class="badge">non-drug</span> <span class="count">31 active / 75 trials · <span class="overdue">9 overdue</span></span></summary>
+<p class="note">Filtered to randomized trials with at least 300 participants; 1,357 exercise-and-aging trials are registered in all.</p>    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT01666340">Generation 100: How Exercise Affects Mortality and Morbidity in the Elderly: A Randomized Control Study</a><div class="note">NCT01666340 · Norwegian University of Science and Technology · primary: Mortality</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1567</span></td>
+        <td class="when">2018-06<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT02039830">Group Versus Individual Physiotherapy for Urinary Incontinence in Aging Women</a><div class="note">NCT02039830 · Centre de Recherche de l&#39;Institut Universitaire de Geriatrie de Montreal · primary: Change in the number of UI episodes</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=362</span></td>
+        <td class="when">2018-06<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT04183465">Physical Activity Intervention in ELderly Patients With Myocardial INfarction</a><div class="note">NCT04183465 · University Hospital of Ferrara · primary: Cumulative occurrence of cardiovascular death and hospital readmission for cardiovascular cause</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=512</span></td>
+        <td class="when">2024-11-30<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06836167">+AGIL Barcelona: Integrated Care for Community-Dwelling Frail Older Adults</a><div class="note">NCT06836167 · Parc Sanitari Pere Virgili · primary: Physical performance</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=396*</span></td>
+        <td class="when">2025-07-31<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT03824106">Frailty Rehabilitation</a><div class="note">NCT03824106 · McMaster University · primary: Change in Physical Performance</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: quadruple">B</span><span class="n">n=324*</span></td>
+        <td class="when">2025-12-31<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06248723">ItaliaN Study With Tailored Multidomain Interventions to Prevent Functional and Cognitive Decline in Community-dwelling Older Adults</a><div class="note">NCT06248723 · University of Milano Bicocca · primary: Modified Neuropsychological Test Battery (mNTB) score</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1340*</span></td>
+        <td class="when">2026-03<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07424274">Physiotherapy Interventions on Functional Capacity, Balance and Mental Domains in Community-Dwelling Older Adults: A Randomized Clinical Trial With Two Parallel Groups</a><div class="note">NCT07424274 · Aveiro University · primary: Dynamic Balance - Four Square Step Test (FSST)</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=350*</span></td>
+        <td class="when">2026-03-20<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06748625">Efficacy of a Multidomain Intervention on Lifestyle Risk Factors for Dementia Prevention</a><div class="note">NCT06748625 · LuciLab · primary: Lifestyle Risk Reduction criterion</div></td>
+        <td>3</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=370*</span></td>
+        <td class="when">2026-03-23<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06217601">Impact Evaluation of the Digital Connect Project for Homebound Older Adults</a><div class="note">NCT06217601 · The University of Hong Kong · primary: Health-related quality of life (HRQL)</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1024*</span></td>
+        <td class="when">2026-06-30<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT04078334">Personalized Exercises Program Prescription to Prevent Functional Decline Throughout Older Adults Hospitalization</a><div class="note">NCT04078334 · Université du Québec a Montréal · primary: Changes in short physical performance battery (SPPB) after intervention</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=400*</span></td>
+        <td class="when">2026-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07072338">Promoting Mental and Cognitive Health in Old Age Through Scalable Evidence-based Interventions</a><div class="note">NCT07072338 · University of Geneva, Switzerland · primary: Health related quality of life</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=1000*</span></td>
+        <td class="when">2026-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07136168">Healthy Older Adults Through Movement and Engagement</a><div class="note">NCT07136168 · Linkoeping University · primary: Change in health-related quality of life</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=2952*</span></td>
+        <td class="when">2027-03-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07074639">Cognitive-Motor Exergame Training in Frail Adults</a><div class="note">NCT07074639 · Eleftheria Giannouli · primary: Balance</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=344*</span></td>
+        <td class="when">2027-05-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06620666">NEUROmuscular Training for Enhanced AGE Longevity</a><div class="note">NCT06620666 · University of Valencia · primary: Change in lipid peroxidation</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=390</span></td>
+        <td class="when">2027-07-15<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05725668">A Study of Dual-task Exercise Training to Prevent Falls Among Older Adults With Mild Cognitive Impairment</a><div class="note">NCT05725668 · Oregon Research Institute · primary: Self-reported number of falls</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=336*</span></td>
+        <td class="when">2027-07-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07330635">Chronic Wounds and Blood Circulation Detection</a><div class="note">NCT07330635 · National Health Research Institutes, Taiwan · primary: Lower limb blood perfusion</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=425*</span></td>
+        <td class="when">2027-09-04<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07113860">Reframing Expectations About Aging - Physical Activity and Inclusive Reappraisal</a><div class="note">NCT07113860 · University of Barcelona · primary: Awareness of Age-Related Change</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=342*</span></td>
+        <td class="when">2027-10<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06617806">Advanced Practice Nurses for Fall Incidence PrevenTion in Very Old Robust Adults</a><div class="note">NCT06617806 · Nantes University Hospital · primary: Number of falls in each group</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=386*</span></td>
+        <td class="when">2027-10-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06740162">Physical Activity and Community EmPOWERment Project</a><div class="note">NCT06740162 · University of North Carolina, Chapel Hill · primary: Number of Steps Per Day as Measured by the ActiGraph GT9X Link</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=376*</span></td>
+        <td class="when">2027-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06882434">Holistic Integration for Healthy Longevity and Aging in Place</a><div class="note">NCT06882434 · National Taiwan University Hospital · primary: Intrinsic capacity</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=600*</span></td>
+        <td class="when">2027-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07852650">Digital STEADI Efficacy</a><div class="note">NCT07852650 · Friendi.fi Corporation · primary: Change from baseline fear of falling as measured by the Fall Efficacy Scale International (FES-I)</div></td>
+        <td>1/2</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=300*</span></td>
+        <td class="when">2028-05<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07831733">Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents</a><div class="note">NCT07831733 · University Hospital, Toulouse · primary: Changes in bodyweight</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=596*</span></td>
+        <td class="when">2028-09-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06246929">Healthy Aging as Black Adults, In It Together: a Comparative Effectiveness Study of Chronic Pain and Cognitive Decline</a><div class="note">NCT06246929 · Massachusetts General Hospital · primary: Patient Reported Outcomes Measurement Information System (PROMIS) Physical Function</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=400*</span></td>
+        <td class="when">2028-12-15<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06601491">Early Vascular Ageing Among Cypriots</a><div class="note">NCT06601491 · University of Cyprus · primary: Change from Baseline in the Vascular Stiffness as Measured Through Pulse Wave Velocity at 12 Months</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=352*</span></td>
+        <td class="when">2029-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07094659">Aging and Task-specific Training to Reduce Falls</a><div class="note">NCT07094659 · University of Illinois Chicago · primary: Reactive Stability</div></td>
+        <td>1/2</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=315*</span></td>
+        <td class="when">2029-05-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07839572">Risk Factors and Exercise Effects on Abdominal Separation in Seniors</a><div class="note">NCT07839572 · Medical University of Gdansk · primary: Prevalence of Diastasis Recti Abdominis in the Geriatric Population</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=500*</span></td>
+        <td class="when">2029-07-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06940037">The Impact of Biological Mechanisms of Aging on Response Variability to Resistance Training in Older Adults</a><div class="note">NCT06940037 · Mayo Clinic · primary: Precisely define the variability in changes in physical function</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=300*</span></td>
+        <td class="when">2029-08-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06376656">Successful Aging and Age-related Decline</a><div class="note">NCT06376656 · Sunway University · primary: Changes in cognitive scores</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=400*</span></td>
+        <td class="when">2029-08-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07596056">Long-Term Engagement and Motivation Through Innovative Strategies in Adapted Physical Activity</a><div class="note">NCT07596056 · Centre Hospitalier Universitaire de Nice · primary: effectiveness of different Adapted Physical Activity (APA) programs</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=600*</span></td>
+        <td class="when">2031-09<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07093216">Healthy Aging Through Optimized Exercise</a><div class="note">NCT07093216 · University of Alabama at Birmingham · primary: Intrinsic Capacity</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=304*</span></td>
+        <td class="when">2035-04-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07669168">Health Ahead Comparative Effectiveness Study</a><div class="note">NCT07669168 · William Brandenburg, MD · primary: Health Awareness and Action (Non-Inferiority)</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1000000*</span></td>
+        <td class="when">2099-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00116194">The LIFE Study: Lifestyle Interventions and Independence for Elders, Pilot</a><div class="note">NCT00116194 · National Institute on Aging (NIA) · primary: Combined outcome of ability to walk 400 m without the use of an assistive device or adjudicated evidence...</div></td>
+        <td>1/2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=424</span></td>
+        <td class="when">2006-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00435188">Life 2: Improving Fitness and Function in Elders</a><div class="note">NCT00435188 · US Department of Veterans Affairs · primary: Usual Gait Speed</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=400</span></td>
+        <td class="when">2008-04</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00421681">Exercise Adherence Among Older Adults With Osteoarthritis</a><div class="note">NCT00421681 · National Institute on Aging (NIA) · primary: Maintenance of exercise behavior measured by CHAMPS (Community Healthy Activities Model Program For Seniors)</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=600*</span></td>
+        <td class="when">2008-09<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00183014">Caminemos! Trial to Increase Walking Among Sedentary Older Latinos</a><div class="note">NCT00183014 · National Institute on Aging (NIA) · primary: Number of steps per week on digital pedometer</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=600*</span></td>
+        <td class="when">2009-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00214682">Beyond Ageing Project: A Study for the Prevention of Depression</a><div class="note">NCT00214682 · Australian National University · primary: Depression</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=909</span></td>
+        <td class="when">2011-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00594399">Enhancing Fitness in Older Pre-diabetic Veterans</a><div class="note">NCT00594399 · US Department of Veterans Affairs · primary: Fasting Insulin</div></td>
+        <td>2/3</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=302</span></td>
+        <td class="when">2011-03</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01233063">Diet and Activity Promotion Among Older Working Adults</a><div class="note">NCT01233063 · Berkeley Analytics, Inc. · primary: Change in physical activity</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=610</span></td>
+        <td class="when">2012-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01072500">The LIFE Study - Lifestyle Interventions and Independence for Elders</a><div class="note">NCT01072500 · University of Florida · primary: Major Mobility Disability, Defined as Incapacity to Walk 400 Meters</div></td>
+        <td>3</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=1635</span></td>
+        <td class="when">2013-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01616433">Arthritis Foundation Exercise Program &amp; &#34;10 Keys&#34; to Healthy Aging--Prevention Research Center</a><div class="note">NCT01616433 · University of Pittsburgh · primary: Preventive Behaviors</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=462</span></td>
+        <td class="when">2014-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01030419">Activity, Gait, and Efficacy (AGE II): Functional Limitations and Quality of Life</a><div class="note">NCT01030419 · University of Illinois at Urbana-Champaign · primary: Functional performance, balance and reduced self-reported upper and lower body functional limitations in...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=410</span></td>
+        <td class="when">2014-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06618469">Effects of Resistance Training Programes At Different Intensities on Musculoskeletal, Metabolic, Lipid, Immunological, Inflammatory, Well-being and Functional Parameters in Older Adults.</a><div class="note">NCT06618469 · University of Valencia · primary: Change in DNA oxidative stress</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=320</span></td>
+        <td class="when">2015-07</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02256072">Advance Planning for Home Services for Seniors</a><div class="note">NCT02256072 · Northwestern University · primary: Planning Behavior Score at 1-month</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=385</span></td>
+        <td class="when">2015-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01897298">Urban Training for COPD Patients</a><div class="note">NCT01897298 · Judith Garcia-Aymerich · primary: Change in physical activity</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=412</span></td>
+        <td class="when">2016-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01030874">Orthostatic Hypotension Treatment on Rehab Unit</a><div class="note">NCT01030874 · VA Office of Research and Development · primary: Orthostatic Hypotension at Discharge</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=356</span></td>
+        <td class="when">2016-05</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02016014">Effectiveness of the Use of a Mobile Tool in Improving Lifestyles</a><div class="note">NCT02016014 · Instituto de Investigación Biomédica de Salamanca · primary: Mediterranean diet compliance</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=833</span></td>
+        <td class="when">2016-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03592420">PRE.C.I.S.A - Fall Prevention and Promotion of Active and Healthy Aging</a><div class="note">NCT03592420 · Azienda Unita&#39; Sanitaria Locale Di Modena · primary: Fall rate at 12 months from enrolment</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=366</span></td>
+        <td class="when">2016-12-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02733523">Self-management, Health Literacy and Social Capital in Socioeconomically Disadvantaged Older Adults</a><div class="note">NCT02733523 · Fundacio Salut i Envelliment UAB · primary: Self-perceived health</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=390</span></td>
+        <td class="when">2017-05</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01988233">BAILA: Being Active, Increasing Latinos Healthy Aging</a><div class="note">NCT01988233 · University of Illinois Chicago · primary: Minutes Per Week of Moderate to Vigorous Physical Activity</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=333</span></td>
+        <td class="when">2017-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02947230">Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes</a><div class="note">NCT02947230 · McMaster University · primary: Website analytics</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=535</span></td>
+        <td class="when">2017-11-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01745263">DO-HEALTH / Vitamin D3 - Omega3 - Home Exercise - Healthy Ageing and Longevity Trial</a><div class="note">NCT01745263 · University of Zurich · primary: Bone: Incident non-vertebral fractures over 36 months</div></td>
+        <td>3</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: quadruple">B</span><span class="n">n=2157</span></td>
+        <td class="when">2017-11-17</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01641263">Promoting Sleep and Healthy Aging Research Study (PRO-SHARE)</a><div class="note">NCT01641263 · University of California, Los Angeles · primary: Change in depression from baseline</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=308</span></td>
+        <td class="when">2018-04</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01931124">High Intensity and Moderate Training and Maximal Oxygen Uptake and Activity Levels</a><div class="note">NCT01931124 · Norwegian University of Science and Technology · primary: maximal oxygen uptake</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1576</span></td>
+        <td class="when">2018-06-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03186703">Evaluating the Impact of the McMaster Optimal Aging Portal on Cancer Prevention Behaviours in Underserved Populations</a><div class="note">NCT03186703 · McMaster University · primary: Website engagement</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=549</span></td>
+        <td class="when">2018-09-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02629666">Exercise Referral Schemes Enhanced by Self-Management Strategies to Battle Sedentary Behaviour</a><div class="note">NCT02629666 · University Ramon Llull · primary: Change in sitting time</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=1360</span></td>
+        <td class="when">2018-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02068612">Enhancing Function in Later Life: Exercise and Functional Network Connectivity</a><div class="note">NCT02068612 · University of Colorado, Boulder · primary: Cognitive Function</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=317</span></td>
+        <td class="when">2018-11-13</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02665169">Kuopio Fall Prevention Study.</a><div class="note">NCT02665169 · Kuopio University Hospital · primary: Risk of falls</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=914</span></td>
+        <td class="when">2019-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02663778">Task Specific Timing and Coordination Exercise to Improve Mobility in Older Adults: Program to Improve Mobility in Aging</a><div class="note">NCT02663778 · University of Pittsburgh · primary: Gait speed</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=353</span></td>
+        <td class="when">2020-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02236416">Physical Exercise for Prevention of Dementia</a><div class="note">NCT02236416 · University of Molise · primary: Change of Mini Mental State Examination (MMSE) score from baseline to 48 months</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=1000</span></td>
+        <td class="when">2020-07</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03602768">Evaluation of the Online Memory &amp; Aging Program and Online Goal Management Training</a><div class="note">NCT03602768 · Baycrest · primary: Change in dysexecutive functioning</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=800</span></td>
+        <td class="when">2020-08-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03810534">Connect-Home Clinical Trial</a><div class="note">NCT03810534 · University of North Carolina, Chapel Hill · primary: Care Transitions Measure-15 Score 7 Days After Skilled Nursing Facility Discharge</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=654</span></td>
+        <td class="when">2021-07-24</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05383443">MIND-Matosinhos: Multiple Interventions to Prevent Cognitive Decline</a><div class="note">NCT05383443 · Instituto de Saude Publica da Universidade do Porto · primary: Adherence to the Mediterranean diet</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=300*</span></td>
+        <td class="when">2022-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03500640">Reducing Cardiometabolic Risk and Promoting Functional Health in Older Adults With Obesity and Prediabetes</a><div class="note">NCT03500640 · University of Pittsburgh · primary: Change in Bodyweight</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=314</span></td>
+        <td class="when">2023-01-27</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05698654">Fasting-mimicking Diet and Longevity Diet, Body Composition and Aging</a><div class="note">NCT05698654 · Fondazione Valter Longo · primary: Body Fat Percentage</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=501*</span></td>
+        <td class="when">2024-07-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06408090">Underutilization of Hospice Care in Older Black Adults</a><div class="note">NCT06408090 · University of Colorado, Denver · primary: Hospice Knowledge</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=400</span></td>
+        <td class="when">2024-09-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02425345">Women&#39;s Health Initiative Strong and Healthy Study</a><div class="note">NCT02425345 · Fred Hutchinson Cancer Center · primary: Cardiovascular Events (Composite Myocardial Infarction, Stroke, Cardiovascular Mortality</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=49331</span></td>
+        <td class="when">2024-12-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04592614">Choose to Move - Next Steps: Can &#39;Booster Sessions&#39; Sustain Health Benefits of an Effective, Scaled-up, Health Promotion Program?</a><div class="note">NCT04592614 · University of British Columbia · primary: Change in mobility limitations</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=424</span></td>
+        <td class="when">2025-01-29</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05008159">A Community-based Program That Supports Physical Activity, Healthy Eating, Social Participation and System Navigation in Older Adults</a><div class="note">NCT05008159 · McMaster University · primary: Physical mobility</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=500*</span></td>
+        <td class="when">2025-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04135066">Westlake Nutrition and Brain Health Study</a><div class="note">NCT04135066 · Westlake University · primary: Continuous blood glucose profile over 2 weeks</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1425</span></td>
+        <td class="when">2025-04-28</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04799171">Aging and the Mitochondrial Response to Exercise Training, Measured by Noninvasive 31P Magnetic Resonance Spectroscopy</a><div class="note">NCT04799171 · Pennington Biomedical Research Center · primary: Pre-training 31P MRS measurement - Phosphocreatine recovery rate</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=352</span></td>
+        <td class="when">2025-05-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06440681">Effects of Lifestyle Intervention in the Biological Aging in Prediabetes</a><div class="note">NCT06440681 · King Saud University · primary: Change in the rate of measurements of Age marker Albumin post intervention</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=500*</span></td>
+        <td class="when">2025-08-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04095923">A Social Media Game to Increase Physical Activity Among Older Adult Women</a><div class="note">NCT04095923 · The University of Texas Medical Branch, Galveston · primary: Walking Physical Activity as Measured by Daily Steps at 12 Months</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=300</span></td>
+        <td class="when">2025-08-13</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05492240">Advancing Rehabilitation Paradigms for Older Adults in Skilled Nursing Facilities</a><div class="note">NCT05492240 · University of Colorado, Denver · primary: Change in Gait Speed</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=4383</span></td>
+        <td class="when">2025-09-16</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05347862">Remote and Intensive Program for Physical Activity Promotion for People With Type 2 Diabetes (The PRACTICE Trial)</a><div class="note">NCT05347862 · Hospital de Clinicas de Porto Alegre · primary: Change from Baseline Glycated Hemoglobin at 3 and 6 months</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=344*</span></td>
+        <td class="when">2025-12-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00132288">MY PALS: A Community-Based Physical Activity Support Program for Older Adults</a><div class="note">NCT00132288 · University of Washington · primary: Change in physical activity of those allocated to the intervention group compared to &#34;wait-listed&#34;...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=305</span></td>
+        <td class="when">—</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=exercise">cond=aging&amp;intr=exercise</a> · 76 returned, 75 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="fasting">
+    <summary><strong>Fasting and caloric restriction</strong> <span class="note">Caloric restriction, intermittent fasting and time-restricted eating</span> <span class="badge">non-drug</span> <span class="count">18 active / 65 trials · <span class="overdue">5 overdue</span></span></summary>
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT04655001">Revisiting A Mobile Intervention to Reduce Pain and Improve Health</a><div class="note">NCT04655001 · Wake Forest University · primary: Pain Intensity</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=44</span></td>
+        <td class="when">2022-06-30<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05549362">DiAL Health Research Study</a><div class="note">NCT05549362 · Pennington Biomedical Research Center · primary: Intervention satisfaction ratings</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=90*</span></td>
+        <td class="when">2025-01-16<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05968144">Towards Understanding Between ADT Treatment, Circadian Rhythm, and Physiological Responsiveness</a><div class="note">NCT05968144 · University of Maryland, Baltimore · primary: Feasibility, as assessed by the percentage of participants who enrolled completed the study</div></td>
+        <td>1/2</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=30*</span></td>
+        <td class="when">2025-07-28<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07361887">Deciphering the Effect of Moderate Wine Consumption on Healthy Aging Through Postprandial Extracellular Vesicles.</a><div class="note">NCT07361887 · University of Seville · primary: Concentration of circulating extracellular vesicles</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=8*</span></td>
+        <td class="when">2025-12-01<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07000708">VITAL: Vaccination, Immunity, Time-restricted Eating, Aging and Lifestyle</a><div class="note">NCT07000708 · Charite University, Berlin, Germany · primary: Autophagic flux in PBMCs</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=24*</span></td>
+        <td class="when">2026-09<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07042087">Lifestyle for the BRAin Health - Time Restricted Eating and Mindfulness</a><div class="note">NCT07042087 · St. Anne&#39;s University Hospital Brno, Czech Republic · primary: Composite Score of Cognitive Function</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=48*</span></td>
+        <td class="when">2026-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07695961">Early Time-Restricted Eating Combined With Exercise in Older Adults</a><div class="note">NCT07695961 · University of Manouba · primary: Bone Mineral Density (BMD)</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=44*</span></td>
+        <td class="when">2026-12-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07057310">Aging Well: Targeting Obesity With GLP-1 Agonists to Enhance Physical and Vascular Health in Postmenopausal Women</a><div class="note">NCT07057310 · Mayo Clinic · primary: Physical Function Measure: Short Physical Performance Battery (SPPB) score.</div></td>
+        <td>4</td>
+        <td>enrolling by invitation</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=30*</span></td>
+        <td class="when">2026-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07683286">Pilates Exercises Versus Intermittent Fasting Diet on Physical and Metabolic Aging Process in Obese Perimenopausal Women</a><div class="note">NCT07683286 · Cairo University · primary: Body weight</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=50*</span></td>
+        <td class="when">2027-01-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06780995">Power Exercise for Stroke Recovery: The POWER Pilot Trial (POWER-P)</a><div class="note">NCT06780995 · McMaster University · primary: Feasibility: Randomization - Percentage of participants allocated as assigned</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60*</span></td>
+        <td class="when">2027-02-28<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07546409">Effects of Exogenous Ketones on Cognitive Function in Older Adults With Prediabetes?</a><div class="note">NCT07546409 · University of Alabama at Birmingham · primary: Regional brain glucose uptake</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=20*</span></td>
+        <td class="when">2027-05-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06620666">NEUROmuscular Training for Enhanced AGE Longevity</a><div class="note">NCT06620666 · University of Valencia · primary: Change in lipid peroxidation</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=390</span></td>
+        <td class="when">2027-07-15<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07207044">FAXAGE: Fasting And Exercise To Slow Aging In Humans</a><div class="note">NCT07207044 · University of Copenhagen · primary: DNA-methylation age</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=240*</span></td>
+        <td class="when">2027-08-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07218445">The Effect of Tirzepatide on Menopausal Vasomotor Symptoms and Biological Aging in Post-menopausal Women With Obesity</a><div class="note">NCT07218445 · Mayo Clinic · primary: Change in Vasomotor Symptoms Frequency</div></td>
+        <td>4</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: quadruple">B</span><span class="n">n=40*</span></td>
+        <td class="when">2027-09-18<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06845514">Impact of Resistance Training Intensity on Blood Pressure</a><div class="note">NCT06845514 · Université de Sherbrooke · primary: Change in blood pressure post-exercise</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=36*</span></td>
+        <td class="when">2028-05<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07378787">Time-Restricted Eating in Combination With a Low Glycaemic Index Diet on Cognitive Function, Biological Ageing and Metabolic Health in Perimenopause and Menopause.</a><div class="note">NCT07378787 · University of Nicosia · primary: Brain-derived neurotrophic factor concentration</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=72*</span></td>
+        <td class="when">2029-01-20<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07011160">Neural Substrates Underlying Adaptations in Manual Dexterity of Older Adults</a><div class="note">NCT07011160 · University of Colorado, Boulder · primary: Grooved Pegboard Test</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=72*</span></td>
+        <td class="when">2030-03-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07572266">Adjuvant Nitrate to Boost Exercise-induced Health Benefits in Older Adults</a><div class="note">NCT07572266 · Florida Institute for Human and Machine Cognition · primary: Assess the clinical impact of nitrate supplementation on a proportion of older adults attaining...</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=226*</span></td>
+        <td class="when">2031-05<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00099099">CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy</a><div class="note">NCT00099099 · National Institute on Aging (NIA)</div></td>
+        <td>1</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=44</span></td>
+        <td class="when">2004-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00099138">CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy</a><div class="note">NCT00099138 · National Institute on Aging (NIA)</div></td>
+        <td>1</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=48</span></td>
+        <td class="when">2006-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00099151">CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy</a><div class="note">NCT00099151 · National Institute on Aging (NIA)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=48</span></td>
+        <td class="when">2006-05</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01243879">The Effect of Food Stimuli on the Calorie Restriction Response in Healthy Subjects</a><div class="note">NCT01243879 · Leiden University Medical Center · primary: Endocrine and metabolic outcomes</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=12</span></td>
+        <td class="when">2009-03</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02695511">CALERIE Phase II Ancillary: Metabolic</a><div class="note">NCT02695511 · Pennington Biomedical Research Center · primary: Change in 24-h Sedentary Energy Expenditure from Baseline</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=75</span></td>
+        <td class="when">2010-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00823381">Effect of Resvida, a Comparison With Calorie Restriction Regimen</a><div class="note">NCT00823381 · Washington University School of Medicine · primary: global skeletal muscle gene expression profile</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=58</span></td>
+        <td class="when">2010-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00594399">Enhancing Fitness in Older Pre-diabetic Veterans</a><div class="note">NCT00594399 · US Department of Veterans Affairs · primary: Fasting Insulin</div></td>
+        <td>2/3</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=302</span></td>
+        <td class="when">2011-03</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02132091">Practicality of Intermittent Fasting and Its Effect on Markers of Aging and Oxidative Stress</a><div class="note">NCT02132091 · University of Florida · primary: SOD2 gene expression (intermittent fasting)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: quadruple">B</span><span class="n">n=37</span></td>
+        <td class="when">2011-11</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01752868">Can Fish Oil and Phytochemical Supplements Mimic Anti-Aging Effects of Calorie Restriction?</a><div class="note">NCT01752868 · Washington University School of Medicine · primary: Carotid-femoral pulse wave velocity</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=56</span></td>
+        <td class="when">2012-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00427193">CALERIE: Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy</a><div class="note">NCT00427193 · Duke University · primary: Change in Core Body Temperature, Baseline to 12 Months</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=238</span></td>
+        <td class="when">2012-11</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00996229">Effects of Dietary Interventions on the Aging Brain</a><div class="note">NCT00996229 · University Hospital Muenster · primary: Auditory verbal Learning Task</div></td>
+        <td>3</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=300*</span></td>
+        <td class="when">2013-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01964118">Can Intermittent Fasting Mimic the Metabolic and Cardiovascular and Anti-aging Effects of Calorie Restriction?</a><div class="note">NCT01964118 · Washington University School of Medicine · primary: Change in HSCRP ( high sensitivity C-reactive protein) at 6 and 12 months</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=50</span></td>
+        <td class="when">2016-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03758846">Alternative Therapies for Improving Motor Impairment, Fall-risk and Overall Physical Function</a><div class="note">NCT03758846 · University of Illinois Chicago · primary: Change in Movement Velocity (during dual-tasking)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=65</span></td>
+        <td class="when">2016-10-25</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02745886">Metformin Induces a Dietary Restriction-like State in Human</a><div class="note">NCT02745886 · Xiang Guang-da · primary: The differences of gene expression profile among 3 groups.</div></td>
+        <td>4</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=60*</span></td>
+        <td class="when">2016-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03455179">Effects of Slow-speed Traditional Resistance Training, High-speed Resistance Training and Multicomponent Training With Variable Resistances on Molecular, Body Composition, Neuromuscular, Physical Function and Quality of Life Variables in Older Adults.</a><div class="note">NCT03455179 · University of Valencia · primary: Change in DNA oxidative stress</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=192</span></td>
+        <td class="when">2018-07-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03530202">Effects of High-velocity Resistance Training and Creatine Supplementation in Healthy Aging Males</a><div class="note">NCT03530202 · University of Regina · primary: Change in muscle thickness</div></td>
+        <td>2</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=40*</span></td>
+        <td class="when">2018-07-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03293823">HARP-Project 1 Cognitive Training</a><div class="note">NCT03293823 · University of Rochester · primary: cognitive capacity</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=30</span></td>
+        <td class="when">2018-12-14</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02970188">The Effect of Time-restricted Feeding on Physiological Function in Middle-aged and Older Adults</a><div class="note">NCT02970188 · University of Colorado, Boulder · primary: Endothelium Dependent Dilation</div></td>
+        <td>1/2</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=12*</span></td>
+        <td class="when">2019-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03996083">Multicomponent Exercise vs Walking Intervention in Nursing Home Residents</a><div class="note">NCT03996083 · University of the Basque Country (UPV/EHU) · primary: Short Physical Performance Battery</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=81</span></td>
+        <td class="when">2019-04-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03615625">Post-exercise Hypotension After a Power Training Session in Older Adults With Hypertension</a><div class="note">NCT03615625 · Hospital de Clinicas de Porto Alegre · primary: Ambulatory Blood Pressure Monitoring</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=24</span></td>
+        <td class="when">2019-07-20</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03289832">Effect of Orally Delivered Phytochemicals on Aging and Inflammation in the Skin</a><div class="note">NCT03289832 · Johns Hopkins University · primary: Change in Erythema 1 Day After UV Exposure</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=25</span></td>
+        <td class="when">2019-10-23</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03457870">Intermittent Energy Restriction and Chewing on Neural Stem Cell Ageing and Adult Hippocampal Neurogenesis Associated Cognition</a><div class="note">NCT03457870 · King&#39;s College London · primary: Serum Klotho concentration</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=123</span></td>
+        <td class="when">2020-03-23</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05390008">The Effects of PFMT and MPE in Elderly Women With SUI.</a><div class="note">NCT05390008 · Istanbul University - Cerrahpasa · primary: SUI frequency change - Incontinence Severity Index (ISI)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=30</span></td>
+        <td class="when">2020-10-20</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04386577">Effects of Vitamin D and Omega-3 Supplementation on Telomeres in VITAL</a><div class="note">NCT04386577 · Augusta University · primary: Changes in telomere length</div></td>
+        <td>3</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=1054</span></td>
+        <td class="when">2021-04-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04962464">The Impact of a Fast Diet and Calorie Mimetic Supplements on Epigenetic Aging</a><div class="note">NCT04962464 · TruDiagnostic · primary: Epigenetic Age Biomarkers</div></td>
+        <td>2</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=100*</span></td>
+        <td class="when">2022-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05420142">Determination of In-vivo Plasma AA Appearance From Plant Protein Fibre Products</a><div class="note">NCT05420142 · University College Dublin · primary: Acute change in amino acid appearance in peripheral blood following a test meal ingestion</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=9</span></td>
+        <td class="when">2022-05-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04106882">Dynamic Connectivity Under Metabolic Constraints</a><div class="note">NCT04106882 · Stony Brook University · primary: Diet related changes in brain network stability will be assessed by fMRI BOLD measurements.</div></td>
+        <td>4</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=80*</span></td>
+        <td class="when">2022-09<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05865639">Time Restricted Fasting and Aerobic Exercise Interventions Among Sedentary Adults</a><div class="note">NCT05865639 · Guangzhou Sport University · primary: Change of cardiovascular risk estimated by heart rate variability</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=56</span></td>
+        <td class="when">2022-09-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05593939">Slow Age: Interventions to Slow Aging in Humans</a><div class="note">NCT05593939 · University of Copenhagen · primary: Interleukin-6 levels in plasma</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=80</span></td>
+        <td class="when">2022-12-21</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04327141">Low Sugar Protein Pacing, Intermittent Fasting Diet in Men and Women</a><div class="note">NCT04327141 · Skidmore College · primary: Change in body weight</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=40*</span></td>
+        <td class="when">2023-04-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05955131">Bread Supplemented With Chilean Beans to Decrease Postprandial Glycoxidative Responses: A Pilot Intervention</a><div class="note">NCT05955131 · University of Talca · primary: Change in the postprandial levels of methylglyoxal in plasma</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=25*</span></td>
+        <td class="when">2023-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04981366">Protein Supplementation in Elderly With Sarcopenic Obesity Undergoing Caloric Restriction and Exercise</a><div class="note">NCT04981366 · University of Sao Paulo General Hospital · primary: Percentage of Fat-free Mass</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=105</span></td>
+        <td class="when">2023-08-21</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04840095">Dynamic Connectivity Under Metabolic Constraints</a><div class="note">NCT04840095 · Massachusetts General Hospital · primary: fMRI stability measures: endogenous ketones vs exogenous glucose</div></td>
+        <td>4</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=80*</span></td>
+        <td class="when">2023-09<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05862077">Long-term Exercise Effect of EX1 Exercise Program</a><div class="note">NCT05862077 · Samsung Medical Center · primary: Change on gait function (muscle activation)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=45</span></td>
+        <td class="when">2023-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06000605">Brain Substrate Switch to Ketones and Lactate</a><div class="note">NCT06000605 · University of British Columbia · primary: Brain-derived neurotrophic factor, secreted amyloid beta precursor protein</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=12*</span></td>
+        <td class="when">2024-01-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03490825">Aging Program Project Grant 6</a><div class="note">NCT03490825 · Northwestern University · primary: Matsuda Index</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: quadruple">B</span><span class="n">n=32</span></td>
+        <td class="when">2024-05-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06141642">Self-Adaptive Immersive Virtual Reality Serious Game to Enhance Motor Skill Learning and Attention in Older Adults</a><div class="note">NCT06141642 · Laval University · primary: Motor function - Upper limb movement smoothness in immersive virtual reality</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=33</span></td>
+        <td class="when">2024-06-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05475236">Neural Underpinnings of Turning</a><div class="note">NCT05475236 · VA Office of Research and Development · primary: Duration of Cortical Silent Period (CSP) (ms)</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=16</span></td>
+        <td class="when">2024-06-28</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05424042">Health, Aging and Later-Life Outcomes</a><div class="note">NCT05424042 · Wake Forest University Health Sciences · primary: Number of Participants That Sustained &gt;10% Caloric Restriction</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=90</span></td>
+        <td class="when">2024-07-22</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05698654">Fasting-mimicking Diet and Longevity Diet, Body Composition and Aging</a><div class="note">NCT05698654 · Fondazione Valter Longo · primary: Body Fat Percentage</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=501*</span></td>
+        <td class="when">2024-07-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04762342">Power Training in Older Multiple Sclerosis Patients</a><div class="note">NCT04762342 · University of Aarhus · primary: Percentage brain volume change.</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60*</span></td>
+        <td class="when">2024-08-28<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05769335">Calories or Time Restriction to Alter Biomarkers of Aging and Diabetes</a><div class="note">NCT05769335 · University of Adelaide · primary: Glucose area under curve (AUC) after 3 meals</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=114</span></td>
+        <td class="when">2024-12-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07302932">Metformin and Molecular Aging in Prediabetes</a><div class="note">NCT07302932 · Diabetes Foundation, India · primary: Leukocyte telomerase length</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=112</span></td>
+        <td class="when">2025-01-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06613542">Effects Of Daily Taurine Intake For 6 Months On Biological Age and Body Metabolism Indicators As Well As Physical Fitness In 55-75-year-old Women And Men</a><div class="note">NCT06613542 · Technical University of Munich · primary: Change From Baseline in Biological Age At 6 Months (Proteome Analysis)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: quadruple">B</span><span class="n">n=90</span></td>
+        <td class="when">2025-11-13</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05880095">Healthy Aging Through Time- Restricted Eating in Adults With Overweight/Obesity and Incipient Liver Disease: ENSATI</a><div class="note">NCT05880095 · IMDEA Food · primary: Change from baseline in participant&#39;s meal timing measured by questionnaires.</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=176</span></td>
+        <td class="when">2026-03-15</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05732935">Fasting ENHANCE Pilot Study</a><div class="note">NCT05732935 · University of Florida · primary: Repeatable Battery of the Assessment of Neuropsychological Status (RBANS)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=45</span></td>
+        <td class="when">2026-05-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00183027">Dietary Energy Restriction and Metabolic Aging in Humans</a><div class="note">NCT00183027 · National Institute on Aging (NIA) · primary: Changes in body weight, body fatness and total energy expenditure at baseline, 3, 6, and 12 months of...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=44</span></td>
+        <td class="when">—</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=fasting">cond=aging&amp;intr=fasting</a> · 65 returned, 65 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="mindbody">
+    <summary><strong>Meditation and mindfulness</strong> <span class="note">Meditation and mindfulness programs tested against aging outcomes</span> <span class="badge">non-drug</span> <span class="count">17 active / 61 trials · <span class="overdue">4 overdue</span></span></summary>
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05128396">Successful Aging and Enrichment (SAGE)</a><div class="note">NCT05128396 · Brigham and Women&#39;s Hospital · primary: Cambridge Neuropsychological Test Automated Battery (CANTAB), a computerized assessment of cognitive functions</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=72</span></td>
+        <td class="when">2015-12<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06922071">The REMINDER4Care Program for Older Adults Supported by Residential and Daycare Facilities</a><div class="note">NCT06922071 · University of Coimbra · primary: Screening</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=100*</span></td>
+        <td class="when">2025-07-31<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07523061">PrecisionAge Pilot Study</a><div class="note">NCT07523061 · Heike A. Bischoff-Ferrari, Prof. Dr. med., DrPH · primary: Feasibility: eligibility rate</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=10*</span></td>
+        <td class="when">2026-06-30<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06633952">Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation</a><div class="note">NCT06633952 · University of California, San Francisco · primary: Mean change on the Continuous Performance Task (CPT) over time</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=90*</span></td>
+        <td class="when">2026-08-31<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07344896">MBSR Effects on Aging Anxiety and Body Image</a><div class="note">NCT07344896 · KTO Karatay University · primary: Change in Aging Anxiety Score as Measured by the Aging Anxiety Scale for Middle-Aged Women</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=58*</span></td>
+        <td class="when">2026-11-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07042087">Lifestyle for the BRAin Health - Time Restricted Eating and Mindfulness</a><div class="note">NCT07042087 · St. Anne&#39;s University Hospital Brno, Czech Republic · primary: Composite Score of Cognitive Function</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=48*</span></td>
+        <td class="when">2026-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06956794">Multimodal Training With Immersive Virtual Reality to Improve the Cognitive Health and Emotional Well-being of Older Women Living Alone</a><div class="note">NCT06956794 · Consorci Sanitari de Terrassa · primary: Differences between groups in scores of global cognition</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=80*</span></td>
+        <td class="when">2026-12-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06792877">Mindfulness for Cognition in Early-stage Alzheimer&#39;s Disease</a><div class="note">NCT06792877 · VA Boston Healthcare System · primary: Neuropsychological tests</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=100*</span></td>
+        <td class="when">2027-01-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06516146">Impact 360 for Healthy Agers</a><div class="note">NCT06516146 · University of British Columbia · primary: Cognition - NIH Toolbox Cognitive Battery</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=60*</span></td>
+        <td class="when">2027-02-20<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07567976">Tai Chi Intervention for Balance Function in Older Adults: Predictive and Modifying Roles of Circadian Age</a><div class="note">NCT07567976 · Zhide Liang · primary: Change in Berg Balance Scale (BBS) Score</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=90*</span></td>
+        <td class="when">2027-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07025655">Effectiveness of a Mindfulness and Digital Technology Program for Healthy Aging (MMP-DTLA)</a><div class="note">NCT07025655 · Chang Gung University of Science and Technology · primary: mindfulness awareness</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=100*</span></td>
+        <td class="when">2027-04-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07314827">Women&#39;s Healthy Aging and Menopause; (WHAM)</a><div class="note">NCT07314827 · University of Miami · primary: Recruitment feasibility-The number of individuals approached vs participate.</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60*</span></td>
+        <td class="when">2028-01-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07334106">Emotional Well-being and Measures of Healthy Aging</a><div class="note">NCT07334106 · Northwestern University · primary: Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS...</div></td>
+        <td>device / n.a.</td>
+        <td>active, not recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=80*</span></td>
+        <td class="when">2028-08<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06246929">Healthy Aging as Black Adults, In It Together: a Comparative Effectiveness Study of Chronic Pain and Cognitive Decline</a><div class="note">NCT06246929 · Massachusetts General Hospital · primary: Patient Reported Outcomes Measurement Information System (PROMIS) Physical Function</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=400*</span></td>
+        <td class="when">2028-12-15<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06397469">Enhancing Attention and Wellbeing Using Digital Therapeutics</a><div class="note">NCT06397469 · University of California, San Francisco · primary: Change on the Mobile Continuous Performance Task (CPT) over time</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=4000*</span></td>
+        <td class="when">2029-01-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07272863">The Impact of Brief Behavioral Treatment for Insomnia Versus Brief Mindfulness Treatment on Cognition and Sleep Health in Adults (Age 50+) With HIV</a><div class="note">NCT07272863 · University of Alabama, Tuscaloosa · primary: Insomnia Severity Index</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=214*</span></td>
+        <td class="when">2030-09<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07852572">Online Mindfulness-based Dance/Movement Therapy on Physical Activity and Whole-Person Health in Older Adults</a><div class="note">NCT07852572 · Drexel University · primary: Self-Reported Physical Activity</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=204*</span></td>
+        <td class="when">2031-01-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01532596">Mindfulness Meditation in Older Adults</a><div class="note">NCT01532596 · University of California, Los Angeles · primary: Functional Neural Activity</div></td>
+        <td>Early 1</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=40</span></td>
+        <td class="when">2009-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00280020">Behavioral Treatment of Insomnia in Aging</a><div class="note">NCT00280020 · University of California, Los Angeles · primary: Changes in insomnia symptoms as measured by subjective report and objective polysomnography</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=123</span></td>
+        <td class="when">2011-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01857830">The Relaxation vs. Retreat Study</a><div class="note">NCT01857830 · University of California, San Francisco · primary: Telomerase</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=96</span></td>
+        <td class="when">2013-07</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03544879">Yoga to Prevent Mobility Limitations in Older Adults</a><div class="note">NCT03544879 · University of California, San Diego · primary: Short Physical Performance Battery (SPPB)</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=46</span></td>
+        <td class="when">2014-05-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01693874">Mindfulness-based Stress Reduction and Cognitive Function in Stress and Aging</a><div class="note">NCT01693874 · Washington University School of Medicine · primary: cognitive functioning</div></td>
+        <td>1/2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=103</span></td>
+        <td class="when">2014-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01405716">Aging Successfully With Pain</a><div class="note">NCT01405716 · University of Pittsburgh · primary: Change in the Roland-Morris Questionnaire</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=282</span></td>
+        <td class="when">2014-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01386060">Mindfulness Meditation in Chronic Stress</a><div class="note">NCT01386060 · Oregon Health and Science University · primary: Changes in Physiological Markers of Stress</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=134</span></td>
+        <td class="when">2015-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02900612">Effects of Two Aquatic Training Models in Physiological Parameters of Elderly Dyslipidemic Women.</a><div class="note">NCT02900612 · Hospital de Clinicas de Porto Alegre · primary: Total Cholesterol (TC) Change</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=45</span></td>
+        <td class="when">2016-03</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02714426">A 14 Week Study of Mindfulness Effects on Attentional Control in Older Adults</a><div class="note">NCT02714426 · University of Florida · primary: Performance in Attention Network Task Conflict Monitoring Over 14 Weekly Measurements</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=42</span></td>
+        <td class="when">2018-02-28</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04726072">Kundalini Yoga &amp; Healthy Neurological Aging</a><div class="note">NCT04726072 · Lady Davis Institute · primary: Change from Baseline Gray Matter Volume in Bilateral Hippocampi and Posterior Cingulate Cortex at 10-12 weeks</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=11</span></td>
+        <td class="when">2018-04-24</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03114709">Mindful Movement for Physical Activity and Wellbeing in Older Adults</a><div class="note">NCT03114709 · University of Minnesota · primary: Moderate-Vigorous Physical Activity (MVPA)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=30</span></td>
+        <td class="when">2018-08-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02816723">Mindfulness Training in Healthy Older Veterans</a><div class="note">NCT02816723 · VA Office of Research and Development · primary: Geriatric Depression Scale Change Score</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=60</span></td>
+        <td class="when">2019-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03071562">A Randomized Pilot Trial Evaluating the Impact of a Yoga Intervention on Cognition in Older Adults Infected With HIV</a><div class="note">NCT03071562 · Adria Quigley · primary: B-CAM (Brief Cognitive Ability Measure)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=22</span></td>
+        <td class="when">2019-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02977819">Study in Cognitively Intact Seniors Aiming to Assess the Effects of Meditation Training</a><div class="note">NCT02977819 · Institut National de la Santé Et de la Recherche Médicale, France · primary: Estimate the effect of an 18-month meditation intervention in non-meditating senior participants on the...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=137</span></td>
+        <td class="when">2019-12-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03483740">Psychosocial Intervention for Older HIV+ Adults With HAND</a><div class="note">NCT03483740 · University Health Network, Toronto · primary: Feasibility - Session Attendance</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=12</span></td>
+        <td class="when">2019-12-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02888600">Stress Management Training for Healthy Aging</a><div class="note">NCT02888600 · Carnegie Mellon University · primary: Circulating markers of inflammation, Interleukin-6 and C Reactive Protein</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=190</span></td>
+        <td class="when">2020-02-21</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03895346">Mental Training for Adults With Mild Cognitive Impairment</a><div class="note">NCT03895346 · Massachusetts General Hospital · primary: Recruitment feasibility</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=22</span></td>
+        <td class="when">2020-03-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04378803">Mindfulness Training for Seniors</a><div class="note">NCT04378803 · University of Miami · primary: Change in mindfulness skills as measured by Five-Facet Mindfulness Questionnaire (5FMQ)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=53</span></td>
+        <td class="when">2020-08-04</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03602768">Evaluation of the Online Memory &amp; Aging Program and Online Goal Management Training</a><div class="note">NCT03602768 · Baycrest · primary: Change in dysexecutive functioning</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=800</span></td>
+        <td class="when">2020-08-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03839329">Group Acceptance and Commitment Training (ACT) With Healthy Older Adults</a><div class="note">NCT03839329 · Anne Roche, MA · primary: Differences in change over time between conditions on The Comprehensive Assessment of Acceptance and...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=81</span></td>
+        <td class="when">2020-09-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03677726">Improving Sleep Continuity Through Mindfulness Training for Better Cognitive Ageing.</a><div class="note">NCT03677726 · Singapore General Hospital · primary: Change in Subjective measures of Sleep quality: Pittsburgh Sleep Quality Index Score</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=150</span></td>
+        <td class="when">2020-10-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05715372">Genetic Evaluation and Modification of Lifestyles to Improve Female Life Expectancy</a><div class="note">NCT05715372 · Rush University Medical Center · primary: Independent Lifestyle Interventions on Telomere Length</div></td>
+        <td>device / n.a.</td>
+        <td>terminated</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=5</span></td>
+        <td class="when">2021-06-22</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04415528">Emotion-Focused Mindfulness Therapy: A Feasibility Study for Late Life Anxiety</a><div class="note">NCT04415528 · Stacey Hatch · primary: Determine if participants can be recruited, enrolled, and retained</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=48</span></td>
+        <td class="when">2021-08-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04539132">Maintaining Independence and Quality of Life in Aging Adults Through Targeted Cognitive Training</a><div class="note">NCT04539132 · Kwantlen Polytechnic University · primary: Montreal Cognitive Assessment</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=40*</span></td>
+        <td class="when">2021-08-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03929393">Mindful Movement for Physical Activity and Wellbeing in Older Adults- A Hybrid Effectiveness-Implementation Study</a><div class="note">NCT03929393 · University of Minnesota · primary: Moderate-Vigorous Physical Activity (MVPA) in 10 Min Bouts</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=176</span></td>
+        <td class="when">2022-03-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03853148">Activate For Life: mHealth Intervention To Address Pain And Fatigue In Low-income Older Adults Aging In Place</a><div class="note">NCT03853148 · Medical University of South Carolina · primary: Older Adult Pain Intensity</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=50</span></td>
+        <td class="when">2022-04-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05120765">The CONNECT Program: Testing a Telephone-Based Mental Health Intervention for Older Adults</a><div class="note">NCT05120765 · University of Manitoba · primary: Treatment Satisfaction and Feedback</div></td>
+        <td>device / n.a.</td>
+        <td>withdrawn</td>
+        <td class="flags"><span class="flag on">R</span></td>
+        <td class="when">2022-08<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03626532">Mind-body Interventions for Healthy Aging</a><div class="note">NCT03626532 · Ohio State University · primary: Change in attentional control on tasks of sustained attention</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=173</span></td>
+        <td class="when">2022-08-22</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03840525">A Mind Body Intervention to Reduce Symptoms Among People Aging With HIV</a><div class="note">NCT03840525 · Florida International University · primary: Acceptability: Satisfaction With Weekly Intervention Sessions</div></td>
+        <td>Early 1</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=48</span></td>
+        <td class="when">2022-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05308082">Programme Evaluation on Effectiveness of The Use of Movement-based x &#39;Elderspirituality - Fu Le Mun Sum&#39; Intervention to Support Elderly People With Depressive Symptoms</a><div class="note">NCT05308082 · The University of Hong Kong · primary: Spirituality Scale for Chinese Elders (SSCE)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=135</span></td>
+        <td class="when">2022-12-24</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05438134">Enhancing Resilience in Senior Community Residents</a><div class="note">NCT05438134 · Massachusetts General Hospital · primary: Resilience: Current Experiences Scale (CES)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=288</span></td>
+        <td class="when">2023-04-05</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05568381">Sleep Disturbance in MCI: A Study of a Cognitive Behavioural Therapy Digital Intervention</a><div class="note">NCT05568381 · University of Sydney · primary: The proportion of participants who are issued a pre-screening number and then are determined to be...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=40</span></td>
+        <td class="when">2023-08-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05615337">Mindfulness Training: the Effects of a Stress Reduction Program on Older Portuguese-speaking People in Luxembourg</a><div class="note">NCT05615337 · University of Luxembourg · primary: Changes in executive functioning comparing the two groups over time</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=89</span></td>
+        <td class="when">2023-08-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05531513">The Effects of a Nature-Based Mindfulness-Compassion Intervention for Older Adults Delivered Using Virtual Reality</a><div class="note">NCT05531513 · McGill University · primary: Change from Baseline in Scores on the Perceived Stress Scale (PSS)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=24</span></td>
+        <td class="when">2023-11-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05777863">The Effects of a Multidomain Lifestyle Intervention on Brain Functioning and Its Relation With Immunometabolic Markers in Ageing</a><div class="note">NCT05777863 · Donders Centre for Cognitive Neuroimaging · primary: Change in brain activity during working memory</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=102</span></td>
+        <td class="when">2024-05-23</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06085196">Mindful Walking Program for Older African Americans</a><div class="note">NCT06085196 · University of South Carolina · primary: Cognitive Function as assessed by the Montreal Cognitive Assessment (MoCA)</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=114*</span></td>
+        <td class="when">2024-06-15<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06530277">REMINDer - A Digital Environmental Enrichment Intervention</a><div class="note">NCT06530277 · German Center for Neurodegenerative Diseases (DZNE) · primary: Feasibility: Adherence to the intervention</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=58</span></td>
+        <td class="when">2024-12-13</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07061158">A Multidimensional Health Perspective: Analysis of the Effects of Yoga Intervention on Sleep Disorders in Older Adults</a><div class="note">NCT07061158 · Beijing Sport University · primary: Pittsburgh Sleep Quality Index (PSQI)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=73</span></td>
+        <td class="when">2025-01-15</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05101174">Exercise and Neurocognition in Adults Relative to ApoE Genotype</a><div class="note">NCT05101174 · National Taiwan Normal University · primary: Inhibition: Changes in Stroop test performance</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=120*</span></td>
+        <td class="when">2025-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05068271">Multi-Domain Exercise and Memory in Adults Relative to ApoE Genotype: A fMRI Study</a><div class="note">NCT05068271 · National Taiwan Normal University · primary: Changes in functional MRI indices</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=100*</span></td>
+        <td class="when">2025-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06964399">The Effect of Reminiscence Therapy in Older Adults</a><div class="note">NCT06964399 · Muş Alparslan University · primary: Psychological well-being Scale</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=90</span></td>
+        <td class="when">2025-05-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06405893">What Makes People Better at Naming Pictured Objects</a><div class="note">NCT06405893 · University of Colorado, Colorado Springs · primary: Response Accuracy for Naming Pictures (% Correct)</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=102</span></td>
+        <td class="when">2025-05-16</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07475546">Combination Gerotherapeutic Interventions for Healthspan Improvement</a><div class="note">NCT07475546 · AgelessRx · primary: Change in cardiorespiratory fitness measured by maximal oxygen uptake (VO₂ max)</div></td>
+        <td>3</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=26</span></td>
+        <td class="when">2026-04-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07019402">Internet-based Mind-Body Training for Brain Health</a><div class="note">NCT07019402 · Ohio State University · primary: Feasibility of intervention: Recruitment</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=60</span></td>
+        <td class="when">2026-06-29</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=meditation">cond=aging&amp;intr=meditation</a> · 66 returned, 61 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="movement">
+    <summary><strong>Tai chi, yoga and qigong</strong> <span class="note">Mind-body movement practices tested against aging outcomes</span> <span class="badge">non-drug</span> <span class="count">5 active / 58 trials · <span class="overdue">1 overdue</span></span></summary>
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07131761">Effect of Tai Chi Versus Moderate-intensity Combined Exercise Training on Cardiovascular Health and Physical Functional Performance in Older Men and Women With T2DM: the Tai Chi Intervention for Diabetes Management During Aging (TIDA) Study</a><div class="note">NCT07131761 · Universidade Estadual Paulista Júlio de Mesquita Filho · primary: Cardiovascular Health Score</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=66*</span></td>
+        <td class="when">2025-09-20<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07042087">Lifestyle for the BRAin Health - Time Restricted Eating and Mindfulness</a><div class="note">NCT07042087 · St. Anne&#39;s University Hospital Brno, Czech Republic · primary: Composite Score of Cognitive Function</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=48*</span></td>
+        <td class="when">2026-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06792877">Mindfulness for Cognition in Early-stage Alzheimer&#39;s Disease</a><div class="note">NCT06792877 · VA Boston Healthcare System · primary: Neuropsychological tests</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=100*</span></td>
+        <td class="when">2027-01-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07567976">Tai Chi Intervention for Balance Function in Older Adults: Predictive and Modifying Roles of Circadian Age</a><div class="note">NCT07567976 · Zhide Liang · primary: Change in Berg Balance Scale (BBS) Score</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=90*</span></td>
+        <td class="when">2027-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05725668">A Study of Dual-task Exercise Training to Prevent Falls Among Older Adults With Mild Cognitive Impairment</a><div class="note">NCT05725668 · Oregon Research Institute · primary: Self-reported number of falls</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=336*</span></td>
+        <td class="when">2027-07-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00118885">Shingles: Immune Effects of Tai Chi</a><div class="note">NCT00118885 · National Institute on Aging (NIA) · primary: varicella zoster specific immunity</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=140</span></td>
+        <td class="when">2004-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00781729">Yoga for Kyphosis Trial</a><div class="note">NCT00781729 · Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) · primary: The primary outcomes were change in the following: Debrunner kyphometer-assessed kyphosis angle, standing...</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=118</span></td>
+        <td class="when">2006-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00944788">A Structured Qi-gong Program for Hospitalized Older Adults</a><div class="note">NCT00944788 · Fundacio Salut i Envelliment UAB · primary: Quality of life</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=58</span></td>
+        <td class="when">2009-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01204021">Managing Stress and Social Ties for Health Aging</a><div class="note">NCT01204021 · University of California, Los Angeles · primary: Perceived Stress</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=26</span></td>
+        <td class="when">2010-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00280020">Behavioral Treatment of Insomnia in Aging</a><div class="note">NCT00280020 · University of California, Los Angeles · primary: Changes in insomnia symptoms as measured by subjective report and objective polysomnography</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=123</span></td>
+        <td class="when">2011-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01014572">The Effect of Exercise and Alagebrium on the Diastolic Function of the Heart</a><div class="note">NCT01014572 · University of Texas Southwestern Medical Center · primary: Left ventricular compliance and distensibility.</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=62</span></td>
+        <td class="when">2012-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01094509">Activities for Cognitive Enhancement of Seniors</a><div class="note">NCT01094509 · Stanford University · primary: Cognitive (executive function and episodic memory)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=175</span></td>
+        <td class="when">2012-07</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01650532">Stretching and Yoga Exercise Study</a><div class="note">NCT01650532 · University of Illinois at Urbana-Champaign · primary: Changes in cognition as assessed by a neuropsychological battery of computer based and paper pencil tests...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=118</span></td>
+        <td class="when">2013-03</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01857830">The Relaxation vs. Retreat Study</a><div class="note">NCT01857830 · University of California, San Francisco · primary: Telomerase</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=96</span></td>
+        <td class="when">2013-07</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01340365">Tai Chi, Physiologic Complexity, and Healthy Aging</a><div class="note">NCT01340365 · Harvard University Faculty of Medicine · primary: Change in Heart rate complexity</div></td>
+        <td>2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60</span></td>
+        <td class="when">2013-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03544879">Yoga to Prevent Mobility Limitations in Older Adults</a><div class="note">NCT03544879 · University of California, San Diego · primary: Short Physical Performance Battery (SPPB)</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=46</span></td>
+        <td class="when">2014-05-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04692272">Xbox Kinect, Sleep Quality, Anxiety and Functional Capacity in Older Adults</a><div class="note">NCT04692272 · Universidade Federal de Goias · primary: Change from Baseline Sleep Quality at 6 weeks</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=29</span></td>
+        <td class="when">2015-02-15</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02039154">The Effect of Long Duration Exercise on the Diastolic Function of the Heart</a><div class="note">NCT02039154 · University of Texas Southwestern Medical Center · primary: Change in left ventricular stiffness (diastolic function/static) after training</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=61</span></td>
+        <td class="when">2016-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02488148">The Effect of Bikram Yoga on Arterial Stiffness and Endothelial Function in Middle-Aged Adults</a><div class="note">NCT02488148 · University of Texas at Austin · primary: Brachial artery flow-mediated dilation</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=81</span></td>
+        <td class="when">2016-12-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04904991">Three-month Chan-Chung Qigong Improves Physical Function Performance and Quality of Life</a><div class="note">NCT04904991 · Tri-Service General Hospital (TSGH) · primary: The findings of this study indicate Chan-Chuang qigong improved physical function performance with...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=92</span></td>
+        <td class="when">2017-11-04</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02346136">Health Outcomes of Tai Chi in Subsidized Senior Housing</a><div class="note">NCT02346136 · Hebrew SeniorLife · primary: Change in Short Physical Performance Battery (SPPB) Total Score</div></td>
+        <td>device / n.a.</td>
+        <td>terminated <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=180</span></td>
+        <td class="when">2018-01-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04726072">Kundalini Yoga &amp; Healthy Neurological Aging</a><div class="note">NCT04726072 · Lady Davis Institute · primary: Change from Baseline Gray Matter Volume in Bilateral Hippocampi and Posterior Cingulate Cortex at 10-12 weeks</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=11</span></td>
+        <td class="when">2018-04-24</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03676452">The Effects of an Exergame Training on Body and Brain of Older Adults</a><div class="note">NCT03676452 · Eling DeBruin · primary: Change in gait speed</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=37</span></td>
+        <td class="when">2019-04-18</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02665169">Kuopio Fall Prevention Study.</a><div class="note">NCT02665169 · Kuopio University Hospital · primary: Risk of falls</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=914</span></td>
+        <td class="when">2019-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03476785">Prevention of Cardiovascular Stiffening With Aging and Hypertensive Heart Disease</a><div class="note">NCT03476785 · University of Texas Southwestern Medical Center · primary: Left ventricular stiffness</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=56</span></td>
+        <td class="when">2019-07-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03071562">A Randomized Pilot Trial Evaluating the Impact of a Yoga Intervention on Cognition in Older Adults Infected With HIV</a><div class="note">NCT03071562 · Adria Quigley · primary: B-CAM (Brief Cognitive Ability Measure)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=22</span></td>
+        <td class="when">2019-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04314921">10-week Yoga Practice Effect on Cognitive and Motor Function in Older Adults</a><div class="note">NCT04314921 · Lithuanian Sports University · primary: Brunel mood scale (BRUMS)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=33</span></td>
+        <td class="when">2019-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03510377">Effects of Aquatic Intervention on Fall Risk, Hazard Perception, Calendar Planning and Brain Activity During Elderly</a><div class="note">NCT03510377 · Tel Aviv University · primary: Change in the Tinetti balance, gait and fall risk test</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=42</span></td>
+        <td class="when">2020-01-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03895346">Mental Training for Adults With Mild Cognitive Impairment</a><div class="note">NCT03895346 · Massachusetts General Hospital · primary: Recruitment feasibility</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=22</span></td>
+        <td class="when">2020-03-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03275038">Comparing Effects and Neural Mechanisms of Tai Chi and Light-to-Moderate Intensity Aerobic Exercises</a><div class="note">NCT03275038 · National Taiwan University Hospital · primary: Brain functional activation and structure imaging</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=120*</span></td>
+        <td class="when">2020-07-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04690244">The Effect of Tai Chi Chuan in Older Adults</a><div class="note">NCT04690244 · Lithuanian Sports University · primary: Heart Rate Variability</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=30</span></td>
+        <td class="when">2020-09-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02761603">Healthy Aging Practice-centered Instruction Cardiovascular Health Investigation (HAPI-CHI)</a><div class="note">NCT02761603 · University of California, San Diego · primary: Blood Pressure</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=250*</span></td>
+        <td class="when">2021-05</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04690465">Resistance Training on Elderly Resilience</a><div class="note">NCT04690465 · Hong Kong Baptist University · primary: Resilience - The Chinese Version of Resilience Scale</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=150</span></td>
+        <td class="when">2021-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04641429">Neuroplasticity: The Effects of Exercise Training on Cognitive and Affective Functioning of Older People</a><div class="note">NCT04641429 · The University of Hong Kong · primary: Mean change from Baseline in cognitive processing speed scores on the Symbol Digit Modalities Test at 12 Weeks</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=200*</span></td>
+        <td class="when">2021-10<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05971420">Virtual Reality Activity-based Training for Preventing Falls for Older Adults With Mild Cognitive Impairment</a><div class="note">NCT05971420 · University of Southern Queensland · primary: Berg balance test (BBS) - change is being assessed</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=18</span></td>
+        <td class="when">2021-12-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04861831">Power Centering for Seniors</a><div class="note">NCT04861831 · University Department of Geriatric Medicine FELIX PLATTER · primary: Gait speed</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=63</span></td>
+        <td class="when">2022-01-20</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03696082">A Precision Rehabilitation Approach to Counteract Age-Related Cognitive Declines</a><div class="note">NCT03696082 · University of Pittsburgh · primary: Change from Baseline Brain Structure at 6 and 12 months</div></td>
+        <td>device / n.a.</td>
+        <td>terminated</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=78</span></td>
+        <td class="when">2022-01-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05287529">In-home Yoga for Seniors</a><div class="note">NCT05287529 · University of Wisconsin, Madison · primary: Percentage of Classes Attended (?0</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=52</span></td>
+        <td class="when">2022-04-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03853148">Activate For Life: mHealth Intervention To Address Pain And Fatigue In Low-income Older Adults Aging In Place</a><div class="note">NCT03853148 · Medical University of South Carolina · primary: Older Adult Pain Intensity</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=50</span></td>
+        <td class="when">2022-04-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03840525">A Mind Body Intervention to Reduce Symptoms Among People Aging With HIV</a><div class="note">NCT03840525 · Florida International University · primary: Acceptability: Satisfaction With Weekly Intervention Sessions</div></td>
+        <td>Early 1</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=48</span></td>
+        <td class="when">2022-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05363228">The Effect of Tai Chi and Therapy by Dance and Movement on Blood Irisin Levels in Older Adults Over 65 Years of Age.</a><div class="note">NCT05363228 · Charles University, Czech Republic · primary: Change in Irisin blood levels after 3 months of the intervention</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=90*</span></td>
+        <td class="when">2023-01-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07098533">Cognicise Training for Seniors for Healthy Aging</a><div class="note">NCT07098533 · Poznan University of Physical Education · primary: Maximal Oxygen Uptake (VO₂max)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=70</span></td>
+        <td class="when">2023-06-21</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04323163">Yoga, Aerobic and Stretching Exercise Effects on Neurocognition</a><div class="note">NCT04323163 · University of Illinois at Urbana-Champaign · primary: Change in cognitive function</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=145</span></td>
+        <td class="when">2023-08-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05615337">Mindfulness Training: the Effects of a Stress Reduction Program on Older Portuguese-speaking People in Luxembourg</a><div class="note">NCT05615337 · University of Luxembourg · primary: Changes in executive functioning comparing the two groups over time</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=89</span></td>
+        <td class="when">2023-08-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06918678">Feasibility and Efficacy of A Remote Tai Chi Program in Older Adults</a><div class="note">NCT06918678 · The University of Tennessee, Knoxville · primary: Acceptability and feasibility</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=35</span></td>
+        <td class="when">2023-10-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07006584">Gait Reeducation Program in Older Adults</a><div class="note">NCT07006584 · Universidad Europea de Madrid · primary: Physical Performance</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=47</span></td>
+        <td class="when">2023-10-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07285577">Facial Muscle Exercises vs Fractional Microneedling Radiofrequency for Facial Rejuvenation</a><div class="note">NCT07285577 · Kasr El Aini Hospital · primary: Treatment Success (≥25% improvement in Physician Global Aesthetic Improvement Score)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=40</span></td>
+        <td class="when">2024-02-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06304688">Yoga and Diet on Cognitive, Nutritional Status, Mental and Functional Abilities in Older Adults</a><div class="note">NCT06304688 · University of Jaén · primary: TMT (Trail Making Test)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=125</span></td>
+        <td class="when">2024-02-05</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06685731">Laughter Yoga is Role in Enhancing Sleep and Well-being in the Elderly</a><div class="note">NCT06685731 · Artvin Coruh University · primary: Pre-test</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=60*</span></td>
+        <td class="when">2024-09-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05381480">Elders Preserving Independence in the Community</a><div class="note">NCT05381480 · Cedars-Sinai Medical Center · primary: PROMIS 10-item Global Health Scale - Total Score</div></td>
+        <td>device / n.a.</td>
+        <td>terminated</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=104</span></td>
+        <td class="when">2024-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06380413">Tai Chi Chuan Combined With Walking on Physical and Mental Parameters of Older Adults</a><div class="note">NCT06380413 · Federal University of Pelotas · primary: Maximal dynamic strength</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=40*</span></td>
+        <td class="when">2024-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07061158">A Multidimensional Health Perspective: Analysis of the Effects of Yoga Intervention on Sleep Disorders in Older Adults</a><div class="note">NCT07061158 · Beijing Sport University · primary: Pittsburgh Sleep Quality Index (PSQI)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=73</span></td>
+        <td class="when">2025-01-15</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07629622">Tai-Chi Chuan and Frenkel Coordination Exercises in Elderly</a><div class="note">NCT07629622 · Halic University · primary: Four Square Step Test (FSST)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=30</span></td>
+        <td class="when">2025-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07716839">Effects of a Buriti Supplement on Body Composition and Function in Older Adults</a><div class="note">NCT07716839 · Federal University of Minas Gerais · primary: Body weight (kg)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=40</span></td>
+        <td class="when">2026-01-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04962061">A Combined Multidomain Intervention to Prevent Cognitive Decline Associated With Cardiovascular Risk Factors.</a><div class="note">NCT04962061 · Louis Bherer · primary: Change in general cognitive functioning</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=159</span></td>
+        <td class="when">2026-02-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07670208">Physical Activity Promoting Active Aging</a><div class="note">NCT07670208 · Yu Wang · primary: Active aging</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=100</span></td>
+        <td class="when">2026-10-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00623532">Intervention Study of Mind-Body Physical Activity in Frail Institutionalized Elderly</a><div class="note">NCT00623532 · Association de Recherche Gerontologique · primary: MOS SF-12</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=160</span></td>
+        <td class="when">—</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00018265">Fitness and Daily Function in Adults</a><div class="note">NCT00018265 · US Department of Veterans Affairs</div></td>
+        <td>3</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=140</span></td>
+        <td class="when">—</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=tai%20chi">cond=aging&amp;intr=tai%20chi</a> · 59 returned, 58 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="breath">
+    <summary><strong>Breathwork</strong> <span class="note">Structured breathing practices (breathwork, pranayama)</span> <span class="badge">non-drug</span> <span class="count">5 active / 31 trials · <span class="overdue">1 overdue</span></span></summary>
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07131761">Effect of Tai Chi Versus Moderate-intensity Combined Exercise Training on Cardiovascular Health and Physical Functional Performance in Older Men and Women With T2DM: the Tai Chi Intervention for Diabetes Management During Aging (TIDA) Study</a><div class="note">NCT07131761 · Universidade Estadual Paulista Júlio de Mesquita Filho · primary: Cardiovascular Health Score</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=66*</span></td>
+        <td class="when">2025-09-20<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07278141">Effects of Resistance and Dual-Task Training on Physical, Oculomotor, and Executive Functions in Older Adults With MCI</a><div class="note">NCT07278141 · Universidad Santo Tomas, Chile · primary: Physical-functional condition - Risk of falls</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=66*</span></td>
+        <td class="when">2026-11-17<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07505914">Effects of Breathing Exercises on Cognition in Older Adults</a><div class="note">NCT07505914 · Istanbul University - Cerrahpasa · primary: Montreal Cognitive Assessment (MoCA)</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=40*</span></td>
+        <td class="when">2026-12<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07567976">Tai Chi Intervention for Balance Function in Older Adults: Predictive and Modifying Roles of Circadian Age</a><div class="note">NCT07567976 · Zhide Liang · primary: Change in Berg Balance Scale (BBS) Score</div></td>
+        <td>device / n.a.</td>
+        <td>not yet recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=90*</span></td>
+        <td class="when">2027-03<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05725668">A Study of Dual-task Exercise Training to Prevent Falls Among Older Adults With Mild Cognitive Impairment</a><div class="note">NCT05725668 · Oregon Research Institute · primary: Self-reported number of falls</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=336*</span></td>
+        <td class="when">2027-07-30<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00944788">A Structured Qi-gong Program for Hospitalized Older Adults</a><div class="note">NCT00944788 · Fundacio Salut i Envelliment UAB · primary: Quality of life</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=58</span></td>
+        <td class="when">2009-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01094509">Activities for Cognitive Enhancement of Seniors</a><div class="note">NCT01094509 · Stanford University · primary: Cognitive (executive function and episodic memory)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=175</span></td>
+        <td class="when">2012-07</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT01791010">Effects of Inspiratory Muscle Training in Elders</a><div class="note">NCT01791010 · Universidade Federal de Pernambuco · primary: respiratory muscle strength</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=22</span></td>
+        <td class="when">2012-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03544879">Yoga to Prevent Mobility Limitations in Older Adults</a><div class="note">NCT03544879 · University of California, San Diego · primary: Short Physical Performance Battery (SPPB)</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=46</span></td>
+        <td class="when">2014-05-02</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02488148">The Effect of Bikram Yoga on Arterial Stiffness and Endothelial Function in Middle-Aged Adults</a><div class="note">NCT02488148 · University of Texas at Austin · primary: Brachial artery flow-mediated dilation</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=81</span></td>
+        <td class="when">2016-12-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04726072">Kundalini Yoga &amp; Healthy Neurological Aging</a><div class="note">NCT04726072 · Lady Davis Institute · primary: Change from Baseline Gray Matter Volume in Bilateral Hippocampi and Posterior Cingulate Cortex at 10-12 weeks</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=11</span></td>
+        <td class="when">2018-04-24</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03688932">Effects of WBV Associated With IMT on Functionality</a><div class="note">NCT03688932 · Universidade Federal de Pernambuco · primary: Walking Distance</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=42</span></td>
+        <td class="when">2019-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03689322">Effects of WBV Associated With IMT on Inflammatory Markers, Body Composition, Muscle Strength and Thickness</a><div class="note">NCT03689322 · Universidade Federal de Pernambuco · primary: Respiratory Muscle Strength and Resistance</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=42</span></td>
+        <td class="when">2019-05-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03071562">A Randomized Pilot Trial Evaluating the Impact of a Yoga Intervention on Cognition in Older Adults Infected With HIV</a><div class="note">NCT03071562 · Adria Quigley · primary: B-CAM (Brief Cognitive Ability Measure)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=22</span></td>
+        <td class="when">2019-08</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03483740">Psychosocial Intervention for Older HIV+ Adults With HAND</a><div class="note">NCT03483740 · University Health Network, Toronto · primary: Feasibility - Session Attendance</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=12</span></td>
+        <td class="when">2019-12-31</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05390008">The Effects of PFMT and MPE in Elderly Women With SUI.</a><div class="note">NCT05390008 · Istanbul University - Cerrahpasa · primary: SUI frequency change - Incontinence Severity Index (ISI)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=30</span></td>
+        <td class="when">2020-10-20</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05249764">Home-Based Exercise Training in Older Adults During the COVID-19 Pandemic</a><div class="note">NCT05249764 · Baskent University · primary: Change from baseline lower extremitu muscle strength at 8 weeks</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=32</span></td>
+        <td class="when">2022-03-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03853148">Activate For Life: mHealth Intervention To Address Pain And Fatigue In Low-income Older Adults Aging In Place</a><div class="note">NCT03853148 · Medical University of South Carolina · primary: Older Adult Pain Intensity</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=50</span></td>
+        <td class="when">2022-04-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03840525">A Mind Body Intervention to Reduce Symptoms Among People Aging With HIV</a><div class="note">NCT03840525 · Florida International University · primary: Acceptability: Satisfaction With Weekly Intervention Sessions</div></td>
+        <td>Early 1</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=48</span></td>
+        <td class="when">2022-09-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05651854">Effect of Different Pranayama Breathing Techniques on Quality of Life in Hypertensive Patients</a><div class="note">NCT05651854 · Cairo University · primary: cortisol</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60*</span></td>
+        <td class="when">2023-02-15<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05444114">What Makes People Better at Describing Photographs?</a><div class="note">NCT05444114 · University of Colorado, Colorado Springs · primary: Speech Rate</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=182</span></td>
+        <td class="when">2023-05-23</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07098533">Cognicise Training for Seniors for Healthy Aging</a><div class="note">NCT07098533 · Poznan University of Physical Education · primary: Maximal Oxygen Uptake (VO₂max)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=70</span></td>
+        <td class="when">2023-06-21</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05672940">Investigations of the Effects and Associated Neural Mechanisms of Different Exercise in People With Metabolic Syndrome</a><div class="note">NCT05672940 · National Taiwan University Hospital · primary: Changes of brain functional activation and structure imaging</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=120*</span></td>
+        <td class="when">2023-07-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06918678">Feasibility and Efficacy of A Remote Tai Chi Program in Older Adults</a><div class="note">NCT06918678 · The University of Tennessee, Knoxville · primary: Acceptability and feasibility</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=35</span></td>
+        <td class="when">2023-10-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06308458">Breather Exerciser Trainer on Diaphragmatic Mobility And Thickness</a><div class="note">NCT06308458 · Adly A Adam · primary: Diaphragmatic thickness in millimeters</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=60</span></td>
+        <td class="when">2024-01-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05978921">Physical Exercise in Patients With Schizophrenia</a><div class="note">NCT05978921 · University of Salamanca · primary: Telomere Length</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=40*</span></td>
+        <td class="when">2024-04-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06685731">Laughter Yoga is Role in Enhancing Sleep and Well-being in the Elderly</a><div class="note">NCT06685731 · Artvin Coruh University · primary: Pre-test</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=60*</span></td>
+        <td class="when">2024-09-09</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07061158">A Multidimensional Health Perspective: Analysis of the Effects of Yoga Intervention on Sleep Disorders in Older Adults</a><div class="note">NCT07061158 · Beijing Sport University · primary: Pittsburgh Sleep Quality Index (PSQI)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=73</span></td>
+        <td class="when">2025-01-15</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06405893">What Makes People Better at Naming Pictured Objects</a><div class="note">NCT06405893 · University of Colorado, Colorado Springs · primary: Response Accuracy for Naming Pictures (% Correct)</div></td>
+        <td>device / n.a.</td>
+        <td>completed <span class="chg results">results</span></td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=102</span></td>
+        <td class="when">2025-05-16</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07418970">Effects of Action Observation Therapy in Geriatric Individuals</a><div class="note">NCT07418970 · Hasan Kalyoncu University · primary: Functional capacity</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=162</span></td>
+        <td class="when">2025-10-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT07449767">Effects of Resistance-Based Multicomponent Training Incorporating Respiratory Exercise on Diaphragm Thickness, Hepatic Attenuation, and Quality of Life in Healthy Older Men: A Randomized Controlled Trial</a><div class="note">NCT07449767 · Gümüşhane Universıty · primary: Diaphragm Thickness</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=30</span></td>
+        <td class="when">2026-04-25</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=breathwork">cond=aging&amp;intr=breathwork</a> · 31 returned, 31 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="thermal">
+    <summary><strong>Heat and cold exposure</strong> <span class="note">Sauna, heat therapy and cold-water exposure</span> <span class="badge">non-drug</span> <span class="count">4 active / 9 trials · <span class="overdue">1 overdue</span></span></summary>
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06432491">The Association Between Core Temperature and Health</a><div class="note">NCT06432491 · Shenzhen Institutes of Advanced Technology ,Chinese Academy of Sciences · primary: Value of core body temperature in centigrade assessed by e-Celsius</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=36*</span></td>
+        <td class="when">2026-06-30<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06023407">Feasibility of Improving Glycemia With Heat Therapy to Prevent AD</a><div class="note">NCT06023407 · University of Kansas Medical Center · primary: HbA1C</div></td>
+        <td>device / n.a.</td>
+        <td>enrolling by invitation</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60*</span></td>
+        <td class="when">2027-10-29<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT05300971">Passive Heat Therapy for Lowering Systolic Blood Pressure and Improving Vascular Function in Mid-life and Older Adults</a><div class="note">NCT05300971 · University of Colorado, Boulder · primary: Change in casual systolic blood pressure from baseline to 2, 4, 6, 8, 10, and 12 weeks of heat therapy,...</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=150*</span></td>
+        <td class="when">2027-11-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06580964">Heat and Exercise in Aging as Therapy (HEAT)</a><div class="note">NCT06580964 · Texas Tech University · primary: Glycemic control</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=54*</span></td>
+        <td class="when">2029-01-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03264508">Passive Heat Therapy and Age-associated Physiological Function</a><div class="note">NCT03264508 · Douglas Seals · primary: Brachial artery flow-mediated dilation</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=25</span></td>
+        <td class="when">2020-11-23</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05543980">Leg Heat Therapy in Elderly Individuals</a><div class="note">NCT05543980 · Purdue University · primary: Compliance</div></td>
+        <td>1</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=24</span></td>
+        <td class="when">2024-02-28</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT04733287">Heat Therapy and Muscle Function Study</a><div class="note">NCT04733287 · Brigham Young University · primary: Muscle Critical Power</div></td>
+        <td>device / n.a.</td>
+        <td>status unknown</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=148*</span></td>
+        <td class="when">2024-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05706181">Heat Therapy, Functional Capacity, and Vascular Health in Older Adults</a><div class="note">NCT05706181 · University of North Texas Health Science Center · primary: 6 minute walk test</div></td>
+        <td>1/2</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: triple">B</span><span class="n">n=21</span></td>
+        <td class="when">2025-06-30</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT06349616">Cooling Strategies for Older Adults in the Heat</a><div class="note">NCT06349616 · Penn State University · primary: Core temperature</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=12</span></td>
+        <td class="when">2025-07-21</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=sauna">cond=aging&amp;intr=sauna</a> · 9 returned, 9 kept by the match rule. n* = target enrollment.</p>
+  </details>
+  <details class="prog" open id="sleep">
+    <summary><strong>Sleep interventions</strong> <span class="note">Sleep extension and sleep-hygiene programs</span> <span class="badge">non-drug</span> <span class="count">8 active / 14 trials · <span class="overdue">5 overdue</span></span></summary>
+    <div class="tbl-wrap"><table>
+      <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06836167">+AGIL Barcelona: Integrated Care for Community-Dwelling Frail Older Adults</a><div class="note">NCT06836167 · Parc Sanitari Pere Virgili · primary: Physical performance</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=396*</span></td>
+        <td class="when">2025-07-31<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06073990">Brief Behavioral Therapy for Insomnia (BBTi) in Middle-aged and Older Adults With Chronic Insomnia</a><div class="note">NCT06073990 · National Cheng-Kung University Hospital · primary: Insomnia severity (T1)</div></td>
+        <td>device / n.a.</td>
+        <td>enrolling by invitation</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=80*</span></td>
+        <td class="when">2025-12-31<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06248723">ItaliaN Study With Tailored Multidomain Interventions to Prevent Functional and Cognitive Decline in Community-dwelling Older Adults</a><div class="note">NCT06248723 · University of Milano Bicocca · primary: Modified Neuropsychological Test Battery (mNTB) score</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=1340*</span></td>
+        <td class="when">2026-03<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07472101">Effects of Telerehabilitation-Based Dual-Task Exercises on Balance, Fall Risk, Cognitive Function, and Sleep Quality in Geriatric Individuals</a><div class="note">NCT07472101 · Bulent Ecevit University · primary: Balance performance</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=60*</span></td>
+        <td class="when">2026-06-02<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06611228">Optimizing Prevention of Hospital-Acquired Disability Through Multidomain Interventions</a><div class="note">NCT06611228 · University of Milano Bicocca · primary: Assess the effect of the MDI on motor function at discharge from the AGU</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=288*</span></td>
+        <td class="when">2026-07-01<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07732530">Acupoint Stimulation and Exercise for Taiwanese Pre-frail Older Adults</a><div class="note">NCT07732530 · Tainan Hospital, Ministry of Health and Welfare · primary: Change in Frailty Score</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=30*</span></td>
+        <td class="when">2027-12-31<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT06820021">Strength-based Tailored-Exercise Program at Home for Geriatric Patients</a><div class="note">NCT06820021 · The University of Hong Kong · primary: The Short Physical Performance Battery (SPPB)</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=256*</span></td>
+        <td class="when">2028-03-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="">
+        <td><a href="https://clinicaltrials.gov/study/NCT07695246">Efficacy of CBT-I With Adjuvant Melatonin in Older Adults Chronic Insomnia</a><div class="note">NCT07695246 · The University of Hong Kong · primary: Insomnia Symptoms - Insomnia Severity Index</div></td>
+        <td>device / n.a.</td>
+        <td>recruiting</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: double">B</span><span class="n">n=183*</span></td>
+        <td class="when">2029-08-01<span class="note"> est.</span></td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT00177385">Aging Well, Sleeping Efficiently: Protecting Health In Later Life</a><div class="note">NCT00177385 · University of Pittsburgh · primary: Polysomnographic measures of sleep consolidation, sleep depth and daytime sleepiness at baseline,...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=66</span></td>
+        <td class="when">2009-06</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02926157">Buying Time: Improving Sleep to Promote Cognitive Function in Older Adults</a><div class="note">NCT02926157 · University of British Columbia · primary: Change from baseline in sleep quality as measured by Motion Watch 8 at 3 and 6 months</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=96</span></td>
+        <td class="when">2018-12</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT02171273">Impact of Chronic Circadian Disruption vs. Chronic Sleep Restriction on Metabolism</a><div class="note">NCT02171273 · Brigham and Women&#39;s Hospital · primary: Change in insulin sensitivity</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=21</span></td>
+        <td class="when">2019-04-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT03677726">Improving Sleep Continuity Through Mindfulness Training for Better Cognitive Ageing.</a><div class="note">NCT03677726 · Singapore General Hospital · primary: Change in Subjective measures of Sleep quality: Pittsburgh Sleep Quality Index Score</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=150</span></td>
+        <td class="when">2020-10-01</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05568381">Sleep Disturbance in MCI: A Study of a Cognitive Behavioural Therapy Digital Intervention</a><div class="note">NCT05568381 · University of Sydney · primary: The proportion of participants who are issued a pre-screening number and then are determined to be...</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="n">n=40</span></td>
+        <td class="when">2023-08-10</td>
+      </tr>
+      <tr class="inactive">
+        <td><a href="https://clinicaltrials.gov/study/NCT05531513">The Effects of a Nature-Based Mindfulness-Compassion Intervention for Older Adults Delivered Using Virtual Reality</a><div class="note">NCT05531513 · McGill University · primary: Change from Baseline in Scores on the Perceived Stress Scale (PSS)</div></td>
+        <td>device / n.a.</td>
+        <td>completed</td>
+        <td class="flags"><span class="flag on">R</span><span class="flag on" title="masking: single">B</span><span class="n">n=24</span></td>
+        <td class="when">2023-11-01</td>
+      </tr>
+    </table></div>
+    <p class="note">Registry query: <a href="https://clinicaltrials.gov/search?cond=aging&amp;intr=sleep%20extension">cond=aging&amp;intr=sleep%20extension</a> · 16 returned, 14 kept by the match rule. n* = target enrollment.</p>
+  </details>
 </section>
 
 <section id="rules">
@@ -766,6 +3060,8 @@ footer h2 { font-size: 20px; color: var(--ink); }
     <li><strong>Main page = registered trials only.</strong> Anything without a trial or published data appears only on the <a href="claims.html">claims page</a>.</li>
     <li><strong>No me-too drugs.</strong> A drug program is tracked only if it is first in class (a new mechanism or target) or aimed at aging itself. Devices are tracked as devices.</li>
     <li><strong>Programs are curated; trials are not.</strong> Each program carries a registry query and a match rule, and its trials are whatever the registry returns that pass the rule. Programs aimed at aging must also name aging in the trial's title, conditions or keywords (<code>\b(aging|ageing|older adults?|elderly|frailty|senescen\w*|longevity|healthspan|geroscience|age-related)\b</code>).</li>
+    <li><strong>Non-drug interventions</strong> (exercise, fasting, mind-body, breathwork, heat and cold, sleep) must name aging, and only randomized trials count; exercise also needs at least 300 participants, because 1,357 exercise-and-aging trials are registered. Named programs, such as Joe Dispenza's retreat studies, are tracked by sponsor without those filters, and their design flags show what kind of evidence they are.</li>
+    <li><strong>What to act on</strong> uses four fixed rules: results posted in the last 90 days; randomized trials reaching primary completion within 120 days; registry changes in the last 30 days and randomized trials started in the last 120; and programs with no randomized trial.</li>
     <li>Example: Precision Neuroscience is not on the board because it has no registered trial yet.</li>
   </ul>
 </section>
@@ -774,7 +3070,7 @@ footer h2 { font-size: 20px; color: var(--ink); }
   <h2>Sources and freshness</h2>
   <div class="tbl-wrap"><table>
     <tr><th>Source</th><th>Fetched</th><th>Age</th><th>Last error</th></tr>
-    <tr><td>ctgov</td><td>2026-10-31 15:39</td><td class="">4m</td><td></td></tr>
+    <tr><td>ctgov</td><td>2026-10-31 15:57</td><td class="">22s</td><td></td></tr>
   </table></div>
   <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here. Sister sites: <a href="https://gcicc.github.io/overhang/">OVERHANG</a> (AI) and <a href="https://gcicc.github.io/hangar/">HANGAR</a> (SpaceX &amp; Tesla).</p>
 </footer>

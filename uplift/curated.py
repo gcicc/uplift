@@ -20,6 +20,7 @@ LANES = {
     "body": "Body",
     "gene": "Gene editing",
     "ai": "AI in medicine",
+    "nondrug": "Non-drug",
 }
 # Why a row is allowed on the board (SPEC K1). Devices are not drugs, so the me-too
 # test does not apply to them.
@@ -27,6 +28,9 @@ QUALIFIES = {
     "first_in_class": "first in class",
     "aging_indication": "aimed at aging",
     "device": "device",
+    # SPEC K6: every non-drug intervention (exercise, diet, mind-body, ...). Broad
+    # categories must name aging and are filtered by design and size; see tracked.csv.
+    "non_drug": "non-drug",
 }
 QUERY_FIELDS = ("query_spons", "query_term", "query_intr", "query_cond")
 
@@ -61,6 +65,12 @@ def load_tracked() -> list[dict]:
             raise CuratedError(f"{where}: source_url is not a URL")
         if not any((r.get(f) or "").strip() for f in QUERY_FIELDS):
             raise CuratedError(f"{where}: no registry query field set")
+        for f in ("min_enrollment",):
+            if (r.get(f) or "").strip() and not r[f].strip().isdigit():
+                raise CuratedError(f"{where}: {f} must be a whole number")
+        for f in ("require_aging", "randomized_only"):
+            if (r.get(f) or "").strip() not in ("", "yes", "no"):
+                raise CuratedError(f"{where}: {f} must be yes, no or blank")
         for f in ("match_sponsor", "match_intervention"):
             if r.get(f):
                 try:

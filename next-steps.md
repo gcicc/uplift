@@ -10,6 +10,12 @@ note: third sister site to HANGAR and OVERHANG
 
 ## Where this stands
 
+**2026-10-31 (later): K6 + K7.** Non-drug lane added (8 programs incl. Joe Dispenza's two
+registered retreat studies, both single-group) and a "What to act on" summary at the top
+(4 fixed rules). Board now 18 programs, 347 trials, 122 active; 34 active trials overdue.
+Fixed: adding a program no longer logs its trials as "new" in the change ledger.
+12 tests pass.
+
 Slice 1 published 2026-10-31 at https://gcicc.github.io/uplift/ (repo `gcicc/uplift`, Pages
 from `/docs` on `main`, branch build). Name UPLIFT confirmed by Greg. First scheduled-workflow
 run verified green on manual dispatch.

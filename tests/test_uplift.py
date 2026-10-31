@@ -117,3 +117,55 @@ def test_month_precision_sorts_after_days_in_that_month():
         ]
     }
     assert [u["nct"] for u in run.upcoming(rows, by_row, "2026-10-31")] == ["D", "M"]
+
+
+def test_adding_a_program_is_not_reported_as_new_trials():
+    old = {"by_row": {"a": [study()]}}
+    new = {"by_row": {"a": [study()], "b": [study(nct="NCT00000009")]}}
+    assert ctgov.diff(old, new, "2026-11-01") == []
+
+
+def test_randomized_and_size_filters():
+    row = {"qualifies": "non_drug", "randomized_only": "yes", "min_enrollment": "300"}
+    assert ctgov.matches(row, study(enrollment=500))
+    assert not ctgov.matches(row, study(enrollment=120))
+    assert not ctgov.matches(row, study(allocation="NA", enrollment=500))
+
+
+def test_summary_rules():
+    from datetime import date
+
+    today = date(2026, 10, 31)
+    trials = [
+        study(nct="R", results_posted="2026-10-01", has_results=True),
+        study(nct="S", primary_completion="2026-12"),
+        study(nct="T", start="2026-09-15", start_type="ACTUAL"),
+        study(
+            nct="L",
+            primary_completion="2027-06-30",
+            start="2020-01",
+            start_type="ACTUAL",
+        ),
+    ]
+    for s in trials:
+        s["flags"] = ctgov.design_flags(s)
+        s["active"] = True
+    single = study(nct="U", allocation="NA")
+    single["flags"] = ctgov.design_flags(single)
+    single["active"] = True
+    board = [
+        {
+            "label": "L",
+            "rows": [
+                {"id": "a", "name": "A", "trials": trials},
+                {"id": "b", "name": "B", "trials": [single]},
+            ],
+        }
+    ]
+    sm = run.build_summary(board, [], today)
+    assert [i["nct"] for i in sm["read_now"]] == ["R"]
+    assert "S" in [i["nct"] for i in sm["soon"]] and "L" not in [
+        i["nct"] for i in sm["soon"]
+    ]
+    assert [i["nct"] for i in sm["watch"]] == ["T"]
+    assert [r["id"] for r in sm["no_rct"]] == ["b"]

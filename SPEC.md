@@ -20,10 +20,15 @@ with HANGAR (SpaceX & Tesla) and OVERHANG (AI), built the same way.
 | K3 | Scope is frontier enhancement, not longevity alone | "longevity, augmentation, etc. futuristic stuff" |
 | K4 | Speculative topics with no trial or data (cryonics, mind uploading, "live to 150") appear only as claims on the claims page. The main page requires a registered trial or published data | "claims page only, trials required for the main page" |
 | K5 | News on the main page is gated the same way. Stories that do not qualify are kept as follow-up links, not discarded | "gated news - with links that I can follow-up on if I'm interested" |
+| K6 | Non-drug interventions are a lane, all of them (exercise, fasting, mind-body, breathwork, heat/cold, sleep), not only mind-body. Named programs (e.g. Joe Dispenza's retreat studies) tracked by sponsor; broad categories must name aging and count randomized trials only, exercise also n ≥ 300 | "include studies along lines of joe dispenza ... non-pharmalogical"; "Every non-drug intervention" (2026-10-31) |
+| K7 | The main page opens with an actionable summary, even when the action is "keep your eye on this". Built from fixed, printed rules; a reading list, not medical advice | "this page needs an 'actionable summary' at the top" (2026-10-31) |
 
 ## Pages
 
 **Main page (`index.html`): evidence only.**
+0. **What to act on** (K7): read now (results posted ≤ 90 days), readout soon (randomized,
+   primary completion ≤ 120 days), keep your eye on this (registry changes ≤ 30 days,
+   randomized trials started ≤ 120 days), no randomized trial yet (per program).
 1. **Countdown** to the next dated readout or regulatory decision (trial primary completion date,
    FDA action date, scheduled data presentation). Never shows finer units than the date is known to.
    A trial's registered completion date is labelled "registered estimate", since they slip.
@@ -51,6 +56,7 @@ with HANGAR (SpaceX & Tesla) and OVERHANG (AI), built the same way.
 | Body | Bionic limbs, exoskeletons, xenotransplantation, bioengineered organs |
 | Gene editing | One-time in-body edits (base, prime, CRISPR) that are first-in-class |
 | AI in medicine | AI-discovered molecules by phase; FDA's list of AI-enabled devices |
+| Non-drug (K6) | Exercise, fasting and caloric restriction, meditation and mindfulness, tai chi/yoga/qigong, breathwork, heat and cold, sleep; named programs such as Joe Dispenza's retreat studies |
 
 ## Done criteria (testable)
 

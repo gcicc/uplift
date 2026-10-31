@@ -20,6 +20,7 @@
     <a href="#speculative">Speculative</a>
     <a href="#followup">Follow-up links</a>
 {% else %}
+    <a href="#summary">What to act on</a>
     <a href="#next">Next readout</a>
     <a href="#changes">Changes</a>
     <a href="#board">Pipeline</a>
@@ -51,6 +52,26 @@
 </section>
 
 {% else %}
+{% set sm = p.summary %}
+<section id="summary" class="summary">
+  <h2>What to act on</h2>
+  <p class="lede">Picked by fixed rules over registry data, not by judgment. A reading list, not medical advice: "read now" means results exist to read, not that anything works.</p>
+  <div class="sum-grid">
+    <div class="sum read"><h3>Read now</h3><p class="rule">Results posted in the last {{ sm.windows.read }} days</p>
+      {% if sm.read_now %}<ul>{% for i in sm.read_now %}<li><a href="https://clinicaltrials.gov/study/{{ i.nct }}">{{ i.title }}</a><div class="note">{{ i.program }} · {{ i.why }}</div></li>{% endfor %}</ul>
+      {% else %}<p class="none">Nothing new to read.</p>{% endif %}</div>
+    <div class="sum soon"><h3>Readout soon</h3><p class="rule">Randomized trials reaching primary completion within {{ sm.windows.soon }} days</p>
+      {% if sm.soon %}<ul>{% for i in sm.soon %}<li><a href="https://clinicaltrials.gov/study/{{ i.nct }}">{{ i.title }}</a><div class="note">{{ i.program }} · {{ i.why }}</div></li>{% endfor %}</ul>
+      {% else %}<p class="none">No randomized readout due.</p>{% endif %}</div>
+    <div class="sum watch"><h3>Keep your eye on this</h3><p class="rule">Registry changes in the last {{ sm.windows.change }} days, and randomized trials started in the last {{ sm.windows.started }}</p>
+      {% if sm.watch %}<ul>{% for i in sm.watch %}<li><a href="https://clinicaltrials.gov/study/{{ i.nct }}">{{ i.title }}</a><div class="note">{{ i.program }} · {{ i.why }}</div></li>{% endfor %}</ul>
+      {% else %}<p class="none">Quiet.</p>{% endif %}</div>
+    <div class="sum caution"><h3>No randomized trial yet</h3><p class="rule">Programs whose registered evidence is all single-arm or uncontrolled</p>
+      {% if sm.no_rct %}<ul>{% for r in sm.no_rct %}<li><a href="#{{ r.id }}">{{ r.name }}</a> <span class="note">{{ r.n }} trial{{ 's' if r.n != 1 }}</span></li>{% endfor %}</ul>{% else %}<p class="none">None.</p>{% endif %}
+      {% if sm.overdue %}<p class="note"><span class="overdue">{{ sm.overdue }} active trials</span> are past their registered completion date.</p>{% endif %}</div>
+  </div>
+</section>
+
 <section id="next" class="next">
   <div class="next-k">Next registered readout</div>
   {% set u = p.upcoming %}
@@ -119,6 +140,8 @@
     <li><strong>Main page = registered trials only.</strong> Anything without a trial or published data appears only on the <a href="claims.html">claims page</a>.</li>
     <li><strong>No me-too drugs.</strong> A drug program is tracked only if it is first in class (a new mechanism or target) or aimed at aging itself. Devices are tracked as devices.</li>
     <li><strong>Programs are curated; trials are not.</strong> Each program carries a registry query and a match rule, and its trials are whatever the registry returns that pass the rule. Programs aimed at aging must also name aging in the trial's title, conditions or keywords (<code>{{ p.aging_terms }}</code>).</li>
+    <li><strong>Non-drug interventions</strong> (exercise, fasting, mind-body, breathwork, heat and cold, sleep) must name aging, and only randomized trials count; exercise also needs at least 300 participants, because 1,357 exercise-and-aging trials are registered. Named programs, such as Joe Dispenza's retreat studies, are tracked by sponsor without those filters, and their design flags show what kind of evidence they are.</li>
+    <li><strong>What to act on</strong> uses four fixed rules: results posted in the last {{ p.summary.windows.read }} days; randomized trials reaching primary completion within {{ p.summary.windows.soon }} days; registry changes in the last {{ p.summary.windows.change }} days and randomized trials started in the last {{ p.summary.windows.started }}; and programs with no randomized trial.</li>
     <li>Example: Precision Neuroscience is not on the board because it has no registered trial yet.</li>
   </ul>
 </section>

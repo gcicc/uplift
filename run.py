@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import UTC, date, datetime
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 from uplift import cache, ctgov, curated
@@ -23,6 +23,17 @@ ROOT = Path(__file__).resolve().parent
 CHANGES = ROOT / "data" / "changes.json"
 CHANGES_KEEP = 1000
 UPCOMING_SHOWN = 8
+
+# Actionable summary (SPEC K7). Fixed windows, printed on the page; no ranking model.
+READ_WINDOW_DAYS = 90  # results first posted within this many days
+SOON_WINDOW_DAYS = (
+    120  # randomized trial reaching primary completion within this many days
+)
+STARTED_WINDOW_DAYS = (
+    120  # randomized trial that actually started within this many days
+)
+CHANGE_WINDOW_DAYS = 30  # registry events within this many days
+SUMMARY_ITEMS = 6
 
 
 def cached(name: str):
@@ -117,6 +128,133 @@ def build_board(rows: list[dict], by_row: dict, today: str) -> list[dict]:
     return lanes
 
 
+def _end(d: str) -> str:
+    """Latest day a registry date can mean: a month-only date means up to month end."""
+    return d if len(d) == 10 else d + "-31"
+
+
+def _start(d: str) -> str:
+    return d if len(d) == 10 else d + "-01"
+
+
+def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
+    """What deserves attention now, from fixed rules over registry fields.
+
+    Each item carries the rule that put it there. This is a reading list, not medical
+    advice: "read now" means results exist to be read, not that anything works.
+    """
+    t = today.isoformat()
+    read_after = (today - timedelta(days=READ_WINDOW_DAYS)).isoformat()
+    soon_by = (today + timedelta(days=SOON_WINDOW_DAYS)).isoformat()
+    started_after = (today - timedelta(days=STARTED_WINDOW_DAYS)).isoformat()
+    change_after = (today - timedelta(days=CHANGE_WINDOW_DAYS)).isoformat()
+
+    trials, programs = {}, {}
+    for lane in board:
+        for r in lane["rows"]:
+            programs[r["id"]] = r
+            for s in r["trials"]:
+                trials.setdefault(
+                    s["nct"], {**s, "program": r["name"], "lane": lane["label"]}
+                )
+    every = list(trials.values())
+
+    def item(s: dict, why: str) -> dict:
+        return {
+            "nct": s["nct"],
+            "title": s["title"],
+            "program": s["program"],
+            "why": why,
+        }
+
+    read_now = sorted(
+        (
+            s
+            for s in every
+            if s.get("results_posted") and s["results_posted"] >= read_after
+        ),
+        key=lambda s: s["results_posted"],
+        reverse=True,
+    )
+    soon = sorted(
+        (
+            s
+            for s in every
+            if s["active"]
+            and s["flags"]["randomized"]
+            and s.get("primary_completion")
+            and t <= _end(s["primary_completion"])
+            and _start(s["primary_completion"]) <= soon_by
+        ),
+        key=lambda s: _end(s["primary_completion"]),
+    )
+    started = sorted(
+        (
+            s
+            for s in every
+            if s["flags"]["randomized"]
+            and s.get("start_type") == "ACTUAL"
+            and s.get("start")
+            and _start(s["start"]) >= started_after
+        ),
+        key=lambda s: s["start"],
+        reverse=True,
+    )
+    events = [c for c in changes if c["date"] >= change_after and c["kind"] != "date"]
+    no_rct = [
+        r
+        for r in programs.values()
+        if r["trials"] and not any(s["flags"]["randomized"] for s in r["trials"])
+    ]
+    overdue = [s for s in every if s.get("overdue")]
+
+    def fmt_n(s):
+        return f"n={s['flags']['n']}" if s["flags"]["n"] else "n not given"
+
+    return {
+        "read_now": [
+            item(s, f"results posted {s['results_posted']}") for s in read_now
+        ][:SUMMARY_ITEMS],
+        "soon": [
+            item(
+                s,
+                f"randomized, {fmt_n(s)}; primary completion {s['primary_completion']}"
+                + (
+                    " (estimate)"
+                    if s.get("primary_completion_type") != "ACTUAL"
+                    else ""
+                ),
+            )
+            for s in soon
+        ][:SUMMARY_ITEMS],
+        "watch": (
+            [
+                {
+                    "nct": c["nct"],
+                    "title": c["title"],
+                    "program": programs.get(c["row"], {}).get("name", ""),
+                    "why": f"{c['detail']} ({c['date']})",
+                }
+                for c in events
+            ]
+            + [
+                item(s, f"randomized, {fmt_n(s)}; started {s['start']}")
+                for s in started
+            ]
+        )[:SUMMARY_ITEMS],
+        "no_rct": [
+            {"id": r["id"], "name": r["name"], "n": len(r["trials"])} for r in no_rct
+        ],
+        "overdue": len(overdue),
+        "windows": {
+            "read": READ_WINDOW_DAYS,
+            "soon": SOON_WINDOW_DAYS,
+            "started": STARTED_WINDOW_DAYS,
+            "change": CHANGE_WINDOW_DAYS,
+        },
+    }
+
+
 def build_payload(today: date) -> dict:
     rows = curated.load_tracked()
     ct = cached("ctgov") or {"by_row": {}, "raw_counts": {}}
@@ -139,7 +277,8 @@ def build_payload(today: date) -> dict:
             ),
         },
         "upcoming": upcoming(rows, ct["by_row"], today.isoformat()),
-        "board": build_board(rows, ct["by_row"], today.isoformat()),
+        "board": (board := build_board(rows, ct["by_row"], today.isoformat())),
+        "summary": build_summary(board, changes, today),
         "raw_counts": ct.get("raw_counts", {}),
         "changes": changes[:40],
         "aging_terms": ctgov.AGING_RE.pattern,

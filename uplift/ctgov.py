@@ -58,7 +58,28 @@ def _query(row: dict) -> dict:
     ):
         if (row.get(field) or "").strip():
             params[param] = row[field].strip()
+    # Design and size filters are applied server-side to keep the download small, and
+    # again in matches() so the rule holds whatever the server returns.
+    adv = []
+    if needs_randomized(row):
+        adv.append("AREA[DesignAllocation]RANDOMIZED")
+    if min_enrollment(row):
+        adv.append(f"AREA[EnrollmentCount]RANGE[{min_enrollment(row)},MAX]")
+    if adv:
+        params["filter.advanced"] = " AND ".join(adv)
     return params
+
+
+def needs_aging(row: dict) -> bool:
+    return row["qualifies"] == "aging_indication" or row.get("require_aging") == "yes"
+
+
+def needs_randomized(row: dict) -> bool:
+    return row.get("randomized_only") == "yes"
+
+
+def min_enrollment(row: dict) -> int:
+    return int(row.get("min_enrollment") or 0)
 
 
 def _fetch_all(params: dict) -> list[dict]:
@@ -113,6 +134,8 @@ def flatten(study: dict) -> dict:
         "keywords": conds.get("keywords") or [],
         "primary_outcome": (prim[0].get("measure") if prim else None),
         "has_results": bool(study.get("hasResults")),
+        "start_type": (status.get("startDateStruct") or {}).get("type"),
+        "results_posted": (status.get("resultsFirstPostDateStruct") or {}).get("date"),
     }
 
 
@@ -127,7 +150,11 @@ def matches(row: dict, s: dict) -> bool:
             re.search(row["match_intervention"], n, re.I) for n in s["interventions"]
         ):
             return False
-    if row["qualifies"] == "aging_indication":
+    if needs_randomized(row) and s.get("allocation") != "RANDOMIZED":
+        return False
+    if min_enrollment(row) and (s.get("enrollment") or 0) < min_enrollment(row):
+        return False
+    if needs_aging(row):
         text = " ".join([s["title"], *s["conditions"], *s["keywords"]])
         if not AGING_RE.search(text):
             return False
@@ -157,7 +184,8 @@ def diff(old: dict | None, new: dict, today: str) -> list[dict]:
     """Status changes between two registry snapshots (SPEC D4).
 
     A trial seen for the first time is ``new`` only when there was an earlier snapshot
-    to compare against: the first run would otherwise report every trial as new.
+    and its program was already in it: otherwise the first run, or adding a program to
+    the tracked list, would report every trial as new.
     """
     if not old:
         return []
@@ -171,7 +199,12 @@ def diff(old: dict | None, new: dict, today: str) -> list[dict]:
             b = before.get(s["nct"])
             base = {"date": today, "nct": s["nct"], "row": row_id, "title": s["title"]}
             if b is None:
-                events.append({**base, "kind": "new", "detail": "newly tracked trial"})
+                # Only a program that was already tracked can have a "new" trial; a
+                # program just added to tracked.csv is a curation change, not news.
+                if row_id in old.get("by_row", {}):
+                    events.append(
+                        {**base, "kind": "new", "detail": "new trial registered"}
+                    )
                 continue
             if b["status"] != s["status"]:
                 events.append(
