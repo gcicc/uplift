@@ -34,6 +34,7 @@
      "lead_sponsor": "Johns Hopkins University",
      "masking": "NONE",
      "nct": "NCT07521930",
+     "official_title": "Interfacing With NeuroTechnology to Expand Neural Throughput (INTENT)",
      "phases": [
       "NA"
      ],
@@ -74,6 +75,7 @@
      "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
      "masking": "NONE",
      "nct": "NCT06511934",
+     "official_title": "Intuitive, Complete Neural Control of Tablet Computers for Communication",
      "phases": [
       "NA"
      ],
@@ -115,6 +117,7 @@
      "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
      "masking": "NONE",
      "nct": "NCT07791459",
+     "official_title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Aphasia",
      "phases": [
       "NA"
      ],
@@ -149,6 +152,7 @@
      "lead_sponsor": "VA Office of Research and Development",
      "masking": "NONE",
      "nct": "NCT05470478",
+     "official_title": "Enhancement and Optimization of a Mobile iBCI for Veterans With Paralysis",
      "phases": [
       "NA"
      ],
@@ -188,6 +192,7 @@
      "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
      "masking": "NONE",
      "nct": "NCT05724173",
+     "official_title": "Single Neuron Population Dynamics in Human Speech Motor Cortex for a Speech Prosthesis",
      "phases": [
       "NA"
      ],
@@ -234,6 +239,7 @@
      "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
      "masking": "NONE",
      "nct": "NCT00912041",
+     "official_title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia",
      "phases": [
       "NA"
      ],
@@ -271,6 +277,7 @@
      "lead_sponsor": "VA Office of Research and Development",
      "masking": "NONE",
      "nct": "NCT03482310",
+     "official_title": "Restoring High Dimensional Hand Function to Persons With Chronic High Tetraplegia",
      "phases": [
       "NA"
      ],
@@ -310,6 +317,7 @@
      "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
      "masking": "NONE",
      "nct": "NCT06094205",
+     "official_title": "Understanding and Restoring Speech Production Using an Intracortical Brain-computer Interface",
      "phases": [
       "NA"
      ],
@@ -354,6 +362,7 @@
      "lead_sponsor": "G\u00fcm\u00fc\u015fhane Univers\u0131ty",
      "masking": "SINGLE",
      "nct": "NCT07449767",
+     "official_title": "Effects of Resistance-Based Multicomponent Training Incorporating Respiratory Exercise on Diaphragm Thickness, Hepatic Attenuation, and Quality of Life in Healthy Older Men: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -388,6 +397,7 @@
      "lead_sponsor": "University of Colorado, Colorado Springs",
      "masking": "SINGLE",
      "nct": "NCT06405893",
+     "official_title": "What Makes People Better at Naming Pictured Objects",
      "phases": [
       "NA"
      ],
@@ -430,6 +440,7 @@
      "lead_sponsor": "Zhide Liang",
      "masking": "SINGLE",
      "nct": "NCT07567976",
+     "official_title": "Effects of Tai Chi on Balance Function in Community-Dwelling Older Adults: A Randomized Controlled Trial Examining the Predictive and Modifying Roles of Circadian Age, With Multi-Omics and Brain Function Assessments",
      "phases": [
       "NA"
      ],
@@ -465,6 +476,7 @@
      "lead_sponsor": "Istanbul University - Cerrahpasa",
      "masking": "DOUBLE",
      "nct": "NCT07505914",
+     "official_title": "Comparing Different Breathing Exercises Added to Balance Training on Cognitive and Functional Outcomes in Elderly Population",
      "phases": [
       "NA"
      ],
@@ -504,6 +516,7 @@
      "lead_sponsor": "Hasan Kalyoncu University",
      "masking": "NONE",
      "nct": "NCT07418970",
+     "official_title": "Investigating the Effects of Action Observation Therapy on Cognitive Function, Balance, Fatigue, and Functional Capacity in Geriatric Individuals: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -542,6 +555,7 @@
      "lead_sponsor": "Oregon Research Institute",
      "masking": "DOUBLE",
      "nct": "NCT05725668",
+     "official_title": "Dual-Task Training Exercise to Reduce Falls in Older Adults With Mild Cognitive Impairment",
      "phases": [
       "NA"
      ],
@@ -586,6 +600,7 @@
      "lead_sponsor": "Universidad Santo Tomas, Chile",
      "masking": "SINGLE",
      "nct": "NCT07278141",
+     "official_title": "Study Protocol: Effects of Combined Resistance Training and Dual-Task Interventions on Physical, Oculomotor, and Executive Functions in Older Adults With Mild Cognitive Impairment. A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -625,6 +640,7 @@
      "lead_sponsor": "Universidade Estadual Paulista J\u00falio de Mesquita Filho",
      "masking": "DOUBLE",
      "nct": "NCT07131761",
+     "official_title": "Effect of Tai Chi Versus Moderate-intensity Combined Exercise Training on Cardiovascular Health and Physical Functional Performance in Older Men and Women With T2DM",
      "phases": [
       "NA"
      ],
@@ -672,6 +688,7 @@
      "lead_sponsor": "Poznan University of Physical Education",
      "masking": "DOUBLE",
      "nct": "NCT07098533",
+     "official_title": "Cognicise Training for Seniors for Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -712,6 +729,7 @@
      "lead_sponsor": "Beijing Sport University",
      "masking": "SINGLE",
      "nct": "NCT07061158",
+     "official_title": "A Multidimensional Health Perspective: Analysis of the Effects of Yoga Intervention on Sleep Disorders in Older Adults",
      "phases": [
       "NA"
      ],
@@ -756,6 +774,7 @@
      "lead_sponsor": "The University of Tennessee, Knoxville",
      "masking": "SINGLE",
      "nct": "NCT06918678",
+     "official_title": "Feasibility and Preliminary Efficacy of Remotely Delivered Tai Chi on Older Adults' 24-Hour Movement Behaviors: A Crossover Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -795,6 +814,7 @@
      "lead_sponsor": "Artvin Coruh University",
      "masking": "NONE",
      "nct": "NCT06685731",
+     "official_title": "The Effects of Laughter Yoga on Sleep Quality, Vitality, Active Aging, and Quality of Life in Elderly Individuals",
      "phases": [
       "NA"
      ],
@@ -830,6 +850,7 @@
      "lead_sponsor": "University of Colorado, Colorado Springs",
      "masking": "SINGLE",
      "nct": "NCT05444114",
+     "official_title": "What Makes People Better at Describing Photographs?",
      "phases": [
       "NA"
      ],
@@ -867,6 +888,7 @@
      "lead_sponsor": "Florida International University",
      "masking": "SINGLE",
      "nct": "NCT03840525",
+     "official_title": "A Mind Body Intervention to Reduce Symptoms Among People Aging With HIV",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -910,6 +932,7 @@
      "lead_sponsor": "University Health Network, Toronto",
      "masking": "NONE",
      "nct": "NCT03483740",
+     "official_title": "Cognitive Remediation Group Therapy to Improve Older Adults' Ability to Cope With HIV-Associated Neurocognitive Disorder (HAND)",
      "phases": [
       "NA"
      ],
@@ -943,6 +966,7 @@
      "lead_sponsor": "Adly A Adam",
      "masking": "DOUBLE",
      "nct": "NCT06308458",
+     "official_title": "Effect Of The Breather Exerciser Trainer On Diaphragmatic Mobility And Thickness In Elderly",
      "phases": [
       "NA"
      ],
@@ -977,6 +1001,7 @@
      "lead_sponsor": "University of Salamanca",
      "masking": "SINGLE",
      "nct": "NCT05978921",
+     "official_title": "Effect of Physical Strength Exercise on Telomeric Length as a Marker of Aging and Early Death in Patients With Schizophrenia",
      "phases": [
       "NA"
      ],
@@ -1014,6 +1039,7 @@
      "lead_sponsor": "Cairo University",
      "masking": "SINGLE",
      "nct": "NCT05651854",
+     "official_title": "Effect of Bhramari Versus Sheetali Pranayama on Quality of Life in Hypertensive Patients",
      "phases": [
       "NA"
      ],
@@ -1052,6 +1078,7 @@
      "lead_sponsor": "National Taiwan University Hospital",
      "masking": "SINGLE",
      "nct": "NCT05672940",
+     "official_title": "Investigations of the Effects and Associated Neural Mechanisms of Different Long-term Exercise Interventions on Improving Brain, Cognitive, and Physical Functions in Middle-aged and Older Adults With Metabolic Syndrome",
      "phases": [
       "NA"
      ],
@@ -1090,6 +1117,7 @@
      "lead_sponsor": "Medical University of South Carolina",
      "masking": "SINGLE",
      "nct": "NCT03853148",
+     "official_title": "Activate For Life: A Nurse Delivered Hybrid Telehealth/mHealth Aging In Place Intervention To Address Pain And Fatigue In Low-income Older Adults",
      "phases": [
       "NA"
      ],
@@ -1129,6 +1157,7 @@
      "lead_sponsor": "Istanbul University - Cerrahpasa",
      "masking": "DOUBLE",
      "nct": "NCT05390008",
+     "official_title": "The Effects of Pelvic Floor Muscle Training and Modified Pilates Exercises in Elderly Women With Stress Urinary Incontinence",
      "phases": [
       "NA"
      ],
@@ -1167,6 +1196,7 @@
      "lead_sponsor": "Baskent University",
      "masking": "SINGLE",
      "nct": "NCT05249764",
+     "official_title": "Effects of Home-Based Exercise Training on Physical Fitness and Functionality in Sedentary Older Adults During the COVID-19 Pandemic",
      "phases": [
       "NA"
      ],
@@ -1200,6 +1230,7 @@
      "lead_sponsor": "Lady Davis Institute",
      "masking": "NONE",
      "nct": "NCT04726072",
+     "official_title": "Yoga and Brain Aging",
      "phases": [
       "NA"
      ],
@@ -1247,6 +1278,7 @@
      "lead_sponsor": "Adria Quigley",
      "masking": "SINGLE",
      "nct": "NCT03071562",
+     "official_title": "A Randomized Pilot Trial Evaluating the Impact and Feasibility of a Yoga-Mindfulness Intervention on Cognition, Quality of Life, Balance, Walking Speed, Medication Adherence, and Depression in Older Adults Infected With HIV",
      "phases": [
       "NA"
      ],
@@ -1280,6 +1312,7 @@
      "lead_sponsor": "University of California, San Diego",
      "masking": "DOUBLE",
      "nct": "NCT03544879",
+     "official_title": "Yoga to Prevent Mobility Limitations in Older Adults: A Pilot Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -1316,6 +1349,7 @@
      "lead_sponsor": "Universidade Federal de Pernambuco",
      "masking": "DOUBLE",
      "nct": "NCT03688932",
+     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
      "phases": [
       "NA"
      ],
@@ -1352,6 +1386,7 @@
      "lead_sponsor": "Universidade Federal de Pernambuco",
      "masking": "DOUBLE",
      "nct": "NCT03689322",
+     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Inflammatory Markers, Body Composition, Muscle Strength and Thickness",
      "phases": [
       "NA"
      ],
@@ -1383,6 +1418,7 @@
      "lead_sponsor": "University of Texas at Austin",
      "masking": "NONE",
      "nct": "NCT02488148",
+     "official_title": "Bikram Yoga and Vascular Health",
      "phases": [
       "NA"
      ],
@@ -1420,6 +1456,7 @@
      "lead_sponsor": "Stanford University",
      "masking": "SINGLE",
      "nct": "NCT01094509",
+     "official_title": "Tai Chi and Guided Autobiography for Remediation of Age-related Cognitive Decline",
      "phases": [
       "NA"
      ],
@@ -1458,6 +1495,7 @@
      "lead_sponsor": "Fundacio Salut i Envelliment UAB",
      "masking": "SINGLE",
      "nct": "NCT00944788",
+     "official_title": "Feasibility and Impact on Quality of Life and Depressive Symptoms of a Structured Qi-gong Program for Hospitalized Older Adults. A Pilot Study.",
      "phases": [
       "NA"
      ],
@@ -1494,6 +1532,7 @@
      "lead_sponsor": "Universidade Federal de Pernambuco",
      "masking": "DOUBLE",
      "nct": "NCT01791010",
+     "official_title": "Respiratory Muscle Training in the Elderly: a Strategy for Preservation of Inspiratory and Expiratory Pressures Impacting on Mobility and Thickness of the Diaphragm.",
      "phases": [
       "NA"
      ],
@@ -1583,6 +1622,7 @@
      "lead_sponsor": "Tobias Moeller-Bertram",
      "masking": null,
      "nct": "NCT06583395",
+     "official_title": "Effects Of Meditation On The Gut Microbiome And Human Health and Disease",
      "phases": [],
      "primary_completion": "2025-03-25",
      "primary_completion_type": "ESTIMATED",
@@ -1626,6 +1666,7 @@
      "lead_sponsor": "Tobias Moeller-Bertram",
      "masking": null,
      "nct": "NCT06615531",
+     "official_title": "Effects of Meditation on Human Well Being",
      "phases": [],
      "primary_completion": "2023-05-06",
      "primary_completion_type": "ACTUAL",
@@ -1671,6 +1712,7 @@
      "lead_sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
      "masking": "DOUBLE",
      "nct": "NCT07144293",
+     "official_title": "Improving Physical Ability and Cellular Senescence Elimination in HIV",
      "phases": [
       "PHASE2"
      ],
@@ -1710,6 +1752,7 @@
      "lead_sponsor": "Washington University School of Medicine",
      "masking": "NONE",
      "nct": "NCT07000734",
+     "official_title": "Fortifying Healthy Behaviors, Optimizing Medical Therapies and Enhancing Cognitive Function in Older Adults-pilot Study",
      "phases": [
       "PHASE2"
      ],
@@ -1750,6 +1793,7 @@
      "lead_sponsor": "Washington University School of Medicine",
      "masking": "NONE",
      "nct": "NCT05838560",
+     "official_title": "Dasatinib Plus Quercetin for Accelerated Aging in Mental Disorders",
      "phases": [
       "PHASE2"
      ],
@@ -1784,6 +1828,7 @@
      "lead_sponsor": "Lewis Lipsitz",
      "masking": "NONE",
      "nct": "NCT05422885",
+     "official_title": "Senolytics To Alleviate Mobility Issues and Neurological Impairment in Aging",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -1819,6 +1864,7 @@
      "lead_sponsor": "TruDiagnostic",
      "masking": "NONE",
      "nct": "NCT04946383",
+     "official_title": "The Safety and Effectivness of Quercetin and Dasatinib on the Epigenetic Aging Rates in Healthy Individuals",
      "phases": [
       "PHASE2"
      ],
@@ -1862,6 +1908,7 @@
      "lead_sponsor": "The University of Texas Medical Branch, Galveston",
      "masking": "SINGLE",
      "nct": "NCT04095923",
+     "official_title": "A Social Media Game to Increase Physical Activity Among Older Adult Women",
      "phases": [
       "NA"
      ],
@@ -1904,6 +1951,7 @@
      "lead_sponsor": "Mayo Clinic",
      "masking": "DOUBLE",
      "nct": "NCT06940037",
+     "official_title": "The Impact of Biological Mechanisms of Aging on Response Variability to Resistance Training in Older Adults (BRIO): A Randomized, Placebo-controlled Trial of Progressive Resistance Training in Older Adults.",
      "phases": [
       "NA"
      ],
@@ -1949,6 +1997,7 @@
      "lead_sponsor": "Friendi.fi Corporation",
      "masking": "SINGLE",
      "nct": "NCT07852650",
+     "official_title": "Randomized Control Trial to Test the Efficacy of the Digital STEADI Program.",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -1989,6 +2038,7 @@
      "lead_sponsor": "Medical University of Gdansk",
      "masking": "NONE",
      "nct": "NCT07839572",
+     "official_title": "Risk Factors and the Impact of a Physical Exercise Program on Inter-Recti Distance in the Geriatric Population",
      "phases": [
       "NA"
      ],
@@ -2033,6 +2083,7 @@
      "lead_sponsor": "University Hospital, Toulouse",
      "masking": "NONE",
      "nct": "NCT07831733",
+     "official_title": "Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents",
      "phases": [
       "NA"
      ],
@@ -2107,6 +2158,7 @@
      "lead_sponsor": "William Brandenburg, MD",
      "masking": "NONE",
      "nct": "NCT07669168",
+     "official_title": "Health Ahead: Sequential Comparative-Effectiveness Studies Toward Automated, Universally Deployable Preventive Health Screening",
      "phases": [
       "NA"
      ],
@@ -2145,6 +2197,7 @@
      "lead_sponsor": "Universit\u00e9 du Qu\u00e9bec a Montr\u00e9al",
      "masking": "NONE",
      "nct": "NCT04078334",
+     "official_title": "Prevention of the Functional Decline Throughout Hospitalization Among Older Adults by Using a Systematic Process for Prescribing Personalized, Evidence-based Exercises Via the Implementation of the Tool PATH 2.0",
      "phases": [
       "NA"
      ],
@@ -2183,6 +2236,7 @@
      "lead_sponsor": "LuciLab",
      "masking": "SINGLE",
      "nct": "NCT06748625",
+     "official_title": "Tailored, Multidomain, and Coach-assisted Digital Program for the Adoption and Maintenance of a Healthy Lifestyle in Middle-aged and Older Adults With Modifiable Risk Factors for Dementia: An Efficacy Study",
      "phases": [
       "PHASE3"
      ],
@@ -2217,6 +2271,7 @@
      "lead_sponsor": "The University of Hong Kong",
      "masking": "NONE",
      "nct": "NCT06217601",
+     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
      "phases": [
       "NA"
      ],
@@ -2287,6 +2342,7 @@
      "lead_sponsor": "Fred Hutchinson Cancer Center",
      "masking": "SINGLE",
      "nct": "NCT02425345",
+     "official_title": "Women's Health Initiative Strong and Healthy Study",
      "phases": [
       "NA"
      ],
@@ -2320,6 +2376,7 @@
      "lead_sponsor": "University of Alabama at Birmingham",
      "masking": "DOUBLE",
      "nct": "NCT07093216",
+     "official_title": "Understanding Response Variability to Optimize Exercise Efficacy for Improving Health Among Older Adults",
      "phases": [
       "NA"
      ],
@@ -2361,6 +2418,7 @@
      "lead_sponsor": "Massachusetts General Hospital",
      "masking": "NONE",
      "nct": "NCT06246929",
+     "official_title": "Comorbidity of Chronic Pain and Early Cognitive Decline Among Older, Community-Based Black Adults: Comparative Effectiveness of Mindfulness-Based Cognitive Therapy With Walking (MBCT+w) vs Active Living Every Day (ALED)",
      "phases": [
       "NA"
      ],
@@ -2403,6 +2461,7 @@
      "lead_sponsor": "University of Illinois Chicago",
      "masking": "DOUBLE",
      "nct": "NCT07094659",
+     "official_title": "Aging and Task-Specific Training to Reduce Falls",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -2471,6 +2530,7 @@
      "lead_sponsor": "University of Valencia",
      "masking": "DOUBLE",
      "nct": "NCT06620666",
+     "official_title": "Improvement of Biological and Functional Longevity Through Advanced Neuromuscular Training Protocols and Resources in Adulthood.",
      "phases": [
       "NA"
      ],
@@ -2508,6 +2568,7 @@
      "lead_sponsor": "Centre Hospitalier Universitaire de Nice",
      "masking": "SINGLE",
      "nct": "NCT07596056",
+     "official_title": "IMPULSION: Long-Term Engagement and Motivation Through Innovative Strategies in Adapted Physical Activity",
      "phases": [
       "NA"
      ],
@@ -2556,6 +2617,7 @@
      "lead_sponsor": "Sunway University",
      "masking": "NONE",
      "nct": "NCT06376656",
+     "official_title": "Successful Ageing: Evidence-based Interventions to Delay Ageing-related Decline",
      "phases": [
       "NA"
      ],
@@ -2606,6 +2668,7 @@
      "lead_sponsor": "University of North Carolina, Chapel Hill",
      "masking": "SINGLE",
      "nct": "NCT06740162",
+     "official_title": "A Stage 1 Pilot Test for Feasibility and Efficacy of a Multi-Level Intervention to Increase Physical Activity in Adults With Intellectual Disability: Physical Activity and Community EmPOWERment (PACE)",
      "phases": [
       "NA"
      ],
@@ -2654,6 +2717,7 @@
      "lead_sponsor": "Aveiro University",
      "masking": "SINGLE",
      "nct": "NCT07424274",
+     "official_title": "Randomized Clinical Trial of Multicomponent and Functional Exercise Protocols on Functional Capacity, Muscle Strength, Balance and Mental Health in Community-Dwelling Older Adults in Angola",
      "phases": [
       "NA"
      ],
@@ -2693,6 +2757,7 @@
      "lead_sponsor": "National Health Research Institutes, Taiwan",
      "masking": "TRIPLE",
      "nct": "NCT07330635",
+     "official_title": "Constructing a Holistic Care New Model for Chronic Wounds and Blood Circulation Detection to Enhance Home Care Quality",
      "phases": [
       "NA"
      ],
@@ -2742,6 +2807,7 @@
      "lead_sponsor": "University of Colorado, Denver",
      "masking": "SINGLE",
      "nct": "NCT05492240",
+     "official_title": "Advancing Rehabilitation Paradigms for Older Adults in Skilled Nursing Facilities",
      "phases": [
       "NA"
      ],
@@ -2780,6 +2846,7 @@
      "lead_sponsor": "Oregon Research Institute",
      "masking": "DOUBLE",
      "nct": "NCT05725668",
+     "official_title": "Dual-Task Training Exercise to Reduce Falls in Older Adults With Mild Cognitive Impairment",
      "phases": [
       "NA"
      ],
@@ -2824,6 +2891,7 @@
      "lead_sponsor": "Linkoeping University",
      "masking": "NONE",
      "nct": "NCT07136168",
+     "official_title": "Healthy Ageing - an Interdisciplinary Randomised Study of Health Dialogues in Primary Care",
      "phases": [
       "NA"
      ],
@@ -2862,6 +2930,7 @@
      "lead_sponsor": "Norwegian University of Science and Technology",
      "masking": "NONE",
      "nct": "NCT01666340",
+     "official_title": "Generation 100: How Exercise Affects Mortality and Morbidity in the Elderly: A Randomized Control Study",
      "phases": [
       "NA"
      ],
@@ -2900,6 +2969,7 @@
      "lead_sponsor": "Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal",
      "masking": "TRIPLE",
      "nct": "NCT02039830",
+     "official_title": "Group Physiotherapy Compared to Individual Physiotherapy to Treat Urinary Incontinence in Aging Women: A Randomized Control Trial",
      "phases": [
       "NA"
      ],
@@ -2941,6 +3011,7 @@
      "lead_sponsor": "Pennington Biomedical Research Center",
      "masking": "NONE",
      "nct": "NCT04799171",
+     "official_title": "Aging and the Mitochondrial Response to Exercise Training, Measured by Noninvasive 31P Magnetic Resonance Spectroscopy (MoTrMito)",
      "phases": [
       "NA"
      ],
@@ -2991,6 +3062,7 @@
      "lead_sponsor": "University of Barcelona",
      "masking": "SINGLE",
      "nct": "NCT07113860",
+     "official_title": "Reframing Expectations About Aging - Physical Activity and Inclusive Reappraisal (RE-PAIR): Protocol of an Intervention Aiming to Promote Positive Views on Aging and Behavior Change in Older Couples",
      "phases": [
       "NA"
      ],
@@ -3035,6 +3107,7 @@
      "lead_sponsor": "University of Milano Bicocca",
      "masking": "NONE",
      "nct": "NCT06248723",
+     "official_title": "ItaliaN Study With Tailored Multidomain Interventions to Prevent Functional and Cognitive Decline in Community-dwelling Older Adults",
      "phases": [
       "NA"
      ],
@@ -3070,6 +3143,7 @@
      "lead_sponsor": "University Hospital of Ferrara",
      "masking": "SINGLE",
      "nct": "NCT04183465",
+     "official_title": "Effectiveness of an Early, Tailored, Physical Activity Intervention in ELderly Patients With Myocardial INfarction: the PIpELINe Randomized Clinical Trial",
      "phases": [
       "NA"
      ],
@@ -3111,6 +3185,7 @@
      "lead_sponsor": "Eleftheria Giannouli",
      "masking": "SINGLE",
      "nct": "NCT07074639",
+     "official_title": "S.M.A.R.T: A Pragmatic Randomised Controlled Trial of Personalized Cognitive-Motor Exergame Training in Frail Community-Dwelling Adults",
      "phases": [
       "NA"
      ],
@@ -3155,6 +3230,7 @@
      "lead_sponsor": "University of Geneva, Switzerland",
      "masking": "TRIPLE",
      "nct": "NCT07072338",
+     "official_title": "PROMISE: Promoting Mental and Cognitive Health in Old Age Through Scalable Evidence-Based Interventions - Study Protocol for a Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -3189,6 +3265,7 @@
      "lead_sponsor": "McMaster University",
      "masking": "QUADRUPLE",
      "nct": "NCT03824106",
+     "official_title": "Frailty Rehabilitation: A Community-based Intervention to Promote Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -3228,6 +3305,7 @@
      "lead_sponsor": "Westlake University",
      "masking": "NONE",
      "nct": "NCT04135066",
+     "official_title": "Westlake Nutrition and Brain Health Study",
      "phases": [
       "NA"
      ],
@@ -3269,6 +3347,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "DOUBLE",
      "nct": "NCT03500640",
+     "official_title": "Reducing Cardiometabolic Risk and Promoting Functional Health in Community-based Elders With Obesity and Pre-diabetes: Evaluating Sustainable DPP Follow-up Strategies",
      "phases": [
       "NA"
      ],
@@ -3314,6 +3393,7 @@
      "lead_sponsor": "University of British Columbia",
      "masking": "NONE",
      "nct": "NCT04592614",
+     "official_title": "Choose to Move: How Can Health Benefits of an Effective, Scaled-up, Health Promotion Model for Older Adults be Sustained?",
      "phases": [
       "NA"
      ],
@@ -3372,6 +3452,7 @@
      "lead_sponsor": "National Taiwan University Hospital",
      "masking": "NONE",
      "nct": "NCT06882434",
+     "official_title": "Holistic Integration for Healthy Longevity and Aging in Place - Establishing Full-spectrum Community-based Care System for Older People to Maintain Wellbeing Pursuing Abilities",
      "phases": [
       "NA"
      ],
@@ -3414,6 +3495,7 @@
      "lead_sponsor": "Parc Sanitari Pere Virgili",
      "masking": "NONE",
      "nct": "NCT06836167",
+     "official_title": "+ AGIL Barcelona: Integrated Care for Community-Dwelling Frail Older Adults",
      "phases": [
       "NA"
      ],
@@ -3456,6 +3538,7 @@
      "lead_sponsor": "Nantes University Hospital",
      "masking": "NONE",
      "nct": "NCT06617806",
+     "official_title": "Advanced Practice Nurses for Fall Incidence PrevenTion in Robust Very Old Adults: Protocol for the APN-FIT Hybrid Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -3500,6 +3583,7 @@
      "lead_sponsor": "University of Valencia",
      "masking": "DOUBLE",
      "nct": "NCT06618469",
+     "official_title": "Effects of Resistance Training Programes At Different Intensities on Musculoskeletal, Metabolic, Lipid, Immunological, Inflammatory, Well-being and Functional Parameters in Older Adults.",
      "phases": [
       "NA"
      ],
@@ -3534,6 +3618,7 @@
      "lead_sponsor": "University of Cyprus",
      "masking": "SINGLE",
      "nct": "NCT06601491",
+     "official_title": "Lifestyle Randomised Intervention for Healthy Vascular Ageing - a Multifactorial Assessment of Vascular Ageing Among Cypriots in Early Adulthood Through Biobank.cy",
      "phases": [
       "NA"
      ],
@@ -3571,6 +3656,7 @@
      "lead_sponsor": "King Saud University",
      "masking": "SINGLE",
      "nct": "NCT06440681",
+     "official_title": "Effects of a 6-month Lifestyle Intervention Program in the DNAm PhenoAge, SOST, and GDF15 Markers of Biological Aging in Adults With Prediabetes",
      "phases": [
       "NA"
      ],
@@ -3609,6 +3695,7 @@
      "lead_sponsor": "Instituto de Investigaci\u00f3n Biom\u00e9dica de Salamanca",
      "masking": "SINGLE",
      "nct": "NCT02016014",
+     "official_title": "Effectiveness of the Use of a Mobile Tool Added to a Standard Intervention in Improving Lifestyles in Adults",
      "phases": [
       "NA"
      ],
@@ -3644,6 +3731,7 @@
      "lead_sponsor": "University of Colorado, Denver",
      "masking": "DOUBLE",
      "nct": "NCT06408090",
+     "official_title": "Knowledge of and Attitudes Toward Hospice, Decision-making Around Hospice in Older Black Adults",
      "phases": [
       "NA"
      ],
@@ -3693,6 +3781,7 @@
      "lead_sponsor": "McMaster University",
      "masking": "DOUBLE",
      "nct": "NCT05008159",
+     "official_title": "The Enhancing Physical and Community Mobility in Older Adults With Health Inequities Using Community Co-design of a Multifaceted Intervention Incorporating Physical Activity, Healthy Eating, Social Participation, and System Navigation (EMBOLDEN) Trial",
      "phases": [
       "NA"
      ],
@@ -3747,6 +3836,7 @@
      "lead_sponsor": "Fondazione Valter Longo",
      "masking": "NONE",
      "nct": "NCT05698654",
+     "official_title": "Evaluation of Longevity Diet and Fasting Mimicking Diet Programs on Body Composition, Disease Risk Factors, and Aging Markers: a Randomized Clinical Trial",
      "phases": [
       "NA"
      ],
@@ -3787,6 +3877,7 @@
      "lead_sponsor": "Hospital de Clinicas de Porto Alegre",
      "masking": "SINGLE",
      "nct": "NCT05347862",
+     "official_title": "Remote and Intensive Program for Physical Activity Promotion for People With Type 2 Diabetes: a Pragmatic Clinical Trial - The PRACTICE Trial",
      "phases": [
       "NA"
      ],
@@ -3826,6 +3917,7 @@
      "lead_sponsor": "University of North Carolina, Chapel Hill",
      "masking": "SINGLE",
      "nct": "NCT03810534",
+     "official_title": "Connect-Home: Testing the Efficacy of Transitional Care of Patients and Caregivers During Transitions From Skilled Nursing Facilities to Home",
      "phases": [
       "NA"
      ],
@@ -3867,6 +3959,7 @@
      "lead_sponsor": "University of Illinois Chicago",
      "masking": "NONE",
      "nct": "NCT01988233",
+     "official_title": "BAILA: Being Active, Increasing Latinos Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -3921,6 +4014,7 @@
      "lead_sponsor": "Instituto de Saude Publica da Universidade do Porto",
      "masking": "SINGLE",
      "nct": "NCT05383443",
+     "official_title": "Multiple Interventions to Prevent Cognitive Decline (MIND-Matosinhos) - a Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -3955,6 +4049,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "SINGLE",
      "nct": "NCT02663778",
+     "official_title": "Task Specific Timing and Coordination Exercise to Improve Mobility in Older Adults",
      "phases": [
       "NA"
      ],
@@ -3997,6 +4092,7 @@
      "lead_sponsor": "Baycrest",
      "masking": "TRIPLE",
      "nct": "NCT03602768",
+     "official_title": "Evaluation of Online Cognitive Fitness Programs",
      "phases": [
       "NA"
      ],
@@ -4034,6 +4130,7 @@
      "lead_sponsor": "University of Molise",
      "masking": "DOUBLE",
      "nct": "NCT02236416",
+     "official_title": "Physical Exercise and Prevention of Cognitive Decline in Subjects at Risk of Dementia: a Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -4075,6 +4172,7 @@
      "lead_sponsor": "VA Office of Research and Development",
      "masking": "SINGLE",
      "nct": "NCT01030874",
+     "official_title": "Effect of Treatment of Orthostatic Hypotension on a Rehabilitation Unit",
      "phases": [
       "NA"
      ],
@@ -4113,6 +4211,7 @@
      "lead_sponsor": "University of California, Los Angeles",
      "masking": "SINGLE",
      "nct": "NCT01641263",
+     "official_title": "Aging: Sleep and Inflammatory Mechanism in Depression Prevention",
      "phases": [
       "NA"
      ],
@@ -4148,6 +4247,7 @@
      "lead_sponsor": "University of Colorado, Boulder",
      "masking": "NONE",
      "nct": "NCT02068612",
+     "official_title": "Enhancing Function in Later Life: Exercise and Functional Network Connectivity",
      "phases": [
       "NA"
      ],
@@ -4191,6 +4291,7 @@
      "lead_sponsor": "University Ramon Llull",
      "masking": "SINGLE",
      "nct": "NCT02629666",
+     "official_title": "Exercise Referral Schemes Enhanced by Self-Management Strategies to Battle Sedentary Behaviour",
      "phases": [
       "NA"
      ],
@@ -4226,6 +4327,7 @@
      "lead_sponsor": "McMaster University",
      "masking": "SINGLE",
      "nct": "NCT02947230",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
      "phases": [
       "NA"
      ],
@@ -4265,6 +4367,7 @@
      "lead_sponsor": "McMaster University",
      "masking": "DOUBLE",
      "nct": "NCT03186703",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Cancer Risk in Underserved Populations.",
      "phases": [
       "NA"
      ],
@@ -4305,6 +4408,7 @@
      "lead_sponsor": "Kuopio University Hospital",
      "masking": "NONE",
      "nct": "NCT02665169",
+     "official_title": "Randomized Fall Prevention Trial For Aging Females by Providing Supervised Exercises and Free Use of Municipal Recreation Facilities.",
      "phases": [
       "NA"
      ],
@@ -4338,6 +4442,7 @@
      "lead_sponsor": "Norwegian University of Science and Technology",
      "masking": "NONE",
      "nct": "NCT01931124",
+     "official_title": "Effect of High Intensity and Moderate Training on Maximal Oxygen Uptake and Activity Levels in an Elderly Norwegian Population",
      "phases": [
       "NA"
      ],
@@ -4397,6 +4502,7 @@
      "lead_sponsor": "University of Zurich",
      "masking": "QUADRUPLE",
      "nct": "NCT01745263",
+     "official_title": "Vitamin D3 - Omega3 - Home Exercise - Healthy Ageing and Longevity Trial (Acronym: DO-HEALTH)",
      "phases": [
       "PHASE3"
      ],
@@ -4442,6 +4548,7 @@
      "lead_sponsor": "Azienda Unita' Sanitaria Locale Di Modena",
      "masking": "SINGLE",
      "nct": "NCT03592420",
+     "official_title": "Efficacy of a Multifactorial and Personalized Program for Fall Prevention in Community-dwelling Elderly in Comparison to the Usual Care: a Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -4488,6 +4595,7 @@
      "lead_sponsor": "University of Florida",
      "masking": "SINGLE",
      "nct": "NCT01072500",
+     "official_title": "The LIFE Study - Lifestyle Interventions and Independence for Elders",
      "phases": [
       "PHASE3"
      ],
@@ -4534,6 +4642,7 @@
      "lead_sponsor": "Judith Garcia-Aymerich",
      "masking": "DOUBLE",
      "nct": "NCT01897298",
+     "official_title": "Effectiveness of an Intervention of Urban Training in Patients With Chronic Obstructive Pulmonary Disease (COPD): a Randomised Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -4572,6 +4681,7 @@
      "lead_sponsor": "Fundacio Salut i Envelliment UAB",
      "masking": "SINGLE",
      "nct": "NCT02733523",
+     "official_title": "Promoting Self-Management, Health Literacy And Social Capital In Socioeconomically Disadvantaged Older Adults To Reduce Later Life Health Inequalities: A Randomized Clinical Trial",
      "phases": [
       "NA"
      ],
@@ -4607,6 +4717,7 @@
      "lead_sponsor": "Northwestern University",
      "masking": "NONE",
      "nct": "NCT02256072",
+     "official_title": "Advance Planning for Home Services for Seniors",
      "phases": [
       "NA"
      ],
@@ -4644,6 +4755,7 @@
      "lead_sponsor": "University of Illinois at Urbana-Champaign",
      "masking": "NONE",
      "nct": "NCT01030419",
+     "official_title": "Activity, Gait, and Efficacy (AGE II): Functional Limitations and Quality of Life",
      "phases": [
       "NA"
      ],
@@ -4687,6 +4799,7 @@
      "lead_sponsor": "US Department of Veterans Affairs",
      "masking": "NONE",
      "nct": "NCT00594399",
+     "official_title": "Enhancing Fitness in Older Overweight Vets With Impaired Fasting Glucose",
      "phases": [
       "PHASE2",
       "PHASE3"
@@ -4730,6 +4843,7 @@
      "lead_sponsor": "US Department of Veterans Affairs",
      "masking": "NONE",
      "nct": "NCT00435188",
+     "official_title": "Life 2: Improving Fitness and Function in Elders",
      "phases": [
       "NA"
      ],
@@ -4769,6 +4883,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "NONE",
      "nct": "NCT01616433",
+     "official_title": "Arthritis Foundation Exercise Program & \"10 Keys\" to Healthy Aging",
      "phases": [
       "PHASE2"
      ],
@@ -4814,6 +4929,7 @@
      "lead_sponsor": "Berkeley Analytics, Inc.",
      "masking": "SINGLE",
      "nct": "NCT01233063",
+     "official_title": "Diet and Activity Promotion Among Older Working Adults",
      "phases": [
       "NA"
      ],
@@ -4851,6 +4967,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
      "nct": "NCT00183014",
+     "official_title": "Trial to Increase Walking Among Sedentary Older Latinos",
      "phases": [
       "NA"
      ],
@@ -4898,6 +5015,7 @@
      "lead_sponsor": "Australian National University",
      "masking": "TRIPLE",
      "nct": "NCT00214682",
+     "official_title": "Beyond Ageing Project: A RCT to Assess the Benefit of Improving Mental Health Literacy as Well as the Effect of Folate and B12, and Physical Activity, in Preventing Major Depression and Cognitive Decline Among Older Australians",
      "phases": [
       "PHASE2"
      ],
@@ -4937,6 +5055,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
      "nct": "NCT00116194",
+     "official_title": "Physical Exercise to Prevent Disability Pilot Study",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -4972,6 +5091,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "NONE",
      "nct": "NCT00421681",
+     "official_title": "Exercise Adherence Among Older Adults With Osteoarthritis",
      "phases": [
       "NA"
      ],
@@ -5012,6 +5132,7 @@
      "lead_sponsor": "University of Washington",
      "masking": "NONE",
      "nct": "NCT00132288",
+     "official_title": "A Randomized Controlled Trial Linking Clinical Quality Improvement Programs for Older Diabetics to a Community Based Activity Support Center",
      "phases": [
       "NA"
      ],
@@ -5051,6 +5172,7 @@
      "lead_sponsor": "Mayo Clinic",
      "masking": "QUADRUPLE",
      "nct": "NCT07218445",
+     "official_title": "The Effect of Tirzepatide on Menopausal Vasomotor Symptoms and Biological Aging in Post-menopausal Women With Obesity: A Pilot Study",
      "phases": [
       "PHASE4"
      ],
@@ -5083,6 +5205,7 @@
      "lead_sponsor": "University of Sao Paulo General Hospital",
      "masking": "DOUBLE",
      "nct": "NCT04981366",
+     "official_title": "Effects of the Protein Supplementation Associated With Exercise Training in Elderly With Sarcopenic Obesity Undergoing Caloric Restriction",
      "phases": [
       "NA"
      ],
@@ -5117,6 +5240,7 @@
      "lead_sponsor": "Florida Institute for Human and Machine Cognition",
      "masking": "DOUBLE",
      "nct": "NCT07572266",
+     "official_title": "Adjuvant Nitrate to Boost Exercise-induced Health Benefits in Older Adults",
      "phases": [
       "NA"
      ],
@@ -5155,6 +5279,7 @@
      "lead_sponsor": "Mayo Clinic",
      "masking": "SINGLE",
      "nct": "NCT07057310",
+     "official_title": "Aging Well: Targeting Obesity With GLP-1 Agonists to Enhance Physical and Vascular Health in Postmenopausal Women",
      "phases": [
       "PHASE4"
      ],
@@ -5197,6 +5322,7 @@
      "lead_sponsor": "University of Manouba",
      "masking": "NONE",
      "nct": "NCT07695961",
+     "official_title": "Effects of Early Time-Restricted Eating Combined With a Multicomponent Exercise Program on Bone Mineral Density, Gait, Balance, and Fall Risk in Healthy Older Adults: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -5228,6 +5354,7 @@
      "lead_sponsor": "Cairo University",
      "masking": "SINGLE",
      "nct": "NCT07683286",
+     "official_title": "Effect of Pilates Exercises Versus Intermittent Fasting Diet on Physical and Metabolic Aging Process in Obese Perimenopausal Women",
      "phases": [
       "NA"
      ],
@@ -5277,6 +5404,7 @@
      "lead_sponsor": "University of Alabama at Birmingham",
      "masking": "TRIPLE",
      "nct": "NCT07546409",
+     "official_title": "Can Exogenous Ketone Supplementation Compensate for Glucose Hypometabolism and Improve Cognitive Processing Speed in Veterans With Prediabetes?",
      "phases": [
       "NA"
      ],
@@ -5318,6 +5446,7 @@
      "lead_sponsor": "University of Florida",
      "masking": "NONE",
      "nct": "NCT05732935",
+     "official_title": "Fasting to Provide Energy Needed to Help Adults in Need of Cognitive Enhancement (FASTING ENHANCE)",
      "phases": [
       "NA"
      ],
@@ -5385,6 +5514,7 @@
      "lead_sponsor": "University of Valencia",
      "masking": "DOUBLE",
      "nct": "NCT06620666",
+     "official_title": "Improvement of Biological and Functional Longevity Through Advanced Neuromuscular Training Protocols and Resources in Adulthood.",
      "phases": [
       "NA"
      ],
@@ -5429,6 +5559,7 @@
      "lead_sponsor": "IMDEA Food",
      "masking": "SINGLE",
      "nct": "NCT05880095",
+     "official_title": "Healthy Aging Through Time- Restricted Eating in Adults With Overweight/Obesity and Incipient Liver Disease: the ENSATI Study",
      "phases": [
       "NA"
      ],
@@ -5486,6 +5617,7 @@
      "lead_sponsor": "University of Nicosia",
      "masking": "NONE",
      "nct": "NCT07378787",
+     "official_title": "The Effect of Time-Restricted Eating in Combination With a Low Glycaemic Index Diet on Cognitive Function, Markers of Biological Age and Metabolic Health in Late-Perimenopausal and Menopausal Women: a Randomized Controlled Trial. The NutriAge Trial.",
      "phases": [
       "NA"
      ],
@@ -5520,6 +5652,7 @@
      "lead_sponsor": "University of Copenhagen",
      "masking": "NONE",
      "nct": "NCT07207044",
+     "official_title": "FAXAGE: A Randomized, Controlled Clinical Trial Of Fasting And Exercise To Slow Aging In Humans",
      "phases": [
       "NA"
      ],
@@ -5558,6 +5691,7 @@
      "lead_sponsor": "University of Maryland, Baltimore",
      "masking": "SINGLE",
      "nct": "NCT05968144",
+     "official_title": "ADRIAN: Towards Understanding of ADT Treatment and Dietary Patterns, Circadian Rhythm, Physiological Responsiveness, and Frailty",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -5605,6 +5739,7 @@
      "lead_sponsor": "University of Seville",
      "masking": "SINGLE",
      "nct": "NCT07361887",
+     "official_title": "Deciphering the Effect of Moderate Wine Consumption on Healthy Aging Through Postprandial Extracellular Vesicles",
      "phases": [
       "NA"
      ],
@@ -5636,6 +5771,7 @@
      "lead_sponsor": "Diabetes Foundation, India",
      "masking": "TRIPLE",
      "nct": "NCT07302932",
+     "official_title": "The Effect of Metformin Treatment on Surrogate Markers of Ageing (Leukocyte Telomere Length and Telomerase Activity), Longevity Gene Expression (Sirtuin 1, p66Shc, p53, Andmammalian Target of Rapamycin ), in North Indian Individuals With the Prediabetes: A Randomized Control Trial",
      "phases": [
       "NA"
      ],
@@ -5676,6 +5812,7 @@
      "lead_sponsor": "McMaster University",
      "masking": "SINGLE",
      "nct": "NCT06780995",
+     "official_title": "Power Exercise for Stroke Recovery: A Pilot Randomized Controlled Trial (POWER-Pilot)",
      "phases": [
       "NA"
      ],
@@ -5763,6 +5900,7 @@
      "lead_sponsor": "Technical University of Munich",
      "masking": "QUADRUPLE",
      "nct": "NCT06613542",
+     "official_title": "Effect Of Daily Taurine Supplementation For 6 Months On Biological Age and Metabolic Biomarkers As Well As Physical Fitness In 55-75-year-old Women And Men: A Randomized Controlled Intervention Study",
      "phases": [
       "NA"
      ],
@@ -5801,6 +5939,7 @@
      "lead_sponsor": "Wake Forest University Health Sciences",
      "masking": "SINGLE",
      "nct": "NCT05424042",
+     "official_title": "Health, Aging and Later-Life Outcomes Pilot Trial (HALLO-P): A 9-month Randomized Pilot Trial of 3 Nutritional Interventions in 120 Older Adults With an Indication for Weight Loss",
      "phases": [
       "NA"
      ],
@@ -5848,6 +5987,7 @@
      "lead_sponsor": "Charite University, Berlin, Germany",
      "masking": "SINGLE",
      "nct": "NCT07000708",
+     "official_title": "VITAL: Vaccination, Immunity, Time-restricted Eating, Aging and Lifestyle",
      "phases": [
       "NA"
      ],
@@ -5889,6 +6029,7 @@
      "lead_sponsor": "Universit\u00e9 de Sherbrooke",
      "masking": "NONE",
      "nct": "NCT06845514",
+     "official_title": "High Blood Pressure and Effect of Acute Resistance Training: Influence of Different Load Intensities on Postexercise Hypotension and Ambulatory Blood Pressure in Aging Females",
      "phases": [
       "NA"
      ],
@@ -5926,6 +6067,7 @@
      "lead_sponsor": "Wake Forest University",
      "masking": "DOUBLE",
      "nct": "NCT04655001",
+     "official_title": "MORPH II: Revisiting A Mobile Intervention to Reduce Pain and Improve Health (MORPH)",
      "phases": [
       "NA"
      ],
@@ -5973,6 +6115,7 @@
      "lead_sponsor": "St. Anne's University Hospital Brno, Czech Republic",
      "masking": "NONE",
      "nct": "NCT07042087",
+     "official_title": "Lifestyle for the BRAin Health - Time Restricted Eating and Mindfulness",
      "phases": [
       "NA"
      ],
@@ -6009,6 +6152,7 @@
      "lead_sponsor": "VA Office of Research and Development",
      "masking": "DOUBLE",
      "nct": "NCT05475236",
+     "official_title": "Brain Networks of Turning Performance With Aging and Stroke",
      "phases": [
       "NA"
      ],
@@ -6045,6 +6189,7 @@
      "lead_sponsor": "University of Colorado, Boulder",
      "masking": "DOUBLE",
      "nct": "NCT07011160",
+     "official_title": "Neural Substrates Underlying Adaptations in Manual Dexterity of Older Adults",
      "phases": [
       "NA"
      ],
@@ -6078,6 +6223,7 @@
      "lead_sponsor": "Northwestern University",
      "masking": "QUADRUPLE",
      "nct": "NCT03490825",
+     "official_title": "Enhancing Circadian Signal to Improve Cardiometabolic Function in Aging",
      "phases": [
       "NA"
      ],
@@ -6118,6 +6264,7 @@
      "lead_sponsor": "University of Adelaide",
      "masking": "NONE",
      "nct": "NCT05769335",
+     "official_title": "The Effects of Caloric Restriction Plus Time Restriction on Glycemia, Circadian Rhythms and Cardiometabolic Health",
      "phases": [
       "NA"
      ],
@@ -6150,6 +6297,7 @@
      "lead_sponsor": "Pennington Biomedical Research Center",
      "masking": "DOUBLE",
      "nct": "NCT05549362",
+     "official_title": "Dietary Approaches to Longevity and Health",
      "phases": [
       "NA"
      ],
@@ -6187,6 +6335,7 @@
      "lead_sponsor": "Laval University",
      "masking": "DOUBLE",
      "nct": "NCT06141642",
+     "official_title": "Self-Adaptive Immersive Virtual Reality Serious Game to Enhance Motor Skill Learning and Attention in Older Adults - A Double Blind Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -6223,6 +6372,7 @@
      "lead_sponsor": "Skidmore College",
      "masking": "NONE",
      "nct": "NCT04327141",
+     "official_title": "Comparison of Protein Pacing, Intermittent Fast vs. Heart Healthy Diet on Body Weight and Composition, Cardiometabolic, Mood, and Gut Microbiome Health, in Overweight Men and Women During Weight Loss; 24 Months Follow-up Case Study of 100 Pound Weight Loss in a Male Study Participant",
      "phases": [
       "NA"
      ],
@@ -6262,6 +6412,7 @@
      "lead_sponsor": "Samsung Medical Center",
      "masking": "DOUBLE",
      "nct": "NCT05862077",
+     "official_title": "Long-term Exercise Effect of EX1 Exercise Program",
      "phases": [
       "NA"
      ],
@@ -6302,6 +6453,7 @@
      "lead_sponsor": "University of British Columbia",
      "masking": "SINGLE",
      "nct": "NCT06000605",
+     "official_title": "Does Cerebral Substrate Switching Underlie the Beneficial Brain Adaptations of Fasting and Exercise?",
      "phases": [
       "NA"
      ],
@@ -6347,6 +6499,7 @@
      "lead_sponsor": "University of Talca",
      "masking": "SINGLE",
      "nct": "NCT05955131",
+     "official_title": "Formulaci\u00f3n de Productos de panificaci\u00f3n Suplementados Con Harina de Porotos Nativos Chilenos Para Disminuir Respuestas glic\u00e9micas Postprandiales y agregaci\u00f3n Plaquetaria en Personas Mayores: Un Estudio Piloto",
      "phases": [
       "NA"
      ],
@@ -6391,6 +6544,7 @@
      "lead_sponsor": "University of Aarhus",
      "masking": "SINGLE",
      "nct": "NCT04762342",
+     "official_title": "Power Training in Older Multiple Sclerosis Patients",
      "phases": [
       "NA"
      ],
@@ -6445,6 +6599,7 @@
      "lead_sponsor": "Fondazione Valter Longo",
      "masking": "NONE",
      "nct": "NCT05698654",
+     "official_title": "Evaluation of Longevity Diet and Fasting Mimicking Diet Programs on Body Composition, Disease Risk Factors, and Aging Markers: a Randomized Clinical Trial",
      "phases": [
       "NA"
      ],
@@ -6479,6 +6634,7 @@
      "lead_sponsor": "Guangzhou Sport University",
      "masking": "SINGLE",
      "nct": "NCT05865639",
+     "official_title": "Effects of Time Restricted Fasting and Exercise on Cardiovascular Risks Among Sedentary Adults",
      "phases": [
       "NA"
      ],
@@ -6513,6 +6669,7 @@
      "lead_sponsor": "University of Copenhagen",
      "masking": "NONE",
      "nct": "NCT05593939",
+     "official_title": "Slow Age: a Randomized, Controlled Clinical Trial of Interventions to Slow Aging in Humans",
      "phases": [
       "PHASE2"
      ],
@@ -6555,6 +6712,7 @@
      "lead_sponsor": "Massachusetts General Hospital",
      "masking": "SINGLE",
      "nct": "NCT04840095",
+     "official_title": "Dynamic Connectivity Under Metabolic Constraints",
      "phases": [
       "PHASE4"
      ],
@@ -6599,6 +6757,7 @@
      "lead_sponsor": "University College Dublin",
      "masking": "SINGLE",
      "nct": "NCT05420142",
+     "official_title": "Innovative plAnt Protein Fibre and Physical Activity Solutions to Address Poor appEtite and prevenT undernutrITion in oldEr Adults (APPETITE): Determination of In-vivo Plasma AA Appearance From Plant Protein Fibre Products",
      "phases": [
       "PHASE2"
      ],
@@ -6638,6 +6797,7 @@
      "lead_sponsor": "Istanbul University - Cerrahpasa",
      "masking": "DOUBLE",
      "nct": "NCT05390008",
+     "official_title": "The Effects of Pelvic Floor Muscle Training and Modified Pilates Exercises in Elderly Women With Stress Urinary Incontinence",
      "phases": [
       "NA"
      ],
@@ -6677,6 +6837,7 @@
      "lead_sponsor": "Duke University",
      "masking": "SINGLE",
      "nct": "NCT00427193",
+     "official_title": "Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy (CALERIE)",
      "phases": [
       "NA"
      ],
@@ -6711,6 +6872,7 @@
      "lead_sponsor": "TruDiagnostic",
      "masking": "SINGLE",
      "nct": "NCT04962464",
+     "official_title": "The Impact of Fasting Mimicking Diet Program and Calorie Mimetic Supplements on Epigenetic Aging",
      "phases": [
       "PHASE2"
      ],
@@ -6747,6 +6909,7 @@
      "lead_sponsor": "Washington University School of Medicine",
      "masking": "NONE",
      "nct": "NCT01964118",
+     "official_title": "Can Intermittent Fasting Mimic the Metabolic and Cardiovascular and Anti-aging Effects of Calorie Restriction?",
      "phases": [
       "NA"
      ],
@@ -6790,6 +6953,7 @@
      "lead_sponsor": "King's College London",
      "masking": "NONE",
      "nct": "NCT03457870",
+     "official_title": "Investigating the Impact of Intermittent Energy Restriction and Chewing on Neural Stem Cell Ageing and Adult Hippocampal Neurogenesis: The ChANgE Study",
      "phases": [
       "NA"
      ],
@@ -6827,6 +6991,7 @@
      "lead_sponsor": "Hospital de Clinicas de Porto Alegre",
      "masking": "TRIPLE",
      "nct": "NCT03615625",
+     "official_title": "Effect of a Power Training Session on Ambulatory Blood Pressure in Older Adults With Hypertension: a Randomized Crossover Trial",
      "phases": [
       "NA"
      ],
@@ -6871,6 +7036,7 @@
      "lead_sponsor": "Johns Hopkins University",
      "masking": "DOUBLE",
      "nct": "NCT03289832",
+     "official_title": "Effect of Orally Delivered Phytochemicals, Alone, and in Combination, on Aging and Inflammation-Related Effects in the Skin",
      "phases": [
       "NA"
      ],
@@ -6906,6 +7072,7 @@
      "lead_sponsor": "Augusta University",
      "masking": "TRIPLE",
      "nct": "NCT04386577",
+     "official_title": "Effects of Vitamin D and Omega-3 Supplementation on Telomeres in VITAL",
      "phases": [
       "PHASE3"
      ],
@@ -6946,6 +7113,7 @@
      "lead_sponsor": "Leiden University Medical Center",
      "masking": "NONE",
      "nct": "NCT01243879",
+     "official_title": "The Effect of Food Stimuli on the Calorie Restriction Response in Healthy Subjects",
      "phases": [
       "NA"
      ],
@@ -6989,6 +7157,7 @@
      "lead_sponsor": "University of Illinois Chicago",
      "masking": "SINGLE",
      "nct": "NCT03758846",
+     "official_title": "Comparing Conventional and Alternative Therapies for Improving Motor Impairment, Fall-risk and Overall Physical Function",
      "phases": [
       "NA"
      ],
@@ -7031,6 +7200,7 @@
      "lead_sponsor": "Stony Brook University",
      "masking": "SINGLE",
      "nct": "NCT04106882",
+     "official_title": "Dynamic Connectivity Under Metabolic Constraints",
      "phases": [
       "PHASE4"
      ],
@@ -7063,6 +7233,7 @@
      "lead_sponsor": "University of Rochester",
      "masking": "SINGLE",
      "nct": "NCT03293823",
+     "official_title": "HARP-Project 1 Cognitive Training",
      "phases": [
       "NA"
      ],
@@ -7099,6 +7270,7 @@
      "lead_sponsor": "University of the Basque Country (UPV/EHU)",
      "masking": "DOUBLE",
      "nct": "NCT03996083",
+     "official_title": "A Randomized Controlled Trial to Compare a Multicomponent Exercise Program and a Walking Program in Long-term Nursing Home Residents",
      "phases": [
       "NA"
      ],
@@ -7136,6 +7308,7 @@
      "lead_sponsor": "University of Colorado, Boulder",
      "masking": "NONE",
      "nct": "NCT02970188",
+     "official_title": "The Effect of Time-restricted Feeding on Physiological Function in Middle-aged and Older Adults",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -7187,6 +7360,7 @@
      "lead_sponsor": "University of Valencia",
      "masking": "DOUBLE",
      "nct": "NCT03455179",
+     "official_title": "Effects of Slow-speed Traditional Resistance Training, High-speed Resistance Training and Multicomponent Training With Variable Resistances on Molecular, Body Composition, Neuromuscular, Physical Function and Quality of Life Variables in Older Adults.",
      "phases": [
       "NA"
      ],
@@ -7223,6 +7397,7 @@
      "lead_sponsor": "University of Regina",
      "masking": "DOUBLE",
      "nct": "NCT03530202",
+     "official_title": "The Effect of High-velocity Resistance Training (HVRT) and Creatine Supplementation in Healthy Aging Males",
      "phases": [
       "PHASE2"
      ],
@@ -7256,6 +7431,7 @@
      "lead_sponsor": "Xiang Guang-da",
      "masking": "NONE",
      "nct": "NCT02745886",
+     "official_title": "Chronic Metformin Treatment Induces a Dietary Restriction-like State in Overweight Human",
      "phases": [
       "PHASE4"
      ],
@@ -7288,6 +7464,7 @@
      "lead_sponsor": "Pennington Biomedical Research Center",
      "masking": "SINGLE",
      "nct": "NCT02695511",
+     "official_title": "CALERIE Phase II Ancillary 2: Metabolic Adaptation After Two Years of Caloric Restriction in Non Obese Humans",
      "phases": [
       "PHASE2"
      ],
@@ -7333,6 +7510,7 @@
      "lead_sponsor": "University of Florida",
      "masking": "QUADRUPLE",
      "nct": "NCT02132091",
+     "official_title": "The Effect of Intermittent Fasting on Adaptive Oxidative Stress Response and Mitochondrial Biogenesis",
      "phases": [
       "NA"
      ],
@@ -7376,6 +7554,7 @@
      "lead_sponsor": "US Department of Veterans Affairs",
      "masking": "NONE",
      "nct": "NCT00594399",
+     "official_title": "Enhancing Fitness in Older Overweight Vets With Impaired Fasting Glucose",
      "phases": [
       "PHASE2",
       "PHASE3"
@@ -7422,6 +7601,7 @@
      "lead_sponsor": "Washington University School of Medicine",
      "masking": "TRIPLE",
      "nct": "NCT00823381",
+     "official_title": "Effect of Resvida(tm) Dietary Supplementation on Muscle Gene Expression: A Comparison With Calorie Restriction Regimen",
      "phases": [
       "NA"
      ],
@@ -7464,6 +7644,7 @@
      "lead_sponsor": "University Hospital Muenster",
      "masking": "SINGLE",
      "nct": "NCT00996229",
+     "official_title": "Phase IV Interventional Study: Effects of Dietary Interventions on Brain Functions in Healthy Elderly People",
      "phases": [
       "PHASE3"
      ],
@@ -7496,6 +7677,7 @@
      "lead_sponsor": "Washington University School of Medicine",
      "masking": "NONE",
      "nct": "NCT01752868",
+     "official_title": "Can Fish Oil and Phytochemical Supplements Mimic Anti-Aging Effects of Calorie Restriction?",
      "phases": [
       "NA"
      ],
@@ -7534,6 +7716,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
      "nct": "NCT00099138",
+     "official_title": "Caloric Restriction and Aging in Humans",
      "phases": [
       "PHASE1"
      ],
@@ -7569,6 +7752,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
      "nct": "NCT00099099",
+     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
      "phases": [
       "PHASE1"
      ],
@@ -7608,6 +7792,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
      "nct": "NCT00099151",
+     "official_title": "Metabolic Adaptations to Six Month Caloric Restriction",
      "phases": [
       "NA"
      ],
@@ -7641,6 +7826,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "DOUBLE",
      "nct": "NCT00183027",
+     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
      "phases": [
       "NA"
      ],
@@ -7681,6 +7867,7 @@
      "lead_sponsor": "Cedars-Sinai Medical Center",
      "masking": "QUADRUPLE",
      "nct": "NCT07676435",
+     "official_title": "A PHASE II, DOUBLE-BLIND, PLACEBO-CONTROLLED STUDY EVALUATING THE ONGOING LUNG DECLINE WITH AGE INTENSIFIED RESPONSE (OLD AIR)",
      "phases": [
       "PHASE2"
      ],
@@ -7716,6 +7903,7 @@
      "lead_sponsor": "University of Colorado, Boulder",
      "masking": "TRIPLE",
      "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
      "phases": [
       "PHASE2"
      ],
@@ -7751,6 +7939,7 @@
      "lead_sponsor": "University of Colorado, Boulder",
      "masking": "TRIPLE",
      "nct": "NCT06133634",
+     "official_title": "Clinical Translation of Senolytic Therapy With Fisetin to Improve Vascular Function in Older Adults",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -7793,6 +7982,7 @@
      "lead_sponsor": "Huazhong University of Science and Technology",
      "masking": "QUADRUPLE",
      "nct": "NCT06990256",
+     "official_title": "Evaluation of Urolithin A and Fisetin on Improving Sleep and Aging Biomarkers in Middle-Aged and Older Adults: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -7829,6 +8019,7 @@
      "lead_sponsor": "Mayo Clinic",
      "masking": "DOUBLE",
      "nct": "NCT03675724",
+     "official_title": "AFFIRM-LITE: A Phase 2 Randomized, Placebo-Controlled Study of Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Adults",
      "phases": [
       "PHASE2"
      ],
@@ -7864,6 +8055,7 @@
      "lead_sponsor": "Ove Andersen",
      "masking": "QUADRUPLE",
      "nct": "NCT07195318",
+     "official_title": "Low-dose Fisetin Supplementation for Healthy Aging - a Triple-blind, Randomized, Placebo-controlled Trial",
      "phases": [
       "NA"
      ],
@@ -7901,6 +8093,7 @@
      "lead_sponsor": "Northwestern University",
      "masking": "QUADRUPLE",
      "nct": "NCT06399809",
+     "official_title": "Fisetin to Reduce Senescence and Mobility Impairment in Peripheral Artery Disease: the FIRST Pilot Randomized Trial",
      "phases": [
       "PHASE2"
      ],
@@ -7954,6 +8147,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": "NONE",
      "nct": "NCT07475546",
+     "official_title": "A Pilot Randomized Controlled Study of Combinatorial Gerotherapeutics for Healthspan Improvement",
      "phases": [
       "PHASE3"
      ],
@@ -8000,6 +8194,7 @@
      "lead_sponsor": "Sheba Medical Center",
      "masking": "NONE",
      "nct": "NCT07871799",
+     "official_title": "Evidence-Based Longevity Interventions and Targeted Engagement (E.L.I.T.E.)",
      "phases": [
       "PHASE2"
      ],
@@ -8038,6 +8233,7 @@
      "lead_sponsor": "VA Office of Research and Development",
      "masking": "TRIPLE",
      "nct": "NCT04221750",
+     "official_title": "Lifestyle Intervention Plus Metformin to Treat Frailty in Older Veterans With Obesity",
      "phases": [
       "PHASE3"
      ],
@@ -8083,6 +8279,7 @@
      "lead_sponsor": "Oklahoma Medical Research Foundation",
      "masking": "TRIPLE",
      "nct": "NCT04264897",
+     "official_title": "Does Insulin Sensitivity Impact the Potential of Metformin to Slow Aging",
      "phases": [
       "PHASE3"
      ],
@@ -8114,6 +8311,7 @@
      "lead_sponsor": "Diabetes Foundation, India",
      "masking": "TRIPLE",
      "nct": "NCT07302932",
+     "official_title": "The Effect of Metformin Treatment on Surrogate Markers of Ageing (Leukocyte Telomere Length and Telomerase Activity), Longevity Gene Expression (Sirtuin 1, p66Shc, p53, Andmammalian Target of Rapamycin ), in North Indian Individuals With the Prediabetes: A Randomized Control Trial",
      "phases": [
       "NA"
      ],
@@ -8146,6 +8344,7 @@
      "lead_sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
      "masking": "NONE",
      "nct": "NCT07293325",
+     "official_title": "Assessing the Role of GLP-1 Receptor Agonist Semaglutide and Dual GLP-I/GIP Receptor Agonist Tirzepatide in Delaying Genetic Aging in Adult Obese Patients Using the iWatchAge Technology",
      "phases": [
       "NA"
      ],
@@ -8187,6 +8386,7 @@
      "lead_sponsor": "University of Utah",
      "masking": "TRIPLE",
      "nct": "NCT03107884",
+     "official_title": "Metformin to Prevent Inactivity-induced Loss of Muscle Health During Aging",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -8222,6 +8422,7 @@
      "lead_sponsor": "State University of New York at Buffalo",
      "masking": "QUADRUPLE",
      "nct": "NCT06463743",
+     "official_title": "Metformin as an add-on or Monotherapy in Treatment of Aging People With Multiple Sclerosis (MS): Randomized, Placebo-controlled Pilot Study.",
      "phases": [
       "PHASE2"
      ],
@@ -8263,6 +8464,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": "NONE",
      "nct": "NCT07092618",
+     "official_title": "Effectiveness of Alternative Therapies in Maintaining Weight Loss Achieved by GLP-1 Medications Post-Cessation: A Randomized, Controlled Trial",
      "phases": [
       "PHASE2",
       "PHASE3"
@@ -8295,6 +8497,7 @@
      "lead_sponsor": "Fundaci\u00f3n Instituto de Investigaci\u00f3n Sanitaria de Navarra",
      "masking": "TRIPLE",
      "nct": "NCT06999343",
+     "official_title": "Exploring the Anti-ageing Effects of Metformin in COPD",
      "phases": [
       "PHASE3"
      ],
@@ -8339,6 +8542,7 @@
      "lead_sponsor": "Xuanwu Hospital, Beijing",
      "masking": "DOUBLE",
      "nct": "NCT06459310",
+     "official_title": "A Phase II Exploratory Clinical Study Investigating the Geroprotective Effect of Metformin in Middle-aged and Elderly People",
      "phases": [
       "PHASE2"
      ],
@@ -8371,6 +8575,7 @@
      "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
      "masking": "TRIPLE",
      "nct": "NCT03713801",
+     "official_title": "Metformin and Vaccine Response in Older Adults",
      "phases": [
       "PHASE1"
      ],
@@ -8407,6 +8612,7 @@
      "lead_sponsor": "Matthew Neal MD",
      "masking": "TRIPLE",
      "nct": "NCT03861767",
+     "official_title": "Randomized, Embedded, Multifactorial, Adaptive Platform Trial for Optimizing Surgical Outcomes at UPMC",
      "phases": [
       "PHASE3"
      ],
@@ -8441,6 +8647,7 @@
      "lead_sponsor": "University of New Mexico",
      "masking": "QUADRUPLE",
      "nct": "NCT03309007",
+     "official_title": "A Double-Blind, Placebo-Controlled Trial of Anti-Aging, Pro-Autophagy Effects of Metformin in Adults With Prediabetes",
      "phases": [
       "PHASE3"
      ],
@@ -8474,6 +8681,7 @@
      "lead_sponsor": "Mayo Clinic",
      "masking": "DOUBLE",
      "nct": "NCT03451006",
+     "official_title": "(MATE) Metformin and Aging Trial in the Elderly: A Pilot and Feasibility Study",
      "phases": [
       "PHASE2"
      ],
@@ -8509,6 +8717,7 @@
      "lead_sponsor": "Albert Einstein College of Medicine",
      "masking": "DOUBLE",
      "nct": "NCT02432287",
+     "official_title": "Metformin in Longevity Study (MILES).",
      "phases": [
       "PHASE4"
      ],
@@ -8542,6 +8751,7 @@
      "lead_sponsor": "UConn Health",
      "masking": "DOUBLE",
      "nct": "NCT03996538",
+     "official_title": "Vaccination Efficacy With Metformin in Older Adults: A Pilot Study",
      "phases": [
       "PHASE1"
      ],
@@ -8581,6 +8791,7 @@
      "lead_sponsor": "Philip Kern",
      "masking": "TRIPLE",
      "nct": "NCT02308228",
+     "official_title": "Novel Actions of Metformin to Augment Resistance Training Adaptations in Older Adults",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -8615,6 +8826,7 @@
      "lead_sponsor": "Anne Chang",
      "masking": "DOUBLE",
      "nct": "NCT03072485",
+     "official_title": "Phase 1 Study of the Effects of Combining Topical FDA-approved Drugs on Age-related Pathways on the Skin of Healthy Volunteers",
      "phases": [
       "PHASE1"
      ],
@@ -8648,6 +8860,7 @@
      "lead_sponsor": "Xiang Guang-da",
      "masking": "NONE",
      "nct": "NCT02745886",
+     "official_title": "Chronic Metformin Treatment Induces a Dietary Restriction-like State in Overweight Human",
      "phases": [
       "PHASE4"
      ],
@@ -8688,6 +8901,7 @@
      "lead_sponsor": "University of Padova",
      "masking": "SINGLE",
      "nct": "NCT01765946",
+     "official_title": "Effects of Metformin on Longevity Gene Expression and Inflammation and Prediabetic Individuals. A Placebo-controlled Trial",
      "phases": [
       "PHASE4"
      ],
@@ -8731,6 +8945,7 @@
      "lead_sponsor": "Northwestern University",
      "masking": "DOUBLE",
      "nct": "NCT07334106",
+     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -8782,6 +8997,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": "NONE",
      "nct": "NCT07475546",
+     "official_title": "A Pilot Randomized Controlled Study of Combinatorial Gerotherapeutics for Healthspan Improvement",
      "phases": [
       "PHASE3"
      ],
@@ -8822,6 +9038,7 @@
      "lead_sponsor": "Consorci Sanitari de Terrassa",
      "masking": "NONE",
      "nct": "NCT06956794",
+     "official_title": "Multimodal Training With Immersive VIRTUAL Reality to Improve the Cognitive Health and Emotional Well-being of Older Women Living Alone (VirtualDONA)",
      "phases": [
       "NA"
      ],
@@ -8866,6 +9083,7 @@
      "lead_sponsor": "Drexel University",
      "masking": "SINGLE",
      "nct": "NCT07852572",
+     "official_title": "Evaluating the Effects of Online Group Mindfulness-based Dance/Movement Therapy on Physical Activity and Whole-Person Health in Older Adults",
      "phases": [
       "NA"
      ],
@@ -8902,6 +9120,7 @@
      "lead_sponsor": "Mu\u015f Alparslan University",
      "masking": "SINGLE",
      "nct": "NCT06964399",
+     "official_title": "Psychological Well-Being and Mindfulness in Older Adults: The Effect of Reminiscence Therapy",
      "phases": [
       "NA"
      ],
@@ -8939,6 +9158,7 @@
      "lead_sponsor": "KTO Karatay University",
      "masking": "DOUBLE",
      "nct": "NCT07344896",
+     "official_title": "Effects of a Mindfulness-Based Stress Reduction Program on Aging Anxiety and Body Image in Middle-Aged Women: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -8982,6 +9202,7 @@
      "lead_sponsor": "University of California, San Francisco",
      "masking": "TRIPLE",
      "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
      "phases": [
       "NA"
      ],
@@ -9029,6 +9250,7 @@
      "lead_sponsor": "University of California, San Francisco",
      "masking": "TRIPLE",
      "nct": "NCT06397469",
+     "official_title": "Optimizing a Closed-loop Digital Meditation Intervention for Remediating Cognitive Decline and Reducing Stress in Older Adults",
      "phases": [
       "NA"
      ],
@@ -9063,6 +9285,7 @@
      "lead_sponsor": "University of Colorado, Colorado Springs",
      "masking": "SINGLE",
      "nct": "NCT06405893",
+     "official_title": "What Makes People Better at Naming Pictured Objects",
      "phases": [
       "NA"
      ],
@@ -9104,6 +9327,7 @@
      "lead_sponsor": "Ohio State University",
      "masking": "DOUBLE",
      "nct": "NCT07019402",
+     "official_title": "Internet-based Mind-Body Training (iMBT) for Brain Health",
      "phases": [
       "NA"
      ],
@@ -9145,6 +9369,7 @@
      "lead_sponsor": "Massachusetts General Hospital",
      "masking": "NONE",
      "nct": "NCT06246929",
+     "official_title": "Comorbidity of Chronic Pain and Early Cognitive Decline Among Older, Community-Based Black Adults: Comparative Effectiveness of Mindfulness-Based Cognitive Therapy With Walking (MBCT+w) vs Active Living Every Day (ALED)",
      "phases": [
       "NA"
      ],
@@ -9187,6 +9412,7 @@
      "lead_sponsor": "Zhide Liang",
      "masking": "SINGLE",
      "nct": "NCT07567976",
+     "official_title": "Effects of Tai Chi on Balance Function in Community-Dwelling Older Adults: A Randomized Controlled Trial Examining the Predictive and Modifying Roles of Circadian Age, With Multi-Omics and Brain Function Assessments",
      "phases": [
       "NA"
      ],
@@ -9222,6 +9448,7 @@
      "lead_sponsor": "Heike A. Bischoff-Ferrari, Prof. Dr. med., DrPH",
      "masking": "DOUBLE",
      "nct": "NCT07523061",
+     "official_title": "PrecisionAge Pilot Study",
      "phases": [
       "NA"
      ],
@@ -9254,6 +9481,7 @@
      "lead_sponsor": "University of Miami",
      "masking": "SINGLE",
      "nct": "NCT07314827",
+     "official_title": "A Feasibility Study Examining the Comparison of Transcendental Meditation Versus Health Education on Psychological and Hemodynamic Function in Post-menopausal Women",
      "phases": [
       "NA"
      ],
@@ -9300,6 +9528,7 @@
      "lead_sponsor": "University of Alabama, Tuscaloosa",
      "masking": "DOUBLE",
      "nct": "NCT07272863",
+     "official_title": "The Impact of BBTI on Cognition and Sleep Health in Older Adults With HIV",
      "phases": [
       "NA"
      ],
@@ -9341,6 +9570,7 @@
      "lead_sponsor": "University of Coimbra",
      "masking": "SINGLE",
      "nct": "NCT06922071",
+     "official_title": "The REMINDER4Care Program for Older Adults Supported by Residential and Daycare Facilities",
      "phases": [
       "NA"
      ],
@@ -9380,6 +9610,7 @@
      "lead_sponsor": "University of British Columbia",
      "masking": "NONE",
      "nct": "NCT06516146",
+     "official_title": "Impact 360 Study for Healthy Agers",
      "phases": [
       "NA"
      ],
@@ -9422,6 +9653,7 @@
      "lead_sponsor": "Brigham and Women's Hospital",
      "masking": "NONE",
      "nct": "NCT05128396",
+     "official_title": "Successful Aging and Enrichment (SAGE): Effects of Environmental Stimulation on Cognitive Health and Neuroplasticity",
      "phases": [
       "NA"
      ],
@@ -9462,6 +9694,7 @@
      "lead_sponsor": "Beijing Sport University",
      "masking": "SINGLE",
      "nct": "NCT07061158",
+     "official_title": "A Multidimensional Health Perspective: Analysis of the Effects of Yoga Intervention on Sleep Disorders in Older Adults",
      "phases": [
       "NA"
      ],
@@ -9509,6 +9742,7 @@
      "lead_sponsor": "St. Anne's University Hospital Brno, Czech Republic",
      "masking": "NONE",
      "nct": "NCT07042087",
+     "official_title": "Lifestyle for the BRAin Health - Time Restricted Eating and Mindfulness",
      "phases": [
       "NA"
      ],
@@ -9543,6 +9777,7 @@
      "lead_sponsor": "Chang Gung University of Science and Technology",
      "masking": "SINGLE",
      "nct": "NCT07025655",
+     "official_title": "The Effectiveness of a Multifaceted Mindfulness Program Integrated With Digital Technology-Assisted Learning on Healthy Aging in Community-Dwelling Older Adults: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -9574,6 +9809,7 @@
      "lead_sponsor": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France",
      "masking": "SINGLE",
      "nct": "NCT02977819",
+     "official_title": "Interventional Study in Cognitively Intact Seniors Aiming to Assess the Effects of Meditation Training and Foreign Language Learning on Behavioral, Biological and Neuroimaging Measures",
      "phases": [
       "NA"
      ],
@@ -9615,6 +9851,7 @@
      "lead_sponsor": "German Center for Neurodegenerative Diseases (DZNE)",
      "masking": "NONE",
      "nct": "NCT06530277",
+     "official_title": "Feasibility and Preliminary Efficacy of a 12-weeks Digital Environmental Enrichment Intervention in Cognitively Unimpaired Older Adults (REMINDer)",
      "phases": [
       "NA"
      ],
@@ -9659,6 +9896,7 @@
      "lead_sponsor": "VA Boston Healthcare System",
      "masking": "TRIPLE",
      "nct": "NCT06792877",
+     "official_title": "Mechanisms of Mindfulness for Cognition in Early-Stage Alzheimer's Disease",
      "phases": [
       "NA"
      ],
@@ -9694,6 +9932,7 @@
      "lead_sponsor": "Carnegie Mellon University",
      "masking": "SINGLE",
      "nct": "NCT02888600",
+     "official_title": "Stress Management Training for Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -9729,6 +9968,7 @@
      "lead_sponsor": "Donders Centre for Cognitive Neuroimaging",
      "masking": "SINGLE",
      "nct": "NCT05777863",
+     "official_title": "The Effects of a Multidomain Lifestyle Intervention on Brain Functioning and Its Relation With Immunometabolic Markers in Ageing: the HELI Study",
      "phases": [
       "NA"
      ],
@@ -9772,6 +10012,7 @@
      "lead_sponsor": "University of Sydney",
      "masking": "NONE",
      "nct": "NCT05568381",
+     "official_title": "Sleep Disturbance in MCI: A Pilot Study of a Cognitive Behavioural Therapy Digital Intervention (SUCCEED)",
      "phases": [
       "NA"
      ],
@@ -9809,6 +10050,7 @@
      "lead_sponsor": "Florida International University",
      "masking": "SINGLE",
      "nct": "NCT03840525",
+     "official_title": "A Mind Body Intervention to Reduce Symptoms Among People Aging With HIV",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -9852,6 +10094,7 @@
      "lead_sponsor": "University Health Network, Toronto",
      "masking": "NONE",
      "nct": "NCT03483740",
+     "official_title": "Cognitive Remediation Group Therapy to Improve Older Adults' Ability to Cope With HIV-Associated Neurocognitive Disorder (HAND)",
      "phases": [
       "NA"
      ],
@@ -9896,6 +10139,7 @@
      "lead_sponsor": "McGill University",
      "masking": "SINGLE",
      "nct": "NCT05531513",
+     "official_title": "The Effects of a Nature-Based Mindfulness-Compassion Intervention for Older Adults Delivered Using Virtual Reality: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -9930,6 +10174,7 @@
      "lead_sponsor": "University of Luxembourg",
      "masking": "DOUBLE",
      "nct": "NCT05615337",
+     "official_title": "Mindfulness Training in Aging: the Effects of a Stress Reduction Program on Portuguese-speaking People Aged Fifty-five and Over Residing in Luxembourg",
      "phases": [
       "NA"
      ],
@@ -9970,6 +10215,7 @@
      "lead_sponsor": "National Taiwan Normal University",
      "masking": "SINGLE",
      "nct": "NCT05101174",
+     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
      "phases": [
       "NA"
      ],
@@ -10011,6 +10257,7 @@
      "lead_sponsor": "National Taiwan Normal University",
      "masking": "SINGLE",
      "nct": "NCT05068271",
+     "official_title": "Effects of Multi-Domain Exercise Intervention on Memory Performance in Healthy Adults With and Without ApoE e4 Allele: A fMRI Study",
      "phases": [
       "NA"
      ],
@@ -10048,6 +10295,7 @@
      "lead_sponsor": "Massachusetts General Hospital",
      "masking": "NONE",
      "nct": "NCT05438134",
+     "official_title": "Enhancing Resilience in Senior Living Community Residents: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -10086,6 +10334,7 @@
      "lead_sponsor": "University of South Carolina",
      "masking": "SINGLE",
      "nct": "NCT06085196",
+     "official_title": "Evaluation of an Outdoor Mindful Walking Program for Sustaining Cognitive Function in Older African Americans at Risk for Dementia",
      "phases": [
       "NA"
      ],
@@ -10131,6 +10380,7 @@
      "lead_sponsor": "Ohio State University",
      "masking": "SINGLE",
      "nct": "NCT03626532",
+     "official_title": "Mind-body Interventions for Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -10174,6 +10424,7 @@
      "lead_sponsor": "University of Minnesota",
      "masking": "DOUBLE",
      "nct": "NCT03929393",
+     "official_title": "Mindful Movement for Physical Activity and Wellbeing in Older Adults- A Community Based Randomized Hybrid Effectiveness-Implementation Study",
      "phases": [
       "NA"
      ],
@@ -10213,6 +10464,7 @@
      "lead_sponsor": "The University of Hong Kong",
      "masking": "SINGLE",
      "nct": "NCT05308082",
+     "official_title": "Programme Evaluation on Effectiveness of The Use of Movement-based x 'Elderspirituality - Fu Le Mun Sum' Intervention to Support Elderly People With Depressive Symptoms",
      "phases": [
       "NA"
      ],
@@ -10264,6 +10516,7 @@
      "lead_sponsor": "Rush University Medical Center",
      "masking": "SINGLE",
      "nct": "NCT05715372",
+     "official_title": "Genetic Evaluation and Modification of Lifestyles to Improve Female Life Expectancy",
      "phases": [
       "NA"
      ],
@@ -10301,6 +10554,7 @@
      "lead_sponsor": "Massachusetts General Hospital",
      "masking": "DOUBLE",
      "nct": "NCT03895346",
+     "official_title": "Mental Training for Adults With Mild Cognitive Impairment",
      "phases": [
       "NA"
      ],
@@ -10348,6 +10602,7 @@
      "lead_sponsor": "University of Manitoba",
      "masking": "NONE",
      "nct": "NCT05120765",
+     "official_title": "A Pilot Randomized Controlled Trial of The CONNECT Program: Testing a Telephone-Based Mental Health Intervention in a Clinical Sample of Socially Isolated Older Adults",
      "phases": [
       "NA"
      ],
@@ -10386,6 +10641,7 @@
      "lead_sponsor": "Medical University of South Carolina",
      "masking": "SINGLE",
      "nct": "NCT03853148",
+     "official_title": "Activate For Life: A Nurse Delivered Hybrid Telehealth/mHealth Aging In Place Intervention To Address Pain And Fatigue In Low-income Older Adults",
      "phases": [
       "NA"
      ],
@@ -10422,6 +10678,7 @@
      "lead_sponsor": "Stacey Hatch",
      "masking": "SINGLE",
      "nct": "NCT04415528",
+     "official_title": "Emotion-Focused Mindfulness Therapy: A Feasibility Study for Late Life Anxiety",
      "phases": [
       "NA"
      ],
@@ -10464,6 +10721,7 @@
      "lead_sponsor": "Baycrest",
      "masking": "TRIPLE",
      "nct": "NCT03602768",
+     "official_title": "Evaluation of Online Cognitive Fitness Programs",
      "phases": [
       "NA"
      ],
@@ -10502,6 +10760,7 @@
      "lead_sponsor": "Singapore General Hospital",
      "masking": "NONE",
      "nct": "NCT03677726",
+     "official_title": "Improving Sleep Continuity Through Mindfulness Training for Better Cognitive Ageing.",
      "phases": [
       "NA"
      ],
@@ -10535,6 +10794,7 @@
      "lead_sponsor": "Lady Davis Institute",
      "masking": "NONE",
      "nct": "NCT04726072",
+     "official_title": "Yoga and Brain Aging",
      "phases": [
       "NA"
      ],
@@ -10572,6 +10832,7 @@
      "lead_sponsor": "Anne Roche, MA",
      "masking": "NONE",
      "nct": "NCT03839329",
+     "official_title": "Well-being in ACTion: Examining the Impact of Acceptance and Commitment Training in Community-Dwelling Older Adults",
      "phases": [
       "NA"
      ],
@@ -10606,6 +10867,7 @@
      "lead_sponsor": "Kwantlen Polytechnic University",
      "masking": "NONE",
      "nct": "NCT04539132",
+     "official_title": "Maintaining Independence and Quality of Life in Aging Adults Through Targeted Cognitive Training",
      "phases": [
       "NA"
      ],
@@ -10636,6 +10898,7 @@
      "lead_sponsor": "University of Miami",
      "masking": "NONE",
      "nct": "NCT04378803",
+     "official_title": "Mindfulness Training for Older Adults During the COVID-19 Pandemic",
      "phases": [
       "NA"
      ],
@@ -10671,6 +10934,7 @@
      "lead_sponsor": "VA Office of Research and Development",
      "masking": "DOUBLE",
      "nct": "NCT02816723",
+     "official_title": "Improving Brain Health in Older Veterans: A Mindfulness Training Pilot Study",
      "phases": [
       "NA"
      ],
@@ -10718,6 +10982,7 @@
      "lead_sponsor": "Adria Quigley",
      "masking": "SINGLE",
      "nct": "NCT03071562",
+     "official_title": "A Randomized Pilot Trial Evaluating the Impact and Feasibility of a Yoga-Mindfulness Intervention on Cognition, Quality of Life, Balance, Walking Speed, Medication Adherence, and Depression in Older Adults Infected With HIV",
      "phases": [
       "NA"
      ],
@@ -10760,6 +11025,7 @@
      "lead_sponsor": "University of Minnesota",
      "masking": "DOUBLE",
      "nct": "NCT03114709",
+     "official_title": "Mindful Movement for Physical Activity and Wellbeing in Older Adults: A Community Based Randomized Hybrid Effectiveness-Implementation Study",
      "phases": [
       "NA"
      ],
@@ -10793,6 +11059,7 @@
      "lead_sponsor": "University of California, San Diego",
      "masking": "DOUBLE",
      "nct": "NCT03544879",
+     "official_title": "Yoga to Prevent Mobility Limitations in Older Adults: A Pilot Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -10830,6 +11097,7 @@
      "lead_sponsor": "University of Florida",
      "masking": "SINGLE",
      "nct": "NCT02714426",
+     "official_title": "A 14 Week Study of Mindfulness Effects on Attentional Control in Older Adults (The MACS Study: Mindfulness and Attentional Control in Seniors)",
      "phases": [
       "NA"
      ],
@@ -10864,6 +11132,7 @@
      "lead_sponsor": "Oregon Health and Science University",
      "masking": "SINGLE",
      "nct": "NCT01386060",
+     "official_title": "Mindfulness Meditation in Chronic Stress: Measures of Adherence, Ability & Stress",
      "phases": [
       "NA"
      ],
@@ -10901,6 +11170,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "SINGLE",
      "nct": "NCT01405716",
+     "official_title": "Effectiveness of a Mind-Body Program for Older Adults With Chronic Low Back Pain",
      "phases": [
       "NA"
      ],
@@ -10939,6 +11209,7 @@
      "lead_sponsor": "Hospital de Clinicas de Porto Alegre",
      "masking": "SINGLE",
      "nct": "NCT02900612",
+     "official_title": "Effects of Two Aquatic Training Models in Physiological Parameters of Elderly Dyslipidemic Women: a Randomized Controlled Clinical Trial.",
      "phases": [
       "NA"
      ],
@@ -10982,6 +11253,7 @@
      "lead_sponsor": "Washington University School of Medicine",
      "masking": "SINGLE",
      "nct": "NCT01693874",
+     "official_title": "Mindfulness-based Stress Reduction and Cognitive Function in Stress and Aging",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -11022,6 +11294,7 @@
      "lead_sponsor": "University of California, San Francisco",
      "masking": "NONE",
      "nct": "NCT01857830",
+     "official_title": "The Effect of a Short Term Meditation Retreat on Markers of Cellular Stress and Aging",
      "phases": [
       "NA"
      ],
@@ -11061,6 +11334,7 @@
      "lead_sponsor": "University of California, Los Angeles",
      "masking": "NONE",
      "nct": "NCT00280020",
+     "official_title": "Aging: Cytokine Mechanisms and Treatment of Insomnia",
      "phases": [
       "NA"
      ],
@@ -11091,6 +11365,7 @@
      "lead_sponsor": "University of California, Los Angeles",
      "masking": "NONE",
      "nct": "NCT01532596",
+     "official_title": "The Effects of Mindfulness Meditation in Older Adults",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -11126,6 +11401,7 @@
      "lead_sponsor": "Yu Wang",
      "masking": "SINGLE",
      "nct": "NCT07670208",
+     "official_title": "Physical Activity Promoting Active Aging: An Exploration of Intrinsic Mechanisms and Practical Pathways",
      "phases": [
       "NA"
      ],
@@ -11167,6 +11443,7 @@
      "lead_sponsor": "Federal University of Minas Gerais",
      "masking": "DOUBLE",
      "nct": "NCT07716839",
+     "official_title": "Effects of \"Nutricer\u00ae\" Vegan Protein Supplementation Based on Buriti (Mauritia Flexuosa), Rice, and Pea on Body Composition, Flexibility, Balance, and Dietary Frequency in Elderly Tai Chi Chuan Practitioners: A Placebo-Controlled Clinical Trial",
      "phases": [
       "NA"
      ],
@@ -11212,6 +11489,7 @@
      "lead_sponsor": "Louis Bherer",
      "masking": "DOUBLE",
      "nct": "NCT04962061",
+     "official_title": "Impacts of Aerobic, Resistance and Cognitive Training Interventions on Neurocognitive Functions in Older Adults With Cardiovascular Risk Factors.",
      "phases": [
       "NA"
      ],
@@ -11254,6 +11532,7 @@
      "lead_sponsor": "Zhide Liang",
      "masking": "SINGLE",
      "nct": "NCT07567976",
+     "official_title": "Effects of Tai Chi on Balance Function in Community-Dwelling Older Adults: A Randomized Controlled Trial Examining the Predictive and Modifying Roles of Circadian Age, With Multi-Omics and Brain Function Assessments",
      "phases": [
       "NA"
      ],
@@ -11288,6 +11567,7 @@
      "lead_sponsor": "Halic University",
      "masking": "SINGLE",
      "nct": "NCT07629622",
+     "official_title": "Investigation of the Short-Term Effects of Tai-Chi Chuan and Frenkel Coordination Exercises on Balance, Coordination, and Kinesiophobia in Healthy Elderly: A Randomised Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -11326,6 +11606,7 @@
      "lead_sponsor": "Oregon Research Institute",
      "masking": "DOUBLE",
      "nct": "NCT05725668",
+     "official_title": "Dual-Task Training Exercise to Reduce Falls in Older Adults With Mild Cognitive Impairment",
      "phases": [
       "NA"
      ],
@@ -11366,6 +11647,7 @@
      "lead_sponsor": "Kasr El Aini Hospital",
      "masking": "SINGLE",
      "nct": "NCT07285577",
+     "official_title": "Fractional Microneedling Radiofrequency Versus Facial Muscle Exercises for Facial Rejuvenation: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -11405,6 +11687,7 @@
      "lead_sponsor": "Universidade Estadual Paulista J\u00falio de Mesquita Filho",
      "masking": "DOUBLE",
      "nct": "NCT07131761",
+     "official_title": "Effect of Tai Chi Versus Moderate-intensity Combined Exercise Training on Cardiovascular Health and Physical Functional Performance in Older Men and Women With T2DM",
      "phases": [
       "NA"
      ],
@@ -11452,6 +11735,7 @@
      "lead_sponsor": "Poznan University of Physical Education",
      "masking": "DOUBLE",
      "nct": "NCT07098533",
+     "official_title": "Cognicise Training for Seniors for Healthy Aging",
      "phases": [
       "NA"
      ],
@@ -11498,6 +11782,7 @@
      "lead_sponsor": "Universidad Europea de Madrid",
      "masking": "SINGLE",
      "nct": "NCT07006584",
+     "official_title": "Impact of a Functional Gait Training Program as a Complementary Strategy to Improve Physical Function in Older Adults",
      "phases": [
       "NA"
      ],
@@ -11538,6 +11823,7 @@
      "lead_sponsor": "Beijing Sport University",
      "masking": "SINGLE",
      "nct": "NCT07061158",
+     "official_title": "A Multidimensional Health Perspective: Analysis of the Effects of Yoga Intervention on Sleep Disorders in Older Adults",
      "phases": [
       "NA"
      ],
@@ -11585,6 +11871,7 @@
      "lead_sponsor": "St. Anne's University Hospital Brno, Czech Republic",
      "masking": "NONE",
      "nct": "NCT07042087",
+     "official_title": "Lifestyle for the BRAin Health - Time Restricted Eating and Mindfulness",
      "phases": [
       "NA"
      ],
@@ -11629,6 +11916,7 @@
      "lead_sponsor": "The University of Tennessee, Knoxville",
      "masking": "SINGLE",
      "nct": "NCT06918678",
+     "official_title": "Feasibility and Preliminary Efficacy of Remotely Delivered Tai Chi on Older Adults' 24-Hour Movement Behaviors: A Crossover Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -11665,6 +11953,7 @@
      "lead_sponsor": "Cedars-Sinai Medical Center",
      "masking": "NONE",
      "nct": "NCT05381480",
+     "official_title": "Elders Preserving Independence in the Community",
      "phases": [
       "NA"
      ],
@@ -11709,6 +11998,7 @@
      "lead_sponsor": "VA Boston Healthcare System",
      "masking": "TRIPLE",
      "nct": "NCT06792877",
+     "official_title": "Mechanisms of Mindfulness for Cognition in Early-Stage Alzheimer's Disease",
      "phases": [
       "NA"
      ],
@@ -11748,6 +12038,7 @@
      "lead_sponsor": "Artvin Coruh University",
      "masking": "NONE",
      "nct": "NCT06685731",
+     "official_title": "The Effects of Laughter Yoga on Sleep Quality, Vitality, Active Aging, and Quality of Life in Elderly Individuals",
      "phases": [
       "NA"
      ],
@@ -11778,6 +12069,7 @@
      "lead_sponsor": "University of Ja\u00e9n",
      "masking": "TRIPLE",
      "nct": "NCT06304688",
+     "official_title": "Effects of a Yoga Program Combined With Diet on Cognitive, Nutritional Status, Mental and Functional Abilities in Older Adults.",
      "phases": [
       "NA"
      ],
@@ -11811,6 +12103,7 @@
      "lead_sponsor": "University of Illinois at Urbana-Champaign",
      "masking": "SINGLE",
      "nct": "NCT04323163",
+     "official_title": "Yoga, Aerobic and Stretching Exercise Effects on Neurocognitive Performance: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -11848,6 +12141,7 @@
      "lead_sponsor": "Federal University of Pelotas",
      "masking": "SINGLE",
      "nct": "NCT06380413",
+     "official_title": "Effects of a 12-week Tai Chi Chuan Combined With Walking Program on Physical and Mental Parameters of Older Adults: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -11885,6 +12179,7 @@
      "lead_sponsor": "Florida International University",
      "masking": "SINGLE",
      "nct": "NCT03840525",
+     "official_title": "A Mind Body Intervention to Reduce Symptoms Among People Aging With HIV",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -11919,6 +12214,7 @@
      "lead_sponsor": "University of Luxembourg",
      "masking": "DOUBLE",
      "nct": "NCT05615337",
+     "official_title": "Mindfulness Training in Aging: the Effects of a Stress Reduction Program on Portuguese-speaking People Aged Fifty-five and Over Residing in Luxembourg",
      "phases": [
       "NA"
      ],
@@ -11960,6 +12256,7 @@
      "lead_sponsor": "University of Southern Queensland",
      "masking": "TRIPLE",
      "nct": "NCT05971420",
+     "official_title": "Virtual Reality Activity-based Training for Preventing Falls Among Community-dwelling Older Adults With Mild Cognitive Impairment: A Pilot Randomized Control Trial Study",
      "phases": [
       "NA"
      ],
@@ -11997,6 +12294,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "SINGLE",
      "nct": "NCT03696082",
+     "official_title": "A Precision Rehabilitation Approach to Counteract Age-Related Cognitive",
      "phases": [
       "NA"
      ],
@@ -12037,6 +12335,7 @@
      "lead_sponsor": "University of Wisconsin, Madison",
      "masking": "NONE",
      "nct": "NCT05287529",
+     "official_title": "Telehealth Delivery of the Yoga for Seniors Program",
      "phases": [
       "NA"
      ],
@@ -12074,6 +12373,7 @@
      "lead_sponsor": "Massachusetts General Hospital",
      "masking": "DOUBLE",
      "nct": "NCT03895346",
+     "official_title": "Mental Training for Adults With Mild Cognitive Impairment",
      "phases": [
       "NA"
      ],
@@ -12112,6 +12412,7 @@
      "lead_sponsor": "Medical University of South Carolina",
      "masking": "SINGLE",
      "nct": "NCT03853148",
+     "official_title": "Activate For Life: A Nurse Delivered Hybrid Telehealth/mHealth Aging In Place Intervention To Address Pain And Fatigue In Low-income Older Adults",
      "phases": [
       "NA"
      ],
@@ -12157,6 +12458,7 @@
      "lead_sponsor": "Charles University, Czech Republic",
      "masking": "SINGLE",
      "nct": "NCT05363228",
+     "official_title": "The Effect of Tai Chi and Therapy by Dance and Movement on Blood Irisin Levels in Older Adults Over 65 Years of Age.",
      "phases": [
       "NA"
      ],
@@ -12199,6 +12501,7 @@
      "lead_sponsor": "Hong Kong Baptist University",
      "masking": "DOUBLE",
      "nct": "NCT04690465",
+     "official_title": "Effectiveness of Resistance Training on Resilience in Hong Kong Chinese Older Adults: Study Protocol for a Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -12247,6 +12550,7 @@
      "lead_sponsor": "University Department of Geriatric Medicine FELIX PLATTER",
      "masking": "NONE",
      "nct": "NCT04861831",
+     "official_title": "Power Centering for Seniors: A Multimodal Intervention to Improve Mobility and Quality of Life in Older Adults",
      "phases": [
       "NA"
      ],
@@ -12279,6 +12583,7 @@
      "lead_sponsor": "University of California, San Diego",
      "masking": "SINGLE",
      "nct": "NCT02761603",
+     "official_title": "Autonomic and Immuno-Vascular Mechanisms of Antihypertensive Effects of Tai Chi",
      "phases": [
       "NA"
      ],
@@ -12320,6 +12625,7 @@
      "lead_sponsor": "Tri-Service General Hospital (TSGH)",
      "masking": "NONE",
      "nct": "NCT04904991",
+     "official_title": "Three-month Chan-Chung Qigong Program in Improving Physical Functional Performance and Quality of Life in Cognitive Impairment Patients",
      "phases": [
       "NA"
      ],
@@ -12353,6 +12659,7 @@
      "lead_sponsor": "Lady Davis Institute",
      "masking": "NONE",
      "nct": "NCT04726072",
+     "official_title": "Yoga and Brain Aging",
      "phases": [
       "NA"
      ],
@@ -12386,6 +12693,7 @@
      "lead_sponsor": "Universidade Federal de Goias",
      "masking": "NONE",
      "nct": "NCT04692272",
+     "official_title": "Effects of Xbox Kinect Exercise Training on the Sleep Quality, Anxiety and Functional Capacity in Older Adults",
      "phases": [
       "NA"
      ],
@@ -12418,6 +12726,7 @@
      "lead_sponsor": "Lithuanian Sports University",
      "masking": "NONE",
      "nct": "NCT04690244",
+     "official_title": "The Effect of Tai Chi Chuan on Cognitive and Motor Functions in Older Adults",
      "phases": [
       "NA"
      ],
@@ -12449,6 +12758,7 @@
      "lead_sponsor": "The University of Hong Kong",
      "masking": "NONE",
      "nct": "NCT04641429",
+     "official_title": "Neuroplasticity: The Effects of Exercise Training on Cognitive and Affective Functioning of Older People",
      "phases": [
       "NA"
      ],
@@ -12488,6 +12798,7 @@
      "lead_sponsor": "University of Texas Southwestern Medical Center",
      "masking": "TRIPLE",
      "nct": "NCT01014572",
+     "official_title": "The Effect of Exercise and Alagebrium on the Diastolic Function of the Heart",
      "phases": [
       "PHASE2"
      ],
@@ -12524,6 +12835,7 @@
      "lead_sponsor": "University of Texas Southwestern Medical Center",
      "masking": "NONE",
      "nct": "NCT02039154",
+     "official_title": "The Effect of Long Duration Exercise on the Diastolic Function of the Heart",
      "phases": [
       "NA"
      ],
@@ -12555,6 +12867,7 @@
      "lead_sponsor": "Lithuanian Sports University",
      "masking": "NONE",
      "nct": "NCT04314921",
+     "official_title": "10-week Yoga Practice Effect in Older Adults",
      "phases": [
       "NA"
      ],
@@ -12598,6 +12911,7 @@
      "lead_sponsor": "Hebrew SeniorLife",
      "masking": "DOUBLE",
      "nct": "NCT02346136",
+     "official_title": "Health Outcomes of Tai Chi in Subsidized Senior Housing",
      "phases": [
       "NA"
      ],
@@ -12645,6 +12959,7 @@
      "lead_sponsor": "Adria Quigley",
      "masking": "SINGLE",
      "nct": "NCT03071562",
+     "official_title": "A Randomized Pilot Trial Evaluating the Impact and Feasibility of a Yoga-Mindfulness Intervention on Cognition, Quality of Life, Balance, Walking Speed, Medication Adherence, and Depression in Older Adults Infected With HIV",
      "phases": [
       "NA"
      ],
@@ -12682,6 +12997,7 @@
      "lead_sponsor": "Tel Aviv University",
      "masking": "NONE",
      "nct": "NCT03510377",
+     "official_title": "Effects of Aquatic Motor Intervention on Fall Risk, Hazard Perception for Pedestrians, Weekly Calendar Planning and Brain Activity During Elderly",
      "phases": [
       "NA"
      ],
@@ -12715,6 +13031,7 @@
      "lead_sponsor": "University of California, San Diego",
      "masking": "DOUBLE",
      "nct": "NCT03544879",
+     "official_title": "Yoga to Prevent Mobility Limitations in Older Adults: A Pilot Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -12753,6 +13070,7 @@
      "lead_sponsor": "University of Texas Southwestern Medical Center",
      "masking": "SINGLE",
      "nct": "NCT03476785",
+     "official_title": "Prevention of Cardiovascular Stiffening With Aging and Hypertensive Heart Disease",
      "phases": [
       "NA"
      ],
@@ -12793,6 +13111,7 @@
      "lead_sponsor": "Kuopio University Hospital",
      "masking": "NONE",
      "nct": "NCT02665169",
+     "official_title": "Randomized Fall Prevention Trial For Aging Females by Providing Supervised Exercises and Free Use of Municipal Recreation Facilities.",
      "phases": [
       "NA"
      ],
@@ -12823,6 +13142,7 @@
      "lead_sponsor": "Eling DeBruin",
      "masking": "NONE",
      "nct": "NCT03676452",
+     "official_title": "The Effects of a Home-based Multicomponent Exergame Training on Motor Functions, Cognition, and Brain Structure of Older Adults: A Multinational Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -12854,6 +13174,7 @@
      "lead_sponsor": "University of Texas at Austin",
      "masking": "NONE",
      "nct": "NCT02488148",
+     "official_title": "Bikram Yoga and Vascular Health",
      "phases": [
       "NA"
      ],
@@ -12891,6 +13212,7 @@
      "lead_sponsor": "National Taiwan University Hospital",
      "masking": "SINGLE",
      "nct": "NCT03275038",
+     "official_title": "Comparing Effects and Neural Mechanisms of Tai Chi and Light-to-Moderate Intensity on the Prevention of Leukoaraiosis and Declines in Brain, Physical, and Psychological Functions in Middle-aged and Older Adults With Cardiovascular Risks",
      "phases": [
       "NA"
      ],
@@ -12922,6 +13244,7 @@
      "lead_sponsor": "University of Illinois at Urbana-Champaign",
      "masking": "NONE",
      "nct": "NCT01650532",
+     "official_title": "The Effects of an 8-Week Yoga Intervention on Cognition and Functional Fitness in Older Adults",
      "phases": [
       "NA"
      ],
@@ -12961,6 +13284,7 @@
      "lead_sponsor": "University of California, Los Angeles",
      "masking": "NONE",
      "nct": "NCT01204021",
+     "official_title": "Managing Stress and Social Ties for Health Aging",
      "phases": [
       "NA"
      ],
@@ -12998,6 +13322,7 @@
      "lead_sponsor": "Stanford University",
      "masking": "SINGLE",
      "nct": "NCT01094509",
+     "official_title": "Tai Chi and Guided Autobiography for Remediation of Age-related Cognitive Decline",
      "phases": [
       "NA"
      ],
@@ -13032,6 +13357,7 @@
      "lead_sponsor": "Harvard University Faculty of Medicine",
      "masking": "SINGLE",
      "nct": "NCT01340365",
+     "official_title": "Tai Chi, Physiologic Complexity, and Healthy Aging",
      "phases": [
       "PHASE2"
      ],
@@ -13071,6 +13397,7 @@
      "lead_sponsor": "University of California, San Francisco",
      "masking": "NONE",
      "nct": "NCT01857830",
+     "official_title": "The Effect of a Short Term Meditation Retreat on Markers of Cellular Stress and Aging",
      "phases": [
       "NA"
      ],
@@ -13109,6 +13436,7 @@
      "lead_sponsor": "Fundacio Salut i Envelliment UAB",
      "masking": "SINGLE",
      "nct": "NCT00944788",
+     "official_title": "Feasibility and Impact on Quality of Life and Depressive Symptoms of a Structured Qi-gong Program for Hospitalized Older Adults. A Pilot Study.",
      "phases": [
       "NA"
      ],
@@ -13148,6 +13476,7 @@
      "lead_sponsor": "University of California, Los Angeles",
      "masking": "NONE",
      "nct": "NCT00280020",
+     "official_title": "Aging: Cytokine Mechanisms and Treatment of Insomnia",
      "phases": [
       "NA"
      ],
@@ -13187,6 +13516,7 @@
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": null,
      "nct": "NCT00118885",
+     "official_title": "Behavioral Intervention for Herpes Zoster Risk in Aging",
      "phases": [
       "PHASE2"
      ],
@@ -13223,6 +13553,7 @@
      "lead_sponsor": "Association de Recherche Gerontologique",
      "masking": "NONE",
      "nct": "NCT00623532",
+     "official_title": "A Randomized Interventional Study of a Cognition-Action Physical Activity and Adapted Tai-Chi in Frail Institutionalized Elderly",
      "phases": [
       "NA"
      ],
@@ -13258,6 +13589,7 @@
      "lead_sponsor": "US Department of Veterans Affairs",
      "masking": "SINGLE",
      "nct": "NCT00018265",
+     "official_title": "Oxygen Kinetics, Mobility Task Performance, and Task Training in Older Adults",
      "phases": [
       "PHASE3"
      ],
@@ -13297,6 +13629,7 @@
      "lead_sponsor": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
      "masking": "SINGLE",
      "nct": "NCT00781729",
+     "official_title": "Phase 2 Study of Yoga for Excess Thoracic Curvature.",
      "phases": [
       "PHASE2"
      ],
@@ -13350,6 +13683,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": "NONE",
      "nct": "NCT07475546",
+     "official_title": "A Pilot Randomized Controlled Study of Combinatorial Gerotherapeutics for Healthspan Improvement",
      "phases": [
       "PHASE3"
      ],
@@ -13385,6 +13719,7 @@
      "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
      "masking": "NONE",
      "nct": "NCT04742777",
+     "official_title": "Effect of mTOR Inhibition and Other Metabolism Modulating Interventions on the Elderly: Immune, Cognitive, and Functional Consequences ((Substudy E - RAPA cMRI With LGE)",
      "phases": [
       "PHASE2"
      ],
@@ -13426,6 +13761,7 @@
      "lead_sponsor": "University of Wisconsin, Madison",
      "masking": "TRIPLE",
      "nct": "NCT05835999",
+     "official_title": "Clinical Evaluation of mTORC1 Inhibition for Geroprotection",
      "phases": [
       "PHASE2"
      ],
@@ -13468,6 +13804,7 @@
      "lead_sponsor": "University of Texas Southwestern Medical Center",
      "masking": "NONE",
      "nct": "NCT06727305",
+     "official_title": "Characterization of mTOR Inhibitor Pharmacokinetics and Pharmacodynamics in Older Adults .",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -13503,6 +13840,7 @@
      "lead_sponsor": "Irina Timofte",
      "masking": "NONE",
      "nct": "NCT05237687",
+     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
      "phases": [
       "PHASE2"
      ],
@@ -13539,6 +13877,7 @@
      "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
      "masking": "DOUBLE",
      "nct": "NCT06658093",
+     "official_title": "RESTOR [Rapamycin and Everolimus Study Towards Older Rejuvenation]: An Exploratory PK/PD Study of mTOR Inhibition in Older Human Subjects",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -13581,6 +13920,7 @@
      "lead_sponsor": "University of Wisconsin, Madison",
      "masking": "NONE",
      "nct": "NCT05949658",
+     "official_title": "Safer mTOR Inhibition for Human Geroprotection",
      "phases": [
       "PHASE1"
      ],
@@ -13624,6 +13964,7 @@
      "lead_sponsor": "Odense University Hospital",
      "masking": "NONE",
      "nct": "NCT06789900",
+     "official_title": "Targeting mTOR With Everolimus and/or Physical Training for Preventing Postmenopausal Bone Loss and Accelerated Skeletal Aging: The RapaLoad Study",
      "phases": [
       "PHASE2"
      ],
@@ -13666,6 +14007,7 @@
      "lead_sponsor": "Odense University Hospital",
      "masking": "SINGLE",
      "nct": "NCT07191353",
+     "official_title": "Resistance Training and Rapamycin to Enhance Bone Formation in Postmenopausal Women",
      "phases": [
       "PHASE2"
      ],
@@ -13704,6 +14046,7 @@
      "lead_sponsor": "The Christ Hospital",
      "masking": "NONE",
      "nct": "NCT07354620",
+     "official_title": "A Pilot Study on Reverse Aging (The REVERSE Study)",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -13740,6 +14083,7 @@
      "lead_sponsor": "Columbia University",
      "masking": "TRIPLE",
      "nct": "NCT05836025",
+     "official_title": "Effect of Rapamycin in Ovarian Aging",
      "phases": [
       "PHASE2"
      ],
@@ -13781,6 +14125,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": "NONE",
      "nct": "NCT07092618",
+     "official_title": "Effectiveness of Alternative Therapies in Maintaining Weight Loss Achieved by GLP-1 Medications Post-Cessation: A Randomized, Controlled Trial",
      "phases": [
       "PHASE2",
       "PHASE3"
@@ -13821,6 +14166,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": null,
      "nct": "NCT06550271",
+     "official_title": "The Bioavailability of Compounded and Generic Rapamycin in Normative Aging Individuals: A Retrospective Study and Review With Clinical Implications",
      "phases": [],
      "primary_completion": "2023-12-15",
      "primary_completion_type": "ACTUAL",
@@ -13859,6 +14205,7 @@
      "lead_sponsor": "AgelessRx",
      "masking": "QUADRUPLE",
      "nct": "NCT04488601",
+     "official_title": "Participatory Evaluation (of) Aging (With) Rapamycin (for) Longevity Study (PEARL): A Prospective, Double-Blind, Placebo-Controlled Trial for Rapamycin in Healthy Individuals Assessing Safety and Efficacy in Reducing Aging Effects",
      "phases": [
       "PHASE2"
      ],
@@ -13891,6 +14238,7 @@
      "lead_sponsor": "LuZhe Sun",
      "masking": "NONE",
      "nct": "NCT02642094",
+     "official_title": "Aging Mammary Stem Cells and Breast Cancer Prevention",
      "phases": [
       "PHASE2"
      ],
@@ -13928,6 +14276,7 @@
      "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
      "masking": "DOUBLE",
      "nct": "NCT04608448",
+     "official_title": "An Innovative Proof-of-concept Approach to Identify Age-modulating Drugs Capable of Reversing Inflammation and Re-setting the Epigenetic Clock (Topical-RAPA)",
      "phases": [
       "EARLY_PHASE1"
      ],
@@ -13962,6 +14311,7 @@
      "lead_sponsor": "Anne Chang",
      "masking": "DOUBLE",
      "nct": "NCT03072485",
+     "official_title": "Phase 1 Study of the Effects of Combining Topical FDA-approved Drugs on Age-related Pathways on the Skin of Healthy Volunteers",
      "phases": [
       "PHASE1"
      ],
@@ -13996,6 +14346,7 @@
      "lead_sponsor": "The University of Texas Health Science Center at San Antonio",
      "masking": "QUADRUPLE",
      "nct": "NCT02874924",
+     "official_title": "Effect of Mammalian Target of Rapamycin Inhibition and Other Metabolism Modulating Interventions on the Elderly: Immune, Cognitive, and Functional Consequences",
      "phases": [
       "PHASE2"
      ],
@@ -14042,6 +14393,7 @@
      "lead_sponsor": "The University of Texas Medical Branch, Galveston",
      "masking": "DOUBLE",
      "nct": "NCT00891696",
+     "official_title": "Nutritional and Contractile Regulation of Muscle Growth (Cycle 2)",
      "phases": [
       "PHASE1"
      ],
@@ -14077,6 +14429,7 @@
      "lead_sponsor": "Mayo Clinic",
      "masking": "NONE",
      "nct": "NCT01649960",
+     "official_title": "Role of Exercise and Low-Dose Rapamycin on Age-Associated Impairments in Older Adults With Coronary Artery Disease: Cardiac Rehabilitation And Rapamycin in Elderly (CARE) Trial",
      "phases": [
       "PHASE1"
      ],
@@ -14124,6 +14477,7 @@
      "lead_sponsor": "Shirley Ryan AbilityLab",
      "masking": "NONE",
      "nct": "NCT07407725",
+     "official_title": "Development of a Clinical Outcome Assessment for Assistive Technologies and Brain-Computer-Interfaces",
      "phases": [
       "NA"
      ],
@@ -14169,6 +14523,7 @@
      "lead_sponsor": "Neuralink Corp",
      "masking": "NONE",
      "nct": "NCT06429735",
+     "official_title": "PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
      "phases": [
       "NA"
      ],
@@ -14218,6 +14573,7 @@
      "lead_sponsor": "Neuralink Corp",
      "masking": "NONE",
      "nct": "NCT07224256",
+     "official_title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
      "phases": [
       "NA"
      ],
@@ -14279,6 +14635,7 @@
      "lead_sponsor": "Neuralink Corp",
      "masking": "NONE",
      "nct": "NCT07127172",
+     "official_title": "GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
      "phases": [
       "NA"
      ],
@@ -14339,6 +14696,7 @@
      "lead_sponsor": "Neuralink Corp",
      "masking": "NONE",
      "nct": "NCT06992596",
+     "official_title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
      "phases": [
       "NA"
      ],
@@ -14387,6 +14745,7 @@
      "lead_sponsor": "Neuralink Corp",
      "masking": "NONE",
      "nct": "NCT06710626",
+     "official_title": "CONVOY: An Early Feasibility Study of Neural Control of Assistive Devices Via Brain-Computer Interface Technology",
      "phases": [
       "NA"
      ],
@@ -14444,6 +14803,7 @@
      "lead_sponsor": "Neuralink Corp",
      "masking": "NONE",
      "nct": "NCT06700304",
+     "official_title": "CAN-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
      "phases": [
       "NA"
      ],
@@ -14483,6 +14843,7 @@
      "lead_sponsor": "University of Miami",
      "masking": "NONE",
      "nct": "NCT06494020",
+     "official_title": "Task Practice Combined With Transcutaneous Spinal Cord Stimulation to Reduce Muscle Co-contraction and Improve Motor Function in Chronic Spinal Cord Injury",
      "phases": [
       "NA"
      ],
@@ -14516,6 +14877,7 @@
      "lead_sponsor": "ONWARD Medical, Inc.",
      "masking": "TRIPLE",
      "nct": "NCT07147296",
+     "official_title": "ARC-IM System to Manage Symptomatic Blood Pressure Instability Secondary to Chronic Spinal Cord Injury",
      "phases": [
       "NA"
      ],
@@ -14554,6 +14916,7 @@
      "lead_sponsor": "VA Palo Alto Health Care System",
      "masking": "NONE",
      "nct": "NCT06140706",
+     "official_title": "Feasibility of a Video Telehealth Model to Evaluate Home Use of Transcutaneous Spinal Cord Stimulation for Enhanced Upper Limb Function",
      "phases": [
       "NA"
      ],
@@ -14585,6 +14948,7 @@
      "lead_sponsor": "ONWARD Medical, Inc.",
      "masking": "NONE",
      "nct": "NCT05941819",
+     "official_title": "ARC Therapy to Restore Hemodynamic Stability and Trunk Control in People With Spinal Cord Injury",
      "phases": [
       "NA"
      ],
@@ -14617,6 +14981,7 @@
      "lead_sponsor": "ONWARD Medical, Inc.",
      "masking": "NONE",
      "nct": "NCT05284201",
+     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
      "phases": [
       "NA"
      ],
@@ -14651,6 +15016,7 @@
      "lead_sponsor": "ONWARD Medical, Inc.",
      "masking": "NONE",
      "nct": "NCT04697472",
+     "official_title": "Clinical Assessment of Upper Extremity Performance in Individuals With Spinal Cord Injury Using the LIFT System to Deliver Non-invasive Electrical Spinal Stimulation (ARC Therapy)",
      "phases": [
       "NA"
      ],
@@ -14704,6 +15070,7 @@
      "lead_sponsor": "Paradromics",
      "masking": "NONE",
      "nct": "NCT07357428",
+     "official_title": "Connect-One: Early Feasibility Study of Connexus\u00ae Brain-Computer Interface (BCI) to Provide Human Connection Through Communication",
      "phases": [
       "NA"
      ],
@@ -14747,6 +15114,7 @@
      "lead_sponsor": "National Cheng-Kung University Hospital",
      "masking": "SINGLE",
      "nct": "NCT06073990",
+     "official_title": "A Nurse-led Brief Behavioral Therapy for Insomnia Improves Multidimensional Sleep Health and Anxiety in Aging Adults: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -14793,6 +15161,7 @@
      "lead_sponsor": "The University of Hong Kong",
      "masking": "DOUBLE",
      "nct": "NCT07695246",
+     "official_title": "Efficacy of Cognitive Behavioural Therapy for Insomnia With Adjuvant Melatonin Treatment in Older Adults With Chronic Insomnia: A Randomised Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -14826,6 +15195,7 @@
      "lead_sponsor": "Tainan Hospital, Ministry of Health and Welfare",
      "masking": "NONE",
      "nct": "NCT07732530",
+     "official_title": "Exploring the Associations Among Frailty, Daily Physical Activity, Sleep, and Traditional Chinese Medicine Constitution in Taiwanese Older Adults, and Evaluating the Effects of Acupoint Stimulation Interventions",
      "phases": [
       "NA"
      ],
@@ -14867,6 +15237,7 @@
      "lead_sponsor": "University of Milano Bicocca",
      "masking": "SINGLE",
      "nct": "NCT06611228",
+     "official_title": "Optimizing Prevention of Hospital-acquired Disability Through Integrated Multidomain Interventions: the Age-IT Project",
      "phases": [
       "NA"
      ],
@@ -14906,6 +15277,7 @@
      "lead_sponsor": "The University of Hong Kong",
      "masking": "SINGLE",
      "nct": "NCT06820021",
+     "official_title": "The Effects of a Strength-based Tailored-Exercise Program at Home (STEP@Home) on Health Outcomes of Geriatric Patients at Risk of Hospitalization-associated Functional Decline: A Sequential Mixed-method Study",
      "phases": [
       "NA"
      ],
@@ -14945,6 +15317,7 @@
      "lead_sponsor": "Bulent Ecevit University",
      "masking": "SINGLE",
      "nct": "NCT07472101",
+     "official_title": "The Effects of Dual-Task Exercises Performed Through Telerehabilitation on Balance, Falls, Cognitive Function, and Sleep Quality in Geriatric Individuals: A Randomised Control Trial",
      "phases": [
       "NA"
      ],
@@ -14989,6 +15362,7 @@
      "lead_sponsor": "University of Milano Bicocca",
      "masking": "NONE",
      "nct": "NCT06248723",
+     "official_title": "ItaliaN Study With Tailored Multidomain Interventions to Prevent Functional and Cognitive Decline in Community-dwelling Older Adults",
      "phases": [
       "NA"
      ],
@@ -15031,6 +15405,7 @@
      "lead_sponsor": "Parc Sanitari Pere Virgili",
      "masking": "NONE",
      "nct": "NCT06836167",
+     "official_title": "+ AGIL Barcelona: Integrated Care for Community-Dwelling Frail Older Adults",
      "phases": [
       "NA"
      ],
@@ -15074,6 +15449,7 @@
      "lead_sponsor": "University of Sydney",
      "masking": "NONE",
      "nct": "NCT05568381",
+     "official_title": "Sleep Disturbance in MCI: A Pilot Study of a Cognitive Behavioural Therapy Digital Intervention (SUCCEED)",
      "phases": [
       "NA"
      ],
@@ -15118,6 +15494,7 @@
      "lead_sponsor": "McGill University",
      "masking": "SINGLE",
      "nct": "NCT05531513",
+     "official_title": "The Effects of a Nature-Based Mindfulness-Compassion Intervention for Older Adults Delivered Using Virtual Reality: A Randomized Controlled Trial",
      "phases": [
       "NA"
      ],
@@ -15156,6 +15533,7 @@
      "lead_sponsor": "Singapore General Hospital",
      "masking": "NONE",
      "nct": "NCT03677726",
+     "official_title": "Improving Sleep Continuity Through Mindfulness Training for Better Cognitive Ageing.",
      "phases": [
       "NA"
      ],
@@ -15199,6 +15577,7 @@
      "lead_sponsor": "Brigham and Women's Hospital",
      "masking": "SINGLE",
      "nct": "NCT02171273",
+     "official_title": "Impact of Chronic Circadian Disruption vs. Chronic Sleep Restriction on Metabolism",
      "phases": [
       "NA"
      ],
@@ -15230,6 +15609,7 @@
      "lead_sponsor": "University of British Columbia",
      "masking": "SINGLE",
      "nct": "NCT02926157",
+     "official_title": "Buying Time: Improving Sleep to Promote Cognitive Function in Older Adults",
      "phases": [
       "NA"
      ],
@@ -15269,6 +15649,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "NONE",
      "nct": "NCT00177385",
+     "official_title": "AGEWISE Project 4: PROTECTING HEALTH IN LATER LIFE",
      "phases": [
       "NA"
      ],
@@ -15305,6 +15686,7 @@
      "lead_sponsor": "Synchron, Inc.",
      "masking": "NONE",
      "nct": "NCT07543367",
+     "official_title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
      "phases": [
       "NA"
      ],
@@ -15346,6 +15728,7 @@
      "lead_sponsor": "Synchron Medical, Inc.",
      "masking": "NONE",
      "nct": "NCT05035823",
+     "official_title": "Motor NeuroProsthesis to Restore Motor Control for the COMMAND of Digital Devices: An Early Feasibility Study (EFS) of Safety in Subjects With Severe Quadriparesis",
      "phases": [
       "NA"
      ],
@@ -15389,6 +15772,7 @@
      "lead_sponsor": "Synchron, Inc.",
      "masking": "NONE",
      "nct": "NCT07533903",
+     "official_title": "Functional Outcomes and Control Using Synchron BCI - Australia (FOCUS-AUS)",
      "phases": [
       "NA"
      ],
@@ -15427,6 +15811,7 @@
      "lead_sponsor": "Synchron, Inc.",
      "masking": "NONE",
      "nct": "NCT07446114",
+     "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
      "phases": [
       "NA"
      ],
@@ -15466,6 +15851,7 @@
      "lead_sponsor": "University of Pittsburgh",
      "masking": "NONE",
      "nct": "NCT04723823",
+     "official_title": "Mapping of Motor and Sensory Brain Activity Using fMRI",
      "phases": [
       "NA"
      ],
@@ -15505,6 +15891,7 @@
      "lead_sponsor": "Synchron Medical, Inc.",
      "masking": "NONE",
      "nct": "NCT05041114",
+     "official_title": "Stentrode With Thought-controlled Digital Switch: An Early Feasibility Study of the Safety of an Endovascular Motor Neuroprosthesis in Participants With Severe Upper Limb Impairment.",
      "phases": [
       "NA"
      ],
@@ -15535,6 +15922,7 @@
      "lead_sponsor": "Synchron Australia Pty Ltd.",
      "masking": "NONE",
      "nct": "NCT03834857",
+     "official_title": "Stentrode With Thought-controlled Digital Switch: An Early Feasibility Study (EFS) of the Safety of the Stentrode Device in Participants With Loss of Motor Function Due to Paralysis",
      "phases": [
       "NA"
      ],
@@ -15574,6 +15962,7 @@
      "lead_sponsor": "Texas Tech University",
      "masking": "SINGLE",
      "nct": "NCT06580964",
+     "official_title": "Glycemic Control and Frailty Risk in Older People at Risk for Type 2 Diabetes: Impact of Local Heat Therapy",
      "phases": [
       "NA"
      ],
@@ -15615,6 +16004,7 @@
      "lead_sponsor": "University of North Texas Health Science Center",
      "masking": "TRIPLE",
      "nct": "NCT05706181",
+     "official_title": "Home-based Heat Therapy to Improve Functional Capacity and Vascular Health in Older Adults",
      "phases": [
       "PHASE1",
       "PHASE2"
@@ -15650,6 +16040,7 @@
      "lead_sponsor": "University of Kansas Medical Center",
      "masking": "SINGLE",
      "nct": "NCT06023407",
+     "official_title": "Feasibility of Improving Glycemia With Heat Therapy to Prevent AD",
      "phases": [
       "NA"
      ],
@@ -15689,6 +16080,7 @@
      "lead_sponsor": "Shenzhen Institutes of Advanced Technology ,Chinese Academy of Sciences",
      "masking": "DOUBLE",
      "nct": "NCT06432491",
+     "official_title": "Study to Explore How Core Temperature Reduction Influence Health",
      "phases": [
       "NA"
      ],
@@ -15724,6 +16116,7 @@
      "lead_sponsor": "Penn State University",
      "masking": "DOUBLE",
      "nct": "NCT06349616",
+     "official_title": "Acute and Chronic Interventions to Improve Heat Loss During Uncompensable Humid Heat Stress in Older Adults",
      "phases": [
       "NA"
      ],
@@ -15761,6 +16154,7 @@
      "lead_sponsor": "University of Colorado, Boulder",
      "masking": "SINGLE",
      "nct": "NCT05300971",
+     "official_title": "Passive Heat Therapy for Lowering Systolic Blood Pressure and Improving Vascular Function in Mid-life and Older Adults",
      "phases": [
       "NA"
      ],
@@ -15800,6 +16194,7 @@
      "lead_sponsor": "Purdue University",
      "masking": "DOUBLE",
      "nct": "NCT05543980",
+     "official_title": "Home-based Leg Heat Therapy to Improve Walking Performance in Elderly Individuals: a Pilot Trial",
      "phases": [
       "PHASE1"
      ],
@@ -15836,6 +16231,7 @@
      "lead_sponsor": "Douglas Seals",
      "masking": "SINGLE",
      "nct": "NCT03264508",
+     "official_title": "Passive Heat Therapy and Age-associated Physiological Function",
      "phases": [
       "NA"
      ],
@@ -15872,6 +16268,7 @@
      "lead_sponsor": "Brigham Young University",
      "masking": "SINGLE",
      "nct": "NCT04733287",
+     "official_title": "Improving Critical Power and Muscle Function in Older Adults With Heat Therapy",
      "phases": [
       "NA"
      ],
@@ -15887,7 +16284,7 @@
     }
    ]
   },
-  "fetched_at": "2026-10-31T15:57:28+00:00",
+  "fetched_at": "2026-10-31T16:18:03+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 7,
@@ -15909,5 +16306,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-10-31T15:57:28.023074+00:00"
+ "fetched_at": "2026-10-31T16:18:03.411916+00:00"
 }

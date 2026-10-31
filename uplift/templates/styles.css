@@ -80,3 +80,4 @@ section.summary { padding-top: 22px; }
 .sum ul { list-style: none; padding: 0; margin: 0; font-size: 14px; }
 .sum li { padding: 5px 0; border-top: 1px dotted var(--rule); line-height: 1.35; }
 .sum .none { color: var(--muted); font-size: 14px; font-style: italic; margin: 4px 0; }
+.sum .dev-k { margin-top: 12px; }

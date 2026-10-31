@@ -66,8 +66,11 @@
     <div class="sum watch"><h3>Keep your eye on this</h3><p class="rule">Registry changes in the last {{ sm.windows.change }} days, and randomized trials started in the last {{ sm.windows.started }}</p>
       {% if sm.watch %}<ul>{% for i in sm.watch %}<li><a href="https://clinicaltrials.gov/study/{{ i.nct }}">{{ i.title }}</a><div class="note">{{ i.program }} · {{ i.why }}</div></li>{% endfor %}</ul>
       {% else %}<p class="none">Quiet.</p>{% endif %}</div>
-    <div class="sum caution"><h3>No randomized trial yet</h3><p class="rule">Programs whose registered evidence is all single-arm or uncontrolled</p>
+    <div class="sum caution"><h3>No randomized trial yet</h3><p class="rule">Programs that could run a controlled trial and have registered none. Devices are exempt and shown by stage below.</p>
       {% if sm.no_rct %}<ul>{% for r in sm.no_rct %}<li><a href="#{{ r.id }}">{{ r.name }}</a> <span class="note">{{ r.n }} trial{{ 's' if r.n != 1 }}</span></li>{% endfor %}</ul>{% else %}<p class="none">None.</p>{% endif %}
+      {% if sm.devices %}<p class="rule dev-k">Devices, by stage (active trials)</p><ul class="dev">{% for d in sm.devices %}<li><a href="#{{ d.id }}">{{ d.name }}</a> <span class="note">{% for st, n in d.stages.items() if n %}{{ n }} {{ st }}{{ ', ' if not loop.last }}{% endfor %}{% if d.unstated %}{{ ', ' if d.stages.values()|sum }}{{ d.unstated }} stage not stated{% endif %}</span></li>{% endfor %}</ul>
+      {% set piv = sm.devices|sum(attribute='stages.pivotal') %}
+      <p class="note">A sham-controlled brain implant is not a realistic design, so these devices are judged on the device pathway instead. FDA's <a href="https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/rise-challenge-statistical-considerations-rare-disease-clinical-investigations-09292026">RISE workshop</a> (Sept 29, 2026) took up exactly this: "benefit-risk and statistical considerations for pivotal studies in small patient populations using Brain Computer Interface (BCI) devices for Amyotrophic Lateral Sclerosis (ALS)" (<a href="https://healthpolicy.duke.edu/sites/default/files/2026-08/Draft%20Agenda_RISE%204_8.18.26.pdf">agenda</a>, Session 4). {% if piv %}{{ piv }} active trial{{ 's' if piv != 1 }} named as pivotal.{% else %}No active tracked device trial is named as pivotal yet.{% endif %}</p>{% endif %}
       {% if sm.overdue %}<p class="note"><span class="overdue">{{ sm.overdue }} active trials</span> are past their registered completion date.</p>{% endif %}</div>
   </div>
 </section>
@@ -105,7 +108,7 @@
 
 <section id="board">
   <h2>Pipeline</h2>
-  <p class="lede">Every tracked program and its registered trials, active first. Flags come straight from registry fields: <span class="flag on">R</span> randomized, <span class="flag on">B</span> blinded, <span class="flag">1-arm</span> single arm, and enrollment <em>n</em>. <span class="overdue">overdue</span> marks a trial still listed as active after its registered completion date. A missing flag means the registry does not say so.</p>
+  <p class="lede">Every tracked program and its registered trials, active first. Flags come straight from registry fields: <span class="flag on">R</span> randomized, <span class="flag on">B</span> blinded, <span class="flag">1-arm</span> single arm, and enrollment <em>n</em>. Device trials show their FDA stage (early feasibility, feasibility, pivotal) instead of a drug phase. <span class="overdue">overdue</span> marks a trial still listed as active after its registered completion date. A missing flag means the registry does not say so.</p>
   {% for lane in p.board if lane.rows %}
   <h3 class="lane">{{ lane.label }}</h3>
   {% for r in lane.rows %}
@@ -118,7 +121,7 @@
       {% for s in r.trials %}{% set f = s.flags %}
       <tr class="{{ '' if s.active else 'inactive' }}">
         <td><a href="https://clinicaltrials.gov/study/{{ s.nct }}">{{ s.title }}</a><div class="note">{{ s.nct }} · {{ s.lead_sponsor }}{% if s.primary_outcome %} · primary: {{ s.primary_outcome|truncate(110) }}{% endif %}</div></td>
-        <td>{{ s.phase }}</td>
+        <td>{% if s.device_stage %}{{ s.device_stage }}{% else %}{{ s.phase }}{% endif %}</td>
         <td>{{ s.status_label }}{% if s.has_results %} <span class="chg results">results</span>{% endif %}</td>
         <td class="flags">{% if f.randomized %}<span class="flag on">R</span>{% endif %}{% if f.blinded %}<span class="flag on" title="masking: {{ f.masking }}">B</span>{% endif %}{% if f.single_arm %}<span class="flag">1-arm</span>{% endif %}{% if f.n %}<span class="n">n={{ f.n }}{% if f.n_type == 'estimated' %}*{% endif %}</span>{% endif %}</td>
         <td class="when">{{ s.primary_completion or '—' }}{% if s.primary_completion and s.primary_completion_type != 'ACTUAL' %}<span class="note"> est.</span>{% endif %}{% if s.overdue %}<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div>{% endif %}</td>

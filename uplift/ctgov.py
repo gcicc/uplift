@@ -116,6 +116,7 @@ def flatten(study: dict) -> dict:
     return {
         "nct": ident["nctId"],
         "title": ident.get("briefTitle", ""),
+        "official_title": ident.get("officialTitle", ""),
         "status": status.get("overallStatus", "UNKNOWN"),
         "last_update": (status.get("lastUpdatePostDateStruct") or {}).get("date"),
         "start": (status.get("startDateStruct") or {}).get("date"),
@@ -237,6 +238,23 @@ def diff(old: dict | None, new: dict, today: str) -> list[dict]:
                     }
                 )
     return events
+
+
+# FDA's device pathway runs early feasibility -> (traditional) feasibility -> pivotal.
+# Read from the registry titles; a title that names no stage says so rather than guess.
+DEVICE_STAGES = (
+    ("pivotal", re.compile(r"(?<![a-z])pivotal(?![a-z])", re.I)),
+    ("early feasibility", re.compile(r"early feasibility|first[- ]in[- ]human", re.I)),
+    ("feasibility", re.compile(r"(?<![a-z])feasibility(?![a-z])", re.I)),
+)
+
+
+def device_stage(s: dict) -> str | None:
+    text = f"{s.get('title', '')} {s.get('official_title', '')}"
+    for label, rx in DEVICE_STAGES:
+        if rx.search(text):
+            return label
+    return None
 
 
 def phase_label(phases: list[str]) -> str:

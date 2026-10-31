@@ -10,6 +10,10 @@ note: third sister site to HANGAR and OVERHANG
 
 ## Where this stands
 
+**2026-10-31 (K8):** devices exempt from the no-RCT flag and shown by FDA device stage, citing
+the RISE workshop agenda (quote verified verbatim against the PDF). No active tracked device
+trial is named pivotal yet. 14 tests pass.
+
 **2026-10-31 (later): K6 + K7.** Non-drug lane added (8 programs incl. Joe Dispenza's two
 registered retreat studies, both single-group) and a "What to act on" summary at the top
 (4 fixed rules). Board now 18 programs, 347 trials, 122 active; 34 active trials overdue.

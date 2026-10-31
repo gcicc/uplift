@@ -157,8 +157,8 @@ def test_summary_rules():
         {
             "label": "L",
             "rows": [
-                {"id": "a", "name": "A", "trials": trials},
-                {"id": "b", "name": "B", "trials": [single]},
+                {"id": "a", "name": "A", "qualifies": "non_drug", "trials": trials},
+                {"id": "b", "name": "B", "qualifies": "non_drug", "trials": [single]},
             ],
         }
     ]
@@ -169,3 +169,45 @@ def test_summary_rules():
     ]
     assert [i["nct"] for i in sm["watch"]] == ["T"]
     assert [r["id"] for r in sm["no_rct"]] == ["b"]
+
+
+def test_device_stage_from_titles():
+    assert (
+        ctgov.device_stage({"title": "X", "official_title": "A Pivotal Study of Y"})
+        == "pivotal"
+    )
+    assert (
+        ctgov.device_stage({"title": "VOICE: An Early Feasibility Study"})
+        == "early feasibility"
+    )
+    assert (
+        ctgov.device_stage({"title": "Feasibility of the BrainGate2 System"})
+        == "feasibility"
+    )
+    assert ctgov.device_stage({"title": "Control of Assistive Devices"}) is None
+
+
+def test_devices_exempt_from_no_rct():
+    from datetime import date
+
+    s = study(nct="D", allocation="NA")
+    s["flags"] = ctgov.design_flags(s)
+    s["active"] = True
+    s["device_stage"] = "early feasibility"
+    board = [
+        {
+            "label": "N",
+            "rows": [
+                {"id": "dev", "name": "Dev", "qualifies": "device", "trials": [s]},
+                {
+                    "id": "med",
+                    "name": "Med",
+                    "qualifies": "non_drug",
+                    "trials": [dict(s, nct="M")],
+                },
+            ],
+        }
+    ]
+    sm = run.build_summary(board, [], date(2026, 10, 31))
+    assert [r["id"] for r in sm["no_rct"]] == ["med"]
+    assert sm["devices"][0]["stages"]["early feasibility"] == 1

@@ -87,6 +87,7 @@ section.summary { padding-top: 22px; }
 .sum ul { list-style: none; padding: 0; margin: 0; font-size: 14px; }
 .sum li { padding: 5px 0; border-top: 1px dotted var(--rule); line-height: 1.35; }
 .sum .none { color: var(--muted); font-size: 14px; font-style: italic; margin: 4px 0; }
+.sum .dev-k { margin-top: 12px; }
 </style>
 </head>
 <body>
@@ -94,7 +95,7 @@ section.summary { padding-top: 22px; }
 <header class="mast">
   <h1><a href="index.html">UPLIFT</a></h1>
   <p class="dek">Living longer and doing more, tracked through registered trials, not press releases.</p>
-  <div class="meta">Built 2026-10-31 15:57 UTC · 18 tracked programs · 347 registered trials (122 active) · no LLM anywhere in the pipeline</div>
+  <div class="meta">Built 2026-10-31 16:18 UTC · 18 tracked programs · 347 registered trials (122 active) · no LLM anywhere in the pipeline</div>
   <nav class="toc">
     <a href="#summary">What to act on</a>
     <a href="#next">Next readout</a>
@@ -120,8 +121,9 @@ section.summary { padding-top: 22px; }
     <div class="sum watch"><h3>Keep your eye on this</h3><p class="rule">Registry changes in the last 30 days, and randomized trials started in the last 120</p>
 <ul><li><a href="https://clinicaltrials.gov/study/NCT07852650">Digital STEADI Efficacy</a><div class="note">Exercise for aging (large randomized trials) · randomized, n=300; started 2026-09-04</div></li><li><a href="https://clinicaltrials.gov/study/NCT07839572">Risk Factors and Exercise Effects on Abdominal Separation in Seniors</a><div class="note">Exercise for aging (large randomized trials) · randomized, n=500; started 2026-08-17</div></li><li><a href="https://clinicaltrials.gov/study/NCT07695246">Efficacy of CBT-I With Adjuvant Melatonin in Older Adults Chronic Insomnia</a><div class="note">Sleep interventions · randomized, n=183; started 2026-08-01</div></li></ul>
 </div>
-    <div class="sum caution"><h3>No randomized trial yet</h3><p class="rule">Programs whose registered evidence is all single-arm or uncontrolled</p>
-<ul><li><a href="#neuralink">Neuralink</a> <span class="note">7 trials</span></li><li><a href="#synchron">Synchron</a> <span class="note">7 trials</span></li><li><a href="#paradromics">Paradromics</a> <span class="note">1 trial</span></li><li><a href="#blackrock">Blackrock Neurotech</a> <span class="note">1 trial</span></li><li><a href="#braingate">BrainGate consortium</a> <span class="note">7 trials</span></li><li><a href="#dispenza">Joe Dispenza retreat studies</a> <span class="note">2 trials</span></li></ul><p class="note"><span class="overdue">34 active trials</span> are past their registered completion date.</p></div>
+    <div class="sum caution"><h3>No randomized trial yet</h3><p class="rule">Programs that could run a controlled trial and have registered none. Devices are exempt and shown by stage below.</p>
+<ul><li><a href="#dispenza">Joe Dispenza retreat studies</a> <span class="note">2 trials</span></li></ul><p class="rule dev-k">Devices, by stage (active trials)</p><ul class="dev"><li><a href="#neuralink">Neuralink</a> <span class="note">1 feasibility, 5 early feasibility, 1 stage not stated</span></li><li><a href="#synchron">Synchron</a> <span class="note">2 early feasibility, 2 stage not stated</span></li><li><a href="#paradromics">Paradromics</a> <span class="note">1 early feasibility</span></li><li><a href="#blackrock">Blackrock Neurotech</a> <span class="note">1 stage not stated</span></li><li><a href="#braingate">BrainGate consortium</a> <span class="note">5 feasibility, 1 stage not stated</span></li><li><a href="#onward">ONWARD Medical</a> <span class="note">1 feasibility, 2 stage not stated</span></li></ul>
+      <p class="note">A sham-controlled brain implant is not a realistic design, so these devices are judged on the device pathway instead. FDA's <a href="https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/rise-challenge-statistical-considerations-rare-disease-clinical-investigations-09292026">RISE workshop</a> (Sept 29, 2026) took up exactly this: "benefit-risk and statistical considerations for pivotal studies in small patient populations using Brain Computer Interface (BCI) devices for Amyotrophic Lateral Sclerosis (ALS)" (<a href="https://healthpolicy.duke.edu/sites/default/files/2026-08/Draft%20Agenda_RISE%204_8.18.26.pdf">agenda</a>, Session 4). No active tracked device trial is named as pivotal yet.</p><p class="note"><span class="overdue">34 active trials</span> are past their registered completion date.</p></div>
   </div>
 </section>
 
@@ -143,7 +145,7 @@ section.summary { padding-top: 22px; }
 
 <section id="board">
   <h2>Pipeline</h2>
-  <p class="lede">Every tracked program and its registered trials, active first. Flags come straight from registry fields: <span class="flag on">R</span> randomized, <span class="flag on">B</span> blinded, <span class="flag">1-arm</span> single arm, and enrollment <em>n</em>. <span class="overdue">overdue</span> marks a trial still listed as active after its registered completion date. A missing flag means the registry does not say so.</p>
+  <p class="lede">Every tracked program and its registered trials, active first. Flags come straight from registry fields: <span class="flag on">R</span> randomized, <span class="flag on">B</span> blinded, <span class="flag">1-arm</span> single arm, and enrollment <em>n</em>. Device trials show their FDA stage (early feasibility, feasibility, pivotal) instead of a drug phase. <span class="overdue">overdue</span> marks a trial still listed as active after its registered completion date. A missing flag means the registry does not say so.</p>
   <h3 class="lane">Longevity</h3>
   <details class="prog" open id="mtor">
     <summary><strong>mTOR inhibitors (rapamycin and rapalogs)</strong> <span class="note">Inhibit mTOR, a nutrient-sensing pathway that extends lifespan in animal models</span> <span class="badge">aimed at aging</span> <span class="count">10 active / 20 trials · <span class="overdue">5 overdue</span></span></summary>
@@ -551,14 +553,14 @@ section.summary { padding-top: 22px; }
       <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06429735">Precise Robotically IMplanted Brain-Computer InterfacE</a><div class="note">NCT06429735 · Neuralink Corp · primary: Device-Related Adverse Events (AE)</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=15*</span></td>
         <td class="when">2026-06<span class="note"> est.</span><div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06992596">UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices</a><div class="note">NCT06992596 · Neuralink Corp · primary: The Rate of Device-Related Adverse Events (AE)</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=10*</span></td>
         <td class="when">2026-11<span class="note"> est.</span></td>
@@ -572,28 +574,28 @@ section.summary { padding-top: 22px; }
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06700304">CAN-PRIME: Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices</a><div class="note">NCT06700304 · Neuralink Corp · primary: The Rate of Device-Related Adverse Events (AE)</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=6*</span></td>
         <td class="when">2027-11-30<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT07127172">GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices</a><div class="note">NCT07127172 · Neuralink Corp · primary: The Rate of Device-Related Adverse Events (AE)</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=7*</span></td>
         <td class="when">2028-01<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT07224256">VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration</a><div class="note">NCT07224256 · Neuralink Corp · primary: Device-Related Adverse Events (AE)</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=6*</span></td>
         <td class="when">2028-10<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06710626">Control of Assistive Devices Via Brain-Computer Interface Technology</a><div class="note">NCT06710626 · Neuralink Corp · primary: Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>enrolling by invitation</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=3*</span></td>
         <td class="when">2031-05-25<span class="note"> est.</span></td>
@@ -607,7 +609,7 @@ section.summary { padding-top: 22px; }
       <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT05035823">COMMAND Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis</a><div class="note">NCT05035823 · Synchron Medical, Inc. · primary: Treatment-Related Serious Adverse Events</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>active, not recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=6</span></td>
         <td class="when">2024-09-19<div class="overdue" title="Still listed as active, but the registered completion date has passed">overdue</div></td>
@@ -628,21 +630,21 @@ section.summary { padding-top: 22px; }
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT07543367">INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study</a><div class="note">NCT07543367 · Synchron, Inc. · primary: Device-related serious adverse events up to 180 days after implant</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=10*</span></td>
         <td class="when">2027-06<span class="note"> est.</span></td>
       </tr>
       <tr class="inactive">
         <td><a href="https://clinicaltrials.gov/study/NCT03834857">SWITCH: Stentrode First-in-Human Study of Implantable BCI for Control of a Digital Device</a><div class="note">NCT03834857 · Synchron Australia Pty Ltd. · primary: Treatment-Related Adverse Events</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>completed</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=5</span></td>
         <td class="when">2021-12-10</td>
       </tr>
       <tr class="inactive">
         <td><a href="https://clinicaltrials.gov/study/NCT05041114">SWITCH II Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis</a><div class="note">NCT05041114 · Synchron Medical, Inc. · primary: Treatment related adverse events</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>withdrawn</td>
         <td class="flags"><span class="flag">1-arm</span></td>
         <td class="when">2022-11-30</td>
@@ -663,7 +665,7 @@ section.summary { padding-top: 22px; }
       <tr><th>Trial</th><th>Phase</th><th>Status</th><th>Design</th><th>Primary completion</th></tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT07357428">Connect-One: Early Feasibility Study of Connexus® Brain-Computer Interface (BCI)</a><div class="note">NCT07357428 · Paradromics · primary: Primary Safety: Number of Subjects With Device Related Adverse Events</div></td>
-        <td>device / n.a.</td>
+        <td>early feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=2*</span></td>
         <td class="when">2027-05<span class="note"> est.</span></td>
@@ -698,35 +700,35 @@ section.summary { padding-top: 22px; }
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06511934">Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Tablet-01)</a><div class="note">NCT06511934 · Leigh R. Hochberg, MD, PhD. · primary: Sensor implant duration for at least one-year without any device-related Serious Adverse Events or explant</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=6*</span></td>
         <td class="when">2027-07-30<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT05724173">Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia</a><div class="note">NCT05724173 · Leigh R. Hochberg, MD, PhD. · primary: Device Safety</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=3*</span></td>
         <td class="when">2027-07-31<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06094205">Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Speech-02)</a><div class="note">NCT06094205 · Leigh R. Hochberg, MD, PhD. · primary: Sensor implant duration for at least one-year without any device-related Serious Adverse Events or explant</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=2*</span></td>
         <td class="when">2027-08-31<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT07791459">BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Aphasia</a><div class="note">NCT07791459 · Leigh R. Hochberg, MD, PhD. · primary: Safety of the BrainGate2 Neural Interface System</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>not yet recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=5*</span></td>
         <td class="when">2038-09<span class="note"> est.</span></td>
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT00912041">BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia</a><div class="note">NCT00912041 · Leigh R. Hochberg, MD, PhD. · primary: The primary endpoint of this Study is to determine the safety of the BrainGate2 Neural Interface System.</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=27*</span></td>
         <td class="when">2038-09<span class="note"> est.</span></td>
@@ -761,7 +763,7 @@ section.summary { padding-top: 22px; }
       </tr>
       <tr class="">
         <td><a href="https://clinicaltrials.gov/study/NCT06140706">Feasibility of Home Based Transcutaneous Spinal Cord Stimulation for Persons With SCI</a><div class="note">NCT06140706 · VA Palo Alto Health Care System · primary: NASA-TLX (NASA Task Load Index)</div></td>
-        <td>device / n.a.</td>
+        <td>feasibility</td>
         <td>not yet recruiting</td>
         <td class="flags"><span class="flag">1-arm</span><span class="n">n=10*</span></td>
         <td class="when">2027-12-31<span class="note"> est.</span></td>
@@ -3070,7 +3072,7 @@ section.summary { padding-top: 22px; }
   <h2>Sources and freshness</h2>
   <div class="tbl-wrap"><table>
     <tr><th>Source</th><th>Fetched</th><th>Age</th><th>Last error</th></tr>
-    <tr><td>ctgov</td><td>2026-10-31 15:57</td><td class="">22s</td><td></td></tr>
+    <tr><td>ctgov</td><td>2026-10-31 16:18</td><td class="">6s</td><td></td></tr>
   </table></div>
   <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here. Sister sites: <a href="https://gcicc.github.io/overhang/">OVERHANG</a> (AI) and <a href="https://gcicc.github.io/hangar/">HANGAR</a> (SpaceX &amp; Tesla).</p>
 </footer>

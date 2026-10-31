@@ -22,6 +22,7 @@ with HANGAR (SpaceX & Tesla) and OVERHANG (AI), built the same way.
 | K5 | News on the main page is gated the same way. Stories that do not qualify are kept as follow-up links, not discarded | "gated news - with links that I can follow-up on if I'm interested" |
 | K6 | Non-drug interventions are a lane, all of them (exercise, fasting, mind-body, breathwork, heat/cold, sleep), not only mind-body. Named programs (e.g. Joe Dispenza's retreat studies) tracked by sponsor; broad categories must name aging and count randomized trials only, exercise also n ≥ 300 | "include studies along lines of joe dispenza ... non-pharmalogical"; "Every non-drug intervention" (2026-10-31) |
 | K7 | The main page opens with an actionable summary, even when the action is "keep your eye on this". Built from fixed, printed rules; a reading list, not medical advice | "this page needs an 'actionable summary' at the top" (2026-10-31) |
+| K8 | Devices are not held to randomization: a sham-controlled brain implant is not a realistic design. They are exempt from "no randomized trial yet" and shown by device stage (early feasibility, feasibility, pivotal), read from registry titles. Basis: FDA RISE workshop 2026-09-29 (Session 1 nonrandomized designs; Session 4 BCI pivotal studies in ALS) | "wash this against FDA guidance ... RISE FDA workshop"; "you cant do rct with brain implat!" (2026-10-31) |
 
 ## Pages
 

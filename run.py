@@ -103,6 +103,9 @@ def build_board(rows: list[dict], by_row: dict, today: str) -> list[dict]:
                     s["status"], s["status"].lower()
                 )
                 s["active"] = s["status"] in ctgov.ACTIVE
+                s["device_stage"] = (
+                    ctgov.device_stage(s) if r["qualifies"] == "device" else None
+                )
                 # An active trial whose registered completion date has passed: the
                 # registry estimate is stale, or the trial is running late.
                 pc = s.get("primary_completion") or ""
@@ -204,7 +207,31 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
     no_rct = [
         r
         for r in programs.values()
-        if r["trials"] and not any(s["flags"]["randomized"] for s in r["trials"])
+        # Devices are exempt: a sham-controlled implant is not a realistic design. FDA's
+        # RISE workshop (2026-09-29) covered nonrandomized designs (Session 1) and pivotal
+        # studies of BCI devices in small populations (Session 4). Shown by stage instead.
+        if r["qualifies"] != "device"
+        and r["trials"]
+        and not any(s["flags"]["randomized"] for s in r["trials"])
+    ]
+    devices = [
+        {
+            "id": r["id"],
+            "name": r["name"],
+            "stages": {
+                st: sum(
+                    1
+                    for s in r["trials"]
+                    if s["active"] and s.get("device_stage") == st
+                )
+                for st in ("pivotal", "feasibility", "early feasibility")
+            },
+            "unstated": sum(
+                1 for s in r["trials"] if s["active"] and not s.get("device_stage")
+            ),
+        }
+        for r in programs.values()
+        if r["qualifies"] == "device" and any(s["active"] for s in r["trials"])
     ]
     overdue = [s for s in every if s.get("overdue")]
 
@@ -245,6 +272,7 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
         "no_rct": [
             {"id": r["id"], "name": r["name"], "n": len(r["trials"])} for r in no_rct
         ],
+        "devices": devices,
         "overdue": len(overdue),
         "windows": {
             "read": READ_WINDOW_DAYS,
