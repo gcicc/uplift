@@ -132,43 +132,45 @@ def test_randomized_and_size_filters():
     assert not ctgov.matches(row, study(allocation="NA", enrollment=500))
 
 
+def _graded(s, letter, points=0):
+    s["flags"] = ctgov.design_flags(s)
+    s["active"] = True
+    s["grade"] = {
+        "letter": letter,
+        "points": points,
+        "of": 8,
+        "criteria": [{"key": "prospective", "points": 0, "why": "registered late"}],
+    }
+    return s
+
+
 def test_summary_rules():
     from datetime import date
 
     today = date(2026, 10, 31)
     trials = [
-        study(nct="R", results_posted="2026-10-01", has_results=True),
-        study(nct="S", primary_completion="2026-12"),
-        study(nct="T", start="2026-09-15", start_type="ACTUAL"),
-        study(
-            nct="L",
-            primary_completion="2027-06-30",
-            start="2020-01",
-            start_type="ACTUAL",
-        ),
+        _graded(study(nct="R", results_posted="2026-10-01", has_results=True), "B"),
+        _graded(study(nct="S", primary_completion="2026-12"), "A"),
+        _graded(study(nct="S2", primary_completion="2026-12"), "C"),
+        _graded(study(nct="T", start="2026-09-15", start_type="ACTUAL"), "B"),
+        _graded(study(nct="W", primary_completion="2027-06-30"), "D"),
     ]
-    for s in trials:
-        s["flags"] = ctgov.design_flags(s)
-        s["active"] = True
-    single = study(nct="U", allocation="NA")
-    single["flags"] = ctgov.design_flags(single)
-    single["active"] = True
     board = [
         {
             "label": "L",
             "rows": [
-                {"id": "a", "name": "A", "qualifies": "non_drug", "trials": trials},
-                {"id": "b", "name": "B", "qualifies": "non_drug", "trials": [single]},
+                {"id": "a", "name": "A", "qualifies": "non_drug", "trials": trials}
             ],
         }
     ]
     sm = run.build_summary(board, [], today)
     assert [i["nct"] for i in sm["read_now"]] == ["R"]
-    assert "S" in [i["nct"] for i in sm["soon"]] and "L" not in [
-        i["nct"] for i in sm["soon"]
-    ]
+    soon = [i["nct"] for i in sm["soon"]]
+    assert "S" in soon and "S2" not in soon  # only sound plans
     assert [i["nct"] for i in sm["watch"]] == ["T"]
-    assert [r["id"] for r in sm["no_rct"]] == ["b"]
+    assert [i["nct"] for i in sm["weak"]] == ["W"] and "registered late" in sm["weak"][
+        0
+    ]["why"]
 
 
 def test_device_stage_from_titles():
@@ -187,27 +189,75 @@ def test_device_stage_from_titles():
     assert ctgov.device_stage({"title": "Control of Assistive Devices"}) is None
 
 
-def test_devices_exempt_from_no_rct():
+def test_device_stages_counted():
     from datetime import date
 
-    s = study(nct="D", allocation="NA")
-    s["flags"] = ctgov.design_flags(s)
-    s["active"] = True
+    s = _graded(study(nct="D", allocation="NA"), "C")
     s["device_stage"] = "early feasibility"
     board = [
         {
             "label": "N",
             "rows": [
-                {"id": "dev", "name": "Dev", "qualifies": "device", "trials": [s]},
-                {
-                    "id": "med",
-                    "name": "Med",
-                    "qualifies": "non_drug",
-                    "trials": [dict(s, nct="M")],
-                },
+                {"id": "dev", "name": "Dev", "qualifies": "device", "trials": [s]}
             ],
         }
     ]
     sm = run.build_summary(board, [], date(2026, 10, 31))
-    assert [r["id"] for r in sm["no_rct"]] == ["med"]
     assert sm["devices"][0]["stages"]["early feasibility"] == 1
+
+
+def test_grade_rewards_plan_not_design():
+    from datetime import date
+
+    from uplift import grade
+
+    today = date(2026, 10, 31)
+    retreat = study(
+        allocation=None,
+        start="2022-03-23",
+        first_submitted="2024-09-23",
+        primary_completion="2023-05-06",
+        primary_completion_type="ACTUAL",
+        phases=[],
+        primary_outcomes=[
+            {"measure": f"m{i}", "description": "before and after the retreat"}
+            for i in range(4)
+        ],
+    )
+    g = grade.grade(retreat, today)
+    keys = {c["key"]: c["points"] for c in g["criteria"]}
+    assert keys == {
+        "prospective": 0,
+        "focus": 0,
+        "comparison": 2,
+    }  # no results/SAP owed
+    assert g["letter"] == "D"
+    good_single_arm = study(
+        allocation=None,
+        start="2026-01-10",
+        first_submitted="2026-01-02",
+        phases=[],
+        primary_outcomes=[{"measure": "Change from baseline in grip strength"}],
+    )
+    assert grade.grade(good_single_arm, today)["letter"] == "A"
+    efs = study(
+        allocation=None,
+        start="2026-01-10",
+        first_submitted="2026-01-02",
+        phases=["NA"],
+        primary_outcomes=[
+            {"measure": "Incidence of device-related serious adverse events"}
+        ],
+    )
+    assert "comparison" not in {c["key"] for c in grade.grade(efs, today)["criteria"]}
+    late_ph3 = study(
+        start="2020-01-01",
+        first_submitted="2019-12-01",
+        phases=["PHASE3"],
+        primary_completion="2024-06-01",
+        primary_completion_type="ACTUAL",
+        primary_outcomes=[{"measure": "Change from baseline"}],
+    )
+    assert {c["key"]: c["points"] for c in grade.grade(late_ph3, today)["criteria"]}[
+        "results"
+    ] == 0

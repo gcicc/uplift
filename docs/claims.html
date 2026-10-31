@@ -70,7 +70,7 @@ footer h2 { font-size: 20px; color: var(--ink); }
   header.mast h1 { font-size: 30px; }
   .clock { font-size: 34px; }
   .count { float: none; display: block; }
-  th:nth-child(4), td:nth-child(4) { display: none; }
+  th:nth-child(5), td:nth-child(5) { display: none; }
 }
 .overdue { color: var(--warn); font-size: 12px; font-weight: 600; }
 .note a, code { overflow-wrap: anywhere; word-break: break-word; }
@@ -88,6 +88,12 @@ section.summary { padding-top: 22px; }
 .sum li { padding: 5px 0; border-top: 1px dotted var(--rule); line-height: 1.35; }
 .sum .none { color: var(--muted); font-size: 14px; font-style: italic; margin: 4px 0; }
 .sum .dev-k { margin-top: 12px; }
+td.grade { white-space: nowrap; cursor: help; }
+td.grade b { display: inline-block; min-width: 1.4em; text-align: center; border-radius: 3px; padding: 0 3px; }
+td.gA b { background: var(--accent); color: var(--panel); }
+td.gB b { border: 1px solid var(--accent); color: var(--accent); }
+td.gC b { border: 1px solid var(--warn); color: var(--warn); }
+td.gD b { background: var(--stale); color: var(--panel); }
 </style>
 </head>
 <body>
@@ -95,7 +101,7 @@ section.summary { padding-top: 22px; }
 <header class="mast">
   <h1><a href="index.html">UPLIFT</a></h1>
   <p class="dek">Living longer and doing more, tracked through registered trials, not press releases.</p>
-  <div class="meta">Built 2026-10-31 16:18 UTC · 18 tracked programs · 347 registered trials (122 active) · no LLM anywhere in the pipeline</div>
+  <div class="meta">Built 2026-10-31 16:28 UTC · 18 tracked programs · 347 registered trials (122 active) · no LLM anywhere in the pipeline</div>
   <nav class="toc">
     <a href="index.html">← Trials &amp; readouts</a>
     <a href="#ledger">Claims ledger</a>
@@ -129,7 +135,7 @@ section.summary { padding-top: 22px; }
   <h2>Sources and freshness</h2>
   <div class="tbl-wrap"><table>
     <tr><th>Source</th><th>Fetched</th><th>Age</th><th>Last error</th></tr>
-    <tr><td>ctgov</td><td>2026-10-31 16:18</td><td class="">6s</td><td></td></tr>
+    <tr><td>ctgov</td><td>2026-10-31 16:27</td><td class="">1m</td><td></td></tr>
   </table></div>
   <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here. Sister sites: <a href="https://gcicc.github.io/overhang/">OVERHANG</a> (AI) and <a href="https://gcicc.github.io/hangar/">HANGAR</a> (SpaceX &amp; Tesla).</p>
 </footer>

@@ -63,7 +63,7 @@ footer h2 { font-size: 20px; color: var(--ink); }
   header.mast h1 { font-size: 30px; }
   .clock { font-size: 34px; }
   .count { float: none; display: block; }
-  th:nth-child(4), td:nth-child(4) { display: none; }
+  th:nth-child(5), td:nth-child(5) { display: none; }
 }
 .overdue { color: var(--warn); font-size: 12px; font-weight: 600; }
 .note a, code { overflow-wrap: anywhere; word-break: break-word; }
@@ -81,3 +81,9 @@ section.summary { padding-top: 22px; }
 .sum li { padding: 5px 0; border-top: 1px dotted var(--rule); line-height: 1.35; }
 .sum .none { color: var(--muted); font-size: 14px; font-style: italic; margin: 4px 0; }
 .sum .dev-k { margin-top: 12px; }
+td.grade { white-space: nowrap; cursor: help; }
+td.grade b { display: inline-block; min-width: 1.4em; text-align: center; border-radius: 3px; padding: 0 3px; }
+td.gA b { background: var(--accent); color: var(--panel); }
+td.gB b { border: 1px solid var(--accent); color: var(--accent); }
+td.gC b { border: 1px solid var(--warn); color: var(--warn); }
+td.gD b { background: var(--stale); color: var(--panel); }

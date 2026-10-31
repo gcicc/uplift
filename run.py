@@ -16,7 +16,7 @@ import json
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
-from uplift import cache, ctgov, curated
+from uplift import cache, ctgov, curated, grade
 from uplift.render import render
 
 ROOT = Path(__file__).resolve().parent
@@ -34,6 +34,10 @@ STARTED_WINDOW_DAYS = (
 )
 CHANGE_WINDOW_DAYS = 30  # registry events within this many days
 SUMMARY_ITEMS = 6
+SOUND = (
+    "A",
+    "B",
+)  # analysis-plan grades that qualify a trial for "readout soon" / "watch"
 
 
 def cached(name: str):
@@ -106,6 +110,8 @@ def build_board(rows: list[dict], by_row: dict, today: str) -> list[dict]:
                 s["device_stage"] = (
                     ctgov.device_stage(s) if r["qualifies"] == "device" else None
                 )
+                # After device_stage: a pivotal device trial owes results (grade.py).
+                s["grade"] = grade.grade(s, date.fromisoformat(today))
                 # An active trial whose registered completion date has passed: the
                 # registry estimate is stale, or the trial is running late.
                 pc = s.get("primary_completion") or ""
@@ -184,7 +190,7 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
             s
             for s in every
             if s["active"]
-            and s["flags"]["randomized"]
+            and s["grade"]["letter"] in SOUND
             and s.get("primary_completion")
             and t <= _end(s["primary_completion"])
             and _start(s["primary_completion"]) <= soon_by
@@ -195,7 +201,7 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
         (
             s
             for s in every
-            if s["flags"]["randomized"]
+            if s["grade"]["letter"] in SOUND
             and s.get("start_type") == "ACTUAL"
             and s.get("start")
             and _start(s["start"]) >= started_after
@@ -204,16 +210,12 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
         reverse=True,
     )
     events = [c for c in changes if c["date"] >= change_after and c["kind"] != "date"]
-    no_rct = [
-        r
-        for r in programs.values()
-        # Devices are exempt: a sham-controlled implant is not a realistic design. FDA's
-        # RISE workshop (2026-09-29) covered nonrandomized designs (Session 1) and pivotal
-        # studies of BCI devices in small populations (Session 4). Shown by stage instead.
-        if r["qualifies"] != "device"
-        and r["trials"]
-        and not any(s["flags"]["randomized"] for s in r["trials"])
-    ]
+    # Graded on the planned analysis, not the design (SPEC K9): a single-group or device
+    # study with a pre-registered, focused, within-subject plan is not penalized.
+    weak = sorted(
+        (s for s in every if s["active"] and s["grade"]["letter"] == "D"),
+        key=lambda s: (s["grade"]["points"], -(s["flags"]["n"] or 0)),
+    )
     devices = [
         {
             "id": r["id"],
@@ -245,7 +247,7 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
         "soon": [
             item(
                 s,
-                f"randomized, {fmt_n(s)}; primary completion {s['primary_completion']}"
+                f"plan grade {s['grade']['letter']}, {fmt_n(s)}; primary completion {s['primary_completion']}"
                 + (
                     " (estimate)"
                     if s.get("primary_completion_type") != "ACTUAL"
@@ -265,13 +267,21 @@ def build_summary(board: list[dict], changes: list[dict], today: date) -> dict:
                 for c in events
             ]
             + [
-                item(s, f"randomized, {fmt_n(s)}; started {s['start']}")
+                item(
+                    s,
+                    f"plan grade {s['grade']['letter']}, {fmt_n(s)}; started {s['start']}",
+                )
                 for s in started
             ]
         )[:SUMMARY_ITEMS],
-        "no_rct": [
-            {"id": r["id"], "name": r["name"], "n": len(r["trials"])} for r in no_rct
-        ],
+        "weak": [
+            item(
+                s,
+                "; ".join(c["why"] for c in s["grade"]["criteria"] if c["points"] == 0),
+            )
+            for s in weak
+        ][:SUMMARY_ITEMS],
+        "weak_total": len(weak),
         "devices": devices,
         "overdue": len(overdue),
         "windows": {

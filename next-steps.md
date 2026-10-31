@@ -10,6 +10,12 @@ note: third sister site to HANGAR and OVERHANG
 
 ## Where this stands
 
+**2026-10-31 (K9): analysis-plan grades** (`uplift/grade.py`). Active trials: A 48, B 56,
+C 8, D 10. Both Dispenza studies D (registered 724 days after start / after primary
+completion; 4 co-primary endpoints; within-subject comparison credited). Neuralink PRIME D
+(registered 133 days after start). Most device feasibility studies A. Thresholds are a
+first cut for Greg to tune. 15 tests pass.
+
 **2026-10-31 (K8):** devices exempt from the no-RCT flag and shown by FDA device stage, citing
 the RISE workshop agenda (quote verified verbatim against the PDF). No active tracked device
 trial is named pivotal yet. 14 tests pass.

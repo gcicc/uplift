@@ -44,7 +44,7 @@ PHASE_LABEL = {
     "PHASE2": "2",
     "PHASE3": "3",
     "PHASE4": "4",
-    "NA": "device / n.a.",
+    "NA": "n.a.",
 }
 
 
@@ -134,6 +134,34 @@ def flatten(study: dict) -> dict:
         "conditions": conds.get("conditions") or [],
         "keywords": conds.get("keywords") or [],
         "primary_outcome": (prim[0].get("measure") if prim else None),
+        # For grading the planned analysis (uplift/grade.py).
+        "primary_outcomes": [
+            {
+                "measure": o.get("measure", ""),
+                "description": (o.get("description") or "")[:400],
+                "timeFrame": o.get("timeFrame", ""),
+            }
+            for o in prim
+        ],
+        "first_submitted": status.get("studyFirstSubmitDate"),
+        "has_sap": any(
+            d.get("hasSap")
+            for d in (
+                study.get("documentSection", {})
+                .get("largeDocumentModule", {})
+                .get("largeDocs")
+                or []
+            )
+        ),
+        "has_protocol": any(
+            d.get("hasProtocol")
+            for d in (
+                study.get("documentSection", {})
+                .get("largeDocumentModule", {})
+                .get("largeDocs")
+                or []
+            )
+        ),
         "has_results": bool(study.get("hasResults")),
         "start_type": (status.get("startDateStruct") or {}).get("type"),
         "results_posted": (status.get("resultsFirstPostDateStruct") or {}).get("date"),
