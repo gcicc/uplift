@@ -1865,53 +1865,6 @@
      ],
      "keywords": [
       "aging",
-      "functional capacity",
-      "muscle metabolism"
-     ],
-     "last_update": "2019-09-25",
-     "lead_sponsor": "Universidade Federal de Pernambuco",
-     "masking": "DOUBLE",
-     "nct": "NCT03688932",
-     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2019-05-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Walking Distance",
-     "primary_outcomes": [
-      {
-       "description": "The walking distance will be assessed through the six-minute walk test.",
-       "measure": "Walking Distance",
-       "timeFrame": "Change from Baseline walking distance at 3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2018-10-01",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Effects of WBV Associated With IMT on Functionality"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Frail Elderly Syndrome"
-     ],
-     "enrollment": 42,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2018-09-25",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "WBV + IMT",
-      "WBV + IMTsham",
-      "WBVsham + IMTsham"
-     ],
-     "keywords": [
-      "aging",
       "whole body vibration",
       "respiratory muscle training"
      ],
@@ -1939,6 +1892,53 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Effects of WBV Associated With IMT on Inflammatory Markers, Body Composition, Muscle Strength and Thickness"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Frail Elderly Syndrome"
+     ],
+     "enrollment": 42,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2018-09-25",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "WBV + IMT",
+      "WBV + IMTsham",
+      "WBVsham + IMTsham"
+     ],
+     "keywords": [
+      "aging",
+      "functional capacity",
+      "muscle metabolism"
+     ],
+     "last_update": "2019-09-25",
+     "lead_sponsor": "Universidade Federal de Pernambuco",
+     "masking": "DOUBLE",
+     "nct": "NCT03688932",
+     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2019-05-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Walking Distance",
+     "primary_outcomes": [
+      {
+       "description": "The walking distance will be assessed through the six-minute walk test.",
+       "measure": "Walking Distance",
+       "timeFrame": "Change from Baseline walking distance at 3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2018-10-01",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effects of WBV Associated With IMT on Functionality"
     },
     {
      "allocation": "RANDOMIZED",
@@ -2240,7 +2240,7 @@
      "results_posted": null,
      "start": "2021-12-05",
      "start_type": "ACTUAL",
-     "status": "ENROLLING_BY_INVITATION",
+     "status": "UNKNOWN",
      "study_type": "OBSERVATIONAL",
      "title": "Quest to Analyze One Thousand Humans Meditating"
     },
@@ -2590,6 +2590,70 @@
     }
    ],
    "exercise": [
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal",
+      "Sojecci II Ltd"
+     ],
+     "conditions": [
+      "Risk Behavior",
+      "Cognitive Decline"
+     ],
+     "enrollment": 368,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2024-12-18",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Luci Coach-Assisted Intervention"
+     ],
+     "keywords": [
+      "Primary Prevention",
+      "Aging",
+      "Cognition"
+     ],
+     "last_update": "2026-11-02",
+     "lead_sponsor": "LuciLab",
+     "masking": "SINGLE",
+     "nct": "NCT06748625",
+     "official_title": "Tailored, Multidomain, and Coach-assisted Digital Program for the Adoption and Maintenance of a Healthy Lifestyle in Middle-aged and Older Adults With Modifiable Risk Factors for Dementia: An Efficacy Study",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2026-03-23",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Lifestyle Risk Reduction criterion",
+     "primary_outcomes": [
+      {
+       "description": "The primary endpoint is the number of participants showing a clinically significant change (CSC) from Screening to Week 24 in at least one eligible domain (cognitive engagement, physical activity, mediterranean diet adherence).",
+       "measure": "Lifestyle Risk Reduction criterion",
+       "timeFrame": "Change from Screening to Week 24"
+      },
+      {
+       "description": "Cognitive engagement is measured using the Vemuri Cognitive Activity Questionnaire. Participants are asked to indicate the frequency in which they engage in 10 types of cognitive leisure activities. Scores range from 0 to 70. A higher score represents a higher cognitive engagement level. A clinically significant change is defined as a 6-point minimum increase.",
+       "measure": "Cognitive Engagement",
+       "timeFrame": "Screening, Week 12, Week 24, Week 52"
+      },
+      {
+       "description": "Physical activity is measured using the modified Godin-Shephard Leisure Time Physical Activity Questionnaire which consists of three sets of questions (6 items). An overall physical activity score is computed in Metabolic equivalent tasks (MET)-minutes/week, as well as a moderate-to-vigorous physical activity (MVPA) score. A higher MET value represents a higher physical activity level. A clinicall",
+       "measure": "Physical Activity",
+       "timeFrame": "Screening, Week 12, Week 24, Week 52"
+      },
+      {
+       "description": "Adherence to the Mediterranean Diet is measured with an adaptation of the Canadian Mediterranean Diet Scale. The scale consists of 13 questions on food consumption frequency and intake habits. Scores range from 0 to 13, where a higher score represents a higher adherence level. A clinically significant change is defined as a 2-point minimum increase.",
+       "measure": "Mediterranean Diet Adherence",
+       "timeFrame": "Screening, Week 12, Week 24, Week 52"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-03-13",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Efficacy of a Multidomain Intervention on Lifestyle Risk Factors for Dementia Prevention"
+    },
     {
      "allocation": "RANDOMIZED",
      "collaborators": [
@@ -3010,70 +3074,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Personalized Exercises Program Prescription to Prevent Functional Decline Throughout Older Adults Hospitalization"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal",
-      "Sojecci II Ltd"
-     ],
-     "conditions": [
-      "Risk Behavior",
-      "Cognitive Decline"
-     ],
-     "enrollment": 370,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-12-18",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Luci Coach-Assisted Intervention"
-     ],
-     "keywords": [
-      "Primary Prevention",
-      "Aging",
-      "Cognition"
-     ],
-     "last_update": "2026-08-25",
-     "lead_sponsor": "LuciLab",
-     "masking": "SINGLE",
-     "nct": "NCT06748625",
-     "official_title": "Tailored, Multidomain, and Coach-assisted Digital Program for the Adoption and Maintenance of a Healthy Lifestyle in Middle-aged and Older Adults With Modifiable Risk Factors for Dementia: An Efficacy Study",
-     "phases": [
-      "PHASE3"
-     ],
-     "primary_completion": "2026-03-23",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Lifestyle Risk Reduction criterion",
-     "primary_outcomes": [
-      {
-       "description": "The primary endpoint is the number of participants showing a clinically significant change (CSC) from Screening to Week 24 in at least one eligible domain (cognitive engagement, physical activity, mediterranean diet adherence).",
-       "measure": "Lifestyle Risk Reduction criterion",
-       "timeFrame": "Change from Screening to Week 24"
-      },
-      {
-       "description": "Cognitive engagement is measured using the Vemuri Cognitive Activity Questionnaire. Participants are asked to indicate the frequency in which they engage in 10 types of cognitive leisure activities. Scores range from 0 to 70. A higher score represents a higher cognitive engagement level. A clinically significant change is defined as a 6-point minimum increase.",
-       "measure": "Cognitive Engagement",
-       "timeFrame": "Screening, Week 12, Week 24, Week 52"
-      },
-      {
-       "description": "Physical activity is measured using the modified Godin-Shephard Leisure Time Physical Activity Questionnaire which consists of three sets of questions (6 items). An overall physical activity score is computed in Metabolic equivalent tasks (MET)-minutes/week, as well as a moderate-to-vigorous physical activity (MVPA) score. A higher MET value represents a higher physical activity level. A clinicall",
-       "measure": "Physical Activity",
-       "timeFrame": "Screening, Week 12, Week 24, Week 52"
-      },
-      {
-       "description": "Adherence to the Mediterranean Diet is measured with an adaptation of the Canadian Mediterranean Diet Scale. The scale consists of 13 questions on food consumption frequency and intake habits. Scores range from 0 to 13, where a higher score represents a higher adherence level. A clinically significant change is defined as a 2-point minimum increase.",
-       "measure": "Mediterranean Diet Adherence",
-       "timeFrame": "Screening, Week 12, Week 24, Week 52"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-03-13",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Efficacy of a Multidomain Intervention on Lifestyle Risk Factors for Dementia Prevention"
     },
     {
      "allocation": "RANDOMIZED",
@@ -10917,6 +10917,46 @@
      "conditions": [
       "Aging"
      ],
+     "enrollment": 44,
+     "enrollment_type": null,
+     "first_submitted": "2004-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Caloric Restriction (CR)"
+     ],
+     "keywords": [
+      "Longevity",
+      "Calorie restriction",
+      "Physical activity",
+      "Weight loss"
+     ],
+     "last_update": "2009-12-11",
+     "lead_sponsor": "National Institute on Aging (NIA)",
+     "masking": "SINGLE",
+     "nct": "NCT00099099",
+     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2004-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": null,
+     "primary_outcomes": [],
+     "results_posted": null,
+     "start": "2002-03",
+     "start_type": null,
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
      "enrollment": 48,
      "enrollment_type": null,
      "first_submitted": "2004-12-08",
@@ -10953,46 +10993,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
-     "enrollment": 44,
-     "enrollment_type": null,
-     "first_submitted": "2004-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Caloric Restriction (CR)"
-     ],
-     "keywords": [
-      "Longevity",
-      "Calorie restriction",
-      "Physical activity",
-      "Weight loss"
-     ],
-     "last_update": "2009-12-11",
-     "lead_sponsor": "National Institute on Aging (NIA)",
-     "masking": "SINGLE",
-     "nct": "NCT00099099",
-     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
-     "phases": [
-      "PHASE1"
-     ],
-     "primary_completion": "2004-12",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": null,
-     "primary_outcomes": [],
-     "results_posted": null,
-     "start": "2002-03",
-     "start_type": null,
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11086,6 +11086,52 @@
    "fisetin": [
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-06",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcomes": [
+      {
+       "description": "Brachial artery flow-mediated dilation",
+       "measure": "Change from baseline in endothelial function at 3 months",
+       "timeFrame": "3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Age-Related Lung Function Decline"
@@ -11142,52 +11188,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Ongoing Lung Decline With Age Intensified Response"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "Endothelial Dysfunction",
-      "Cellular Senescence"
-     ],
-     "enrollment": 136,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-10-06",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Fisetin",
-      "Placebo"
-     ],
-     "keywords": [],
-     "last_update": "2026-10-15",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "TRIPLE",
-     "nct": "NCT07871162",
-     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2031-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change from baseline in endothelial function at 3 months",
-     "primary_outcomes": [
-      {
-       "description": "Brachial artery flow-mediated dilation",
-       "measure": "Change from baseline in endothelial function at 3 months",
-       "timeFrame": "3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-11",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12541,63 +12541,6 @@
    "mindbody": [
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Potocsnak Human Longevity Lab"
-     ],
-     "conditions": [
-      "Aging",
-      "Aging, Healthy",
-      "Aging Well",
-      "Aging, Biological"
-     ],
-     "enrollment": 80,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2025-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Positive Emotion Skills Intervention"
-     ],
-     "keywords": [
-      "Aging",
-      "Resilience, Psychological",
-      "Psychological Well-Being",
-      "Aging Well",
-      "Internet-Based Intervention"
-     ],
-     "last_update": "2026-10-30",
-     "lead_sponsor": "Northwestern University",
-     "masking": "DOUBLE",
-     "nct": "NCT07334106",
-     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-08",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-     "primary_outcomes": [
-      {
-       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
-      },
-      {
-       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
-       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-09-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Emotional Well-being and Measures of Healthy Aging"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Healthspan Improvement",
@@ -12672,6 +12615,63 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Potocsnak Human Longevity Lab"
+     ],
+     "conditions": [
+      "Aging",
+      "Aging, Healthy",
+      "Aging Well",
+      "Aging, Biological"
+     ],
+     "enrollment": 80,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Positive Emotion Skills Intervention"
+     ],
+     "keywords": [
+      "Aging",
+      "Resilience, Psychological",
+      "Psychological Well-Being",
+      "Aging Well",
+      "Internet-Based Intervention"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "Northwestern University",
+     "masking": "DOUBLE",
+     "nct": "NCT07334106",
+     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+     "primary_outcomes": [
+      {
+       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
+       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-09-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Emotional Well-being and Measures of Healthy Aging"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12941,60 +12941,6 @@
      ],
      "conditions": [
       "Aging",
-      "MCI"
-     ],
-     "enrollment": 90,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-10-07",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "MediTrain",
-      "Worder",
-      "noninvasive neurostimulation device",
-      "wrist worn multi-sensor watches"
-     ],
-     "keywords": [
-      "healthy aging",
-      "cognitive decline",
-      "prevention",
-      "brain stimulation",
-      "attention",
-      "memory"
-     ],
-     "last_update": "2026-08-24",
-     "lead_sponsor": "University of California, San Francisco",
-     "masking": "TRIPLE",
-     "nct": "NCT06633952",
-     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-08-31",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
-     "primary_outcomes": [
-      {
-       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
-       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
-       "timeFrame": "baseline and immediate follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-08-31",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
       "MCI",
       "Cognitive Decline"
      ],
@@ -13045,6 +12991,60 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Enhancing Attention and Wellbeing Using Digital Therapeutics"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "MCI"
+     ],
+     "enrollment": 90,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-10-07",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "MediTrain",
+      "Worder",
+      "noninvasive neurostimulation device",
+      "wrist worn multi-sensor watches"
+     ],
+     "keywords": [
+      "healthy aging",
+      "cognitive decline",
+      "prevention",
+      "brain stimulation",
+      "attention",
+      "memory"
+     ],
+     "last_update": "2026-08-24",
+     "lead_sponsor": "University of California, San Francisco",
+     "masking": "TRIPLE",
+     "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
+     "primary_outcomes": [
+      {
+       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
+       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
+       "timeFrame": "baseline and immediate follow-up"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-08-31",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
     },
     {
      "allocation": "RANDOMIZED",
@@ -20053,6 +20053,51 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2022-01-19",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Sirolimus"
+     ],
+     "keywords": [
+      "aging",
+      "sirolimus",
+      "prevention"
+     ],
+     "last_update": "2026-06-25",
+     "lead_sponsor": "Irina Timofte",
+     "masking": "NONE",
+     "nct": "NCT05237687",
+     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Phenotypic/functional biomarkers of aging",
+     "primary_outcomes": [
+      {
+       "description": "Phenotypic biomarkers of aging will be measured by SASP (senescence-associated secretory phenotype) index score at 1 year follow-up when compared to elderly patients not receiving sirolimus.",
+       "measure": "Phenotypic/functional biomarkers of aging",
+       "timeFrame": "1 year"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-03-31",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [
       "University of Maryland, Baltimore",
       "National Institute on Aging (NIA)"
@@ -20174,51 +20219,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "MTOR Inhibitors in Older Adults"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
-     "enrollment": 10,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2022-01-19",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Sirolimus"
-     ],
-     "keywords": [
-      "aging",
-      "sirolimus",
-      "prevention"
-     ],
-     "last_update": "2026-06-25",
-     "lead_sponsor": "Irina Timofte",
-     "masking": "NONE",
-     "nct": "NCT05237687",
-     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2027-11",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Phenotypic/functional biomarkers of aging",
-     "primary_outcomes": [
-      {
-       "description": "Phenotypic biomarkers of aging will be measured by SASP (senescence-associated secretory phenotype) index score at 1 year follow-up when compared to elderly patients not receiving sirolimus.",
-       "measure": "Phenotypic/functional biomarkers of aging",
-       "timeFrame": "1 year"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-03-31",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -21709,49 +21709,6 @@
      "conditions": [
       "Chronic Spinal Cord Injury"
      ],
-     "enrollment": 17,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2022-03-09",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "LIFT System"
-     ],
-     "keywords": [
-      "SCI, Tetraplegia, ARC therapy"
-     ],
-     "last_update": "2022-09-16",
-     "lead_sponsor": "ONWARD Medical, Inc.",
-     "masking": "NONE",
-     "nct": "NCT05284201",
-     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2022-06-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Incidence of all adverse events (AEs)",
-     "primary_outcomes": [
-      {
-       "description": "Observational data regarding the incidence of all adverse events related to the use of the study device and treatment procedures will be reported.",
-       "measure": "Incidence of all adverse events (AEs)",
-       "timeFrame": "Through completion of the study, an average of 6 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-03-03",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Chronic Spinal Cord Injury"
-     ],
      "enrollment": 65,
      "enrollment_type": "ACTUAL",
      "first_submitted": "2020-12-04",
@@ -21795,6 +21752,49 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "The Up-LIFT Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Chronic Spinal Cord Injury"
+     ],
+     "enrollment": 17,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2022-03-09",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "LIFT System"
+     ],
+     "keywords": [
+      "SCI, Tetraplegia, ARC therapy"
+     ],
+     "last_update": "2022-09-16",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05284201",
+     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2022-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Incidence of all adverse events (AEs)",
+     "primary_outcomes": [
+      {
+       "description": "Observational data regarding the incidence of all adverse events related to the use of the study device and treatment procedures will be reported.",
+       "measure": "Incidence of all adverse events (AEs)",
+       "timeFrame": "Through completion of the study, an average of 6 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-03-03",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
     }
    ],
    "paradromics": [
@@ -23218,6 +23218,54 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Aging"
+     ],
+     "enrollment": 120,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2021-10-27",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Heat therapy",
+      "Thermoneutral water immersion"
+     ],
+     "keywords": [
+      "Endothelial function",
+      "Arterial stiffness",
+      "Heat",
+      "Hot water immersion",
+      "Systolic blood pressure"
+     ],
+     "last_update": "2026-11-02",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "SINGLE",
+     "nct": "NCT05300971",
+     "official_title": "Passive Heat Therapy for Lowering Systolic Blood Pressure and Improving Vascular Function in Mid-life and Older Adults",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-11-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change in casual systolic blood pressure from baseline to 2, 4, 6, 8, 10, and 12 weeks of heat therapy, and 4 and 12 weeks of follow-up.",
+     "primary_outcomes": [
+      {
+       "description": "Casual brachial artery systolic blood pressure, measured in triplicate (and averaged)",
+       "measure": "Change in casual systolic blood pressure from baseline to 2, 4, 6, 8, 10, and 12 weeks of heat therapy, and 4 and 12 weeks of follow-up.",
+       "timeFrame": "0 weeks, 2 weeks, 4 weeks, 6 weeks, 8 weeks, 10 weeks, 12 weeks, 16 weeks, 24 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-08-01",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Passive Heat Therapy for Lowering Systolic Blood Pressure and Improving Vascular Function in Mid-life and Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Prediabetic State"
      ],
      "enrollment": 54,
@@ -23573,54 +23621,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
-     "enrollment": 150,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2021-10-27",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Heat therapy",
-      "Thermoneutral water immersion"
-     ],
-     "keywords": [
-      "Endothelial function",
-      "Arterial stiffness",
-      "Heat",
-      "Hot water immersion",
-      "Systolic blood pressure"
-     ],
-     "last_update": "2025-04-29",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "SINGLE",
-     "nct": "NCT05300971",
-     "official_title": "Passive Heat Therapy for Lowering Systolic Blood Pressure and Improving Vascular Function in Mid-life and Older Adults",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2027-11-01",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change in casual systolic blood pressure from baseline to 2, 4, 6, 8, 10, and 12 weeks of heat therapy, and 4 and 12 weeks of follow-up.",
-     "primary_outcomes": [
-      {
-       "description": "Casual brachial artery systolic blood pressure, measured in triplicate (and averaged)",
-       "measure": "Change in casual systolic blood pressure from baseline to 2, 4, 6, 8, 10, and 12 weeks of heat therapy, and 4 and 12 weeks of follow-up.",
-       "timeFrame": "0 weeks, 2 weeks, 4 weeks, 6 weeks, 8 weeks, 10 weeks, 12 weeks, 16 weeks, 24 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-08-01",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Passive Heat Therapy for Lowering Systolic Blood Pressure and Improving Vascular Function in Mid-life and Older Adults"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [
       "Indiana Clinical and Translational Sciences Institute",
       "American College of Sports Medicine Foundation"
@@ -23785,7 +23785,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-01T13:25:39+00:00",
+  "fetched_at": "2026-11-02T15:53:40+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 7,
@@ -23807,5 +23807,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-01T13:25:39.589393+00:00"
+ "fetched_at": "2026-11-02T15:53:40.701165+00:00"
 }
