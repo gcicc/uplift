@@ -417,6 +417,52 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Older Adults (65 Years and Older)",
+      "Cognition",
+      "Balance Control in Elderly",
+      "Fall Prevention in Healthy Aging"
+     ],
+     "enrollment": 40,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-03-17",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Balance Training Program",
+      "Inspiratory Muscle Training",
+      "Breathing Exercise Program"
+     ],
+     "keywords": [],
+     "last_update": "2026-11-04",
+     "lead_sponsor": "Istanbul University - Cerrahpasa",
+     "masking": "DOUBLE",
+     "nct": "NCT07505914",
+     "official_title": "Comparing Different Breathing Exercises Added to Balance Training on Cognitive and Functional Outcomes in Elderly Population",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-12",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Montreal Cognitive Assessment (MoCA)",
+     "primary_outcomes": [
+      {
+       "description": "The Montreal Cognitive Assessment (MoCA) is used to assess global cognitive function. The total score ranges from 0 to 30, with higher scores indicating better cognitive performance.",
+       "measure": "Montreal Cognitive Assessment (MoCA)",
+       "timeFrame": "From enrollment to the end of intervention at 8 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-04-20",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effects of Breathing Exercises on Cognition in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Older Men",
       "Quality of Life",
       "Fatty Liver",
@@ -568,52 +614,6 @@
      "status": "NOT_YET_RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Tai Chi Intervention for Balance Function in Older Adults: Predictive and Modifying Roles of Circadian Age"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Older Adults (65 Years and Older)",
-      "Cognition",
-      "Balance Control in Elderly",
-      "Fall Prevention in Healthy Aging"
-     ],
-     "enrollment": 40,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-03-17",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Balance Training Program",
-      "Inspiratory Muscle Training",
-      "Breathing Exercise Program"
-     ],
-     "keywords": [],
-     "last_update": "2026-04-01",
-     "lead_sponsor": "Istanbul University - Cerrahpasa",
-     "masking": "DOUBLE",
-     "nct": "NCT07505914",
-     "official_title": "Comparing Different Breathing Exercises Added to Balance Training on Cognitive and Functional Outcomes in Elderly Population",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-12",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Montreal Cognitive Assessment (MoCA)",
-     "primary_outcomes": [
-      {
-       "description": "The Montreal Cognitive Assessment (MoCA) is used to assess global cognitive function. The total score ranges from 0 to 30, with higher scores indicating better cognitive performance.",
-       "measure": "Montreal Cognitive Assessment (MoCA)",
-       "timeFrame": "From enrollment to the end of intervention at 8 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-03-20",
-     "start_type": "ESTIMATED",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Effects of Breathing Exercises on Cognition in Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -3077,6 +3077,81 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging Well"
+     ],
+     "enrollment": 1024,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-01-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Digital intervention through Tablet"
+     ],
+     "keywords": [
+      "Ageing",
+      "Digital intervention",
+      "Functional capacity"
+     ],
+     "last_update": "2026-07-31",
+     "lead_sponsor": "The University of Hong Kong",
+     "masking": "NONE",
+     "nct": "NCT06217601",
+     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Health-related quality of life (HRQL)",
+     "primary_outcomes": [
+      {
+       "description": "Measure by EQ-5D-5L (range from -0.59 to 1.0), higher score indicates better quality of life",
+       "measure": "Health-related quality of life (HRQL)",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by Short Physical Performance Battery (range from 0 to 12), with higher score indicating better physical performance",
+       "measure": "Physical function",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 5-minute Montreal Cognitive Assessment (MoCA) (range from 0 to 30), A score of 26 or over is considered to be normal.",
+       "measure": "Cognitive function score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 7-item Memory Complaint Scale (MCS) (range from 0 to 14), lower score indicates better memory performance. No MCs (0-2), Mild MCs (3-6), Moderate MCs (7-10), Severe MCs (11-14).",
+       "measure": "Subjective Memory Score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 3-item UCLA Loneliness Scale (range 3-9), higher score indicates greater loneliness.",
+       "measure": "Loneliness score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by The 8-item Geriatric Depression Scale (range 0 to 8), with higher score indicating higher risk of depression",
+       "measure": "Depression score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 8-item Social Connectedness Scale Revised (range 0 to 48), \\<22 indicates lack of social connectedness",
+       "measure": "Social function",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      }
+     ],
+     "results_posted": null,
+     "start": "2023-06-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [
       "University of California, San Diego",
       "Stanford University",
@@ -3180,81 +3255,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Women's Health Initiative Strong and Healthy Study"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging Well"
-     ],
-     "enrollment": 1024,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-01-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Digital intervention through Tablet"
-     ],
-     "keywords": [
-      "Ageing",
-      "Digital intervention",
-      "Functional capacity"
-     ],
-     "last_update": "2026-07-31",
-     "lead_sponsor": "The University of Hong Kong",
-     "masking": "NONE",
-     "nct": "NCT06217601",
-     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-06-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Health-related quality of life (HRQL)",
-     "primary_outcomes": [
-      {
-       "description": "Measure by EQ-5D-5L (range from -0.59 to 1.0), higher score indicates better quality of life",
-       "measure": "Health-related quality of life (HRQL)",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by Short Physical Performance Battery (range from 0 to 12), with higher score indicating better physical performance",
-       "measure": "Physical function",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 5-minute Montreal Cognitive Assessment (MoCA) (range from 0 to 30), A score of 26 or over is considered to be normal.",
-       "measure": "Cognitive function score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 7-item Memory Complaint Scale (MCS) (range from 0 to 14), lower score indicates better memory performance. No MCs (0-2), Mild MCs (3-6), Moderate MCs (7-10), Severe MCs (11-14).",
-       "measure": "Subjective Memory Score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 3-item UCLA Loneliness Scale (range 3-9), higher score indicates greater loneliness.",
-       "measure": "Loneliness score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by The 8-item Geriatric Depression Scale (range 0 to 8), with higher score indicating higher risk of depression",
-       "measure": "Depression score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 8-item Social Connectedness Scale Revised (range 0 to 48), \\<22 indicates lack of social connectedness",
-       "measure": "Social function",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      }
-     ],
-     "results_posted": null,
-     "start": "2023-06-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -5957,6 +5957,62 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Mobility Limitation"
+     ],
+     "enrollment": 535,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2016-10-21",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Tailored Knowledge Translation"
+     ],
+     "keywords": [
+      "Mobility",
+      "Aging",
+      "Knowledge Translation",
+      "Physical Activity"
+     ],
+     "last_update": "2020-02-21",
+     "lead_sponsor": "McMaster University",
+     "masking": "SINGLE",
+     "nct": "NCT02947230",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2017-11-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Website analytics",
+     "primary_outcomes": [
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Website analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Email analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Google analytics",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2017-03-07",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [
       "Canadian Institutes of Health Research (CIHR)"
      ],
@@ -6014,62 +6070,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Cancer Prevention Behaviours in Underserved Populations"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Mobility Limitation"
-     ],
-     "enrollment": 535,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2016-10-21",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Tailored Knowledge Translation"
-     ],
-     "keywords": [
-      "Mobility",
-      "Aging",
-      "Knowledge Translation",
-      "Physical Activity"
-     ],
-     "last_update": "2020-02-21",
-     "lead_sponsor": "McMaster University",
-     "masking": "SINGLE",
-     "nct": "NCT02947230",
-     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2017-11-01",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Website analytics",
-     "primary_outcomes": [
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Website analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Email analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Google analytics",
-       "timeFrame": "12 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2017-03-07",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
     },
     {
      "allocation": "RANDOMIZED",
@@ -10917,46 +10917,6 @@
      "conditions": [
       "Aging"
      ],
-     "enrollment": 44,
-     "enrollment_type": null,
-     "first_submitted": "2004-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Caloric Restriction (CR)"
-     ],
-     "keywords": [
-      "Longevity",
-      "Calorie restriction",
-      "Physical activity",
-      "Weight loss"
-     ],
-     "last_update": "2009-12-11",
-     "lead_sponsor": "National Institute on Aging (NIA)",
-     "masking": "SINGLE",
-     "nct": "NCT00099099",
-     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
-     "phases": [
-      "PHASE1"
-     ],
-     "primary_completion": "2004-12",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": null,
-     "primary_outcomes": [],
-     "results_posted": null,
-     "start": "2002-03",
-     "start_type": null,
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
      "enrollment": 48,
      "enrollment_type": null,
      "first_submitted": "2004-12-08",
@@ -10993,6 +10953,46 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 44,
+     "enrollment_type": null,
+     "first_submitted": "2004-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Caloric Restriction (CR)"
+     ],
+     "keywords": [
+      "Longevity",
+      "Calorie restriction",
+      "Physical activity",
+      "Weight loss"
+     ],
+     "last_update": "2009-12-11",
+     "lead_sponsor": "National Institute on Aging (NIA)",
+     "masking": "SINGLE",
+     "nct": "NCT00099099",
+     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2004-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": null,
+     "primary_outcomes": [],
+     "results_posted": null,
+     "start": "2002-03",
+     "start_type": null,
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11086,6 +11086,52 @@
    "fisetin": [
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-06",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcomes": [
+      {
+       "description": "Brachial artery flow-mediated dilation",
+       "measure": "Change from baseline in endothelial function at 3 months",
+       "timeFrame": "3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Age-Related Lung Function Decline"
@@ -11142,52 +11188,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Ongoing Lung Decline With Age Intensified Response"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "Endothelial Dysfunction",
-      "Cellular Senescence"
-     ],
-     "enrollment": 136,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-10-06",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Fisetin",
-      "Placebo"
-     ],
-     "keywords": [],
-     "last_update": "2026-10-15",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "TRIPLE",
-     "nct": "NCT07871162",
-     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2031-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change from baseline in endothelial function at 3 months",
-     "primary_outcomes": [
-      {
-       "description": "Brachial artery flow-mediated dilation",
-       "measure": "Change from baseline in endothelial function at 3 months",
-       "timeFrame": "3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-11",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12941,60 +12941,6 @@
      ],
      "conditions": [
       "Aging",
-      "MCI"
-     ],
-     "enrollment": 90,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-10-07",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "MediTrain",
-      "Worder",
-      "noninvasive neurostimulation device",
-      "wrist worn multi-sensor watches"
-     ],
-     "keywords": [
-      "healthy aging",
-      "cognitive decline",
-      "prevention",
-      "brain stimulation",
-      "attention",
-      "memory"
-     ],
-     "last_update": "2026-08-24",
-     "lead_sponsor": "University of California, San Francisco",
-     "masking": "TRIPLE",
-     "nct": "NCT06633952",
-     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-08-31",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
-     "primary_outcomes": [
-      {
-       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
-       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
-       "timeFrame": "baseline and immediate follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-08-31",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
       "MCI",
       "Cognitive Decline"
      ],
@@ -13045,6 +12991,60 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Enhancing Attention and Wellbeing Using Digital Therapeutics"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "MCI"
+     ],
+     "enrollment": 90,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-10-07",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "MediTrain",
+      "Worder",
+      "noninvasive neurostimulation device",
+      "wrist worn multi-sensor watches"
+     ],
+     "keywords": [
+      "healthy aging",
+      "cognitive decline",
+      "prevention",
+      "brain stimulation",
+      "attention",
+      "memory"
+     ],
+     "last_update": "2026-08-24",
+     "lead_sponsor": "University of California, San Francisco",
+     "masking": "TRIPLE",
+     "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
+     "primary_outcomes": [
+      {
+       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
+       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
+       "timeFrame": "baseline and immediate follow-up"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-08-31",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
     },
     {
      "allocation": "RANDOMIZED",
@@ -14840,62 +14840,6 @@
      "collaborators": [],
      "conditions": [
       "Exercise Training",
-      "Neurocognitive Function",
-      "Aging"
-     ],
-     "enrollment": 120,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2021-09-26",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Integrated Intervention Group (IIG)",
-      "Control Group"
-     ],
-     "keywords": [
-      "physical fitness",
-      "meditation",
-      "social interaction",
-      "Apolipoprotein E",
-      "aging",
-      "event-related potential"
-     ],
-     "last_update": "2023-11-27",
-     "lead_sponsor": "National Taiwan Normal University",
-     "masking": "SINGLE",
-     "nct": "NCT05101174",
-     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2025-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Inhibition: Changes in Stroop test performance",
-     "primary_outcomes": [
-      {
-       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Inhibition: Changes in Stroop test performance",
-       "timeFrame": "30 minutes each at the baseline and at month 6"
-      },
-      {
-       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Changes in neuroelectrical activities",
-       "timeFrame": "60 minutes each at baseline and at month 6"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-04-11",
-     "start_type": "ACTUAL",
-     "status": "UNKNOWN",
-     "study_type": "INTERVENTIONAL",
-     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Exercise Training",
       "Executive Function",
       "Aging"
      ],
@@ -14952,6 +14896,62 @@
      "status": "UNKNOWN",
      "study_type": "INTERVENTIONAL",
      "title": "Multi-Domain Exercise and Memory in Adults Relative to ApoE Genotype: A fMRI Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Exercise Training",
+      "Neurocognitive Function",
+      "Aging"
+     ],
+     "enrollment": 120,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2021-09-26",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Integrated Intervention Group (IIG)",
+      "Control Group"
+     ],
+     "keywords": [
+      "physical fitness",
+      "meditation",
+      "social interaction",
+      "Apolipoprotein E",
+      "aging",
+      "event-related potential"
+     ],
+     "last_update": "2023-11-27",
+     "lead_sponsor": "National Taiwan Normal University",
+     "masking": "SINGLE",
+     "nct": "NCT05101174",
+     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2025-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Inhibition: Changes in Stroop test performance",
+     "primary_outcomes": [
+      {
+       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Inhibition: Changes in Stroop test performance",
+       "timeFrame": "30 minutes each at the baseline and at month 6"
+      },
+      {
+       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Changes in neuroelectrical activities",
+       "timeFrame": "60 minutes each at baseline and at month 6"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-04-11",
+     "start_type": "ACTUAL",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
     },
     {
      "allocation": "RANDOMIZED",
@@ -21297,65 +21297,6 @@
     },
     {
      "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Tetraplegia/Tetraparesis",
-      "Amyotrophic Lateral Sclerosis (ALS)",
-      "Quadriplegia",
-      "Spinal Cord Injury (SCI)",
-      "Spinal Cord Injury Cervical"
-     ],
-     "enrollment": 3,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-11-25",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Assistive Robotic Arm"
-     ],
-     "keywords": [
-      "brain computer interface",
-      "robotic arm",
-      "assistive device",
-      "Neuralink N1 Implant",
-      "Neuralink",
-      "N1 Implant",
-      "ALS",
-      "Spinal cord injury",
-      "Quadriplegia",
-      "tetraplegia",
-      "Robot",
-      "external device control",
-      "neuroprosthetics"
-     ],
-     "last_update": "2025-06-05",
-     "lead_sponsor": "Neuralink Corp",
-     "masking": "NONE",
-     "nct": "NCT06710626",
-     "official_title": "CONVOY: An Early Feasibility Study of Neural Control of Assistive Devices Via Brain-Computer Interface Technology",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2031-05-25",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
-     "primary_outcomes": [
-      {
-       "description": "",
-       "measure": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
-       "timeFrame": "3-months following first use of the assistive device"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-11-25",
-     "start_type": "ACTUAL",
-     "status": "ENROLLING_BY_INVITATION",
-     "study_type": "INTERVENTIONAL",
-     "title": "Control of Assistive Devices Via Brain-Computer Interface Technology"
-    },
-    {
-     "allocation": "NA",
      "collaborators": [
       "Cleveland Clinic Abu Dhabi"
      ],
@@ -21429,6 +21370,65 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Quadriplegia",
+      "Spinal Cord Injury (SCI)",
+      "Spinal Cord Injury Cervical"
+     ],
+     "enrollment": 3,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-11-25",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Assistive Robotic Arm"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "robotic arm",
+      "assistive device",
+      "Neuralink N1 Implant",
+      "Neuralink",
+      "N1 Implant",
+      "ALS",
+      "Spinal cord injury",
+      "Quadriplegia",
+      "tetraplegia",
+      "Robot",
+      "external device control",
+      "neuroprosthetics"
+     ],
+     "last_update": "2025-06-05",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06710626",
+     "official_title": "CONVOY: An Early Feasibility Study of Neural Control of Assistive Devices Via Brain-Computer Interface Technology",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2031-05-25",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
+     "primary_outcomes": [
+      {
+       "description": "",
+       "measure": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
+       "timeFrame": "3-months following first use of the assistive device"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-11-25",
+     "start_type": "ACTUAL",
+     "status": "ENROLLING_BY_INVITATION",
+     "study_type": "INTERVENTIONAL",
+     "title": "Control of Assistive Devices Via Brain-Computer Interface Technology"
     },
     {
      "allocation": "NA",
@@ -23785,7 +23785,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-03T14:15:36+00:00",
+  "fetched_at": "2026-11-04T19:45:32+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 7,
@@ -23807,5 +23807,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-03T14:15:36.714456+00:00"
+ "fetched_at": "2026-11-04T19:45:32.052354+00:00"
 }
