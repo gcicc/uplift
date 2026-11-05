@@ -63,6 +63,56 @@
     {
      "allocation": "NA",
      "collaborators": [
+      "National Institute on Deafness and Other Communication Disorders (NIDCD)"
+     ],
+     "conditions": [
+      "Aphasia",
+      "ALS",
+      "Stroke"
+     ],
+     "enrollment": 2,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-27",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "BrainGate Neural Interface System"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "BCI",
+      "iBCI",
+      "aphasia"
+     ],
+     "last_update": "2026-11-05",
+     "lead_sponsor": "Leigh R. Hochberg, MD, PhD.",
+     "masking": "NONE",
+     "nct": "NCT07918768",
+     "official_title": "Restoring Speech With an Intracortical Neuroprosthesis for Post-Stroke Agrammatic Aphasia",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2031-10-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Sensor implant duration for at least one-year without any device-related Serious Adverse Events or explant",
+     "primary_outcomes": [
+      {
+       "description": "To determine the safety of the Sensor and overall safety of the System. Participants will be considered a success for this safety measure if they are successfully implanted with the Sensor(s) and:\n\n1. the sensors are not explanted for safety reasons during the one-year post-implant evaluation period.\n2. there are no device-related Serious Adverse Events that result in death or permanently increase",
+       "measure": "Sensor implant duration for at least one-year without any device-related Serious Adverse Events or explant",
+       "timeFrame": "1 year"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-10-31",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Restoring Speech With an Intracortical Neuroprosthesis for Post-Stroke Agrammatic Aphasia (BG-Aphasia-02)"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [
       "Brown University",
       "Stanford University",
       "National Institute on Deafness and Other Communication Disorders (NIDCD)"
@@ -1865,53 +1915,6 @@
      ],
      "keywords": [
       "aging",
-      "functional capacity",
-      "muscle metabolism"
-     ],
-     "last_update": "2019-09-25",
-     "lead_sponsor": "Universidade Federal de Pernambuco",
-     "masking": "DOUBLE",
-     "nct": "NCT03688932",
-     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2019-05-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Walking Distance",
-     "primary_outcomes": [
-      {
-       "description": "The walking distance will be assessed through the six-minute walk test.",
-       "measure": "Walking Distance",
-       "timeFrame": "Change from Baseline walking distance at 3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2018-10-01",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Effects of WBV Associated With IMT on Functionality"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Frail Elderly Syndrome"
-     ],
-     "enrollment": 42,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2018-09-25",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "WBV + IMT",
-      "WBV + IMTsham",
-      "WBVsham + IMTsham"
-     ],
-     "keywords": [
-      "aging",
       "whole body vibration",
       "respiratory muscle training"
      ],
@@ -1939,6 +1942,53 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Effects of WBV Associated With IMT on Inflammatory Markers, Body Composition, Muscle Strength and Thickness"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Frail Elderly Syndrome"
+     ],
+     "enrollment": 42,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2018-09-25",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "WBV + IMT",
+      "WBV + IMTsham",
+      "WBVsham + IMTsham"
+     ],
+     "keywords": [
+      "aging",
+      "functional capacity",
+      "muscle metabolism"
+     ],
+     "last_update": "2019-09-25",
+     "lead_sponsor": "Universidade Federal de Pernambuco",
+     "masking": "DOUBLE",
+     "nct": "NCT03688932",
+     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2019-05-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Walking Distance",
+     "primary_outcomes": [
+      {
+       "description": "The walking distance will be assessed through the six-minute walk test.",
+       "measure": "Walking Distance",
+       "timeFrame": "Change from Baseline walking distance at 3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2018-10-01",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effects of WBV Associated With IMT on Functionality"
     },
     {
      "allocation": "RANDOMIZED",
@@ -2593,6 +2643,52 @@
     {
      "allocation": "RANDOMIZED",
      "collaborators": [
+      "Azienda Usl di Bologna",
+      "Azienda Unita Sanitaria Locale di Piacenza"
+     ],
+     "conditions": [
+      "Myocardial Infarction",
+      "Aging"
+     ],
+     "enrollment": 512,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2019-11-27",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Health Education",
+      "Multi-domain lifestyle intervention"
+     ],
+     "keywords": [],
+     "last_update": "2026-11-05",
+     "lead_sponsor": "University Hospital of Ferrara",
+     "masking": "SINGLE",
+     "nct": "NCT04183465",
+     "official_title": "Effectiveness of an Early, Tailored, Physical Activity Intervention in ELderly Patients With Myocardial INfarction: the PIpELINe Randomized Clinical Trial",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2024-11-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Cumulative occurrence of cardiovascular death and hospital readmission for cardiovascular cause",
+     "primary_outcomes": [
+      {
+       "description": "To assess the superiority of the early and tailored physical activity intervention over health education alone in terms of 1-year composite endpoint of cardiovascular death plus hospital readmission for cardiovascular cause.",
+       "measure": "Cumulative occurrence of cardiovascular death and hospital readmission for cardiovascular cause",
+       "timeFrame": "1-year"
+      }
+     ],
+     "results_posted": null,
+     "start": "2020-03-27",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Physical Activity Intervention in ELderly Patients With Myocardial INfarction"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
       "Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal",
       "Sojecci II Ltd"
      ],
@@ -3077,81 +3173,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging Well"
-     ],
-     "enrollment": 1024,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-01-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Digital intervention through Tablet"
-     ],
-     "keywords": [
-      "Ageing",
-      "Digital intervention",
-      "Functional capacity"
-     ],
-     "last_update": "2026-07-31",
-     "lead_sponsor": "The University of Hong Kong",
-     "masking": "NONE",
-     "nct": "NCT06217601",
-     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-06-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Health-related quality of life (HRQL)",
-     "primary_outcomes": [
-      {
-       "description": "Measure by EQ-5D-5L (range from -0.59 to 1.0), higher score indicates better quality of life",
-       "measure": "Health-related quality of life (HRQL)",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by Short Physical Performance Battery (range from 0 to 12), with higher score indicating better physical performance",
-       "measure": "Physical function",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 5-minute Montreal Cognitive Assessment (MoCA) (range from 0 to 30), A score of 26 or over is considered to be normal.",
-       "measure": "Cognitive function score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 7-item Memory Complaint Scale (MCS) (range from 0 to 14), lower score indicates better memory performance. No MCs (0-2), Mild MCs (3-6), Moderate MCs (7-10), Severe MCs (11-14).",
-       "measure": "Subjective Memory Score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 3-item UCLA Loneliness Scale (range 3-9), higher score indicates greater loneliness.",
-       "measure": "Loneliness score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by The 8-item Geriatric Depression Scale (range 0 to 8), with higher score indicating higher risk of depression",
-       "measure": "Depression score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 8-item Social Connectedness Scale Revised (range 0 to 48), \\<22 indicates lack of social connectedness",
-       "measure": "Social function",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      }
-     ],
-     "results_posted": null,
-     "start": "2023-06-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [
       "University of California, San Diego",
       "Stanford University",
@@ -3255,6 +3276,81 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Women's Health Initiative Strong and Healthy Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging Well"
+     ],
+     "enrollment": 1024,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-01-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Digital intervention through Tablet"
+     ],
+     "keywords": [
+      "Ageing",
+      "Digital intervention",
+      "Functional capacity"
+     ],
+     "last_update": "2026-07-31",
+     "lead_sponsor": "The University of Hong Kong",
+     "masking": "NONE",
+     "nct": "NCT06217601",
+     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Health-related quality of life (HRQL)",
+     "primary_outcomes": [
+      {
+       "description": "Measure by EQ-5D-5L (range from -0.59 to 1.0), higher score indicates better quality of life",
+       "measure": "Health-related quality of life (HRQL)",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by Short Physical Performance Battery (range from 0 to 12), with higher score indicating better physical performance",
+       "measure": "Physical function",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 5-minute Montreal Cognitive Assessment (MoCA) (range from 0 to 30), A score of 26 or over is considered to be normal.",
+       "measure": "Cognitive function score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 7-item Memory Complaint Scale (MCS) (range from 0 to 14), lower score indicates better memory performance. No MCs (0-2), Mild MCs (3-6), Moderate MCs (7-10), Severe MCs (11-14).",
+       "measure": "Subjective Memory Score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 3-item UCLA Loneliness Scale (range 3-9), higher score indicates greater loneliness.",
+       "measure": "Loneliness score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by The 8-item Geriatric Depression Scale (range 0 to 8), with higher score indicating higher risk of depression",
+       "measure": "Depression score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 8-item Social Connectedness Scale Revised (range 0 to 48), \\<22 indicates lack of social connectedness",
+       "measure": "Social function",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      }
+     ],
+     "results_posted": null,
+     "start": "2023-06-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -4305,52 +4401,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "ItaliaN Study With Tailored Multidomain Interventions to Prevent Functional and Cognitive Decline in Community-dwelling Older Adults"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Azienda Usl di Bologna",
-      "Azienda Unita Sanitaria Locale di Piacenza"
-     ],
-     "conditions": [
-      "Myocardial Infarction",
-      "Aging"
-     ],
-     "enrollment": 512,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2019-11-27",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Health Education",
-      "Multi-domain lifestyle intervention"
-     ],
-     "keywords": [],
-     "last_update": "2025-07-23",
-     "lead_sponsor": "University Hospital of Ferrara",
-     "masking": "SINGLE",
-     "nct": "NCT04183465",
-     "official_title": "Effectiveness of an Early, Tailored, Physical Activity Intervention in ELderly Patients With Myocardial INfarction: the PIpELINe Randomized Clinical Trial",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2024-11-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Cumulative occurrence of cardiovascular death and hospital readmission for cardiovascular cause",
-     "primary_outcomes": [
-      {
-       "description": "To assess the superiority of the early and tailored physical activity intervention over health education alone in terms of 1-year composite endpoint of cardiovascular death plus hospital readmission for cardiovascular cause.",
-       "measure": "Cumulative occurrence of cardiovascular death and hospital readmission for cardiovascular cause",
-       "timeFrame": "1-year"
-      }
-     ],
-     "results_posted": null,
-     "start": "2020-03-27",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Physical Activity Intervention in ELderly Patients With Myocardial INfarction"
     },
     {
      "allocation": "RANDOMIZED",
@@ -5957,62 +6007,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Mobility Limitation"
-     ],
-     "enrollment": 535,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2016-10-21",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Tailored Knowledge Translation"
-     ],
-     "keywords": [
-      "Mobility",
-      "Aging",
-      "Knowledge Translation",
-      "Physical Activity"
-     ],
-     "last_update": "2020-02-21",
-     "lead_sponsor": "McMaster University",
-     "masking": "SINGLE",
-     "nct": "NCT02947230",
-     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2017-11-01",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Website analytics",
-     "primary_outcomes": [
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Website analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Email analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Google analytics",
-       "timeFrame": "12 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2017-03-07",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [
       "Canadian Institutes of Health Research (CIHR)"
      ],
@@ -6070,6 +6064,62 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Cancer Prevention Behaviours in Underserved Populations"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Mobility Limitation"
+     ],
+     "enrollment": 535,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2016-10-21",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Tailored Knowledge Translation"
+     ],
+     "keywords": [
+      "Mobility",
+      "Aging",
+      "Knowledge Translation",
+      "Physical Activity"
+     ],
+     "last_update": "2020-02-21",
+     "lead_sponsor": "McMaster University",
+     "masking": "SINGLE",
+     "nct": "NCT02947230",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2017-11-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Website analytics",
+     "primary_outcomes": [
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Website analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Email analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Google analytics",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2017-03-07",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
     },
     {
      "allocation": "RANDOMIZED",
@@ -10915,6 +10965,50 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Aging",
+      "Cardiovascular Disease",
+      "Diabetes Mellitus"
+     ],
+     "enrollment": 48,
+     "enrollment_type": null,
+     "first_submitted": "2004-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Caloric Restriction (CR)",
+      "Exercise"
+     ],
+     "keywords": [
+      "Longevity",
+      "Dietary restriction",
+      "Physical activity",
+      "Weight Loss",
+      "Diabetes"
+     ],
+     "last_update": "2009-12-11",
+     "lead_sponsor": "National Institute on Aging (NIA)",
+     "masking": "SINGLE",
+     "nct": "NCT00099151",
+     "official_title": "Metabolic Adaptations to Six Month Caloric Restriction",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2006-05",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": null,
+     "primary_outcomes": [],
+     "results_posted": null,
+     "start": "2002-03",
+     "start_type": null,
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Aging"
      ],
      "enrollment": 48,
@@ -10998,50 +11092,6 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
-      "Aging",
-      "Cardiovascular Disease",
-      "Diabetes Mellitus"
-     ],
-     "enrollment": 48,
-     "enrollment_type": null,
-     "first_submitted": "2004-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Caloric Restriction (CR)",
-      "Exercise"
-     ],
-     "keywords": [
-      "Longevity",
-      "Dietary restriction",
-      "Physical activity",
-      "Weight Loss",
-      "Diabetes"
-     ],
-     "last_update": "2009-12-11",
-     "lead_sponsor": "National Institute on Aging (NIA)",
-     "masking": "SINGLE",
-     "nct": "NCT00099151",
-     "official_title": "Metabolic Adaptations to Six Month Caloric Restriction",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2006-05",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": null,
-     "primary_outcomes": [],
-     "results_posted": null,
-     "start": "2002-03",
-     "start_type": null,
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
       "Obesity"
      ],
      "enrollment": 44,
@@ -11084,52 +11134,6 @@
     }
    ],
    "fisetin": [
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "Endothelial Dysfunction",
-      "Cellular Senescence"
-     ],
-     "enrollment": 136,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-10-06",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Fisetin",
-      "Placebo"
-     ],
-     "keywords": [],
-     "last_update": "2026-10-15",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "TRIPLE",
-     "nct": "NCT07871162",
-     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2031-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change from baseline in endothelial function at 3 months",
-     "primary_outcomes": [
-      {
-       "description": "Brachial artery flow-mediated dilation",
-       "measure": "Change from baseline in endothelial function at 3 months",
-       "timeFrame": "3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-11",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
-    },
     {
      "allocation": "RANDOMIZED",
      "collaborators": [],
@@ -11188,6 +11192,52 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Ongoing Lung Decline With Age Intensified Response"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-06",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcomes": [
+      {
+       "description": "Brachial artery flow-mediated dilation",
+       "measure": "Change from baseline in endothelial function at 3 months",
+       "timeFrame": "3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11443,6 +11493,67 @@
    "metformin": [
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)",
+      "University of Oklahoma",
+      "University of Wisconsin, Madison"
+     ],
+     "conditions": [
+      "Aging",
+      "Insulin Sensitivity",
+      "Chronic Disease",
+      "Mitochondria",
+      "Insulin Resistance"
+     ],
+     "enrollment": 166,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2020-02-07",
+     "has_protocol": true,
+     "has_results": true,
+     "has_sap": true,
+     "interventions": [
+      "Metformin",
+      "Placebo oral tablet"
+     ],
+     "keywords": [
+      "Blood Glucose Regulation",
+      "5' adenosine monophosphate-activated protein kinase",
+      "Healthspan",
+      "Skeletal muscle",
+      "Mitochondria"
+     ],
+     "last_update": "2026-11-05",
+     "lead_sponsor": "Oklahoma Medical Research Foundation",
+     "masking": "TRIPLE",
+     "nct": "NCT04264897",
+     "official_title": "Does Insulin Sensitivity Impact the Potential of Metformin to Slow Aging",
+     "phases": [
+      "PHASE3"
+     ],
+     "primary_completion": "2025-03-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Mean Change in Insulin Sensitivity Index",
+     "primary_outcomes": [
+      {
+       "description": "Insulin Sensitivity Index = M / I x 1000. M = Glucose disposal rate (mg/min), normalized to fat-free mass (kg). I = insulin concentration (mU/L) during steady state of the clamp (based on glucose infusion rate). We rely on the delta (post-pre) of the insulin sensitivity index as our primary outcome. Positive delta values indicate improved insulin sensitivity (a positive outcome), while negative de",
+       "measure": "Mean Change in Insulin Sensitivity Index",
+       "timeFrame": "Change from baseline to 12 weeks"
+      },
+      {
+       "description": "Mitochondrial respiration was measured using permeabilized muscle fibers from the vastus lateralis using high-resolution respirometry. We rely on the delta (change from post-pre) of the Complex I mitochondrial respiratory capacity. Positive values indicate an increase in mitochondrial respiratory capacity and improved outcomes, while negative values indicate a reduction in mitochondrial respirator",
+       "measure": "Mean Change in Mitochondrial Function of the Electron Transport System Measured by Complex I Activity",
+       "timeFrame": "Change from baseline to 12 weeks"
+      }
+     ],
+     "results_posted": "2026-07-02",
+     "start": "2020-07-29",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Antecedent Metabolic Health and Metformin Aging Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Healthspan Improvement",
@@ -11623,67 +11734,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Diet and Exercise Plus Metformin to Treat Frailty in Obese Seniors"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)",
-      "University of Oklahoma",
-      "University of Wisconsin, Madison"
-     ],
-     "conditions": [
-      "Aging",
-      "Insulin Sensitivity",
-      "Chronic Disease",
-      "Mitochondria",
-      "Insulin Resistance"
-     ],
-     "enrollment": 166,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2020-02-07",
-     "has_protocol": true,
-     "has_results": true,
-     "has_sap": true,
-     "interventions": [
-      "Metformin",
-      "Placebo oral tablet"
-     ],
-     "keywords": [
-      "Blood Glucose Regulation",
-      "5' adenosine monophosphate-activated protein kinase",
-      "Healthspan",
-      "Skeletal muscle",
-      "Mitochondria"
-     ],
-     "last_update": "2026-07-02",
-     "lead_sponsor": "Oklahoma Medical Research Foundation",
-     "masking": "TRIPLE",
-     "nct": "NCT04264897",
-     "official_title": "Does Insulin Sensitivity Impact the Potential of Metformin to Slow Aging",
-     "phases": [
-      "PHASE3"
-     ],
-     "primary_completion": "2025-03-12",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Mean Change in Insulin Sensitivity Index",
-     "primary_outcomes": [
-      {
-       "description": "Insulin Sensitivity Index = M / I x 1000. M = Glucose disposal rate (mg/min), normalized to fat-free mass (kg). I = insulin concentration (mU/L) during steady state of the clamp (based on glucose infusion rate). We rely on the delta (post-pre) of the insulin sensitivity index as our primary outcome. Positive delta values indicate improved insulin sensitivity (a positive outcome), while negative de",
-       "measure": "Mean Change in Insulin Sensitivity Index",
-       "timeFrame": "Change from baseline to 12 weeks"
-      },
-      {
-       "description": "Mitochondrial respiration was measured using permeabilized muscle fibers from the vastus lateralis using high-resolution respirometry. We rely on the delta (change from post-pre) of the Complex I mitochondrial respiratory capacity. Positive values indicate an increase in mitochondrial respiratory capacity and improved outcomes, while negative values indicate a reduction in mitochondrial respirator",
-       "measure": "Mean Change in Mitochondrial Function of the Electron Transport System Measured by Complex I Activity",
-       "timeFrame": "Change from baseline to 12 weeks"
-      }
-     ],
-     "results_posted": "2026-07-02",
-     "start": "2020-07-29",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Antecedent Metabolic Health and Metformin Aging Study"
     },
     {
      "allocation": "RANDOMIZED",
@@ -14840,6 +14890,62 @@
      "collaborators": [],
      "conditions": [
       "Exercise Training",
+      "Neurocognitive Function",
+      "Aging"
+     ],
+     "enrollment": 120,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2021-09-26",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Integrated Intervention Group (IIG)",
+      "Control Group"
+     ],
+     "keywords": [
+      "physical fitness",
+      "meditation",
+      "social interaction",
+      "Apolipoprotein E",
+      "aging",
+      "event-related potential"
+     ],
+     "last_update": "2023-11-27",
+     "lead_sponsor": "National Taiwan Normal University",
+     "masking": "SINGLE",
+     "nct": "NCT05101174",
+     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2025-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Inhibition: Changes in Stroop test performance",
+     "primary_outcomes": [
+      {
+       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Inhibition: Changes in Stroop test performance",
+       "timeFrame": "30 minutes each at the baseline and at month 6"
+      },
+      {
+       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Changes in neuroelectrical activities",
+       "timeFrame": "60 minutes each at baseline and at month 6"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-04-11",
+     "start_type": "ACTUAL",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Exercise Training",
       "Executive Function",
       "Aging"
      ],
@@ -14896,62 +15002,6 @@
      "status": "UNKNOWN",
      "study_type": "INTERVENTIONAL",
      "title": "Multi-Domain Exercise and Memory in Adults Relative to ApoE Genotype: A fMRI Study"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Exercise Training",
-      "Neurocognitive Function",
-      "Aging"
-     ],
-     "enrollment": 120,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2021-09-26",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Integrated Intervention Group (IIG)",
-      "Control Group"
-     ],
-     "keywords": [
-      "physical fitness",
-      "meditation",
-      "social interaction",
-      "Apolipoprotein E",
-      "aging",
-      "event-related potential"
-     ],
-     "last_update": "2023-11-27",
-     "lead_sponsor": "National Taiwan Normal University",
-     "masking": "SINGLE",
-     "nct": "NCT05101174",
-     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2025-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Inhibition: Changes in Stroop test performance",
-     "primary_outcomes": [
-      {
-       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Inhibition: Changes in Stroop test performance",
-       "timeFrame": "30 minutes each at the baseline and at month 6"
-      },
-      {
-       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Changes in neuroelectrical activities",
-       "timeFrame": "60 minutes each at baseline and at month 6"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-04-11",
-     "start_type": "ACTUAL",
-     "status": "UNKNOWN",
-     "study_type": "INTERVENTIONAL",
-     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
     },
     {
      "allocation": "RANDOMIZED",
@@ -21709,49 +21759,6 @@
      "conditions": [
       "Chronic Spinal Cord Injury"
      ],
-     "enrollment": 17,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2022-03-09",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "LIFT System"
-     ],
-     "keywords": [
-      "SCI, Tetraplegia, ARC therapy"
-     ],
-     "last_update": "2022-09-16",
-     "lead_sponsor": "ONWARD Medical, Inc.",
-     "masking": "NONE",
-     "nct": "NCT05284201",
-     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2022-06-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Incidence of all adverse events (AEs)",
-     "primary_outcomes": [
-      {
-       "description": "Observational data regarding the incidence of all adverse events related to the use of the study device and treatment procedures will be reported.",
-       "measure": "Incidence of all adverse events (AEs)",
-       "timeFrame": "Through completion of the study, an average of 6 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-03-03",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Chronic Spinal Cord Injury"
-     ],
      "enrollment": 65,
      "enrollment_type": "ACTUAL",
      "first_submitted": "2020-12-04",
@@ -21795,6 +21802,49 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "The Up-LIFT Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Chronic Spinal Cord Injury"
+     ],
+     "enrollment": 17,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2022-03-09",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "LIFT System"
+     ],
+     "keywords": [
+      "SCI, Tetraplegia, ARC therapy"
+     ],
+     "last_update": "2022-09-16",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05284201",
+     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2022-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Incidence of all adverse events (AEs)",
+     "primary_outcomes": [
+      {
+       "description": "Observational data regarding the incidence of all adverse events related to the use of the study device and treatment procedures will be reported.",
+       "measure": "Incidence of all adverse events (AEs)",
+       "timeFrame": "Through completion of the study, an average of 6 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-03-03",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
     }
    ],
    "paradromics": [
@@ -22811,7 +22861,7 @@
       "Stentrode"
      ],
      "keywords": [],
-     "last_update": "2026-10-21",
+     "last_update": "2026-11-05",
      "lead_sponsor": "Synchron, Inc.",
      "masking": "NONE",
      "nct": "NCT07543367",
@@ -22819,7 +22869,7 @@
      "phases": [
       "NA"
      ],
-     "primary_completion": "2027-06",
+     "primary_completion": "2027-01",
      "primary_completion_type": "ESTIMATED",
      "primary_outcome": "Device-related serious adverse events up to 180 days after implant",
      "primary_outcomes": [
@@ -22832,7 +22882,7 @@
      "results_posted": null,
      "start": "2026-05-07",
      "start_type": "ACTUAL",
-     "status": "RECRUITING",
+     "status": "ACTIVE_NOT_RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study"
     },
@@ -23785,10 +23835,10 @@
     }
    ]
   },
-  "fetched_at": "2026-11-04T19:45:32+00:00",
+  "fetched_at": "2026-11-05T19:57:20+00:00",
   "raw_counts": {
    "blackrock": 1,
-   "braingate": 7,
+   "braingate": 8,
    "breath": 31,
    "dispenza": 6,
    "dq": 6,
@@ -23807,5 +23857,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-04T19:45:32.052354+00:00"
+ "fetched_at": "2026-11-05T19:57:20.557848+00:00"
 }

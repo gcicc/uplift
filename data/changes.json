@@ -1,5 +1,37 @@
 [
  {
+  "date": "2026-11-05",
+  "nct": "NCT07918768",
+  "row": "braingate",
+  "title": "Restoring Speech With an Intracortical Neuroprosthesis for Post-Stroke Agrammatic Aphasia (BG-Aphasia-02)",
+  "kind": "new",
+  "detail": "new trial registered"
+ },
+ {
+  "date": "2026-11-05",
+  "nct": "NCT04183465",
+  "row": "exercise",
+  "title": "Physical Activity Intervention in ELderly Patients With Myocardial INfarction",
+  "kind": "status",
+  "detail": "active, not recruiting \u2192 completed"
+ },
+ {
+  "date": "2026-11-05",
+  "nct": "NCT07543367",
+  "row": "synchron",
+  "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
+  "kind": "status",
+  "detail": "recruiting \u2192 active, not recruiting"
+ },
+ {
+  "date": "2026-11-05",
+  "nct": "NCT07543367",
+  "row": "synchron",
+  "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
+  "kind": "date",
+  "detail": "primary completion 2027-06 \u2192 2027-01"
+ },
+ {
   "date": "2026-11-02",
   "nct": "NCT06583395",
   "row": "dispenza",
