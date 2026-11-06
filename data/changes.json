@@ -1,5 +1,53 @@
 [
  {
+  "date": "2026-11-06",
+  "nct": "NCT06463743",
+  "row": "metformin",
+  "title": "Metformin as an add-on or Monotherapy in Treatment of Aging People With Multiple Sclerosis (MS)",
+  "kind": "date",
+  "detail": "primary completion 2027-01-01 \u2192 2027-12-01"
+ },
+ {
+  "date": "2026-11-06",
+  "nct": "NCT06073990",
+  "row": "sleep",
+  "title": "Brief Behavioral Therapy for Insomnia (BBTi) in Middle-aged and Older Adults With Chronic Insomnia",
+  "kind": "status",
+  "detail": "enrolling by invitation \u2192 completed"
+ },
+ {
+  "date": "2026-11-06",
+  "nct": "NCT07533903",
+  "row": "synchron",
+  "title": "Functional Outcomes and Control Using Synchron BCI - Australia",
+  "kind": "status",
+  "detail": "recruiting \u2192 active, not recruiting"
+ },
+ {
+  "date": "2026-11-06",
+  "nct": "NCT07533903",
+  "row": "synchron",
+  "title": "Functional Outcomes and Control Using Synchron BCI - Australia",
+  "kind": "date",
+  "detail": "primary completion 2027-03 \u2192 2026-09-22"
+ },
+ {
+  "date": "2026-11-06",
+  "nct": "NCT07446114",
+  "row": "synchron",
+  "title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+  "kind": "status",
+  "detail": "recruiting \u2192 terminated"
+ },
+ {
+  "date": "2026-11-06",
+  "nct": "NCT07446114",
+  "row": "synchron",
+  "title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+  "kind": "date",
+  "detail": "primary completion 2026-12 \u2192 2026-09-25"
+ },
+ {
   "date": "2026-11-05",
   "nct": "NCT07918768",
   "row": "braingate",
