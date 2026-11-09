@@ -467,6 +467,49 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Older Adults (65 Years and Older)"
+     ],
+     "enrollment": 210,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-12-12",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Physical Exercise Prescription Program"
+     ],
+     "keywords": [
+      "aging"
+     ],
+     "last_update": "2026-11-09",
+     "lead_sponsor": "Instituto de Investigaci\u00f3n Biom\u00e9dica de Salamanca",
+     "masking": "NONE",
+     "nct": "NCT07394790",
+     "official_title": "Effectiveness of a Physical Exercise Prescription Program in Primary Care to Improve Physical Fitness and Quality of Life in Adults Aged 65 Years and Older in a Rural Health Area: PREFIS-AP Randomized Controlled Trial",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-12",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change in Quality of Life",
+     "primary_outcomes": [
+      {
+       "description": "Quality of Life will be measured by the SF-36 questionnaire. The SF-36 questionnaire is a widely used, patient-reported questionnaire measuring health-related quality of life. It uses points to assess health, with responses on Likert scales (e.g., 0 to 100) transformed into scores for 8 health domains: physical functioning, role limitations (physical/emotional), bodily pain, general health, vitali",
+       "measure": "Change in Quality of Life",
+       "timeFrame": "Baseline to 3 months."
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-02-09",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effectiveness of a Physical Exercise Prescription Program in Primary Care for Adults Aged 65 and Older: PREFIS-AP"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Older Adults (65 Years and Older)",
       "Cognition",
       "Balance Control in Elderly",
@@ -11005,49 +11048,6 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
-      "Aging"
-     ],
-     "enrollment": 48,
-     "enrollment_type": null,
-     "first_submitted": "2004-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Caloric Restriction (CR)",
-      "Exercise"
-     ],
-     "keywords": [
-      "Diet",
-      "Caloric Restriction",
-      "Exercise",
-      "Energy Metabolism",
-      "Primary Aging",
-      "Secondary Aging"
-     ],
-     "last_update": "2009-12-11",
-     "lead_sponsor": "National Institute on Aging (NIA)",
-     "masking": "SINGLE",
-     "nct": "NCT00099138",
-     "official_title": "Caloric Restriction and Aging in Humans",
-     "phases": [
-      "PHASE1"
-     ],
-     "primary_completion": "2006-02",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": null,
-     "primary_outcomes": [],
-     "results_posted": null,
-     "start": "2002-03",
-     "start_type": null,
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
       "Aging",
       "Cardiovascular Disease",
       "Diabetes Mellitus"
@@ -11087,6 +11087,49 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 48,
+     "enrollment_type": null,
+     "first_submitted": "2004-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Caloric Restriction (CR)",
+      "Exercise"
+     ],
+     "keywords": [
+      "Diet",
+      "Caloric Restriction",
+      "Exercise",
+      "Energy Metabolism",
+      "Primary Aging",
+      "Secondary Aging"
+     ],
+     "last_update": "2009-12-11",
+     "lead_sponsor": "National Institute on Aging (NIA)",
+     "masking": "SINGLE",
+     "nct": "NCT00099138",
+     "official_title": "Caloric Restriction and Aging in Humans",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2006-02",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": null,
+     "primary_outcomes": [],
+     "results_posted": null,
+     "start": "2002-03",
+     "start_type": null,
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12589,6 +12632,57 @@
     }
    ],
    "mindbody": [
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Test Anxiety",
+      "Stress, Psychological",
+      "Cognitive Aging"
+     ],
+     "enrollment": 60,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-09-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Guided Mindfulness Meditation",
+      "Neutral Story Listening"
+     ],
+     "keywords": [
+      "mindfulness meditation",
+      "MOCA",
+      "older adults",
+      "health disparities",
+      "test anxiety",
+      "heart rate variability"
+     ],
+     "last_update": "2026-11-09",
+     "lead_sponsor": "University of South Carolina",
+     "masking": "SINGLE",
+     "nct": "NCT07924904",
+     "official_title": "Mindful Meditation to Reduce Stress and Cognitive Load for Older Adults",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-03-15",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change in MoCA Total Score",
+     "primary_outcomes": [
+      {
+       "description": "Cognitive performance measured using the Montreal Cognitive Assessment (MoCA), ranging from 0 to 30, with higher scores indicating better cognitive performance, administered by an examiner immediately after the assigned 15-minute intervention session.",
+       "measure": "Change in MoCA Total Score",
+       "timeFrame": "Immediately following the 15-minute intervention session (single study visit)"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11-14",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Mindfulness Meditation to Reduce Cognitive Load"
+    },
     {
      "allocation": "RANDOMIZED",
      "collaborators": [
@@ -14890,62 +14984,6 @@
      "collaborators": [],
      "conditions": [
       "Exercise Training",
-      "Neurocognitive Function",
-      "Aging"
-     ],
-     "enrollment": 120,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2021-09-26",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Integrated Intervention Group (IIG)",
-      "Control Group"
-     ],
-     "keywords": [
-      "physical fitness",
-      "meditation",
-      "social interaction",
-      "Apolipoprotein E",
-      "aging",
-      "event-related potential"
-     ],
-     "last_update": "2023-11-27",
-     "lead_sponsor": "National Taiwan Normal University",
-     "masking": "SINGLE",
-     "nct": "NCT05101174",
-     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2025-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Inhibition: Changes in Stroop test performance",
-     "primary_outcomes": [
-      {
-       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Inhibition: Changes in Stroop test performance",
-       "timeFrame": "30 minutes each at the baseline and at month 6"
-      },
-      {
-       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Changes in neuroelectrical activities",
-       "timeFrame": "60 minutes each at baseline and at month 6"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-04-11",
-     "start_type": "ACTUAL",
-     "status": "UNKNOWN",
-     "study_type": "INTERVENTIONAL",
-     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Exercise Training",
       "Executive Function",
       "Aging"
      ],
@@ -15002,6 +15040,62 @@
      "status": "UNKNOWN",
      "study_type": "INTERVENTIONAL",
      "title": "Multi-Domain Exercise and Memory in Adults Relative to ApoE Genotype: A fMRI Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Exercise Training",
+      "Neurocognitive Function",
+      "Aging"
+     ],
+     "enrollment": 120,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2021-09-26",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Integrated Intervention Group (IIG)",
+      "Control Group"
+     ],
+     "keywords": [
+      "physical fitness",
+      "meditation",
+      "social interaction",
+      "Apolipoprotein E",
+      "aging",
+      "event-related potential"
+     ],
+     "last_update": "2023-11-27",
+     "lead_sponsor": "National Taiwan Normal University",
+     "masking": "SINGLE",
+     "nct": "NCT05101174",
+     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2025-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Inhibition: Changes in Stroop test performance",
+     "primary_outcomes": [
+      {
+       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Inhibition: Changes in Stroop test performance",
+       "timeFrame": "30 minutes each at the baseline and at month 6"
+      },
+      {
+       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Changes in neuroelectrical activities",
+       "timeFrame": "60 minutes each at baseline and at month 6"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-04-11",
+     "start_type": "ACTUAL",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
     },
     {
      "allocation": "RANDOMIZED",
@@ -20103,51 +20197,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
-     "enrollment": 10,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2022-01-19",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Sirolimus"
-     ],
-     "keywords": [
-      "aging",
-      "sirolimus",
-      "prevention"
-     ],
-     "last_update": "2026-06-25",
-     "lead_sponsor": "Irina Timofte",
-     "masking": "NONE",
-     "nct": "NCT05237687",
-     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2027-11",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Phenotypic/functional biomarkers of aging",
-     "primary_outcomes": [
-      {
-       "description": "Phenotypic biomarkers of aging will be measured by SASP (senescence-associated secretory phenotype) index score at 1 year follow-up when compared to elderly patients not receiving sirolimus.",
-       "measure": "Phenotypic/functional biomarkers of aging",
-       "timeFrame": "1 year"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-03-31",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [
       "University of Maryland, Baltimore",
       "National Institute on Aging (NIA)"
@@ -20269,6 +20318,51 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "MTOR Inhibitors in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2022-01-19",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Sirolimus"
+     ],
+     "keywords": [
+      "aging",
+      "sirolimus",
+      "prevention"
+     ],
+     "last_update": "2026-06-25",
+     "lead_sponsor": "Irina Timofte",
+     "masking": "NONE",
+     "nct": "NCT05237687",
+     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Phenotypic/functional biomarkers of aging",
+     "primary_outcomes": [
+      {
+       "description": "Phenotypic biomarkers of aging will be measured by SASP (senescence-associated secretory phenotype) index score at 1 year follow-up when compared to elderly patients not receiving sirolimus.",
+       "measure": "Phenotypic/functional biomarkers of aging",
+       "timeFrame": "1 year"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-03-31",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -21347,6 +21441,65 @@
     },
     {
      "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      "Quadriplegia",
+      "Spinal Cord Injury (SCI)",
+      "Spinal Cord Injury Cervical"
+     ],
+     "enrollment": 3,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-11-25",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Assistive Robotic Arm"
+     ],
+     "keywords": [
+      "brain computer interface",
+      "robotic arm",
+      "assistive device",
+      "Neuralink N1 Implant",
+      "Neuralink",
+      "N1 Implant",
+      "ALS",
+      "Spinal cord injury",
+      "Quadriplegia",
+      "tetraplegia",
+      "Robot",
+      "external device control",
+      "neuroprosthetics"
+     ],
+     "last_update": "2025-06-05",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06710626",
+     "official_title": "CONVOY: An Early Feasibility Study of Neural Control of Assistive Devices Via Brain-Computer Interface Technology",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2031-05-25",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
+     "primary_outcomes": [
+      {
+       "description": "",
+       "measure": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
+       "timeFrame": "3-months following first use of the assistive device"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-11-25",
+     "start_type": "ACTUAL",
+     "status": "ENROLLING_BY_INVITATION",
+     "study_type": "INTERVENTIONAL",
+     "title": "Control of Assistive Devices Via Brain-Computer Interface Technology"
+    },
+    {
+     "allocation": "NA",
      "collaborators": [
       "Cleveland Clinic Abu Dhabi"
      ],
@@ -21420,65 +21573,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Tetraplegia/Tetraparesis",
-      "Amyotrophic Lateral Sclerosis (ALS)",
-      "Quadriplegia",
-      "Spinal Cord Injury (SCI)",
-      "Spinal Cord Injury Cervical"
-     ],
-     "enrollment": 3,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-11-25",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Assistive Robotic Arm"
-     ],
-     "keywords": [
-      "brain computer interface",
-      "robotic arm",
-      "assistive device",
-      "Neuralink N1 Implant",
-      "Neuralink",
-      "N1 Implant",
-      "ALS",
-      "Spinal cord injury",
-      "Quadriplegia",
-      "tetraplegia",
-      "Robot",
-      "external device control",
-      "neuroprosthetics"
-     ],
-     "last_update": "2025-06-05",
-     "lead_sponsor": "Neuralink Corp",
-     "masking": "NONE",
-     "nct": "NCT06710626",
-     "official_title": "CONVOY: An Early Feasibility Study of Neural Control of Assistive Devices Via Brain-Computer Interface Technology",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2031-05-25",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
-     "primary_outcomes": [
-      {
-       "description": "",
-       "measure": "Ability of participants to modulate brain activity for controlling an assistive device via the N1 Implant.",
-       "timeFrame": "3-months following first use of the assistive device"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-11-25",
-     "start_type": "ACTUAL",
-     "status": "ENROLLING_BY_INVITATION",
-     "study_type": "INTERVENTIONAL",
-     "title": "Control of Assistive Devices Via Brain-Computer Interface Technology"
     },
     {
      "allocation": "NA",
@@ -22846,6 +22940,55 @@
      "collaborators": [],
      "conditions": [
       "Neurologic Disorder",
+      "ALS",
+      "Motor Neuron Disease"
+     ],
+     "enrollment": 1,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2026-01-26",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Stentrode"
+     ],
+     "keywords": [
+      "ALS",
+      "BCI",
+      "Brain computer interface",
+      "MND",
+      "Motor Neuron Disease"
+     ],
+     "last_update": "2026-11-06",
+     "lead_sponsor": "Synchron, Inc.",
+     "masking": "NONE",
+     "nct": "NCT07446114",
+     "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-09-25",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
+     "primary_outcomes": [
+      {
+       "description": "",
+       "measure": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
+       "timeFrame": "3 Months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-03-18",
+     "start_type": "ACTUAL",
+     "status": "TERMINATED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Functional Outcomes and Control Using Synchron BCI - Canada"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder",
       "Neurologic Diseases",
       "MND (Motor Neurone DIsease)",
       "Motor Neuron Disease",
@@ -22894,55 +23037,6 @@
      "status": "ACTIVE_NOT_RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Functional Outcomes and Control Using Synchron BCI - Australia"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Neurologic Disorder",
-      "ALS",
-      "Motor Neuron Disease"
-     ],
-     "enrollment": 1,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2026-01-26",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Stentrode"
-     ],
-     "keywords": [
-      "ALS",
-      "BCI",
-      "Brain computer interface",
-      "MND",
-      "Motor Neuron Disease"
-     ],
-     "last_update": "2026-11-06",
-     "lead_sponsor": "Synchron, Inc.",
-     "masking": "NONE",
-     "nct": "NCT07446114",
-     "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-09-25",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
-     "primary_outcomes": [
-      {
-       "description": "",
-       "measure": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
-       "timeFrame": "3 Months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-03-18",
-     "start_type": "ACTUAL",
-     "status": "TERMINATED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Functional Outcomes and Control Using Synchron BCI - Canada"
     },
     {
      "allocation": "NA",
@@ -23835,18 +23929,18 @@
     }
    ]
   },
-  "fetched_at": "2026-11-08T22:05:49+00:00",
+  "fetched_at": "2026-11-09T22:22:03+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 8,
-   "breath": 31,
+   "breath": 32,
    "dispenza": 6,
    "dq": 6,
    "exercise": 76,
    "fasting": 65,
    "fisetin": 9,
    "metformin": 25,
-   "mindbody": 66,
+   "mindbody": 67,
    "movement": 59,
    "mtor": 24,
    "neuralink": 7,
@@ -23857,5 +23951,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-08T22:05:49.140084+00:00"
+ "fetched_at": "2026-11-09T22:22:03.632903+00:00"
 }
