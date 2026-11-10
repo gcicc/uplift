@@ -6050,62 +6050,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Mobility Limitation"
-     ],
-     "enrollment": 535,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2016-10-21",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Tailored Knowledge Translation"
-     ],
-     "keywords": [
-      "Mobility",
-      "Aging",
-      "Knowledge Translation",
-      "Physical Activity"
-     ],
-     "last_update": "2020-02-21",
-     "lead_sponsor": "McMaster University",
-     "masking": "SINGLE",
-     "nct": "NCT02947230",
-     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2017-11-01",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Website analytics",
-     "primary_outcomes": [
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Website analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Email analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Google analytics",
-       "timeFrame": "12 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2017-03-07",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [
       "Canadian Institutes of Health Research (CIHR)"
      ],
@@ -6163,6 +6107,62 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Cancer Prevention Behaviours in Underserved Populations"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Mobility Limitation"
+     ],
+     "enrollment": 535,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2016-10-21",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Tailored Knowledge Translation"
+     ],
+     "keywords": [
+      "Mobility",
+      "Aging",
+      "Knowledge Translation",
+      "Physical Activity"
+     ],
+     "last_update": "2020-02-21",
+     "lead_sponsor": "McMaster University",
+     "masking": "SINGLE",
+     "nct": "NCT02947230",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2017-11-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Website analytics",
+     "primary_outcomes": [
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Website analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Email analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Google analytics",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2017-03-07",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11179,52 +11179,6 @@
    "fisetin": [
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "Endothelial Dysfunction",
-      "Cellular Senescence"
-     ],
-     "enrollment": 136,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-10-06",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Fisetin",
-      "Placebo"
-     ],
-     "keywords": [],
-     "last_update": "2026-10-15",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "TRIPLE",
-     "nct": "NCT07871162",
-     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2031-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change from baseline in endothelial function at 3 months",
-     "primary_outcomes": [
-      {
-       "description": "Brachial artery flow-mediated dilation",
-       "measure": "Change from baseline in endothelial function at 3 months",
-       "timeFrame": "3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-11",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Age-Related Lung Function Decline"
@@ -11281,6 +11235,52 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Ongoing Lung Decline With Age Intensified Response"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-06",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcomes": [
+      {
+       "description": "Brachial artery flow-mediated dilation",
+       "measure": "Change from baseline in endothelial function at 3 months",
+       "timeFrame": "3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
     },
     {
      "allocation": "RANDOMIZED",
@@ -13085,60 +13085,6 @@
      ],
      "conditions": [
       "Aging",
-      "MCI"
-     ],
-     "enrollment": 90,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-10-07",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "MediTrain",
-      "Worder",
-      "noninvasive neurostimulation device",
-      "wrist worn multi-sensor watches"
-     ],
-     "keywords": [
-      "healthy aging",
-      "cognitive decline",
-      "prevention",
-      "brain stimulation",
-      "attention",
-      "memory"
-     ],
-     "last_update": "2026-08-24",
-     "lead_sponsor": "University of California, San Francisco",
-     "masking": "TRIPLE",
-     "nct": "NCT06633952",
-     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-08-31",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
-     "primary_outcomes": [
-      {
-       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
-       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
-       "timeFrame": "baseline and immediate follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-08-31",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
       "MCI",
       "Cognitive Decline"
      ],
@@ -13189,6 +13135,60 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Enhancing Attention and Wellbeing Using Digital Therapeutics"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "MCI"
+     ],
+     "enrollment": 90,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-10-07",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "MediTrain",
+      "Worder",
+      "noninvasive neurostimulation device",
+      "wrist worn multi-sensor watches"
+     ],
+     "keywords": [
+      "healthy aging",
+      "cognitive decline",
+      "prevention",
+      "brain stimulation",
+      "attention",
+      "memory"
+     ],
+     "last_update": "2026-08-24",
+     "lead_sponsor": "University of California, San Francisco",
+     "masking": "TRIPLE",
+     "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
+     "primary_outcomes": [
+      {
+       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
+       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
+       "timeFrame": "baseline and immediate follow-up"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-08-31",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
     },
     {
      "allocation": "RANDOMIZED",
@@ -21147,6 +21147,127 @@
    "neuralink": [
     {
      "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Quadriplegia/Tetraplegia",
+      "Tetraplegic; Paralysis",
+      "Stroke"
+     ],
+     "enrollment": 6,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-10-13",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "stroke",
+      "spinal cord injury",
+      "SCI",
+      "ALS",
+      "brain computer interface",
+      "BCI",
+      "PLS",
+      "voice",
+      "speech",
+      "dysarthria",
+      "neuralink"
+     ],
+     "last_update": "2026-11-10",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT07224256",
+     "official_title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-10",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-Related Adverse Events (AE)",
+     "primary_outcomes": [
+      {
+       "description": "The proportion of subjects with device-related adverse events (AEs) at the 12-month follow-up visit.",
+       "measure": "Device-Related Adverse Events (AE)",
+       "timeFrame": "12 months post-implant"
+      },
+      {
+       "description": "The proportion of subjects with procedure-related adverse events (AEs) at the 12-month follow-up visit.",
+       "measure": "Procedure-Related Adverse Events (AE)",
+       "timeFrame": "12 months post-implant"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-10-03",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Chronic Ischemic Stroke",
+      "Tetraplegia/Tetraparesis"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-28",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "spinal cord injury",
+      "SCI",
+      "BCI",
+      "brain computer interface",
+      "ALS",
+      "quadriplegia",
+      "tetraplegic",
+      "paralysis",
+      "stroke",
+      "chronic ischemic stroke"
+     ],
+     "last_update": "2026-11-10",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT07929792",
+     "official_title": "An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Serious adverse device effects (SADEs)",
+     "primary_outcomes": [
+      {
+       "description": "A description of all serious adverse device effects (SADEs) occurring during the primary study phase-from the time of surgical implantation through the 90-day follow-up visit-in all implanted participants.",
+       "measure": "Serious adverse device effects (SADEs)",
+       "timeFrame": "From surgical implantation day (\"Day 0\") through the 90-day follow-up visit."
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke"
+    },
+    {
+     "allocation": "NA",
      "collaborators": [
       "Neuralink Corp"
      ],
@@ -21296,71 +21417,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Precise Robotically IMplanted Brain-Computer InterfacE"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Tetraplegia/Tetraparesis",
-      "Quadriplegia",
-      "Cervical Spinal Cord Injury",
-      "Amyotrophic Lateral Sclerosis",
-      "Quadriplegia/Tetraplegia",
-      "Tetraplegic; Paralysis",
-      "Stroke"
-     ],
-     "enrollment": 6,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2025-10-13",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "N1 Implant",
-      "R1 Robot"
-     ],
-     "keywords": [
-      "stroke",
-      "spinal cord injury",
-      "SCI",
-      "ALS",
-      "brain computer interface",
-      "BCI",
-      "PLS",
-      "voice",
-      "speech",
-      "dysarthria",
-      "neuralink"
-     ],
-     "last_update": "2025-11-04",
-     "lead_sponsor": "Neuralink Corp",
-     "masking": "NONE",
-     "nct": "NCT07224256",
-     "official_title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-10",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Device-Related Adverse Events (AE)",
-     "primary_outcomes": [
-      {
-       "description": "The proportion of subjects with device-related adverse events (AEs) at the 12-month follow-up visit.",
-       "measure": "Device-Related Adverse Events (AE)",
-       "timeFrame": "12 months post-implant"
-      },
-      {
-       "description": "The proportion of subjects with procedure-related adverse events (AEs) at the 12-month follow-up visit.",
-       "measure": "Procedure-Related Adverse Events (AE)",
-       "timeFrame": "12 months post-implant"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-10-03",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration"
     },
     {
      "allocation": "NA",
@@ -21853,49 +21909,6 @@
      "conditions": [
       "Chronic Spinal Cord Injury"
      ],
-     "enrollment": 17,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2022-03-09",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "LIFT System"
-     ],
-     "keywords": [
-      "SCI, Tetraplegia, ARC therapy"
-     ],
-     "last_update": "2022-09-16",
-     "lead_sponsor": "ONWARD Medical, Inc.",
-     "masking": "NONE",
-     "nct": "NCT05284201",
-     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2022-06-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Incidence of all adverse events (AEs)",
-     "primary_outcomes": [
-      {
-       "description": "Observational data regarding the incidence of all adverse events related to the use of the study device and treatment procedures will be reported.",
-       "measure": "Incidence of all adverse events (AEs)",
-       "timeFrame": "Through completion of the study, an average of 6 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-03-03",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Chronic Spinal Cord Injury"
-     ],
      "enrollment": 65,
      "enrollment_type": "ACTUAL",
      "first_submitted": "2020-12-04",
@@ -21939,6 +21952,49 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "The Up-LIFT Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Chronic Spinal Cord Injury"
+     ],
+     "enrollment": 17,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2022-03-09",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "LIFT System"
+     ],
+     "keywords": [
+      "SCI, Tetraplegia, ARC therapy"
+     ],
+     "last_update": "2022-09-16",
+     "lead_sponsor": "ONWARD Medical, Inc.",
+     "masking": "NONE",
+     "nct": "NCT05284201",
+     "official_title": "Safety and Performance Assessment of the LIFT System When Used to Support Home-based Upper Extremity Training in Individuals With Spinal Cord Injury.",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2022-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Incidence of all adverse events (AEs)",
+     "primary_outcomes": [
+      {
+       "description": "Observational data regarding the incidence of all adverse events related to the use of the study device and treatment procedures will be reported.",
+       "measure": "Incidence of all adverse events (AEs)",
+       "timeFrame": "Through completion of the study, an average of 6 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-03-03",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "LIFT Home Study of Non-Invasive ARC Therapy for Spinal Cord Injury"
     }
    ],
    "paradromics": [
@@ -22940,55 +22996,6 @@
      "collaborators": [],
      "conditions": [
       "Neurologic Disorder",
-      "ALS",
-      "Motor Neuron Disease"
-     ],
-     "enrollment": 1,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2026-01-26",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Stentrode"
-     ],
-     "keywords": [
-      "ALS",
-      "BCI",
-      "Brain computer interface",
-      "MND",
-      "Motor Neuron Disease"
-     ],
-     "last_update": "2026-11-06",
-     "lead_sponsor": "Synchron, Inc.",
-     "masking": "NONE",
-     "nct": "NCT07446114",
-     "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-09-25",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
-     "primary_outcomes": [
-      {
-       "description": "",
-       "measure": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
-       "timeFrame": "3 Months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-03-18",
-     "start_type": "ACTUAL",
-     "status": "TERMINATED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Functional Outcomes and Control Using Synchron BCI - Canada"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Neurologic Disorder",
       "Neurologic Diseases",
       "MND (Motor Neurone DIsease)",
       "Motor Neuron Disease",
@@ -23037,6 +23044,55 @@
      "status": "ACTIVE_NOT_RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Functional Outcomes and Control Using Synchron BCI - Australia"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Neurologic Disorder",
+      "ALS",
+      "Motor Neuron Disease"
+     ],
+     "enrollment": 1,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2026-01-26",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Stentrode"
+     ],
+     "keywords": [
+      "ALS",
+      "BCI",
+      "Brain computer interface",
+      "MND",
+      "Motor Neuron Disease"
+     ],
+     "last_update": "2026-11-06",
+     "lead_sponsor": "Synchron, Inc.",
+     "masking": "NONE",
+     "nct": "NCT07446114",
+     "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-09-25",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
+     "primary_outcomes": [
+      {
+       "description": "",
+       "measure": "Device-related serious adverse events resulting in death or permanently increased disability up to 90 days after implant.",
+       "timeFrame": "3 Months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-03-18",
+     "start_type": "ACTUAL",
+     "status": "TERMINATED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Functional Outcomes and Control Using Synchron BCI - Canada"
     },
     {
      "allocation": "NA",
@@ -23929,7 +23985,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-09T22:22:03+00:00",
+  "fetched_at": "2026-11-10T19:44:14+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 8,
@@ -23943,7 +23999,7 @@
    "mindbody": 67,
    "movement": 59,
    "mtor": 24,
-   "neuralink": 7,
+   "neuralink": 8,
    "onward": 6,
    "paradromics": 1,
    "sleep": 16,
@@ -23951,5 +24007,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-09T22:22:03.632903+00:00"
+ "fetched_at": "2026-11-10T19:44:14.777664+00:00"
 }
