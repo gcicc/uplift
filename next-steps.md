@@ -1,10 +1,11 @@
 ---
 name: uplift
-type: project
+type: maintain
 category: building
-updated: 2026-10-31
+updated: 2026-11-11
+tier: 02-Maintain
 url: https://gcicc.github.io/uplift/
-note: third sister site to HANGAR and OVERHANG
+note: third sister site to HANGAR and OVERHANG; moved from 01-Active-Projects 2026-11-11 (slice 2 still open)
 ---
 # UPLIFT — next steps
 
