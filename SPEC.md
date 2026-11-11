@@ -98,7 +98,7 @@ with HANGAR (SpaceX & Tesla) and OVERHANG (AI), built the same way.
 - A1. A public observatory like HANGAR and OVERHANG, not a personal decision tool. Inferred from
   "futuristic stuff".
 - A2. The follow-up links (K5) live on the claims page rather than a third page.
-- A3. Starts in `01-Active-Projects/uplift`, moving to `02-Maintain` once it is self-running.
+- A3. Starts in `02-Maintain/uplift`, moving to `02-Maintain` once it is self-running.
   (OVERHANG started directly in 02-Maintain by Greg's call; say so if you want the same here.)
 - A4. HANGAR keeps its light Neuralink coverage as the Musk-companies view.
 
