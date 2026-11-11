@@ -6,6 +6,8 @@
 <title>UPLIFT{% if page == 'claims' %} — claims{% endif %}</title>
 <meta name="description" content="Frontier human enhancement — longevity, brain-computer interfaces, augmentation — tracked through registered trials. Refreshed on a schedule.">
 <style>{{ styles|safe }}</style>
+<link rel="stylesheet" href="https://gcicc.github.io/suite/network.css">
+<script src="https://gcicc.github.io/suite/network.js" data-section="uplift" data-built="{{ p.meta.generated }} UTC" data-next="every 6h" defer></script>
 </head>
 <body>
 <main>
@@ -27,8 +29,6 @@
     <a href="#rules">How this is selected</a>
     <a href="claims.html" class="toc-claims">Claims →</a>
 {% endif %}
-    <a href="https://gcicc.github.io/overhang/">Overhang ↗</a>
-    <a href="https://gcicc.github.io/hangar/">Hangar ↗</a>
   </nav>
 </header>
 
@@ -160,7 +160,7 @@
     <tr><td>{{ name }}</td><td>{{ (s.fetched_at or 'never')[:16].replace('T', ' ') }}</td><td class="{{ 'stale' if s.stale else '' }}">{{ s.age }}{% if s.stale %} · STALE{% endif %}</td><td>{{ s.last_error or '' }}</td></tr>
     {% endfor %}
   </table></div>
-  <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here. Sister sites: <a href="https://gcicc.github.io/overhang/">OVERHANG</a> (AI) and <a href="https://gcicc.github.io/hangar/">HANGAR</a> (SpaceX &amp; Tesla).</p>
+  <p>Trial data: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (U.S. National Library of Medicine). A failed fetch keeps the last good copy and is flagged here.</p>
 </footer>
 </main>
 {% if page != 'claims' %}
