@@ -64,6 +64,51 @@
      "allocation": "NA",
      "collaborators": [],
      "conditions": [
+      "Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Brain Stem Infarctions",
+      "Locked-in Syndrome",
+      "Muscular Dystrophy"
+     ],
+     "enrollment": 2,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2022-07-18",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Mobile neural decoding platform (mobile iBCI)"
+     ],
+     "keywords": [],
+     "last_update": "2026-11-16",
+     "lead_sponsor": "VA Office of Research and Development",
+     "masking": "NONE",
+     "nct": "NCT05470478",
+     "official_title": "Enhancement and Optimization of a Mobile iBCI for Veterans With Paralysis",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-06-30",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Closed-loop performance in an iBCI cursor task",
+     "primary_outcomes": [
+      {
+       "description": "Rate of successful closed-loop acquisition of on-screen targets using imagined gestures to move a computer cursor or to select icons on a computer screen.",
+       "measure": "Closed-loop performance in an iBCI cursor task",
+       "timeFrame": "through study completion, average of 1 month"
+      }
+     ],
+     "results_posted": null,
+     "start": "2027-04-14",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "iBCI Optimization for Veterans With Paralysis"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
       "Expressive Aphasia",
       "Aphasia Following Cerebral Infarction",
       "Aphasia Following Nontraumatic Intracerebral Hemorrhage",
@@ -210,51 +255,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Tablet-01)"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Spinal Cord Injury",
-      "Amyotrophic Lateral Sclerosis",
-      "Brain Stem Infarctions",
-      "Locked-in Syndrome",
-      "Muscular Dystrophy"
-     ],
-     "enrollment": 2,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2022-07-18",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Mobile neural decoding platform (mobile iBCI)"
-     ],
-     "keywords": [],
-     "last_update": "2026-07-27",
-     "lead_sponsor": "VA Office of Research and Development",
-     "masking": "NONE",
-     "nct": "NCT05470478",
-     "official_title": "Enhancement and Optimization of a Mobile iBCI for Veterans With Paralysis",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2027-06-30",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Closed-loop performance in an iBCI cursor task",
-     "primary_outcomes": [
-      {
-       "description": "Rate of successful closed-loop acquisition of on-screen targets using imagined gestures to move a computer cursor or to select icons on a computer screen.",
-       "measure": "Closed-loop performance in an iBCI cursor task",
-       "timeFrame": "through study completion, average of 1 month"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-10-02",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "iBCI Optimization for Veterans With Paralysis"
     },
     {
      "allocation": "NA",
@@ -2439,7 +2439,7 @@
       "Senescence",
       "Senolytic therapy"
      ],
-     "last_update": "2026-09-15",
+     "last_update": "2026-11-16",
      "lead_sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
      "masking": "DOUBLE",
      "nct": "NCT07144293",
@@ -3216,6 +3216,81 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging Well"
+     ],
+     "enrollment": 1024,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-01-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Digital intervention through Tablet"
+     ],
+     "keywords": [
+      "Ageing",
+      "Digital intervention",
+      "Functional capacity"
+     ],
+     "last_update": "2026-07-31",
+     "lead_sponsor": "The University of Hong Kong",
+     "masking": "NONE",
+     "nct": "NCT06217601",
+     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-06-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Health-related quality of life (HRQL)",
+     "primary_outcomes": [
+      {
+       "description": "Measure by EQ-5D-5L (range from -0.59 to 1.0), higher score indicates better quality of life",
+       "measure": "Health-related quality of life (HRQL)",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by Short Physical Performance Battery (range from 0 to 12), with higher score indicating better physical performance",
+       "measure": "Physical function",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 5-minute Montreal Cognitive Assessment (MoCA) (range from 0 to 30), A score of 26 or over is considered to be normal.",
+       "measure": "Cognitive function score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 7-item Memory Complaint Scale (MCS) (range from 0 to 14), lower score indicates better memory performance. No MCs (0-2), Mild MCs (3-6), Moderate MCs (7-10), Severe MCs (11-14).",
+       "measure": "Subjective Memory Score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 3-item UCLA Loneliness Scale (range 3-9), higher score indicates greater loneliness.",
+       "measure": "Loneliness score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by The 8-item Geriatric Depression Scale (range 0 to 8), with higher score indicating higher risk of depression",
+       "measure": "Depression score",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      },
+      {
+       "description": "Measured by 8-item Social Connectedness Scale Revised (range 0 to 48), \\<22 indicates lack of social connectedness",
+       "measure": "Social function",
+       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
+      }
+     ],
+     "results_posted": null,
+     "start": "2023-06-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [
       "University of California, San Diego",
       "Stanford University",
@@ -3319,81 +3394,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Women's Health Initiative Strong and Healthy Study"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging Well"
-     ],
-     "enrollment": 1024,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-01-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Digital intervention through Tablet"
-     ],
-     "keywords": [
-      "Ageing",
-      "Digital intervention",
-      "Functional capacity"
-     ],
-     "last_update": "2026-07-31",
-     "lead_sponsor": "The University of Hong Kong",
-     "masking": "NONE",
-     "nct": "NCT06217601",
-     "official_title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults: A Target Trial Emulation",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-06-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Health-related quality of life (HRQL)",
-     "primary_outcomes": [
-      {
-       "description": "Measure by EQ-5D-5L (range from -0.59 to 1.0), higher score indicates better quality of life",
-       "measure": "Health-related quality of life (HRQL)",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by Short Physical Performance Battery (range from 0 to 12), with higher score indicating better physical performance",
-       "measure": "Physical function",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 5-minute Montreal Cognitive Assessment (MoCA) (range from 0 to 30), A score of 26 or over is considered to be normal.",
-       "measure": "Cognitive function score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 7-item Memory Complaint Scale (MCS) (range from 0 to 14), lower score indicates better memory performance. No MCs (0-2), Mild MCs (3-6), Moderate MCs (7-10), Severe MCs (11-14).",
-       "measure": "Subjective Memory Score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 3-item UCLA Loneliness Scale (range 3-9), higher score indicates greater loneliness.",
-       "measure": "Loneliness score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by The 8-item Geriatric Depression Scale (range 0 to 8), with higher score indicating higher risk of depression",
-       "measure": "Depression score",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      },
-      {
-       "description": "Measured by 8-item Social Connectedness Scale Revised (range 0 to 48), \\<22 indicates lack of social connectedness",
-       "measure": "Social function",
-       "timeFrame": "Changes from baseline to 3 month, 6 month, 9 month, and 12 month post-intervention."
-      }
-     ],
-     "results_posted": null,
-     "start": "2023-06-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Impact Evaluation of the Digital Connect Project for Homebound Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11008,9 +11008,7 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
-      "Aging",
-      "Cardiovascular Disease",
-      "Diabetes Mellitus"
+      "Aging"
      ],
      "enrollment": 48,
      "enrollment_type": null,
@@ -11023,21 +11021,22 @@
       "Exercise"
      ],
      "keywords": [
-      "Longevity",
-      "Dietary restriction",
-      "Physical activity",
-      "Weight Loss",
-      "Diabetes"
+      "Diet",
+      "Caloric Restriction",
+      "Exercise",
+      "Energy Metabolism",
+      "Primary Aging",
+      "Secondary Aging"
      ],
      "last_update": "2009-12-11",
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
-     "nct": "NCT00099151",
-     "official_title": "Metabolic Adaptations to Six Month Caloric Restriction",
+     "nct": "NCT00099138",
+     "official_title": "Caloric Restriction and Aging in Humans",
      "phases": [
-      "NA"
+      "PHASE1"
      ],
-     "primary_completion": "2006-05",
+     "primary_completion": "2006-02",
      "primary_completion_type": "ACTUAL",
      "primary_outcome": null,
      "primary_outcomes": [],
@@ -11046,7 +11045,7 @@
      "start_type": null,
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
+     "title": "CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11092,7 +11091,9 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
-      "Aging"
+      "Aging",
+      "Cardiovascular Disease",
+      "Diabetes Mellitus"
      ],
      "enrollment": 48,
      "enrollment_type": null,
@@ -11105,22 +11106,21 @@
       "Exercise"
      ],
      "keywords": [
-      "Diet",
-      "Caloric Restriction",
-      "Exercise",
-      "Energy Metabolism",
-      "Primary Aging",
-      "Secondary Aging"
+      "Longevity",
+      "Dietary restriction",
+      "Physical activity",
+      "Weight Loss",
+      "Diabetes"
      ],
      "last_update": "2009-12-11",
      "lead_sponsor": "National Institute on Aging (NIA)",
      "masking": "SINGLE",
-     "nct": "NCT00099138",
-     "official_title": "Caloric Restriction and Aging in Humans",
+     "nct": "NCT00099151",
+     "official_title": "Metabolic Adaptations to Six Month Caloric Restriction",
      "phases": [
-      "PHASE1"
+      "NA"
      ],
-     "primary_completion": "2006-02",
+     "primary_completion": "2006-05",
      "primary_completion_type": "ACTUAL",
      "primary_outcome": null,
      "primary_outcomes": [],
@@ -11129,7 +11129,7 @@
      "start_type": null,
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (Washington University): Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
+     "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11179,17 +11179,17 @@
    "fisetin": [
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
+     "collaborators": [],
      "conditions": [
+      "Peripheral Arterial Disease",
       "Aging",
-      "Endothelial Dysfunction",
-      "Cellular Senescence"
+      "Peripheral Vascular Diseases",
+      "Walking, Difficulty",
+      "Claudication"
      ],
-     "enrollment": 136,
+     "enrollment": 34,
      "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-10-06",
+     "first_submitted": "2023-10-28",
      "has_protocol": false,
      "has_results": false,
      "has_sap": false,
@@ -11197,31 +11197,33 @@
       "Fisetin",
       "Placebo"
      ],
-     "keywords": [],
-     "last_update": "2026-10-15",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "TRIPLE",
-     "nct": "NCT07871162",
-     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "keywords": [
+      "Fisetin"
+     ],
+     "last_update": "2026-11-16",
+     "lead_sponsor": "Northwestern University",
+     "masking": "QUADRUPLE",
+     "nct": "NCT06399809",
+     "official_title": "Fisetin to Reduce Senescence and Mobility Impairment in Peripheral Artery Disease: the FIRST Pilot Randomized Trial",
      "phases": [
       "PHASE2"
      ],
-     "primary_completion": "2031-03",
+     "primary_completion": "2027-06-30",
      "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcome": "Six-minute Walk Distance",
      "primary_outcomes": [
       {
-       "description": "Brachial artery flow-mediated dilation",
-       "measure": "Change from baseline in endothelial function at 3 months",
-       "timeFrame": "3 months"
+       "description": "Among older people with PAD, the investigators will determine whether, compared to placebo, fisetin improves six-minute walk distance at 4-month follow-up",
+       "measure": "Six-minute Walk Distance",
+       "timeFrame": "Measured at baseline and 4 month follow-up"
       }
      ],
      "results_posted": null,
-     "start": "2026-11",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
+     "start": "2024-09-30",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
-     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
+     "title": "Fisetin to Reduce Senescence and Mobility Impairment in PAD"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11281,6 +11283,52 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Ongoing Lung Decline With Age Intensified Response"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-06",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcomes": [
+      {
+       "description": "Brachial artery flow-mediated dilation",
+       "measure": "Change from baseline in endothelial function at 3 months",
+       "timeFrame": "3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11483,54 +11531,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Fisetin Supplementation for Healthy Aging"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Peripheral Arterial Disease",
-      "Aging",
-      "Peripheral Vascular Diseases",
-      "Walking, Difficulty",
-      "Claudication"
-     ],
-     "enrollment": 34,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2023-10-28",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Fisetin",
-      "Placebo"
-     ],
-     "keywords": [
-      "Fisetin"
-     ],
-     "last_update": "2026-04-15",
-     "lead_sponsor": "Northwestern University",
-     "masking": "QUADRUPLE",
-     "nct": "NCT06399809",
-     "official_title": "Fisetin to Reduce Senescence and Mobility Impairment in Peripheral Artery Disease: the FIRST Pilot Randomized Trial",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2026-11",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Six-minute Walk Distance",
-     "primary_outcomes": [
-      {
-       "description": "Among older people with PAD, the investigators will determine whether, compared to placebo, fisetin improves six-minute walk distance at 4-month follow-up",
-       "measure": "Six-minute Walk Distance",
-       "timeFrame": "Measured at baseline and 4 month follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-09-30",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Fisetin to Reduce Senescence and Mobility Impairment in PAD"
     }
    ],
    "metformin": [
@@ -12685,6 +12685,63 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Potocsnak Human Longevity Lab"
+     ],
+     "conditions": [
+      "Aging",
+      "Aging, Healthy",
+      "Aging Well",
+      "Aging, Biological"
+     ],
+     "enrollment": 80,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Positive Emotion Skills Intervention"
+     ],
+     "keywords": [
+      "Aging",
+      "Resilience, Psychological",
+      "Psychological Well-Being",
+      "Aging Well",
+      "Internet-Based Intervention"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "Northwestern University",
+     "masking": "DOUBLE",
+     "nct": "NCT07334106",
+     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+     "primary_outcomes": [
+      {
+       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
+       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-09-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Emotional Well-being and Measures of Healthy Aging"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Healthspan Improvement",
@@ -12759,63 +12816,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Potocsnak Human Longevity Lab"
-     ],
-     "conditions": [
-      "Aging",
-      "Aging, Healthy",
-      "Aging Well",
-      "Aging, Biological"
-     ],
-     "enrollment": 80,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2025-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Positive Emotion Skills Intervention"
-     ],
-     "keywords": [
-      "Aging",
-      "Resilience, Psychological",
-      "Psychological Well-Being",
-      "Aging Well",
-      "Internet-Based Intervention"
-     ],
-     "last_update": "2026-10-30",
-     "lead_sponsor": "Northwestern University",
-     "masking": "DOUBLE",
-     "nct": "NCT07334106",
-     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-08",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-     "primary_outcomes": [
-      {
-       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
-      },
-      {
-       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
-       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-09-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Emotional Well-being and Measures of Healthy Aging"
     },
     {
      "allocation": "RANDOMIZED",
@@ -13085,6 +13085,60 @@
      ],
      "conditions": [
       "Aging",
+      "MCI"
+     ],
+     "enrollment": 90,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-10-07",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "MediTrain",
+      "Worder",
+      "noninvasive neurostimulation device",
+      "wrist worn multi-sensor watches"
+     ],
+     "keywords": [
+      "healthy aging",
+      "cognitive decline",
+      "prevention",
+      "brain stimulation",
+      "attention",
+      "memory"
+     ],
+     "last_update": "2026-08-24",
+     "lead_sponsor": "University of California, San Francisco",
+     "masking": "TRIPLE",
+     "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
+     "primary_outcomes": [
+      {
+       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
+       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
+       "timeFrame": "baseline and immediate follow-up"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-08-31",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
       "MCI",
       "Cognitive Decline"
      ],
@@ -13135,60 +13189,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Enhancing Attention and Wellbeing Using Digital Therapeutics"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "MCI"
-     ],
-     "enrollment": 90,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-10-07",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "MediTrain",
-      "Worder",
-      "noninvasive neurostimulation device",
-      "wrist worn multi-sensor watches"
-     ],
-     "keywords": [
-      "healthy aging",
-      "cognitive decline",
-      "prevention",
-      "brain stimulation",
-      "attention",
-      "memory"
-     ],
-     "last_update": "2026-08-24",
-     "lead_sponsor": "University of California, San Francisco",
-     "masking": "TRIPLE",
-     "nct": "NCT06633952",
-     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-08-31",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
-     "primary_outcomes": [
-      {
-       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
-       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
-       "timeFrame": "baseline and immediate follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-08-31",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
     },
     {
      "allocation": "RANDOMIZED",
@@ -20197,6 +20197,51 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 10,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2022-01-19",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Sirolimus"
+     ],
+     "keywords": [
+      "aging",
+      "sirolimus",
+      "prevention"
+     ],
+     "last_update": "2026-06-25",
+     "lead_sponsor": "Irina Timofte",
+     "masking": "NONE",
+     "nct": "NCT05237687",
+     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2027-11",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Phenotypic/functional biomarkers of aging",
+     "primary_outcomes": [
+      {
+       "description": "Phenotypic biomarkers of aging will be measured by SASP (senescence-associated secretory phenotype) index score at 1 year follow-up when compared to elderly patients not receiving sirolimus.",
+       "measure": "Phenotypic/functional biomarkers of aging",
+       "timeFrame": "1 year"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-03-31",
+     "start_type": "ACTUAL",
+     "status": "RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [
       "University of Maryland, Baltimore",
       "National Institute on Aging (NIA)"
@@ -20318,51 +20363,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "MTOR Inhibitors in Older Adults"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
-     "enrollment": 10,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2022-01-19",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Sirolimus"
-     ],
-     "keywords": [
-      "aging",
-      "sirolimus",
-      "prevention"
-     ],
-     "last_update": "2026-06-25",
-     "lead_sponsor": "Irina Timofte",
-     "masking": "NONE",
-     "nct": "NCT05237687",
-     "official_title": "Sirolimus in Older Adults- Randomized Trial Assessing the Improvement in Phenotypic/Functional Biomarkers of Aging",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2027-11",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Phenotypic/functional biomarkers of aging",
-     "primary_outcomes": [
-      {
-       "description": "Phenotypic biomarkers of aging will be measured by SASP (senescence-associated secretory phenotype) index score at 1 year follow-up when compared to elderly patients not receiving sirolimus.",
-       "measure": "Phenotypic/functional biomarkers of aging",
-       "timeFrame": "1 year"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-03-31",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults"
     },
     {
      "allocation": "RANDOMIZED",
@@ -23985,7 +23985,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-15T18:51:33+00:00",
+  "fetched_at": "2026-11-16T22:01:47+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 8,
@@ -24007,5 +24007,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-15T18:51:33.079857+00:00"
+ "fetched_at": "2026-11-16T22:01:47.012639+00:00"
 }
