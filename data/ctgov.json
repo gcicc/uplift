@@ -1958,53 +1958,6 @@
      ],
      "keywords": [
       "aging",
-      "functional capacity",
-      "muscle metabolism"
-     ],
-     "last_update": "2019-09-25",
-     "lead_sponsor": "Universidade Federal de Pernambuco",
-     "masking": "DOUBLE",
-     "nct": "NCT03688932",
-     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2019-05-30",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Walking Distance",
-     "primary_outcomes": [
-      {
-       "description": "The walking distance will be assessed through the six-minute walk test.",
-       "measure": "Walking Distance",
-       "timeFrame": "Change from Baseline walking distance at 3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2018-10-01",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Effects of WBV Associated With IMT on Functionality"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Frail Elderly Syndrome"
-     ],
-     "enrollment": 42,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2018-09-25",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "WBV + IMT",
-      "WBV + IMTsham",
-      "WBVsham + IMTsham"
-     ],
-     "keywords": [
-      "aging",
       "whole body vibration",
       "respiratory muscle training"
      ],
@@ -2032,6 +1985,53 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Effects of WBV Associated With IMT on Inflammatory Markers, Body Composition, Muscle Strength and Thickness"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Frail Elderly Syndrome"
+     ],
+     "enrollment": 42,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2018-09-25",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "WBV + IMT",
+      "WBV + IMTsham",
+      "WBVsham + IMTsham"
+     ],
+     "keywords": [
+      "aging",
+      "functional capacity",
+      "muscle metabolism"
+     ],
+     "last_update": "2019-09-25",
+     "lead_sponsor": "Universidade Federal de Pernambuco",
+     "masking": "DOUBLE",
+     "nct": "NCT03688932",
+     "official_title": "Effects of Whole Body Vibration Associated With the Inspiratory Muscle Training Program on Functional Capacity, Balance and Muscle Metabolism",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2019-05-30",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Walking Distance",
+     "primary_outcomes": [
+      {
+       "description": "The walking distance will be assessed through the six-minute walk test.",
+       "measure": "Walking Distance",
+       "timeFrame": "Change from Baseline walking distance at 3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2018-10-01",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effects of WBV Associated With IMT on Functionality"
     },
     {
      "allocation": "RANDOMIZED",
@@ -2439,7 +2439,7 @@
       "Senescence",
       "Senolytic therapy"
      ],
-     "last_update": "2026-11-16",
+     "last_update": "2026-11-18",
      "lead_sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
      "masking": "DOUBLE",
      "nct": "NCT07144293",
@@ -6050,6 +6050,62 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Mobility Limitation"
+     ],
+     "enrollment": 535,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2016-10-21",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Tailored Knowledge Translation"
+     ],
+     "keywords": [
+      "Mobility",
+      "Aging",
+      "Knowledge Translation",
+      "Physical Activity"
+     ],
+     "last_update": "2020-02-21",
+     "lead_sponsor": "McMaster University",
+     "masking": "SINGLE",
+     "nct": "NCT02947230",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2017-11-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Website analytics",
+     "primary_outcomes": [
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Website analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Email analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Google analytics",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2017-03-07",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [
       "Canadian Institutes of Health Research (CIHR)"
      ],
@@ -6107,62 +6163,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Cancer Prevention Behaviours in Underserved Populations"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Mobility Limitation"
-     ],
-     "enrollment": 535,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2016-10-21",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Tailored Knowledge Translation"
-     ],
-     "keywords": [
-      "Mobility",
-      "Aging",
-      "Knowledge Translation",
-      "Physical Activity"
-     ],
-     "last_update": "2020-02-21",
-     "lead_sponsor": "McMaster University",
-     "masking": "SINGLE",
-     "nct": "NCT02947230",
-     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2017-11-01",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Website analytics",
-     "primary_outcomes": [
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Website analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Email analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Google analytics",
-       "timeFrame": "12 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2017-03-07",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11008,46 +11008,6 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
-      "Aging"
-     ],
-     "enrollment": 44,
-     "enrollment_type": null,
-     "first_submitted": "2004-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Caloric Restriction (CR)"
-     ],
-     "keywords": [
-      "Longevity",
-      "Calorie restriction",
-      "Physical activity",
-      "Weight loss"
-     ],
-     "last_update": "2009-12-11",
-     "lead_sponsor": "National Institute on Aging (NIA)",
-     "masking": "SINGLE",
-     "nct": "NCT00099099",
-     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
-     "phases": [
-      "PHASE1"
-     ],
-     "primary_completion": "2004-12",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": null,
-     "primary_outcomes": [],
-     "results_posted": null,
-     "start": "2002-03",
-     "start_type": null,
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
       "Aging",
       "Cardiovascular Disease",
       "Diabetes Mellitus"
@@ -11087,6 +11047,46 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Aging"
+     ],
+     "enrollment": 44,
+     "enrollment_type": null,
+     "first_submitted": "2004-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Caloric Restriction (CR)"
+     ],
+     "keywords": [
+      "Longevity",
+      "Calorie restriction",
+      "Physical activity",
+      "Weight loss"
+     ],
+     "last_update": "2009-12-11",
+     "lead_sponsor": "National Institute on Aging (NIA)",
+     "masking": "SINGLE",
+     "nct": "NCT00099099",
+     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2004-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": null,
+     "primary_outcomes": [],
+     "results_posted": null,
+     "start": "2002-03",
+     "start_type": null,
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12685,63 +12685,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Potocsnak Human Longevity Lab"
-     ],
-     "conditions": [
-      "Aging",
-      "Aging, Healthy",
-      "Aging Well",
-      "Aging, Biological"
-     ],
-     "enrollment": 80,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2025-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Positive Emotion Skills Intervention"
-     ],
-     "keywords": [
-      "Aging",
-      "Resilience, Psychological",
-      "Psychological Well-Being",
-      "Aging Well",
-      "Internet-Based Intervention"
-     ],
-     "last_update": "2026-10-30",
-     "lead_sponsor": "Northwestern University",
-     "masking": "DOUBLE",
-     "nct": "NCT07334106",
-     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-08",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-     "primary_outcomes": [
-      {
-       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
-      },
-      {
-       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
-       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-09-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Emotional Well-being and Measures of Healthy Aging"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Healthspan Improvement",
@@ -12816,6 +12759,63 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Potocsnak Human Longevity Lab"
+     ],
+     "conditions": [
+      "Aging",
+      "Aging, Healthy",
+      "Aging Well",
+      "Aging, Biological"
+     ],
+     "enrollment": 80,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Positive Emotion Skills Intervention"
+     ],
+     "keywords": [
+      "Aging",
+      "Resilience, Psychological",
+      "Psychological Well-Being",
+      "Aging Well",
+      "Internet-Based Intervention"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "Northwestern University",
+     "masking": "DOUBLE",
+     "nct": "NCT07334106",
+     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+     "primary_outcomes": [
+      {
+       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
+       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-09-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Emotional Well-being and Measures of Healthy Aging"
     },
     {
      "allocation": "RANDOMIZED",
@@ -13085,60 +13085,6 @@
      ],
      "conditions": [
       "Aging",
-      "MCI"
-     ],
-     "enrollment": 90,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-10-07",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "MediTrain",
-      "Worder",
-      "noninvasive neurostimulation device",
-      "wrist worn multi-sensor watches"
-     ],
-     "keywords": [
-      "healthy aging",
-      "cognitive decline",
-      "prevention",
-      "brain stimulation",
-      "attention",
-      "memory"
-     ],
-     "last_update": "2026-08-24",
-     "lead_sponsor": "University of California, San Francisco",
-     "masking": "TRIPLE",
-     "nct": "NCT06633952",
-     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-08-31",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
-     "primary_outcomes": [
-      {
-       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
-       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
-       "timeFrame": "baseline and immediate follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-08-31",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
       "MCI",
       "Cognitive Decline"
      ],
@@ -13189,6 +13135,60 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Enhancing Attention and Wellbeing Using Digital Therapeutics"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "MCI"
+     ],
+     "enrollment": 90,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-10-07",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "MediTrain",
+      "Worder",
+      "noninvasive neurostimulation device",
+      "wrist worn multi-sensor watches"
+     ],
+     "keywords": [
+      "healthy aging",
+      "cognitive decline",
+      "prevention",
+      "brain stimulation",
+      "attention",
+      "memory"
+     ],
+     "last_update": "2026-08-24",
+     "lead_sponsor": "University of California, San Francisco",
+     "masking": "TRIPLE",
+     "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
+     "primary_outcomes": [
+      {
+       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
+       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
+       "timeFrame": "baseline and immediate follow-up"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-08-31",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
     },
     {
      "allocation": "RANDOMIZED",
@@ -20009,6 +20009,53 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Perimenopausal"
+     ],
+     "enrollment": 50,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2023-04-17",
+     "has_protocol": true,
+     "has_results": true,
+     "has_sap": true,
+     "interventions": [
+      "Rapamycin",
+      "Placebo"
+     ],
+     "keywords": [
+      "Premenopausal",
+      "Perimenopause",
+      "Fertility",
+      "Women's health"
+     ],
+     "last_update": "2026-11-18",
+     "lead_sponsor": "Columbia University",
+     "masking": "TRIPLE",
+     "nct": "NCT05836025",
+     "official_title": "Effect of Rapamycin in Ovarian Aging",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2025-10-21",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Measure of Ovarian Reserve",
+     "primary_outcomes": [
+      {
+       "description": "Ovarian reserve will be determined by AMH (anti-m\u00fcllerian hormone)",
+       "measure": "Measure of Ovarian Reserve",
+       "timeFrame": "Baseline, 12 months post-intervention"
+      }
+     ],
+     "results_posted": "2026-11-18",
+     "start": "2023-06-01",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Effect of Rapamycin in Ovarian Aging"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Healthspan Improvement",
       "Aging",
       "Longevity"
@@ -20629,53 +20676,6 @@
      "status": "ACTIVE_NOT_RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "A Pilot Study on Reverse Aging (The REVERSE Study)"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Perimenopausal"
-     ],
-     "enrollment": 50,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2023-04-17",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Rapamycin",
-      "Placebo"
-     ],
-     "keywords": [
-      "Premenopausal",
-      "Perimenopause",
-      "Fertility",
-      "Women's health"
-     ],
-     "last_update": "2025-12-26",
-     "lead_sponsor": "Columbia University",
-     "masking": "TRIPLE",
-     "nct": "NCT05836025",
-     "official_title": "Effect of Rapamycin in Ovarian Aging",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2025-10-21",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Measure of Ovarian Reserve",
-     "primary_outcomes": [
-      {
-       "description": "Ovarian reserve will be determined using AMH",
-       "measure": "Measure of Ovarian Reserve",
-       "timeFrame": "Up to 1 year"
-      }
-     ],
-     "results_posted": null,
-     "start": "2023-06-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Effect of Rapamycin in Ovarian Aging"
     },
     {
      "allocation": "RANDOMIZED",
@@ -23985,7 +23985,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-17T20:55:53+00:00",
+  "fetched_at": "2026-11-18T20:31:59+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 8,
@@ -24007,5 +24007,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-17T20:55:53.065740+00:00"
+ "fetched_at": "2026-11-18T20:31:59.094941+00:00"
 }
