@@ -11227,52 +11227,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "Endothelial Dysfunction",
-      "Cellular Senescence"
-     ],
-     "enrollment": 136,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-10-06",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Fisetin",
-      "Placebo"
-     ],
-     "keywords": [],
-     "last_update": "2026-10-15",
-     "lead_sponsor": "University of Colorado, Boulder",
-     "masking": "TRIPLE",
-     "nct": "NCT07871162",
-     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
-     "phases": [
-      "PHASE2"
-     ],
-     "primary_completion": "2031-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Change from baseline in endothelial function at 3 months",
-     "primary_outcomes": [
-      {
-       "description": "Brachial artery flow-mediated dilation",
-       "measure": "Change from baseline in endothelial function at 3 months",
-       "timeFrame": "3 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-11",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Age-Related Lung Function Decline"
@@ -11329,6 +11283,52 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Ongoing Lung Decline With Age Intensified Response"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Cellular Senescence"
+     ],
+     "enrollment": 136,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-10-06",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "keywords": [],
+     "last_update": "2026-10-15",
+     "lead_sponsor": "University of Colorado, Boulder",
+     "masking": "TRIPLE",
+     "nct": "NCT07871162",
+     "official_title": "Targeting Cellular Senescence With Fisetin for Improving Vascular Endothelial Function in Older Adults",
+     "phases": [
+      "PHASE2"
+     ],
+     "primary_completion": "2031-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Change from baseline in endothelial function at 3 months",
+     "primary_outcomes": [
+      {
+       "description": "Brachial artery flow-mediated dilation",
+       "measure": "Change from baseline in endothelial function at 3 months",
+       "timeFrame": "3 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2026-11",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Fisetin for Improving Vascular Function in Older Adults: A Phase II Clinical Trial"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12685,6 +12685,63 @@
     },
     {
      "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Potocsnak Human Longevity Lab"
+     ],
+     "conditions": [
+      "Aging",
+      "Aging, Healthy",
+      "Aging Well",
+      "Aging, Biological"
+     ],
+     "enrollment": 80,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Positive Emotion Skills Intervention"
+     ],
+     "keywords": [
+      "Aging",
+      "Resilience, Psychological",
+      "Psychological Well-Being",
+      "Aging Well",
+      "Internet-Based Intervention"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "Northwestern University",
+     "masking": "DOUBLE",
+     "nct": "NCT07334106",
+     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+     "primary_outcomes": [
+      {
+       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
+       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-09-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Emotional Well-being and Measures of Healthy Aging"
+    },
+    {
+     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Healthspan Improvement",
@@ -12759,63 +12816,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Potocsnak Human Longevity Lab"
-     ],
-     "conditions": [
-      "Aging",
-      "Aging, Healthy",
-      "Aging Well",
-      "Aging, Biological"
-     ],
-     "enrollment": 80,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2025-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Positive Emotion Skills Intervention"
-     ],
-     "keywords": [
-      "Aging",
-      "Resilience, Psychological",
-      "Psychological Well-Being",
-      "Aging Well",
-      "Internet-Based Intervention"
-     ],
-     "last_update": "2026-10-30",
-     "lead_sponsor": "Northwestern University",
-     "masking": "DOUBLE",
-     "nct": "NCT07334106",
-     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-08",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-     "primary_outcomes": [
-      {
-       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
-      },
-      {
-       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
-       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-09-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Emotional Well-being and Measures of Healthy Aging"
     },
     {
      "allocation": "RANDOMIZED",
@@ -14984,62 +14984,6 @@
      "collaborators": [],
      "conditions": [
       "Exercise Training",
-      "Neurocognitive Function",
-      "Aging"
-     ],
-     "enrollment": 120,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2021-09-26",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Integrated Intervention Group (IIG)",
-      "Control Group"
-     ],
-     "keywords": [
-      "physical fitness",
-      "meditation",
-      "social interaction",
-      "Apolipoprotein E",
-      "aging",
-      "event-related potential"
-     ],
-     "last_update": "2023-11-27",
-     "lead_sponsor": "National Taiwan Normal University",
-     "masking": "SINGLE",
-     "nct": "NCT05101174",
-     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2025-03",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Inhibition: Changes in Stroop test performance",
-     "primary_outcomes": [
-      {
-       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Inhibition: Changes in Stroop test performance",
-       "timeFrame": "30 minutes each at the baseline and at month 6"
-      },
-      {
-       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
-       "measure": "Changes in neuroelectrical activities",
-       "timeFrame": "60 minutes each at baseline and at month 6"
-      }
-     ],
-     "results_posted": null,
-     "start": "2022-04-11",
-     "start_type": "ACTUAL",
-     "status": "UNKNOWN",
-     "study_type": "INTERVENTIONAL",
-     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Exercise Training",
       "Executive Function",
       "Aging"
      ],
@@ -15096,6 +15040,62 @@
      "status": "UNKNOWN",
      "study_type": "INTERVENTIONAL",
      "title": "Multi-Domain Exercise and Memory in Adults Relative to ApoE Genotype: A fMRI Study"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Exercise Training",
+      "Neurocognitive Function",
+      "Aging"
+     ],
+     "enrollment": 120,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2021-09-26",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Integrated Intervention Group (IIG)",
+      "Control Group"
+     ],
+     "keywords": [
+      "physical fitness",
+      "meditation",
+      "social interaction",
+      "Apolipoprotein E",
+      "aging",
+      "event-related potential"
+     ],
+     "last_update": "2023-11-27",
+     "lead_sponsor": "National Taiwan Normal University",
+     "masking": "SINGLE",
+     "nct": "NCT05101174",
+     "official_title": "Effects of an Integrated Intervention Program on Neurocognition in Late-Middle-Aged and Older Adults Relative to ApoE Genotypes: An ERP Study",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2025-03",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Inhibition: Changes in Stroop test performance",
+     "primary_outcomes": [
+      {
+       "description": "The computerized Stroop test is administrated to assess participants' inhibitory function, and the changes in Stroop test performance from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Inhibition: Changes in Stroop test performance",
+       "timeFrame": "30 minutes each at the baseline and at month 6"
+      },
+      {
+       "description": "The neuroelectrical activities during the computerized cognitive tasks is recorded and analyzed using the Neuroscan system. Changes in the neuroelectrical activities from baseline to end of the intervention (i.e., month 6) will be examined.",
+       "measure": "Changes in neuroelectrical activities",
+       "timeFrame": "60 minutes each at baseline and at month 6"
+      }
+     ],
+     "results_posted": null,
+     "start": "2022-04-11",
+     "start_type": "ACTUAL",
+     "status": "UNKNOWN",
+     "study_type": "INTERVENTIONAL",
+     "title": "Exercise and Neurocognition in Adults Relative to ApoE Genotype"
     },
     {
      "allocation": "RANDOMIZED",
@@ -23985,7 +23985,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-18T20:31:59+00:00",
+  "fetched_at": "2026-11-19T20:37:49+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 8,
@@ -24007,5 +24007,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-18T20:31:59.094941+00:00"
+ "fetched_at": "2026-11-19T20:37:49.841577+00:00"
 }
