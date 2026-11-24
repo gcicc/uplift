@@ -1,5 +1,29 @@
 [
  {
+  "date": "2026-11-24",
+  "nct": "NCT07831733",
+  "row": "exercise",
+  "title": "Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents",
+  "kind": "date",
+  "detail": "primary completion 2028-09-01 \u2192 2029-01-01"
+ },
+ {
+  "date": "2026-11-24",
+  "nct": "NCT06429735",
+  "row": "neuralink",
+  "title": "Precise Robotically IMplanted Brain-Computer InterfacE",
+  "kind": "status",
+  "detail": "recruiting \u2192 active, not recruiting"
+ },
+ {
+  "date": "2026-11-24",
+  "nct": "NCT06429735",
+  "row": "neuralink",
+  "title": "Precise Robotically IMplanted Brain-Computer InterfacE",
+  "kind": "date",
+  "detail": "primary completion 2026-06 \u2192 2027-09"
+ },
+ {
   "date": "2026-11-20",
   "nct": "NCT07472101",
   "row": "sleep",

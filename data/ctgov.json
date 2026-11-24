@@ -2687,6 +2687,61 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Appetite Loss in Aging",
+      "Anorexia of Aging"
+     ],
+     "enrollment": 596,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2026-09-10",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Physical activity",
+      "Appetite assessment",
+      "Food intake assessment",
+      "Assessment of the efficiency",
+      "Blood test at baseline",
+      "Blood test at the end of the study",
+      "Functional capacities assessment",
+      "weight measurment"
+     ],
+     "keywords": [
+      "appetite loss",
+      "physical activity",
+      "exercise",
+      "older adults",
+      "nursing home"
+     ],
+     "last_update": "2026-11-24",
+     "lead_sponsor": "University Hospital, Toulouse",
+     "masking": "NONE",
+     "nct": "NCT07831733",
+     "official_title": "Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2029-01-01",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Changes in bodyweight",
+     "primary_outcomes": [
+      {
+       "description": "It will be assessed by measuring the bodyweight (kg) seven times (initially and once a month).\n\nFor the observational arm, it will be measured based on daily physical activity (min/day) as measured by activity trackers.\n\nFor the interventional arm, it will be measured based on participation in the physical activity program (ratio of sessions attended to sessions scheduled) over a 6-months period.",
+       "measure": "Changes in bodyweight",
+       "timeFrame": "6 months"
+      }
+     ],
+     "results_posted": null,
+     "start": "2027-01-01",
+     "start_type": "ESTIMATED",
+     "status": "NOT_YET_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Aging",
       "Frailty"
      ],
@@ -3066,61 +3121,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Risk Factors and Exercise Effects on Abdominal Separation in Seniors"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Appetite Loss in Aging",
-      "Anorexia of Aging"
-     ],
-     "enrollment": 596,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2026-09-10",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Physical activity",
-      "Appetite assessment",
-      "Food intake assessment",
-      "Assessment of the efficiency",
-      "Blood test at baseline",
-      "Blood test at the end of the study",
-      "Functional capacities assessment",
-      "weight measurment"
-     ],
-     "keywords": [
-      "appetite loss",
-      "physical activity",
-      "exercise",
-      "older adults",
-      "nursing home"
-     ],
-     "last_update": "2026-09-21",
-     "lead_sponsor": "University Hospital, Toulouse",
-     "masking": "NONE",
-     "nct": "NCT07831733",
-     "official_title": "Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-09-01",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Changes in bodyweight",
-     "primary_outcomes": [
-      {
-       "description": "It will be assessed by measuring the bodyweight (kg) seven times (initially and once a month).\n\nFor the observational arm, it will be measured based on daily physical activity (min/day) as measured by activity trackers.\n\nFor the interventional arm, it will be measured based on participation in the physical activity program (ratio of sessions attended to sessions scheduled) over a 6-months period.",
-       "measure": "Changes in bodyweight",
-       "timeFrame": "6 months"
-      }
-     ],
-     "results_posted": null,
-     "start": "2026-09-01",
-     "start_type": "ESTIMATED",
-     "status": "NOT_YET_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Study on the Prevention of Weight Loss Through Physical Activity Among Nursing Home Residents"
     },
     {
      "allocation": "RANDOMIZED",
@@ -6050,62 +6050,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Mobility Limitation"
-     ],
-     "enrollment": 535,
-     "enrollment_type": "ACTUAL",
-     "first_submitted": "2016-10-21",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Tailored Knowledge Translation"
-     ],
-     "keywords": [
-      "Mobility",
-      "Aging",
-      "Knowledge Translation",
-      "Physical Activity"
-     ],
-     "last_update": "2020-02-21",
-     "lead_sponsor": "McMaster University",
-     "masking": "SINGLE",
-     "nct": "NCT02947230",
-     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2017-11-01",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": "Website analytics",
-     "primary_outcomes": [
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Website analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Email analytics",
-       "timeFrame": "12 weeks"
-      },
-      {
-       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
-       "measure": "Google analytics",
-       "timeFrame": "12 weeks"
-      }
-     ],
-     "results_posted": null,
-     "start": "2017-03-07",
-     "start_type": "ACTUAL",
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [
       "Canadian Institutes of Health Research (CIHR)"
      ],
@@ -6163,6 +6107,62 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Cancer Prevention Behaviours in Underserved Populations"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
+      "Mobility Limitation"
+     ],
+     "enrollment": 535,
+     "enrollment_type": "ACTUAL",
+     "first_submitted": "2016-10-21",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Tailored Knowledge Translation"
+     ],
+     "keywords": [
+      "Mobility",
+      "Aging",
+      "Knowledge Translation",
+      "Physical Activity"
+     ],
+     "last_update": "2020-02-21",
+     "lead_sponsor": "McMaster University",
+     "masking": "SINGLE",
+     "nct": "NCT02947230",
+     "official_title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Knowledge, Behavioural Intentions and Health Behaviours Related to Physical Mobility",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2017-11-01",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": "Website analytics",
+     "primary_outcomes": [
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Website analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Email analytics",
+       "timeFrame": "12 weeks"
+      },
+      {
+       "description": "Understanding participant engagement with the Portal and knowledge translation strategies",
+       "measure": "Google analytics",
+       "timeFrame": "12 weeks"
+      }
+     ],
+     "results_posted": null,
+     "start": "2017-03-07",
+     "start_type": "ACTUAL",
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "Evaluating the Impact of the McMaster Optimal Aging Portal on Physical Mobility Outcomes"
     },
     {
      "allocation": "RANDOMIZED",
@@ -11008,6 +11008,46 @@
      "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
+      "Aging"
+     ],
+     "enrollment": 44,
+     "enrollment_type": null,
+     "first_submitted": "2004-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Caloric Restriction (CR)"
+     ],
+     "keywords": [
+      "Longevity",
+      "Calorie restriction",
+      "Physical activity",
+      "Weight loss"
+     ],
+     "last_update": "2009-12-11",
+     "lead_sponsor": "National Institute on Aging (NIA)",
+     "masking": "SINGLE",
+     "nct": "NCT00099099",
+     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
+     "phases": [
+      "PHASE1"
+     ],
+     "primary_completion": "2004-12",
+     "primary_completion_type": "ACTUAL",
+     "primary_outcome": null,
+     "primary_outcomes": [],
+     "results_posted": null,
+     "start": "2002-03",
+     "start_type": null,
+     "status": "COMPLETED",
+     "study_type": "INTERVENTIONAL",
+     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [],
+     "conditions": [
       "Aging",
       "Cardiovascular Disease",
       "Diabetes Mellitus"
@@ -11047,46 +11087,6 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "CALERIE (PBRC, Baton Rouge) - Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [],
-     "conditions": [
-      "Aging"
-     ],
-     "enrollment": 44,
-     "enrollment_type": null,
-     "first_submitted": "2004-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Caloric Restriction (CR)"
-     ],
-     "keywords": [
-      "Longevity",
-      "Calorie restriction",
-      "Physical activity",
-      "Weight loss"
-     ],
-     "last_update": "2009-12-11",
-     "lead_sponsor": "National Institute on Aging (NIA)",
-     "masking": "SINGLE",
-     "nct": "NCT00099099",
-     "official_title": "Dietary Energy Restriction and Metabolic Aging in Humans",
-     "phases": [
-      "PHASE1"
-     ],
-     "primary_completion": "2004-12",
-     "primary_completion_type": "ACTUAL",
-     "primary_outcome": null,
-     "primary_outcomes": [],
-     "results_posted": null,
-     "start": "2002-03",
-     "start_type": null,
-     "status": "COMPLETED",
-     "study_type": "INTERVENTIONAL",
-     "title": "CALERIE (Tufts) - Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy"
     },
     {
      "allocation": "RANDOMIZED",
@@ -12685,63 +12685,6 @@
     },
     {
      "allocation": "RANDOMIZED",
-     "collaborators": [
-      "Potocsnak Human Longevity Lab"
-     ],
-     "conditions": [
-      "Aging",
-      "Aging, Healthy",
-      "Aging Well",
-      "Aging, Biological"
-     ],
-     "enrollment": 80,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2025-12-08",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "Positive Emotion Skills Intervention"
-     ],
-     "keywords": [
-      "Aging",
-      "Resilience, Psychological",
-      "Psychological Well-Being",
-      "Aging Well",
-      "Internet-Based Intervention"
-     ],
-     "last_update": "2026-10-30",
-     "lead_sponsor": "Northwestern University",
-     "masking": "DOUBLE",
-     "nct": "NCT07334106",
-     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2028-08",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-     "primary_outcomes": [
-      {
-       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
-       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
-      },
-      {
-       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
-       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
-       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
-      }
-     ],
-     "results_posted": null,
-     "start": "2025-09-01",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Emotional Well-being and Measures of Healthy Aging"
-    },
-    {
-     "allocation": "RANDOMIZED",
      "collaborators": [],
      "conditions": [
       "Healthspan Improvement",
@@ -12816,6 +12759,63 @@
      "status": "COMPLETED",
      "study_type": "INTERVENTIONAL",
      "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "Potocsnak Human Longevity Lab"
+     ],
+     "conditions": [
+      "Aging",
+      "Aging, Healthy",
+      "Aging Well",
+      "Aging, Biological"
+     ],
+     "enrollment": 80,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2025-12-08",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "Positive Emotion Skills Intervention"
+     ],
+     "keywords": [
+      "Aging",
+      "Resilience, Psychological",
+      "Psychological Well-Being",
+      "Aging Well",
+      "Internet-Based Intervention"
+     ],
+     "last_update": "2026-10-30",
+     "lead_sponsor": "Northwestern University",
+     "masking": "DOUBLE",
+     "nct": "NCT07334106",
+     "official_title": "Emotional Well-being and Biomarkers of Healthy Aging",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2028-08",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+     "primary_outcomes": [
+      {
+       "description": "Computer Adaptive Testing measure of positive emotion and purpose. Higher scores mean a better outcome (i.e., more positive emotion). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Positive Affect (v1.0) and PROMIS Meaning and Purpose (v1.0)",
+       "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+      },
+      {
+       "description": "Computer Adaptive Testing measures of psychosocial well-being.\n\nHigher scores mean a worse outcome (i.e., more anxiety or depression). Scores can range from 9-85, and a t-score of 50 represents the mean score for the United States general population with a standard deviation of 10.",
+       "measure": "PROMIS Depression (v1.0), Anxiety (v1.0), Social Isolation (v2.0)",
+       "timeFrame": "baseline and 3, 6, 12 months post-baseline"
+      }
+     ],
+     "results_posted": null,
+     "start": "2025-09-01",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Emotional Well-being and Measures of Healthy Aging"
     },
     {
      "allocation": "RANDOMIZED",
@@ -13085,6 +13085,60 @@
      ],
      "conditions": [
       "Aging",
+      "MCI"
+     ],
+     "enrollment": 90,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-10-07",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "MediTrain",
+      "Worder",
+      "noninvasive neurostimulation device",
+      "wrist worn multi-sensor watches"
+     ],
+     "keywords": [
+      "healthy aging",
+      "cognitive decline",
+      "prevention",
+      "brain stimulation",
+      "attention",
+      "memory"
+     ],
+     "last_update": "2026-08-24",
+     "lead_sponsor": "University of California, San Francisco",
+     "masking": "TRIPLE",
+     "nct": "NCT06633952",
+     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2026-08-31",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
+     "primary_outcomes": [
+      {
+       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
+       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
+       "timeFrame": "baseline and immediate follow-up"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-08-31",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
+    },
+    {
+     "allocation": "RANDOMIZED",
+     "collaborators": [
+      "National Institute on Aging (NIA)"
+     ],
+     "conditions": [
+      "Aging",
       "MCI",
       "Cognitive Decline"
      ],
@@ -13135,60 +13189,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Enhancing Attention and Wellbeing Using Digital Therapeutics"
-    },
-    {
-     "allocation": "RANDOMIZED",
-     "collaborators": [
-      "National Institute on Aging (NIA)"
-     ],
-     "conditions": [
-      "Aging",
-      "MCI"
-     ],
-     "enrollment": 90,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-10-07",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "MediTrain",
-      "Worder",
-      "noninvasive neurostimulation device",
-      "wrist worn multi-sensor watches"
-     ],
-     "keywords": [
-      "healthy aging",
-      "cognitive decline",
-      "prevention",
-      "brain stimulation",
-      "attention",
-      "memory"
-     ],
-     "last_update": "2026-08-24",
-     "lead_sponsor": "University of California, San Francisco",
-     "masking": "TRIPLE",
-     "nct": "NCT06633952",
-     "official_title": "Accelerating Cognitive Gains From Digital Meditation With Noninvasive Brain Stimulation: A Pilot Study in MCI",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-08-31",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Mean change on the Continuous Performance Task (CPT) over time",
-     "primary_outcomes": [
-      {
-       "description": "The CPT is a 23-minute task, where participants are instructed to respond to target stimuli (squares at the top of the screen) and withhold responses to non-target stimuli (squares at the bottom of the screen). Performance will be quantified as: (1) mean reaction times, (2) standard deviation of reaction times (RTV), and (3) d-prime (comparing correct target detections or 'hits' to incorrect non-t",
-       "measure": "Mean change on the Continuous Performance Task (CPT) over time",
-       "timeFrame": "baseline and immediate follow-up"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-08-31",
-     "start_type": "ACTUAL",
-     "status": "ACTIVE_NOT_RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Accelerating Cognitive Gains From Digital Inverventions With Noninvasive Brain Stimulation"
     },
     {
      "allocation": "RANDOMIZED",
@@ -21150,6 +21150,67 @@
      "collaborators": [],
      "conditions": [
       "Tetraplegia/Tetraparesis",
+      "Quadriplegia",
+      "Cervical Spinal Cord Injury",
+      "Amyotrophic Lateral Sclerosis",
+      "Quadriplegia/Tetraplegia",
+      "Tetraplegic; Paralysis"
+     ],
+     "enrollment": 15,
+     "enrollment_type": "ESTIMATED",
+     "first_submitted": "2024-05-21",
+     "has_protocol": false,
+     "has_results": false,
+     "has_sap": false,
+     "interventions": [
+      "N1 Implant",
+      "R1 Robot"
+     ],
+     "keywords": [
+      "spinal cord injury",
+      "SCI",
+      "BCI",
+      "brain computer interface",
+      "ALS",
+      "quadriplegia",
+      "tetraplegic",
+      "paralysis"
+     ],
+     "last_update": "2026-11-24",
+     "lead_sponsor": "Neuralink Corp",
+     "masking": "NONE",
+     "nct": "NCT06429735",
+     "official_title": "PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+     "phases": [
+      "NA"
+     ],
+     "primary_completion": "2027-09",
+     "primary_completion_type": "ESTIMATED",
+     "primary_outcome": "Device-Related Adverse Events (AE)",
+     "primary_outcomes": [
+      {
+       "description": "",
+       "measure": "Device-Related Adverse Events (AE)",
+       "timeFrame": "12 months post-implant"
+      },
+      {
+       "description": "",
+       "measure": "Procedure-Related Adverse Events (AE)",
+       "timeFrame": "12 months post-implant"
+      }
+     ],
+     "results_posted": null,
+     "start": "2024-01-09",
+     "start_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "study_type": "INTERVENTIONAL",
+     "title": "Precise Robotically IMplanted Brain-Computer InterfacE"
+    },
+    {
+     "allocation": "NA",
+     "collaborators": [],
+     "conditions": [
+      "Tetraplegia/Tetraparesis",
       "Amyotrophic Lateral Sclerosis (ALS)",
       "Quadriplegia",
       "Spinal Cord Injury (SCI)",
@@ -21415,67 +21476,6 @@
      "status": "RECRUITING",
      "study_type": "INTERVENTIONAL",
      "title": "Clinical Outcome Assessment for AT & BCI"
-    },
-    {
-     "allocation": "NA",
-     "collaborators": [],
-     "conditions": [
-      "Tetraplegia/Tetraparesis",
-      "Quadriplegia",
-      "Cervical Spinal Cord Injury",
-      "Amyotrophic Lateral Sclerosis",
-      "Quadriplegia/Tetraplegia",
-      "Tetraplegic; Paralysis"
-     ],
-     "enrollment": 15,
-     "enrollment_type": "ESTIMATED",
-     "first_submitted": "2024-05-21",
-     "has_protocol": false,
-     "has_results": false,
-     "has_sap": false,
-     "interventions": [
-      "N1 Implant",
-      "R1 Robot"
-     ],
-     "keywords": [
-      "spinal cord injury",
-      "SCI",
-      "BCI",
-      "brain computer interface",
-      "ALS",
-      "quadriplegia",
-      "tetraplegic",
-      "paralysis"
-     ],
-     "last_update": "2026-01-09",
-     "lead_sponsor": "Neuralink Corp",
-     "masking": "NONE",
-     "nct": "NCT06429735",
-     "official_title": "PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
-     "phases": [
-      "NA"
-     ],
-     "primary_completion": "2026-06",
-     "primary_completion_type": "ESTIMATED",
-     "primary_outcome": "Device-Related Adverse Events (AE)",
-     "primary_outcomes": [
-      {
-       "description": "",
-       "measure": "Device-Related Adverse Events (AE)",
-       "timeFrame": "12 months post-implant"
-      },
-      {
-       "description": "",
-       "measure": "Procedure-Related Adverse Events (AE)",
-       "timeFrame": "12 months post-implant"
-      }
-     ],
-     "results_posted": null,
-     "start": "2024-01-09",
-     "start_type": "ACTUAL",
-     "status": "RECRUITING",
-     "study_type": "INTERVENTIONAL",
-     "title": "Precise Robotically IMplanted Brain-Computer InterfacE"
     },
     {
      "allocation": "NA",
@@ -23990,7 +23990,7 @@
     }
    ]
   },
-  "fetched_at": "2026-11-23T23:54:09+00:00",
+  "fetched_at": "2026-11-24T22:26:59+00:00",
   "raw_counts": {
    "blackrock": 1,
    "braingate": 8,
@@ -24012,5 +24012,5 @@
    "thermal": 9
   }
  },
- "fetched_at": "2026-11-23T23:54:09.612375+00:00"
+ "fetched_at": "2026-11-24T22:26:59.622090+00:00"
 }
